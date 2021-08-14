@@ -1,6 +1,5 @@
 <map id="EGG::Scene" name="EGG::Scene">
-<area shape="rect" id="node1" title=" " alt="" coords="21,275,124,301"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html" title="Interface for objects that can be destroyed." alt="" coords="9,199,136,225"/>
-<area shape="rect" id="node3" href="$structnw4r_1_1ut_1_1_node.html" title="Bidirectional list node." alt="" coords="5,109,140,136"/>
-<area shape="rect" id="node4" title=" " alt="" coords="37,5,108,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="17,155,120,181"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" href="$class_non_copyable.html" title=" " alt="" coords="13,5,124,32"/>
 </map>

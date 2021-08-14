@@ -26,8 +26,9 @@ digraph "source/egg/core/eggDvdRipper.cpp"
   Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node11 [label="egg/core/eggHeap.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_heap_8hpp.html",tooltip="Base Heap class."];
   Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node12 [label="egg/core/eggDisposer.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_disposer_8hpp.html",tooltip="Base class for garbage-collected objects."];
+  Node12 [label="egg/core/eggDisposer.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_disposer_8hpp.html",tooltip="Headers for EGG::Disposer."];
   Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];

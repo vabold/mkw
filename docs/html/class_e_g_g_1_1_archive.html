@@ -98,8 +98,9 @@ $(document).ready(function(){initNavTree('class_e_g_g_1_1_archive.html',''); ini
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_e_g_g_1_1_archive__inherit__graph.png" border="0" usemap="#a_e_g_g_1_1_archive_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_e_g_g_1_1_archive_inherit__map" id="a_e_g_g_1_1_archive_inherit__map">
-<area shape="rect" title=" " alt="" coords="9,80,128,107"/>
-<area shape="rect" href="class_e_g_g_1_1_disposer.html" title="Interface for objects that can be destroyed." alt="" coords="5,5,132,32"/>
+<area shape="rect" title=" " alt="" coords="9,155,128,181"/>
+<area shape="rect" href="class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="5,80,132,107"/>
+<area shape="rect" href="class_non_copyable.html" title=" " alt="" coords="13,5,124,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -109,10 +110,9 @@ $(document).ready(function(){initNavTree('class_e_g_g_1_1_archive.html',''); ini
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_e_g_g_1_1_archive__coll__graph.png" border="0" usemap="#a_e_g_g_1_1_archive_coll__map" alt="Collaboration graph"/></div>
 <map name="a_e_g_g_1_1_archive_coll__map" id="a_e_g_g_1_1_archive_coll__map">
-<area shape="rect" title=" " alt="" coords="13,275,132,301"/>
-<area shape="rect" href="class_e_g_g_1_1_disposer.html" title="Interface for objects that can be destroyed." alt="" coords="9,199,136,225"/>
-<area shape="rect" href="structnw4r_1_1ut_1_1_node.html" title="Bidirectional list node." alt="" coords="5,109,140,136"/>
-<area shape="rect" title=" " alt="" coords="37,5,108,32"/>
+<area shape="rect" title=" " alt="" coords="9,155,128,181"/>
+<area shape="rect" href="class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="5,80,132,107"/>
+<area shape="rect" href="class_non_copyable.html" title=" " alt="" coords="13,5,124,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -140,14 +140,10 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>getFileFast</b> (in
 void&#160;</td><td class="memItemRight" valign="bottom"><b>getFile</b> (const char *path, <a class="el" href="class_e_g_g_1_1_archive.html#struct_e_g_g_1_1_archive_1_1_file_info">FileInfo</a> *pInfo)</td></tr>
 <tr class="separator:acb1afaab2e594b43e8fa306c613d3f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_e_g_g_1_1_disposer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_e_g_g_1_1_disposer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_e_g_g_1_1_disposer.html">EGG::Disposer</a></td></tr>
-<tr class="memitem:ad17ae2efef044636280d190d20b4a9fa inherit pub_methods_class_e_g_g_1_1_disposer"><td class="memItemLeft" align="right" valign="top"><a id="ad17ae2efef044636280d190d20b4a9fa"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#ad17ae2efef044636280d190d20b4a9fa">~Disposer</a> ()</td></tr>
-<tr class="memdesc:ad17ae2efef044636280d190d20b4a9fa inherit pub_methods_class_e_g_g_1_1_disposer"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_e_g_g_1_1_disposer.html" title="Interface for objects that can be destroyed.">Disposer</a> destructor. If a containing heap is set, unregister self from its children. <br /></td></tr>
-<tr class="separator:ad17ae2efef044636280d190d20b4a9fa inherit pub_methods_class_e_g_g_1_1_disposer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e05c359f93cc0f8778d0891fc11a21c inherit pub_methods_class_e_g_g_1_1_disposer"><td class="memItemLeft" align="right" valign="top"><a id="a2e05c359f93cc0f8778d0891fc11a21c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c">Disposer</a> ()</td></tr>
-<tr class="memdesc:a2e05c359f93cc0f8778d0891fc11a21c inherit pub_methods_class_e_g_g_1_1_disposer"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_e_g_g_1_1_disposer.html" title="Interface for objects that can be destroyed.">Disposer</a> constructor. If a containing heap is set, register self to its children. <br /></td></tr>
-<tr class="separator:a2e05c359f93cc0f8778d0891fc11a21c inherit pub_methods_class_e_g_g_1_1_disposer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4c41462278b5d17ec40696e6d5b406d inherit pub_methods_class_e_g_g_1_1_disposer"><td class="memItemLeft" align="right" valign="top"><a id="ae4c41462278b5d17ec40696e6d5b406d"></a>
+<a class="el" href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0">eLifetime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#ae4c41462278b5d17ec40696e6d5b406d">getLifetime</a> () const</td></tr>
+<tr class="memdesc:ae4c41462278b5d17ec40696e6d5b406d inherit pub_methods_class_e_g_g_1_1_disposer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inspect the lifetime of this object. <br /></td></tr>
+<tr class="separator:ae4c41462278b5d17ec40696e6d5b406d inherit pub_methods_class_e_g_g_1_1_disposer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -166,10 +162,20 @@ static void *&#160;</td><td class="memItemRight" valign="bottom"><b>loadFromDisc
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_attribs_class_e_g_g_1_1_disposer"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_e_g_g_1_1_disposer')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_e_g_g_1_1_disposer.html">EGG::Disposer</a></td></tr>
-<tr class="memitem:a09f607bb63fb4273ee14000649073671 inherit pub_attribs_class_e_g_g_1_1_disposer"><td class="memItemLeft" align="right" valign="top"><a id="a09f607bb63fb4273ee14000649073671"></a>
-<a class="el" href="structnw4r_1_1ut_1_1_node.html">nw4r::ut::Node</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mLink</b></td></tr>
-<tr class="separator:a09f607bb63fb4273ee14000649073671 inherit pub_attribs_class_e_g_g_1_1_disposer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_e_g_g_1_1_disposer"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_e_g_g_1_1_disposer')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_e_g_g_1_1_disposer.html">EGG::Disposer</a></td></tr>
+<tr class="memitem:ae26385f14ce97c1df542367dda9438d0 inherit pub_types_class_e_g_g_1_1_disposer"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0">eLifetime</a> { <a class="el" href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0a4d39c8b329471238888f3caf64eb5724">LIFETIME_UNMANAGED</a>
+, <a class="el" href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0a7fb6fbf41f428fa4a06ae2b31252e7e2">LIFETIME_HEAP_GC</a>
+ }</td></tr>
+<tr class="memdesc:ae26385f14ce97c1df542367dda9438d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the lifetime of a derived object.  <a href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0">More...</a><br /></td></tr>
+<tr class="separator:ae26385f14ce97c1df542367dda9438d0 inherit pub_types_class_e_g_g_1_1_disposer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_e_g_g_1_1_disposer"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_e_g_g_1_1_disposer')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_e_g_g_1_1_disposer.html">EGG::Disposer</a></td></tr>
+<tr class="memitem:ad17ae2efef044636280d190d20b4a9fa inherit pro_methods_class_e_g_g_1_1_disposer"><td class="memItemLeft" align="right" valign="top"><a id="ad17ae2efef044636280d190d20b4a9fa"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#ad17ae2efef044636280d190d20b4a9fa">~Disposer</a> ()</td></tr>
+<tr class="memdesc:ad17ae2efef044636280d190d20b4a9fa inherit pro_methods_class_e_g_g_1_1_disposer"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_e_g_g_1_1_disposer.html" title="Base class for garbage-collected objects.">Disposer</a> destructor: detach from heap. <br /></td></tr>
+<tr class="separator:ad17ae2efef044636280d190d20b4a9fa inherit pro_methods_class_e_g_g_1_1_disposer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e05c359f93cc0f8778d0891fc11a21c inherit pro_methods_class_e_g_g_1_1_disposer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c">Disposer</a> ()</td></tr>
+<tr class="memdesc:a2e05c359f93cc0f8778d0891fc11a21c inherit pro_methods_class_e_g_g_1_1_disposer"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_e_g_g_1_1_disposer.html" title="Base class for garbage-collected objects.">Disposer</a> constructor: attach to heap.  <a href="class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c">More...</a><br /></td></tr>
+<tr class="separator:a2e05c359f93cc0f8778d0891fc11a21c inherit pro_methods_class_e_g_g_1_1_disposer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="struct_e_g_g_1_1_archive_1_1_file_info" id="struct_e_g_g_1_1_archive_1_1_file_info"></a>

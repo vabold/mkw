@@ -1,17 +1,18 @@
 <map id="EGG::Heap" name="EGG::Heap">
-<area shape="rect" id="node1" title="Base Heap class." alt="" coords="925,403,1020,429"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html" title="Interface for objects that can be destroyed." alt="" coords="521,159,648,185"/>
-<area shape="rect" id="node3" href="$structnw4r_1_1ut_1_1_node.html" title="Bidirectional list node." alt="" coords="165,100,300,127"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,100,76,127"/>
-<area shape="rect" id="node9" href="$structnw4r_1_1ut_1_1_list.html" title=" " alt="" coords="517,213,652,240"/>
-<area shape="rect" id="node5" title=" " alt="" coords="209,249,256,276"/>
-<area shape="rect" id="node6" title=" " alt="" coords="521,327,648,353"/>
-<area shape="rect" id="node7" title=" " alt="" coords="561,377,608,404"/>
-<area shape="rect" id="node8" title=" " alt="" coords="525,428,644,455"/>
-<area shape="rect" id="node10" title=" " alt="" coords="477,479,692,505"/>
-<area shape="rect" id="node11" title=" " alt="" coords="525,529,644,556"/>
-<area shape="rect" id="node12" title=" " alt="" coords="545,580,624,607"/>
-<area shape="rect" id="node13" title=" " alt="" coords="493,631,676,657"/>
-<area shape="rect" id="node14" href="$class_e_g_g_1_1_thread.html" title="Wrapper for OSThread." alt="" coords="529,681,640,708"/>
-<area shape="rect" id="node15" title=" " alt="" coords="521,739,648,765"/>
+<area shape="rect" id="node1" title="Base Heap class." alt="" coords="741,406,836,432"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="337,12,464,39"/>
+<area shape="rect" id="node3" href="$class_non_copyable.html" title=" " alt="" coords="5,12,116,39"/>
+<area shape="rect" id="node4" title=" " alt="" coords="37,88,84,115"/>
+<area shape="rect" id="node8" href="$structnw4r_1_1ut_1_1_list.html" title=" " alt="" coords="333,166,468,192"/>
+<area shape="rect" id="node5" title=" " alt="" coords="337,330,464,356"/>
+<area shape="rect" id="node6" title=" " alt="" coords="377,380,424,407"/>
+<area shape="rect" id="node7" title=" " alt="" coords="341,431,460,458"/>
+<area shape="rect" id="node9" title=" " alt="" coords="25,218,96,244"/>
+<area shape="rect" id="node10" href="$structnw4r_1_1ut_1_1_node.html" title="Bidirectional list node." alt="" coords="333,279,468,306"/>
+<area shape="rect" id="node11" title=" " alt="" coords="293,482,508,508"/>
+<area shape="rect" id="node12" title=" " alt="" coords="341,532,460,559"/>
+<area shape="rect" id="node13" title=" " alt="" coords="361,583,440,610"/>
+<area shape="rect" id="node14" title=" " alt="" coords="309,634,492,660"/>
+<area shape="rect" id="node15" href="$class_e_g_g_1_1_thread.html" title="Wrapper for OSThread." alt="" coords="345,684,456,711"/>
+<area shape="rect" id="node16" title=" " alt="" coords="337,742,464,768"/>
 </map>

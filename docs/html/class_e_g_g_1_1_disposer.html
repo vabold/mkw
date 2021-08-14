@@ -83,15 +83,17 @@ $(document).ready(function(){initNavTree('class_e_g_g_1_1_disposer.html',''); in
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_e_g_g_1_1_disposer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">EGG::Disposer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Interface for objects that can be destroyed.  
+<p>Base class for garbage-collected objects.  
  <a href="class_e_g_g_1_1_disposer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="egg_disposer_8hpp_source.html">eggDisposer.hpp</a>&gt;</code></p>
@@ -102,13 +104,14 @@ $(document).ready(function(){initNavTree('class_e_g_g_1_1_disposer.html',''); in
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_e_g_g_1_1_disposer__inherit__graph.png" border="0" usemap="#a_e_g_g_1_1_disposer_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_e_g_g_1_1_disposer_inherit__map" id="a_e_g_g_1_1_disposer_inherit__map">
-<area shape="rect" title="Interface for objects that can be destroyed." alt="" coords="148,5,275,32"/>
-<area shape="rect" href="class_e_g_g_1_1_archive.html" title=" " alt="" coords="21,80,140,107"/>
-<area shape="rect" href="class_e_g_g_1_1_heap.html" title="Base Heap class." alt="" coords="164,80,259,107"/>
-<area shape="rect" href="class_e_g_g_1_1_scene.html" title=" " alt="" coords="284,80,387,107"/>
-<area shape="rect" href="class_e_g_g_1_1_exp_heap.html" title=" " alt="" coords="5,155,124,181"/>
-<area shape="rect" href="class_e_g_g_1_1_unit_heap.html" title=" " alt="" coords="148,155,275,181"/>
-<area shape="rect" href="class_r_k_scene.html" title=" " alt="" coords="299,155,377,181"/>
+<area shape="rect" title="Base class for garbage&#45;collected objects." alt="" coords="148,80,275,107"/>
+<area shape="rect" href="class_e_g_g_1_1_archive.html" title=" " alt="" coords="21,155,140,181"/>
+<area shape="rect" href="class_e_g_g_1_1_heap.html" title="Base Heap class." alt="" coords="164,155,259,181"/>
+<area shape="rect" href="class_e_g_g_1_1_scene.html" title=" " alt="" coords="284,155,387,181"/>
+<area shape="rect" href="class_non_copyable.html" title=" " alt="" coords="156,5,267,32"/>
+<area shape="rect" href="class_e_g_g_1_1_exp_heap.html" title=" " alt="" coords="5,229,124,256"/>
+<area shape="rect" href="class_e_g_g_1_1_unit_heap.html" title=" " alt="" coords="148,229,275,256"/>
+<area shape="rect" href="class_r_k_scene.html" title=" " alt="" coords="299,229,377,256"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -118,33 +121,110 @@ $(document).ready(function(){initNavTree('class_e_g_g_1_1_disposer.html',''); in
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_e_g_g_1_1_disposer__coll__graph.png" border="0" usemap="#a_e_g_g_1_1_disposer_coll__map" alt="Collaboration graph"/></div>
 <map name="a_e_g_g_1_1_disposer_coll__map" id="a_e_g_g_1_1_disposer_coll__map">
-<area shape="rect" title="Interface for objects that can be destroyed." alt="" coords="9,199,136,225"/>
-<area shape="rect" href="structnw4r_1_1ut_1_1_node.html" title="Bidirectional list node." alt="" coords="5,109,140,136"/>
-<area shape="rect" title=" " alt="" coords="37,5,108,32"/>
+<area shape="rect" title="Base class for garbage&#45;collected objects." alt="" coords="5,80,132,107"/>
+<area shape="rect" href="class_non_copyable.html" title=" " alt="" coords="13,5,124,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ae26385f14ce97c1df542367dda9438d0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0">eLifetime</a> { <a class="el" href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0a4d39c8b329471238888f3caf64eb5724">LIFETIME_UNMANAGED</a>
+, <a class="el" href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0a7fb6fbf41f428fa4a06ae2b31252e7e2">LIFETIME_HEAP_GC</a>
+ }</td></tr>
+<tr class="memdesc:ae26385f14ce97c1df542367dda9438d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the lifetime of a derived object.  <a href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0">More...</a><br /></td></tr>
+<tr class="separator:ae26385f14ce97c1df542367dda9438d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ae4c41462278b5d17ec40696e6d5b406d"><td class="memItemLeft" align="right" valign="top"><a id="ae4c41462278b5d17ec40696e6d5b406d"></a>
+<a class="el" href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0">eLifetime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#ae4c41462278b5d17ec40696e6d5b406d">getLifetime</a> () const</td></tr>
+<tr class="memdesc:ae4c41462278b5d17ec40696e6d5b406d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inspect the lifetime of this object. <br /></td></tr>
+<tr class="separator:ae4c41462278b5d17ec40696e6d5b406d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
 <tr class="memitem:ad17ae2efef044636280d190d20b4a9fa"><td class="memItemLeft" align="right" valign="top"><a id="ad17ae2efef044636280d190d20b4a9fa"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#ad17ae2efef044636280d190d20b4a9fa">~Disposer</a> ()</td></tr>
-<tr class="memdesc:ad17ae2efef044636280d190d20b4a9fa"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_e_g_g_1_1_disposer.html" title="Interface for objects that can be destroyed.">Disposer</a> destructor. If a containing heap is set, unregister self from its children. <br /></td></tr>
+<tr class="memdesc:ad17ae2efef044636280d190d20b4a9fa"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_e_g_g_1_1_disposer.html" title="Base class for garbage-collected objects.">Disposer</a> destructor: detach from heap. <br /></td></tr>
 <tr class="separator:ad17ae2efef044636280d190d20b4a9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e05c359f93cc0f8778d0891fc11a21c"><td class="memItemLeft" align="right" valign="top"><a id="a2e05c359f93cc0f8778d0891fc11a21c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c">Disposer</a> ()</td></tr>
-<tr class="memdesc:a2e05c359f93cc0f8778d0891fc11a21c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_e_g_g_1_1_disposer.html" title="Interface for objects that can be destroyed.">Disposer</a> constructor. If a containing heap is set, register self to its children. <br /></td></tr>
+<tr class="memitem:a2e05c359f93cc0f8778d0891fc11a21c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c">Disposer</a> ()</td></tr>
+<tr class="memdesc:a2e05c359f93cc0f8778d0891fc11a21c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_e_g_g_1_1_disposer.html" title="Base class for garbage-collected objects.">Disposer</a> constructor: attach to heap.  <a href="class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c">More...</a><br /></td></tr>
 <tr class="separator:a2e05c359f93cc0f8778d0891fc11a21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a09f607bb63fb4273ee14000649073671"><td class="memItemLeft" align="right" valign="top"><a id="a09f607bb63fb4273ee14000649073671"></a>
-<a class="el" href="structnw4r_1_1ut_1_1_node.html">nw4r::ut::Node</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mLink</b></td></tr>
-<tr class="separator:a09f607bb63fb4273ee14000649073671"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a3d69975be2e998e7bf2dcd1b1c8b4577"><td class="memItemLeft" align="right" valign="top"><a id="a3d69975be2e998e7bf2dcd1b1c8b4577"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>Heap</b></td></tr>
+<tr class="separator:a3d69975be2e998e7bf2dcd1b1c8b4577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Interface for objects that can be destroyed. </p>
-<p>Has a virtual table (with virtual destructor) and pointer to containing heap. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<div class="textblock"><p>Base class for garbage-collected objects. </p>
+<p>Scene-specific, heap-allocated resources in mkw are typically not explicitly freed. This isn't a memory leak, though: when a <a class="el" href="class_e_g_g_1_1_scene.html">Scene</a> transitions, all memory allocated within it is returned in one block. However, in C++, the destructor of an object must be called when its lifetime expires&ndash;otherwise, we could leak second-order resources and introduce use-after-free bugs.</p>
+<p><a class="el" href="class_e_g_g_1_1_disposer.html" title="Base class for garbage-collected objects.">Disposer</a> solves this issue: when a heap is destroyed, the linked list of dispoers is traversed and each destructor is called in-order. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ae26385f14ce97c1df542367dda9438d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae26385f14ce97c1df542367dda9438d0">&#9670;&nbsp;</a></span>eLifetime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0">EGG::Disposer::eLifetime</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Describes the lifetime of a derived object. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae26385f14ce97c1df542367dda9438d0a4d39c8b329471238888f3caf64eb5724"></a>LIFETIME_UNMANAGED&#160;</td><td class="fielddoc"><p>This object is not allocated in an <a class="el" href="class_e_g_g_1_1_heap.html" title="Base Heap class.">EGG::Heap</a>; it acts as a regular C++ object. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae26385f14ce97c1df542367dda9438d0a7fb6fbf41f428fa4a06ae2b31252e7e2"></a>LIFETIME_HEAP_GC&#160;</td><td class="fielddoc"><p>This object is garbage-collected; its lifetime is tied to its heap. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a2e05c359f93cc0f8778d0891fc11a21c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e05c359f93cc0f8778d0891fc11a21c">&#9670;&nbsp;</a></span>Disposer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EGG::Disposer::Disposer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_e_g_g_1_1_disposer.html" title="Base class for garbage-collected objects.">Disposer</a> constructor: attach to heap. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>Lifetime management is assumed if, and only if, the object is allocated within an <a class="el" href="class_e_g_g_1_1_heap.html" title="Base Heap class.">EGG::Heap</a>. </dd></dl>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="class_e_g_g_1_1_disposer_a2e05c359f93cc0f8778d0891fc11a21c_cgraph.png" border="0" usemap="#aclass_e_g_g_1_1_disposer_a2e05c359f93cc0f8778d0891fc11a21c_cgraph" alt=""/></div>
+<map name="aclass_e_g_g_1_1_disposer_a2e05c359f93cc0f8778d0891fc11a21c_cgraph" id="aclass_e_g_g_1_1_disposer_a2e05c359f93cc0f8778d0891fc11a21c_cgraph">
+<area shape="rect" title="Disposer constructor: attach to heap." alt="" coords="5,5,212,32"/>
+<area shape="rect" href="class_e_g_g_1_1_heap.html#a1da9a32b19dfe6cd46951947161b1aca" title="Scan global heap list for heap containing specified memory block." alt="" coords="260,5,491,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>source/egg/core/<a class="el" href="egg_disposer_8hpp_source.html">eggDisposer.hpp</a></li>
 <li>source/egg/core/<a class="el" href="egg_disposer_8cpp.html">eggDisposer.cpp</a></li>
 </ul>

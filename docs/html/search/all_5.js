@@ -37,12 +37,13 @@ var searchData=
   ['eggviewport_2ehpp_93',['eggViewport.hpp',['../egg_viewport_8hpp.html',1,'']]],
   ['eheapkind_94',['eHeapKind',['../class_e_g_g_1_1_heap.html#aace18076509aa5388a2039adf8bdbda3',1,'EGG::Heap']]],
   ['element_95',['Element',['../struct_u_i_1_1_element.html',1,'UI']]],
-  ['enelinkid_96',['eneLinkID',['../class_field_1_1_mapdata_area.html#a2e33cfd0cb4dfdb9d6e48e5152136e54',1,'Field::MapdataArea']]],
-  ['entries_97',['entries',['../class_field_1_1_object_parameter.html#af00aef42674a2367cd50bc0467c368cd',1,'Field::ObjectParameter::Header']]],
-  ['estatus_98',['EStatus',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03c',1,'EGG::Fader']]],
-  ['estatus_5ffade_5fin_99',['ESTATUS_FADE_IN',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03cac2768592c9b4f124b899216bf4afe4f0',1,'EGG::Fader']]],
-  ['estatus_5ffade_5fout_100',['ESTATUS_FADE_OUT',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03ca0fe5da5d6852929eb2d8a48dbe5fd6d9',1,'EGG::Fader']]],
-  ['estatus_5fhidden_101',['ESTATUS_HIDDEN',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03caecf982b5b3f365c37679de584cf91d59',1,'EGG::Fader']]],
-  ['estatus_5fopaque_102',['ESTATUS_OPAQUE',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03cad86ae45850b3d9e35c78b0497611784e',1,'EGG::Fader']]],
-  ['expheap_103',['ExpHeap',['../class_e_g_g_1_1_exp_heap.html',1,'EGG']]]
+  ['elifetime_96',['eLifetime',['../class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0',1,'EGG::Disposer']]],
+  ['enelinkid_97',['eneLinkID',['../class_field_1_1_mapdata_area.html#a2e33cfd0cb4dfdb9d6e48e5152136e54',1,'Field::MapdataArea']]],
+  ['entries_98',['entries',['../class_field_1_1_object_parameter.html#af00aef42674a2367cd50bc0467c368cd',1,'Field::ObjectParameter::Header']]],
+  ['estatus_99',['EStatus',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03c',1,'EGG::Fader']]],
+  ['estatus_5ffade_5fin_100',['ESTATUS_FADE_IN',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03cac2768592c9b4f124b899216bf4afe4f0',1,'EGG::Fader']]],
+  ['estatus_5ffade_5fout_101',['ESTATUS_FADE_OUT',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03ca0fe5da5d6852929eb2d8a48dbe5fd6d9',1,'EGG::Fader']]],
+  ['estatus_5fhidden_102',['ESTATUS_HIDDEN',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03caecf982b5b3f365c37679de584cf91d59',1,'EGG::Fader']]],
+  ['estatus_5fopaque_103',['ESTATUS_OPAQUE',['../class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03cad86ae45850b3d9e35c78b0497611784e',1,'EGG::Fader']]],
+  ['expheap_104',['ExpHeap',['../class_e_g_g_1_1_exp_heap.html',1,'EGG']]]
 ];

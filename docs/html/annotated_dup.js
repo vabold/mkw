@@ -99,6 +99,7 @@ var annotated_dup =
     [ "HeapCollection", "struct_heap_collection.html", "struct_heap_collection" ],
     [ "MEMAllocator", "class_m_e_m_allocator.html", null ],
     [ "MEMiUntHeapHead", "class_m_e_mi_unt_heap_head.html", null ],
+    [ "NonCopyable", "class_non_copyable.html", null ],
     [ "ProcessInfo", "struct_process_info.html", "struct_process_info" ],
     [ "RKScene", "class_r_k_scene.html", "class_r_k_scene" ],
     [ "rvlArchive", "classrvl_archive.html", null ]

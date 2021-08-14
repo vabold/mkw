@@ -1,12 +1,12 @@
 <map id="source/egg/core/eggUnitHeap.hpp" name="source/egg/core/eggUnitHeap.hpp">
-<area shape="rect" id="node1" title="EGG wraper for unit heaps (each element uniform size)." alt="" coords="431,5,701,32"/>
-<area shape="rect" id="node2" href="$egg_heap_8hpp.html" title="Base Heap class." alt="" coords="376,80,559,107"/>
-<area shape="rect" id="node10" title=" " alt="" coords="583,80,749,107"/>
-<area shape="rect" id="node3" href="$egg_disposer_8hpp.html" title="Base class for garbage&#45;collected objects." alt="" coords="5,155,220,181"/>
-<area shape="rect" id="node4" href="$ut_list_8hpp_source.html" title=" " alt="" coords="29,229,196,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="183,304,285,331"/>
-<area shape="rect" id="node6" title=" " alt="" coords="463,229,621,256"/>
-<area shape="rect" id="node7" href="$egg_thread_8hpp.html" title="Thread class for extending." alt="" coords="295,155,493,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="696,155,895,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="272,229,439,256"/>
+<area shape="rect" id="node1" title="EGG wraper for unit heaps (each element uniform size)." alt="" coords="314,5,585,32"/>
+<area shape="rect" id="node2" href="$egg_heap_8hpp.html" title="Base Heap class." alt="" coords="259,80,442,107"/>
+<area shape="rect" id="node10" title=" " alt="" coords="466,80,633,107"/>
+<area shape="rect" id="node3" href="$egg_disposer_8hpp.html" title="Headers for EGG::Disposer." alt="" coords="30,155,245,181"/>
+<area shape="rect" id="node4" href="$ut_list_8hpp_source.html" title=" " alt="" coords="93,229,259,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="63,304,166,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="526,229,685,256"/>
+<area shape="rect" id="node7" href="$egg_thread_8hpp.html" title="Thread class for extending." alt="" coords="319,155,518,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="591,155,790,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="335,229,502,256"/>
 </map>

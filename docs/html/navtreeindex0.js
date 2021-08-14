@@ -90,9 +90,13 @@ var NAVTREEINDEX0 =
 "class_e_g_g_1_1_color_fader.html#af89a18fb5605c7e655db3ff4c4df7f80":[1,0,0,4,8],
 "class_e_g_g_1_1_color_fader.html#af96fa7965a524561f41237eff492cee2":[1,0,0,4,10],
 "class_e_g_g_1_1_disposer.html":[1,0,0,5],
-"class_e_g_g_1_1_disposer.html#a09f607bb63fb4273ee14000649073671":[1,0,0,5,2],
-"class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c":[1,0,0,5,1],
-"class_e_g_g_1_1_disposer.html#ad17ae2efef044636280d190d20b4a9fa":[1,0,0,5,0],
+"class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c":[1,0,0,5,2],
+"class_e_g_g_1_1_disposer.html#a3d69975be2e998e7bf2dcd1b1c8b4577":[1,0,0,5,4],
+"class_e_g_g_1_1_disposer.html#ad17ae2efef044636280d190d20b4a9fa":[1,0,0,5,1],
+"class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0":[1,0,0,5,0],
+"class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0a4d39c8b329471238888f3caf64eb5724":[1,0,0,5,0,0],
+"class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0a7fb6fbf41f428fa4a06ae2b31252e7e2":[1,0,0,5,0,1],
+"class_e_g_g_1_1_disposer.html#ae4c41462278b5d17ec40696e6d5b406d":[1,0,0,5,3],
 "class_e_g_g_1_1_dvd_file.html":[1,0,0,6],
 "class_e_g_g_1_1_dvd_file.html#a075a167f2c8f747b18569eed3303f50e":[1,0,0,6,9],
 "class_e_g_g_1_1_dvd_file.html#a1c3c40189d9dd5a5eeb0dc6867df27ff":[1,0,0,6,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX0 =
 "class_e_g_g_1_1_scene_manager.html#a5ee1f7d349b9104fd619a333f9a6d491":[1,0,0,16,16],
 "class_e_g_g_1_1_scene_manager.html#a60ef16ec42c113e7574f0be0d1cfff17":[1,0,0,16,13],
 "class_e_g_g_1_1_scene_manager.html#a62f581abf145c29b3455b5140bd9a092":[1,0,0,16,22],
-"class_e_g_g_1_1_scene_manager.html#a6443d848a9d9d87c8787d336e3ba2417":[1,0,0,16,32],
-"class_e_g_g_1_1_scene_manager.html#a64d4d71c699c43749b5ec295d85b0f04":[1,0,0,16,31],
-"class_e_g_g_1_1_scene_manager.html#a6ceec3c0a30c422a40b840184a82970c":[1,0,0,16,7],
-"class_e_g_g_1_1_scene_manager.html#a7be5c5277ffecd554dd2e140a8d52605":[1,0,0,16,24],
-"class_e_g_g_1_1_scene_manager.html#a8cd2d96be7228e188d5fe355bd551237":[1,0,0,16,14]
+"class_e_g_g_1_1_scene_manager.html#a6443d848a9d9d87c8787d336e3ba2417":[1,0,0,16,32]
 };

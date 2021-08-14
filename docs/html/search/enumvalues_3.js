@@ -1,13 +1,5 @@
 var searchData=
 [
-  ['rm_5feurgb60_5f16x9_695',['RM_EURGB60_16x9',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547ad84bdeaec2330e769351b8b82d5519f9',1,'EGG::Video']]],
-  ['rm_5feurgb60_5f4x3_696',['RM_EURGB60_4x3',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a59905bd7bb507ffa8bcb165ec1095620',1,'EGG::Video']]],
-  ['rm_5fntsc_5f16x9_697',['RM_NTSC_16x9',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a0841447aaec1670485e8d65d4dd25a59',1,'EGG::Video']]],
-  ['rm_5fntsc_5f16x9_5fprogressive_698',['RM_NTSC_16x9_PROGRESSIVE',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a2156d6dda612b0d9388890b9049da1a8',1,'EGG::Video']]],
-  ['rm_5fntsc_5f4x3_699',['RM_NTSC_4x3',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a3cd005a3b37b196312d07769d46388ae',1,'EGG::Video']]],
-  ['rm_5fntsc_5f4x3_5fprogressive_700',['RM_NTSC_4x3_PROGRESSIVE',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a59bd67f579fd12a240d68c02dfdfbe8e',1,'EGG::Video']]],
-  ['rm_5fpal50_5f16x9_701',['RM_PAL50_16x9',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547aceaaec346c8ffe5100fca8705bf96aed',1,'EGG::Video']]],
-  ['rm_5fpal50_5f4x3_702',['RM_PAL50_4x3',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a8e7227fff4ba20657324e56659bc42be',1,'EGG::Video']]],
-  ['rm_5fpal_5f16x9_5fprogressive_703',['RM_PAL_16x9_PROGRESSIVE',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a43101816a4622bec637fcefb2641e052',1,'EGG::Video']]],
-  ['rm_5fpal_5f4x3_5fprogressive_704',['RM_PAL_4x3_PROGRESSIVE',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a694a5edbb62343a3086307fd8f9b92e3',1,'EGG::Video']]]
+  ['lifetime_5fheap_5fgc_703',['LIFETIME_HEAP_GC',['../class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0a7fb6fbf41f428fa4a06ae2b31252e7e2',1,'EGG::Disposer']]],
+  ['lifetime_5funmanaged_704',['LIFETIME_UNMANAGED',['../class_e_g_g_1_1_disposer.html#ae26385f14ce97c1df542367dda9438d0a4d39c8b329471238888f3caf64eb5724',1,'EGG::Disposer']]]
 ];

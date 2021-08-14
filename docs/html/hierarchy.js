@@ -15,16 +15,6 @@ var hierarchy =
     [ "Field::ObjectParameter::Parameter::Data", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data", null ],
     [ "UI::Deferred< T >", "struct_u_i_1_1_deferred.html", null ],
     [ "UI::Deferred< UI::Element >", "struct_u_i_1_1_deferred.html", null ],
-    [ "EGG::Disposer", "class_e_g_g_1_1_disposer.html", [
-      [ "EGG::Archive", "class_e_g_g_1_1_archive.html", null ],
-      [ "EGG::Heap", "class_e_g_g_1_1_heap.html", [
-        [ "EGG::ExpHeap", "class_e_g_g_1_1_exp_heap.html", null ],
-        [ "EGG::UnitHeap", "class_e_g_g_1_1_unit_heap.html", null ]
-      ] ],
-      [ "EGG::Scene", "class_e_g_g_1_1_scene.html", [
-        [ "RKScene", "class_r_k_scene.html", null ]
-      ] ]
-    ] ],
     [ "DVDFileInfo", "class_d_v_d_file_info.html", null ],
     [ "EGG::DvdRipper", "class_e_g_g_1_1_dvd_ripper.html", null ],
     [ "UI::Element", "struct_u_i_1_1_element.html", null ],
@@ -72,6 +62,18 @@ var hierarchy =
     ] ],
     [ "UI::MessageGroup", "class_u_i_1_1_message_group.html", null ],
     [ "nw4r::ut::Node", "structnw4r_1_1ut_1_1_node.html", null ],
+    [ "NonCopyable", "class_non_copyable.html", [
+      [ "EGG::Disposer", "class_e_g_g_1_1_disposer.html", [
+        [ "EGG::Archive", "class_e_g_g_1_1_archive.html", null ],
+        [ "EGG::Heap", "class_e_g_g_1_1_heap.html", [
+          [ "EGG::ExpHeap", "class_e_g_g_1_1_exp_heap.html", null ],
+          [ "EGG::UnitHeap", "class_e_g_g_1_1_unit_heap.html", null ]
+        ] ],
+        [ "EGG::Scene", "class_e_g_g_1_1_scene.html", [
+          [ "RKScene", "class_r_k_scene.html", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Field::ObjectDirector", "class_field_1_1_object_director.html", null ],
     [ "Field::ObjectParameter", "class_field_1_1_object_parameter.html", null ],
     [ "Field::ObjectParameter::Parameter", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter", null ],

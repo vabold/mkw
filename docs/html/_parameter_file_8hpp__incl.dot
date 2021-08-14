@@ -9,11 +9,12 @@ digraph "source/game/host_system/ParameterFile.hpp"
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node3 [label="egg/core/eggHeap.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_heap_8hpp.html",tooltip="Base Heap class."];
   Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node4 [label="egg/core/eggDisposer.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_disposer_8hpp.html",tooltip="Base class for garbage-collected objects."];
+  Node4 [label="egg/core/eggDisposer.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_disposer_8hpp.html",tooltip="Headers for EGG::Disposer."];
   Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node5 [label="nw4r/ut/utList.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ut_list_8hpp_source.html",tooltip=" "];
   Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node6 [label="rk_types.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];

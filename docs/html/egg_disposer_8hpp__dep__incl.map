@@ -1,5 +1,5 @@
 <map id="source/egg/core/eggDisposer.hpp" name="source/egg/core/eggDisposer.hpp">
-<area shape="rect" id="node1" title="Base class for garbage&#45;collected objects." alt="" coords="571,5,841,32"/>
+<area shape="rect" id="node1" title="Headers for EGG::Disposer." alt="" coords="571,5,841,32"/>
 <area shape="rect" id="node2" href="$egg_archive_8hpp.html" title="A read&#45;only view of a &quot;dolphin archive&quot; .arc file." alt="" coords="5,162,268,189"/>
 <area shape="rect" id="node4" href="$egg_disposer_8cpp.html" title="Disposer implementations." alt="" coords="292,162,563,189"/>
 <area shape="rect" id="node5" href="$egg_heap_8cpp.html" title="Heap implementations." alt="" coords="587,162,825,189"/>

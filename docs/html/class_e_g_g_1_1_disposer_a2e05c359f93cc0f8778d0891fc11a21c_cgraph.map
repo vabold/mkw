@@ -1,0 +1,4 @@
+<map id="EGG::Disposer::Disposer" name="EGG::Disposer::Disposer">
+<area shape="rect" id="node1" title="Disposer constructor: attach to heap." alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_heap.html#a1da9a32b19dfe6cd46951947161b1aca" title="Scan global heap list for heap containing specified memory block." alt="" coords="260,5,491,32"/>
+</map>
