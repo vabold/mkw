@@ -1,0 +1,6 @@
+<map id="source/egg/core/eggDvdFile.hpp" name="source/egg/core/eggDvdFile.hpp">
+<area shape="rect" id="node1" title="Implementation of File for files on the DVD (read&#45;only)." alt="" coords="152,5,415,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,268,107"/>
+<area shape="rect" id="node3" href="$egg_dvd_ripper_8hpp.html" title="Headers for the EGG DVD ripper." alt="" coords="292,80,571,107"/>
+<area shape="rect" id="node4" href="$egg_dvd_ripper_8cpp.html" title="Implementations for the EGG DVD ripper." alt="" coords="292,155,571,181"/>
+</map>

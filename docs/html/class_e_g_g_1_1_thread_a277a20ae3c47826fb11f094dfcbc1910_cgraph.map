@@ -1,0 +1,5 @@
+<map id="EGG::Thread::switchThreadCallback" name="EGG::Thread::switchThreadCallback">
+<area shape="rect" id="node1" title="The callback for switching threads." alt="" coords="5,23,228,65"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#a891b22697eb55c1e2ad3ee0307f4656a" title="Find the (first) EGG::Thread that matches the provided osThread." alt="" coords="276,5,483,32"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_thread.html#af700d44bfa20b436f607414cb65bcfa6" title="&lt; [vt+0x14]" alt="" coords="292,56,467,83"/>
+</map>

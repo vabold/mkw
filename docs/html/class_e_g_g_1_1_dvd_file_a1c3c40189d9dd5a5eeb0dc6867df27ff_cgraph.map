@@ -1,0 +1,4 @@
+<map id="EGG::DvdFile::open" name="EGG::DvdFile::open">
+<area shape="rect" id="node1" title="Just calls down to open(const char* path)." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_dvd_file.html#aeddd7a1ad22593c6b7442147767785b9" title="Opens a file given the path." alt="" coords="220,5,387,32"/>
+</map>

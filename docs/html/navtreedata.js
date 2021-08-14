@@ -24,12 +24,32 @@
 */
 var NAVTREE =
 [
-  [ "mkw", "index.html", ]
+  [ "mkw", "index.html", [
+    [ "Modules", "modules.html", "modules" ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"_control_group_8hpp_source.html",
+"class_e_g_g_1_1_scene_manager.html#a8cdc1631975f6d67a334983816ab7407",
+"class_system_1_1_system_manager.html#a65c6c692b124b0c801bd7d88b53598df",
+"g3d__camera_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,0 +1,4 @@
+<map id="EGG::DvdRipper::loadToMainRAM" name="EGG::DvdRipper::loadToMainRAM">
+<area shape="rect" id="node1" title="Load a file on the disc to main RAM given the path." alt="" coords="5,5,260,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_dvd_file.html#aeddd7a1ad22593c6b7442147767785b9" title="Opens a file given the path." alt="" coords="308,5,475,32"/>
+</map>

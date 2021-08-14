@@ -1,0 +1,6 @@
+<map id="EGG::DvdFile::open" name="EGG::DvdFile::open">
+<area shape="rect" id="node1" title="Opens a file given the path." alt="" coords="308,88,475,115"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_dvd_ripper.html#adf2e7e58ac039603e56a0fd1c27b58c5" title="Load a file on the disc to main RAM given the path." alt="" coords="5,5,260,32"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_dvd_ripper.html#aee0435830b9eaeaeeb33ce75aa33835e" title="Load and decompress a file on the disc to main RAM given the path." alt="" coords="17,81,248,122"/>
+<area shape="rect" id="node4" href="$class_e_g_g_1_1_dvd_file.html#a1c3c40189d9dd5a5eeb0dc6867df27ff" title="Just calls down to open(const char* path)." alt="" coords="49,147,216,173"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="EGG::Heap::alloc" name="EGG::Heap::alloc">
+<area shape="rect" id="node1" title="Allocate a block of memory in a heap." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#a891b22697eb55c1e2ad3ee0307f4656a" title="Find the (first) EGG::Thread that matches the provided osThread." alt="" coords="204,5,411,32"/>
+</map>

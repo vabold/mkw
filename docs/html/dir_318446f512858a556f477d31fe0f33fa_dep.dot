@@ -1,0 +1,11 @@
+digraph "source/egg/util" {
+  compound=true
+  node [ fontsize="10", fontname="FreeMono"];
+  edge [ labelfontsize="10", labelfontname="FreeMono"];
+  subgraph clusterdir_dfa3dd376ef284b4fe91688c4c5b67ec {
+    graph [ bgcolor="#ddddee", pencolor="black", label="egg" fontname="FreeMono", fontsize="10", URL="dir_dfa3dd376ef284b4fe91688c4c5b67ec.html"]
+  dir_6b5970774031d87b0089cc8f859b8439 [shape=box label="core" URL="dir_6b5970774031d87b0089cc8f859b8439.html"];
+  dir_318446f512858a556f477d31fe0f33fa [shape=box, label="util", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_318446f512858a556f477d31fe0f33fa.html"];
+  }
+  dir_318446f512858a556f477d31fe0f33fa->dir_6b5970774031d87b0089cc8f859b8439 [headlabel="1", labeldistance=1.5 headhref="dir_000004_000002.html"];
+}

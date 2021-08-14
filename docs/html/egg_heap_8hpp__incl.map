@@ -1,0 +1,10 @@
+<map id="source/egg/core/eggHeap.hpp" name="source/egg/core/eggHeap.hpp">
+<area shape="rect" id="node1" title="Base Heap class." alt="" coords="348,5,587,32"/>
+<area shape="rect" id="node2" href="$egg_disposer_8hpp.html" title="Base class for garbage&#45;collected objects." alt="" coords="5,80,220,107"/>
+<area shape="rect" id="node3" href="$ut_list_8hpp_source.html" title=" " alt="" coords="29,155,196,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="183,229,285,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="463,155,621,181"/>
+<area shape="rect" id="node6" href="$egg_thread_8hpp.html" title="Thread class for extending." alt="" coords="295,80,493,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="696,80,895,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="272,155,439,181"/>
+</map>

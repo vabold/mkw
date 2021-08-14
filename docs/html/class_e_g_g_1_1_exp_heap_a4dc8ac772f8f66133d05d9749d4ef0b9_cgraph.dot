@@ -1,0 +1,10 @@
+digraph "EGG::ExpHeap::create"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
+  node [fontname="FreeMono",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="EGG::ExpHeap::create",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create a new ExpHeap as a child of an existing heap."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node2 [label="EGG::ExpHeap::create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_exp_heap.html#ae3f7b8c1eb31d6c8781143ff8d15ab94",tooltip="Create an EGG ExpHeap and wrapped MEM ExpHeap in a certain region."];
+}

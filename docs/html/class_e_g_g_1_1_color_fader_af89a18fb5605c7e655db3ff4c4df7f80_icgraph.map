@@ -1,0 +1,4 @@
+<map id="EGG::ColorFader::setColor" name="EGG::ColorFader::setColor">
+<area shape="rect" id="node1" title="Sets the color. Does not modify alpha." alt="" coords="292,5,515,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_color_fader.html#a23dc23209b7ce2a246f17b4557b6bf94" title="A constructor." alt="" coords="5,5,244,32"/>
+</map>

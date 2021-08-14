@@ -1,0 +1,6 @@
+<map id="EGG::Heap" name="EGG::Heap">
+<area shape="rect" id="node1" title="Base Heap class." alt="" coords="91,80,185,107"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_exp_heap.html" title=" " alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node4" href="$class_e_g_g_1_1_unit_heap.html" title=" " alt="" coords="148,155,275,181"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html" title="Interface for objects that can be destroyed." alt="" coords="75,5,201,32"/>
+</map>

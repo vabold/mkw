@@ -1,0 +1,4 @@
+<map id="EGG::GraphicsFifo::GPStatus" name="EGG::GraphicsFifo::GPStatus">
+<area shape="rect" id="node1" title="Holds the state of the Graphics Processor at any given moment." alt="" coords="5,153,180,195"/>
+<area shape="rect" id="node2" title=" " alt="" coords="73,5,112,32"/>
+</map>

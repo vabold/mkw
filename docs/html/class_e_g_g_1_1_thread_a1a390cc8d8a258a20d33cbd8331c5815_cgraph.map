@@ -1,0 +1,6 @@
+<map id="EGG::Thread::Thread" name="EGG::Thread::Thread">
+<area shape="rect" id="node1" title="&lt; [vt+0x10]" alt="" coords="5,42,180,69"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#a6ce2684bb4c57b9b04b1b840cc5a0dc1" title="Configures the message queue." alt="" coords="228,5,459,47"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_thread.html#a929a2a527dd1243d64f355164b579467" title="Starts a thread." alt="" coords="260,71,427,98"/>
+<area shape="rect" id="node4" href="$class_e_g_g_1_1_thread.html#ae0d86b06288a7259bfa008a0f9d272bd" title="[vt+0x0C]" alt="" coords="507,71,657,98"/>
+</map>

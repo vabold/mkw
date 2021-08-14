@@ -1,0 +1,4 @@
+<map id="EGG::ExpHeap::create" name="EGG::ExpHeap::create">
+<area shape="rect" id="node1" title="Create a new ExpHeap as a child of an existing heap." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_exp_heap.html#ae3f7b8c1eb31d6c8781143ff8d15ab94" title="Create an EGG ExpHeap and wrapped MEM ExpHeap in a certain region." alt="" coords="236,5,419,32"/>
+</map>

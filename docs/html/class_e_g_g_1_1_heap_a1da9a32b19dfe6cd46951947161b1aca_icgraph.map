@@ -1,0 +1,4 @@
+<map id="EGG::Heap::findContainHeap" name="EGG::Heap::findContainHeap">
+<area shape="rect" id="node1" title="Scan global heap list for heap containing specified memory block." alt="" coords="260,5,491,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c" title="Disposer constructor. If a containing heap is set, register self to its children." alt="" coords="5,5,212,32"/>
+</map>
