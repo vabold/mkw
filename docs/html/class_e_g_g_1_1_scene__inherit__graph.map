@@ -1,6 +1,7 @@
 <map id="EGG::Scene" name="EGG::Scene">
-<area shape="rect" id="node1" title=" " alt="" coords="17,155,120,181"/>
-<area shape="rect" id="node4" href="$class_r_k_scene.html" title=" " alt="" coords="29,229,108,256"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="5,80,132,107"/>
-<area shape="rect" id="node3" href="$class_non_copyable.html" title=" " alt="" coords="13,5,124,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="75,155,177,181"/>
+<area shape="rect" id="node4" href="$class_r_k_scene.html" title=" " alt="" coords="5,229,84,256"/>
+<area shape="rect" id="node5" href="$class_system_1_1_boot_strap_scene.html" title=" " alt="" coords="108,229,307,256"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="63,80,189,107"/>
+<area shape="rect" id="node3" href="$class_non_copyable.html" title=" " alt="" coords="71,5,181,32"/>
 </map>

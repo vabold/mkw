@@ -1,11 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node1" href="$class_m_e_mi_unt_heap_head.html" title=" " alt="" coords="339,5,481,32"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_unit_heap.html" title=" " alt="" coords="529,31,656,57"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_unit_heap.html" title=" " alt="" coords="565,31,692,57"/>
 <area shape="rect" id="node3" href="$class_non_copyable.html" title=" " alt="" coords="5,107,116,133"/>
 <area shape="rect" id="node4" href="$class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="164,107,291,133"/>
 <area shape="rect" id="node5" href="$class_e_g_g_1_1_archive.html" title=" " alt="" coords="351,56,469,83"/>
 <area shape="rect" id="node6" href="$class_e_g_g_1_1_heap.html" title="Base Heap class." alt="" coords="363,107,457,133"/>
 <area shape="rect" id="node8" href="$class_e_g_g_1_1_scene.html" title=" " alt="" coords="359,157,461,184"/>
-<area shape="rect" id="node7" href="$class_e_g_g_1_1_exp_heap.html" title=" " alt="" coords="533,107,652,133"/>
-<area shape="rect" id="node9" href="$class_r_k_scene.html" title=" " alt="" coords="553,157,632,184"/>
+<area shape="rect" id="node7" href="$class_e_g_g_1_1_exp_heap.html" title=" " alt="" coords="569,107,688,133"/>
+<area shape="rect" id="node9" href="$class_r_k_scene.html" title=" " alt="" coords="589,157,668,184"/>
+<area shape="rect" id="node10" href="$class_system_1_1_boot_strap_scene.html" title=" " alt="" coords="529,208,728,235"/>
 </map>

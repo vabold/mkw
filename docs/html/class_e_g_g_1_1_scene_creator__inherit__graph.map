@@ -1,0 +1,4 @@
+<map id="EGG::SceneCreator" name="EGG::SceneCreator">
+<area shape="rect" id="node1" title=" " alt="" coords="41,5,200,32"/>
+<area shape="rect" id="node2" href="$class_system_1_1_scene_creator_static.html" title="Static scene creator starts the boostrap scene." alt="" coords="5,80,236,107"/>
+</map>

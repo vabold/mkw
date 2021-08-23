@@ -70,7 +70,8 @@ var hierarchy =
           [ "EGG::UnitHeap", "class_e_g_g_1_1_unit_heap.html", null ]
         ] ],
         [ "EGG::Scene", "class_e_g_g_1_1_scene.html", [
-          [ "RKScene", "class_r_k_scene.html", null ]
+          [ "RKScene", "class_r_k_scene.html", null ],
+          [ "System::BootStrapScene", "class_system_1_1_boot_strap_scene.html", null ]
         ] ]
       ] ]
     ] ],
@@ -85,7 +86,9 @@ var hierarchy =
     [ "rvlArchive", "classrvl_archive.html", [
       [ "EGG::LowArchive", "struct_e_g_g_1_1_low_archive.html", null ]
     ] ],
-    [ "EGG::SceneCreator", "class_e_g_g_1_1_scene_creator.html", null ],
+    [ "EGG::SceneCreator", "class_e_g_g_1_1_scene_creator.html", [
+      [ "System::SceneCreatorStatic", "class_system_1_1_scene_creator_static.html", null ]
+    ] ],
     [ "EGG::SceneManager", "class_e_g_g_1_1_scene_manager.html", null ],
     [ "nw4r::math::detail::SinCosSample", "structnw4r_1_1math_1_1detail_1_1_sin_cos_sample.html", null ],
     [ "EGG::Stream", "class_e_g_g_1_1_stream.html", null ],

@@ -18,4 +18,6 @@ digraph "NonCopyable"
   Node7 [label="EGG::Scene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_scene.html",tooltip=" "];
   Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node8 [label="RKScene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_k_scene.html",tooltip=" "];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node9 [label="System::BootStrapScene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_system_1_1_boot_strap_scene.html",tooltip=" "];
 }

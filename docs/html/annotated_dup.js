@@ -80,6 +80,8 @@ var annotated_dup =
         [ "SystemResourceEntry", "struct_system_1_1_resource_1_1_system_resource_entry.html", "struct_system_1_1_resource_1_1_system_resource_entry" ]
       ] ],
       [ "ParameterFile", "class_system_1_1_parameter_file.html", "class_system_1_1_parameter_file" ],
+      [ "BootStrapScene", "class_system_1_1_boot_strap_scene.html", "class_system_1_1_boot_strap_scene" ],
+      [ "SceneCreatorStatic", "class_system_1_1_scene_creator_static.html", "class_system_1_1_scene_creator_static" ],
       [ "SystemManager", "class_system_1_1_system_manager.html", "class_system_1_1_system_manager" ],
       [ "SystemManager.mSimpleAddressData", "struct_system_1_1_system_manager_8m_simple_address_data.html", "struct_system_1_1_system_manager_8m_simple_address_data" ]
     ] ],

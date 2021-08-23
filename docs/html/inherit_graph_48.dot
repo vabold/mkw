@@ -21,4 +21,6 @@ digraph "Graphical Class Hierarchy"
   Node62 [label="EGG::Scene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_scene.html",tooltip=" "];
   Node62 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node63 [label="RKScene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_k_scene.html",tooltip=" "];
+  Node62 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node64 [label="System::BootStrapScene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_system_1_1_boot_strap_scene.html",tooltip=" "];
 }
