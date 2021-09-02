@@ -128,32 +128,52 @@ $(document).ready(function(){initNavTree('egg_thread_8hpp_source.html',''); init
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span>* <a class="code" href="class_e_g_g_1_1_thread.html#a929a2a527dd1243d64f355164b579467">start</a>(<span class="keywordtype">void</span>* eggThread);</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
-<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="class_e_g_g_1_1_thread.html#a33aec4f409656165fca22480efb90d12">  128</a></span>&#160;  <span class="keyword">inline</span> <a class="code" href="class_e_g_g_1_1_heap.html">Heap</a>* <a class="code" href="class_e_g_g_1_1_thread.html#a33aec4f409656165fca22480efb90d12">getAllocatableHeap</a>() { <span class="keywordflow">return</span> mAlloctableHeap; }</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160; </div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  <span class="comment">// List of all registered threads.</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="keyword">static</span> <a class="code" href="structnw4r_1_1ut_1_1_list.html">nw4r::ut::List</a> sThreadList;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="keyword">inline</span> OSThread* getOSThread() { <span class="keywordflow">return</span> mOSThread; }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="class_e_g_g_1_1_thread.html#a33aec4f409656165fca22480efb90d12">  130</a></span>&#160;  <span class="keyword">inline</span> <a class="code" href="class_e_g_g_1_1_heap.html">Heap</a>* <a class="code" href="class_e_g_g_1_1_thread.html#a33aec4f409656165fca22480efb90d12">getAllocatableHeap</a>() { <span class="keywordflow">return</span> mAlloctableHeap; }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span> resume() { OSResumeThread(mOSThread); }</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <a class="code" href="class_e_g_g_1_1_heap.html">Heap</a>* mContainingHeap; </div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  OSThread* mOSThread;   </div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  OSMessageQueue mMesgQueue; </div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  OSMessage* mMesgBuffer;    </div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="keywordtype">int</span> mMesgCount;            </div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  <span class="keywordtype">char</span>* mStackMemory; </div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  u32 mStackSize;     </div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <a class="code" href="class_e_g_g_1_1_heap.html">Heap</a>* mAlloctableHeap; </div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <a class="code" href="structnw4r_1_1ut_1_1_node.html">nw4r::ut::Node</a> mLink;</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;};</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;} <span class="comment">// namespace EGG</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">int</span> sendMessage(OSMessage message) {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">return</span> OSSendMessage(&amp;mMesgQueue, message, OS_MESSAGE_NOBLOCK);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  }</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  <span class="keyword">inline</span> OSMessage waitMessage(<span class="keywordtype">int</span>* success) {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    OSMessage message;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    *success = OSReceiveMessage(&amp;mMesgQueue, &amp;message, OS_MESSAGE_NOBLOCK);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keywordflow">return</span> message;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  }</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="keyword">inline</span> OSMessage waitMessageBlock() {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    OSMessage message;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    OSReceiveMessage(&amp;mMesgQueue, &amp;message, OS_MESSAGE_BLOCK);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordflow">return</span> message;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="comment">// List of all registered threads.</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="keyword">static</span> <a class="code" href="structnw4r_1_1ut_1_1_list.html">nw4r::ut::List</a> sThreadList;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  Heap* mContainingHeap; </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  OSThread* mOSThread;   </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  OSMessageQueue mMesgQueue; </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  OSMessage* mMesgBuffer;    </div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="keywordtype">int</span> mMesgCount;            </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160; </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  <span class="keywordtype">char</span>* mStackMemory; </div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  u32 mStackSize;     </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  Heap* mAlloctableHeap; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <a class="code" href="structnw4r_1_1ut_1_1_node.html">nw4r::ut::Node</a> mLink;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;};</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;} <span class="comment">// namespace EGG</span></div>
 <div class="ttc" id="aclass_e_g_g_1_1_heap_html"><div class="ttname"><a href="class_e_g_g_1_1_heap.html">EGG::Heap</a></div><div class="ttdoc">Base Heap class.</div><div class="ttdef"><b>Definition:</b> eggHeap.hpp:50</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_thread_html"><div class="ttname"><a href="class_e_g_g_1_1_thread.html">EGG::Thread</a></div><div class="ttdoc">Wrapper for OSThread.</div><div class="ttdef"><b>Definition:</b> eggThread.hpp:20</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_thread_html_a1a390cc8d8a258a20d33cbd8331c5815"><div class="ttname"><a href="class_e_g_g_1_1_thread.html#a1a390cc8d8a258a20d33cbd8331c5815">EGG::Thread::Thread</a></div><div class="ttdeci">Thread(u32 stackSize, int msgCount, int prio, Heap *heap)</div><div class="ttdoc">&lt; [vt+0x10]</div><div class="ttdef"><b>Definition:</b> eggThread.cpp:11</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_thread_html_a277a20ae3c47826fb11f094dfcbc1910"><div class="ttname"><a href="class_e_g_g_1_1_thread.html#a277a20ae3c47826fb11f094dfcbc1910">EGG::Thread::switchThreadCallback</a></div><div class="ttdeci">static void switchThreadCallback(OSThread *from, OSThread *to)</div><div class="ttdoc">The callback for switching threads.</div><div class="ttdef"><b>Definition:</b> eggThread.cpp:86</div></div>
-<div class="ttc" id="aclass_e_g_g_1_1_thread_html_a33aec4f409656165fca22480efb90d12"><div class="ttname"><a href="class_e_g_g_1_1_thread.html#a33aec4f409656165fca22480efb90d12">EGG::Thread::getAllocatableHeap</a></div><div class="ttdeci">Heap * getAllocatableHeap()</div><div class="ttdoc">When not NULL will override the heap used for allocations.</div><div class="ttdef"><b>Definition:</b> eggThread.hpp:128</div></div>
+<div class="ttc" id="aclass_e_g_g_1_1_thread_html_a33aec4f409656165fca22480efb90d12"><div class="ttname"><a href="class_e_g_g_1_1_thread.html#a33aec4f409656165fca22480efb90d12">EGG::Thread::getAllocatableHeap</a></div><div class="ttdeci">Heap * getAllocatableHeap()</div><div class="ttdoc">When not NULL will override the heap used for allocations.</div><div class="ttdef"><b>Definition:</b> eggThread.hpp:130</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_thread_html_a44e7d19897fefca5b1c92e09c5b4a0b8"><div class="ttname"><a href="class_e_g_g_1_1_thread.html#a44e7d19897fefca5b1c92e09c5b4a0b8">EGG::Thread::kandoTestCancelAllThread</a></div><div class="ttdeci">static void kandoTestCancelAllThread()</div><div class="ttdoc">Cancel all but the current thread.</div><div class="ttdef"><b>Definition:</b> eggThread.cpp:69</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_thread_html_a6ce2684bb4c57b9b04b1b840cc5a0dc1"><div class="ttname"><a href="class_e_g_g_1_1_thread.html#a6ce2684bb4c57b9b04b1b840cc5a0dc1">EGG::Thread::setCommonMesgQueue</a></div><div class="ttdeci">void setCommonMesgQueue(int msgCount, Heap *heap)</div><div class="ttdoc">Configures the message queue.</div><div class="ttdef"><b>Definition:</b> eggThread.cpp:98</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_thread_html_a74d922f973a189504ea742e67eb57d09"><div class="ttname"><a href="class_e_g_g_1_1_thread.html#a74d922f973a189504ea742e67eb57d09">EGG::Thread::~Thread</a></div><div class="ttdeci">virtual ~Thread()</div><div class="ttdef"><b>Definition:</b> eggThread.cpp:43</div></div>

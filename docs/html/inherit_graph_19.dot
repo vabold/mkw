@@ -6,5 +6,5 @@ digraph "Graphical Class Hierarchy"
   rankdir="LR";
   Node0 [label="EGG::Thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html",tooltip="Wrapper for OSThread."];
   Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node1 [label="EGG::TaskThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_task_thread.html",tooltip="TODO sizeof 0x58."];
+  Node1 [label="EGG::TaskThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_task_thread.html",tooltip=" "];
 }
