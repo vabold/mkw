@@ -8,5 +8,5 @@ digraph "EGG::ColorFader::ColorFader"
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node2 [label="EGG::ColorFader::setColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_color_fader.html#af89a18fb5605c7e655db3ff4c4df7f80",tooltip="Sets the color. Does not modify alpha."];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node3 [label="EGG::ColorFader::setStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_color_fader.html#af96fa7965a524561f41237eff492cee2",tooltip="Sets the status of the color fader."];
+  Node3 [label="EGG::ColorFader::setStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_color_fader.html#aea4fa77e07166dd32192667986d6832d",tooltip="Sets the status of the color fader."];
 }

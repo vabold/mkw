@@ -1,5 +1,21 @@
 var hierarchy =
 [
+    [ "nw4r::math::__MTX33", "structnw4r_1_1math_1_1_____m_t_x33.html", null ],
+    [ "nw4r::math::__MTX34", "structnw4r_1_1math_1_1_____m_t_x34.html", null ],
+    [ "nw4r::math::_MTX33", "structnw4r_1_1math_1_1___m_t_x33.html", [
+      [ "nw4r::math::MTX33", "classnw4r_1_1math_1_1_m_t_x33.html", null ]
+    ] ],
+    [ "nw4r::math::_MTX33.__unnamed5__", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed5____.html", null ],
+    [ "nw4r::math::_MTX34", "structnw4r_1_1math_1_1___m_t_x34.html", [
+      [ "nw4r::math::MTX34", "structnw4r_1_1math_1_1_m_t_x34.html", null ]
+    ] ],
+    [ "nw4r::math::_MTX34.__unnamed7__", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed7____.html", null ],
+    [ "nw4r::math::_MTX44", "structnw4r_1_1math_1_1___m_t_x44.html", [
+      [ "nw4r::math::MTX44", "structnw4r_1_1math_1_1_m_t_x44.html", null ]
+    ] ],
+    [ "nw4r::math::_VEC3", "structnw4r_1_1math_1_1___v_e_c3.html", [
+      [ "nw4r::math::VEC3", "structnw4r_1_1math_1_1_v_e_c3.html", null ]
+    ] ],
     [ "EGG::DvdRipper::Arg", "class_e_g_g_1_1_dvd_ripper_1_1_arg.html", null ],
     [ "Field::BaseGeoHitTableManager", "class_field_1_1_base_geo_hit_table_manager.html", [
       [ "Field::GeoHitTableItemManager", "class_field_1_1_geo_hit_table_item_manager.html", null ]
@@ -29,6 +45,7 @@ var hierarchy =
     [ "nw4r::g3d::Fog", "structnw4r_1_1g3d_1_1_fog.html", null ],
     [ "nw4r::g3d::FogData", "structnw4r_1_1g3d_1_1_fog_data.html", null ],
     [ "UI::ControlGroup::Functor", "struct_u_i_1_1_control_group_1_1_functor.html", null ],
+    [ "Field::GeoHitTableItemObjManager", "class_field_1_1_geo_hit_table_item_obj_manager.html", null ],
     [ "EGG::GraphicsFifo::GPStatus", "class_e_g_g_1_1_graphics_fifo.html#struct_e_g_g_1_1_graphics_fifo_1_1_g_p_status", null ],
     [ "EGG::GraphicsFifo", "class_e_g_g_1_1_graphics_fifo.html", null ],
     [ "EGG::ExpHeap::GroupSizeRecord", "struct_e_g_g_1_1_exp_heap_1_1_group_size_record.html", null ],
@@ -83,6 +100,12 @@ var hierarchy =
     [ "ProcessInfo", "struct_process_info.html", null ],
     [ "EGG::Quatf", "class_e_g_g_1_1_quatf.html", null ],
     [ "Util::Random", "class_util_1_1_random.html", null ],
+    [ "nw4r::g3d::ResCommon< T >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
+    [ "nw4r::g3d::ResCommon< const nw4r::g3d::ResNameData >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
+    [ "nw4r::g3d::ResCommon< nw4r::g3d::CameraData >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
+    [ "nw4r::g3d::ResCommon< nw4r::g3d::FogData >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
+    [ "nw4r::g3d::ResName", "structnw4r_1_1g3d_1_1_res_name.html", null ],
+    [ "nw4r::g3d::ResNameData", "structnw4r_1_1g3d_1_1_res_name_data.html", null ],
     [ "rvlArchive", "classrvl_archive.html", [
       [ "EGG::LowArchive", "struct_e_g_g_1_1_low_archive.html", null ]
     ] ],

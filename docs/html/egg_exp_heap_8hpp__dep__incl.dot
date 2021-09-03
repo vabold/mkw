@@ -6,4 +6,8 @@ digraph "source/egg/core/eggExpHeap.hpp"
   Node1 [label="source/egg/core/eggExpHeap.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="EGG wraper for expanded heaps header."];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node2 [label="source/egg/core/eggExpHeap.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_exp_heap_8cpp.html",tooltip="EGG wraper for expanded heaps implementation."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node3 [label="source/game/RKScene.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_r_k_scene_8hpp_source.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node4 [label="source/game/host_system\l/SceneCreatorStatic.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

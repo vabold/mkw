@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['vector2f_447',['Vector2f',['../struct_e_g_g_1_1_vector2f.html',1,'EGG']]],
-  ['vector3f_448',['Vector3f',['../struct_e_g_g_1_1_vector3f.html',1,'EGG']]],
-  ['video_449',['Video',['../class_e_g_g_1_1_video.html',1,'EGG']]],
-  ['viewport_450',['Viewport',['../class_e_g_g_1_1_viewport.html',1,'EGG']]]
+  ['uicontrol_480',['UIControl',['../class_u_i_1_1_u_i_control.html',1,'UI']]],
+  ['unitheap_481',['UnitHeap',['../class_e_g_g_1_1_unit_heap.html',1,'EGG']]],
+  ['unkstruct_482',['UnkStruct',['../struct_u_i_1_1_unk_struct.html',1,'UI']]]
 ];

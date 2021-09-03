@@ -1,7 +1,14 @@
 <map id="source/game/host_system/SystemManager.hpp" name="source/game/host_system/SystemManager.hpp">
-<area shape="rect" id="node1" title="System Manager." alt="" coords="249,5,456,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,164,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="188,95,331,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="355,95,537,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="561,95,792,121"/>
+<area shape="rect" id="node1" title="System Manager." alt="" coords="366,5,572,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="556,393,659,420"/>
+<area shape="rect" id="node3" title=" " alt="" coords="263,95,374,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="398,95,540,121"/>
+<area shape="rect" id="node5" href="$egg_heap_8hpp.html" title="Base Heap class." alt="" coords="287,169,470,196"/>
+<area shape="rect" id="node12" href="$egg_task_thread_8hpp.html" title="TODO." alt="" coords="8,95,239,121"/>
+<area shape="rect" id="node6" href="$egg_disposer_8hpp.html" title="Headers for EGG::Disposer." alt="" coords="570,244,784,271"/>
+<area shape="rect" id="node7" href="$ut_list_8hpp_source.html" title=" " alt="" coords="460,319,627,345"/>
+<area shape="rect" id="node8" title=" " alt="" coords="267,319,426,345"/>
+<area shape="rect" id="node9" href="$egg_thread_8hpp.html" title="Thread class for extending." alt="" coords="24,244,223,271"/>
+<area shape="rect" id="node11" title=" " alt="" coords="347,244,546,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="76,319,243,345"/>
 </map>

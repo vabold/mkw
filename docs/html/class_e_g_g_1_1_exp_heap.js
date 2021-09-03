@@ -10,7 +10,7 @@ var class_e_g_g_1_1_exp_heap =
     [ "free", "class_e_g_g_1_1_exp_heap.html#aca029169acd8404e6dcc0612394998fd", null ],
     [ "freeAll", "class_e_g_g_1_1_exp_heap.html#ab23933d4ecfed7147af37e7544c978d3", null ],
     [ "getAllocatableSize", "class_e_g_g_1_1_exp_heap.html#af83cbc76b2f84e8f610cb227ac5a1fb9", null ],
-    [ "getHeapKind", "class_e_g_g_1_1_exp_heap.html#aa73075354311f0ed82649cc4e1a847e2", null ],
+    [ "getHeapKind", "class_e_g_g_1_1_exp_heap.html#ad4984de2d2683cf4375840d169cd782c", null ],
     [ "getTotalFreeSize", "class_e_g_g_1_1_exp_heap.html#a7744ae8cf31f2bf5b4a9dcbd8d1ff240", null ],
     [ "initAllocator", "class_e_g_g_1_1_exp_heap.html#acba23939c95fe6628ebe73f3ab48b193", null ],
     [ "resizeForMBlock", "class_e_g_g_1_1_exp_heap.html#a465a7c05c3570285fe6e932899471dd4", null ],

@@ -7,5 +7,5 @@ digraph "source/game/host_system" {
   dir_44b515eb409b2fb9e7cf4ac48543db6d [shape=box, label="host_system", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_44b515eb409b2fb9e7cf4ac48543db6d.html"];
   }
   dir_dfa3dd376ef284b4fe91688c4c5b67ec [shape=box label="egg" fillcolor="white" style="filled" color="red" URL="dir_dfa3dd376ef284b4fe91688c4c5b67ec.html"];
-  dir_44b515eb409b2fb9e7cf4ac48543db6d->dir_dfa3dd376ef284b4fe91688c4c5b67ec [headlabel="1", labeldistance=1.5 headhref="dir_000007_000001.html"];
+  dir_44b515eb409b2fb9e7cf4ac48543db6d->dir_dfa3dd376ef284b4fe91688c4c5b67ec [headlabel="3", labeldistance=1.5 headhref="dir_000007_000001.html"];
 }

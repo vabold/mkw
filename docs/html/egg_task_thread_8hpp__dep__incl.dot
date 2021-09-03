@@ -6,4 +6,6 @@ digraph "source/egg/core/eggTaskThread.hpp"
   Node1 [label="source/egg/core/eggTaskThread.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="TODO."];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node2 [label="source/egg/core/eggTaskThread.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_task_thread_8cpp.html",tooltip="TODO."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node3 [label="source/game/host_system\l/SystemManager.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_system_manager_8hpp.html",tooltip="System Manager."];
 }

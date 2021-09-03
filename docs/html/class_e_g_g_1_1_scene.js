@@ -14,7 +14,7 @@ var class_e_g_g_1_1_scene =
     [ "getHeap_Mem2", "class_e_g_g_1_1_scene.html#ac45cd56377da6530541b09ec0df63b98", null ],
     [ "getParentScene", "class_e_g_g_1_1_scene.html#a197905c953f418aeded36b552e3251e8", null ],
     [ "getParentScene", "class_e_g_g_1_1_scene.html#aa5cfef97477ef31c2d6659396125522c", null ],
-    [ "getSceneID", "class_e_g_g_1_1_scene.html#a31a40c202059280c491a7dcc3ca6aac7", null ],
+    [ "getSceneID", "class_e_g_g_1_1_scene.html#a048c3e3eed83f92e3fa9817f70c970f3", null ],
     [ "getSceneMgr", "class_e_g_g_1_1_scene.html#a886b8287f2e71addaa2d5fbd2ee7ba6e", null ],
     [ "getSceneMgr", "class_e_g_g_1_1_scene.html#a2336a525068e03d5ef60d09fafbf04dd", null ],
     [ "setChildScene", "class_e_g_g_1_1_scene.html#aa7cf2a4bbf840e810e62faded565748c", null ],

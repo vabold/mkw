@@ -94,10 +94,10 @@ $(document).ready(function(){initNavTree('g3d__fog_8hpp_source.html',''); initRe
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;rk_types.h&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;nw4r/math/mathTypes.h&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;nw4r/math/mathTypes.hpp&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;nw4r/ut/utColor.hpp&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;g3d_rescommon.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;g3d_rescommon.hpp&quot;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>nw4r {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>g3d {</div>
@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('g3d__fog_8hpp_source.html',''); initRe
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;};</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structnw4r_1_1g3d_1_1_fog.html">   26</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structnw4r_1_1g3d_1_1_fog.html">Fog</a> {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  ResCommon&lt;FogData&gt; mFogData;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="classnw4r_1_1g3d_1_1_res_common.html">ResCommon&lt;FogData&gt;</a> mFogData;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">inline</span> <a class="code" href="structnw4r_1_1g3d_1_1_fog.html">Fog</a>(<span class="keywordtype">void</span>* vptr) : mFogData(vptr) {}</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
@@ -121,14 +121,16 @@ $(document).ready(function(){initNavTree('g3d__fog_8hpp_source.html',''); initRe
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="comment">// PAL: 0x80077550</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">void</span>* CopyTo(<span class="keywordtype">void</span>*) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="comment">// PAL: 0x800775b0</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordtype">void</span> SetFogRangeAdjParam(u16, u16, <span class="keyword">const</span> math::MTX44&amp;);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordtype">void</span> SetFogRangeAdjParam(u16, u16, <span class="keyword">const</span> <a class="code" href="structnw4r_1_1math_1_1_m_t_x44.html">math::MTX44</a>&amp;);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordtype">void</span> SetGP() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;} <span class="comment">// namespace g3d</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <span class="comment">// namespace nw4r</span></div>
+<div class="ttc" id="aclassnw4r_1_1g3d_1_1_res_common_html"><div class="ttname"><a href="classnw4r_1_1g3d_1_1_res_common.html">nw4r::g3d::ResCommon</a></div><div class="ttdef"><b>Definition:</b> g3d_rescommon.hpp:19</div></div>
 <div class="ttc" id="astructnw4r_1_1g3d_1_1_fog_data_html"><div class="ttname"><a href="structnw4r_1_1g3d_1_1_fog_data.html">nw4r::g3d::FogData</a></div><div class="ttdef"><b>Definition:</b> g3d_fog.hpp:17</div></div>
 <div class="ttc" id="astructnw4r_1_1g3d_1_1_fog_html"><div class="ttname"><a href="structnw4r_1_1g3d_1_1_fog.html">nw4r::g3d::Fog</a></div><div class="ttdef"><b>Definition:</b> g3d_fog.hpp:26</div></div>
+<div class="ttc" id="astructnw4r_1_1math_1_1_m_t_x44_html"><div class="ttname"><a href="structnw4r_1_1math_1_1_m_t_x44.html">nw4r::math::MTX44</a></div><div class="ttdef"><b>Definition:</b> mathTypes.hpp:106</div></div>
 <div class="ttc" id="astructnw4r_1_1ut_1_1_color_html"><div class="ttname"><a href="structnw4r_1_1ut_1_1_color.html">nw4r::ut::Color</a></div><div class="ttdef"><b>Definition:</b> utColor.hpp:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

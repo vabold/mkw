@@ -89,76 +89,82 @@ $(document).ready(function(){initNavTree('_object_director_8hpp_source.html','')
 <a href="_object_director_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;common/rk_types.h&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_object_parameter_8hpp.html">game/geo/ObjectParameter.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;Relocatable/Object/ObjectParameter.hpp&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;rk_types.h&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>Field {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="egg_vector_8hpp.html">egg/math/eggVector.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_field_1_1_base_geo_hit_table_manager.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_field_1_1_base_geo_hit_table_manager.html">BaseGeoHitTableManager</a> {};</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_field_1_1_geo_hit_table_item_manager.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_field_1_1_geo_hit_table_item_manager.html">GeoHitTableItemManager</a> : <span class="keyword">public</span> <a class="code" href="class_field_1_1_base_geo_hit_table_manager.html">BaseGeoHitTableManager</a> { <span class="comment">// sizeof=</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;};</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">struct </span>ObjectBase;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a> {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keyword">static</span> <a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a>* sInstance;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">static</span> <a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a>* getStaticInstance() { <span class="keywordflow">return</span> sInstance; }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="comment">// +0x134 vdt</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="comment">// +0x00 vdt (below)</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a>();</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="comment">// private:</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#a25de0e636cfa6401699426133070a608">   27</a></span>&#160;  <a class="code" href="class_field_1_1_object_parameter.html">ObjectParameter</a>* <a class="code" href="class_field_1_1_object_director.html#a25de0e636cfa6401699426133070a608">mpObjectParameter</a>; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#a59c188455708a73b5c8661ca1dacf8a2">   29</a></span>&#160;  <a class="code" href="class_field_1_1_geo_hit_table_item_manager.html">GeoHitTableItemManager</a>* <a class="code" href="class_field_1_1_object_director.html#a59c188455708a73b5c8661ca1dacf8a2">mpGeoHitTableItemManager</a>;       </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#affd7d774cc1f7ffebdef729b5889a4bc">   30</a></span>&#160;  GeoHitTableItemObjManager* <a class="code" href="class_field_1_1_object_director.html#affd7d774cc1f7ffebdef729b5889a4bc">mpGeoHitTableItemObjManager</a>; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>Field {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_field_1_1_base_geo_hit_table_manager.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_field_1_1_base_geo_hit_table_manager.html">BaseGeoHitTableManager</a> {};</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_field_1_1_geo_hit_table_item_manager.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_field_1_1_geo_hit_table_item_manager.html">GeoHitTableItemManager</a> : <span class="keyword">public</span> <a class="code" href="class_field_1_1_base_geo_hit_table_manager.html">BaseGeoHitTableManager</a> { <span class="comment">// sizeof=</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;};</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_field_1_1_geo_hit_table_item_obj_manager.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_field_1_1_geo_hit_table_item_obj_manager.html">GeoHitTableItemObjManager</a> {};</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">struct </span>ObjectBase;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a> {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keyword">static</span> <a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a>* sInstance;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keyword">static</span> <a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a>* getStaticInstance() { <span class="keywordflow">return</span> sInstance; }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="comment">// +0x134 vdt</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="comment">// +0x00 vdt (below)</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="class_field_1_1_object_director.html">ObjectDirector</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="comment">// private:</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#a25de0e636cfa6401699426133070a608">   30</a></span>&#160;  <a class="code" href="class_field_1_1_object_parameter.html">ObjectParameter</a>* <a class="code" href="class_field_1_1_object_director.html#a25de0e636cfa6401699426133070a608">mpObjectParameter</a>; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#adf02ec3936e53ebde7775f564c6acd8d">   32</a></span>&#160;  <a class="code" href="class_field_1_1_geo_hit_table_item_manager.html">GeoHitTableItemManager</a>* <a class="code" href="class_field_1_1_object_director.html#adf02ec3936e53ebde7775f564c6acd8d">mpGeoHitTableKartManager</a>;       </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#a486d8cbacbb304b6a3ef672861b54b1b">   33</a></span>&#160;  GeoHitTableItemObjManager* <a class="code" href="class_field_1_1_object_director.html#a486d8cbacbb304b6a3ef672861b54b1b">mpGeoHitTableKartObjManager</a>; </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#a59c188455708a73b5c8661ca1dacf8a2">   32</a></span>&#160;  <a class="code" href="class_field_1_1_geo_hit_table_item_manager.html">GeoHitTableItemManager</a>* <a class="code" href="class_field_1_1_object_director.html#a59c188455708a73b5c8661ca1dacf8a2">mpGeoHitTableItemManager</a>;       </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#affd7d774cc1f7ffebdef729b5889a4bc">   33</a></span>&#160;  <a class="code" href="class_field_1_1_geo_hit_table_item_obj_manager.html">GeoHitTableItemObjManager</a>* <a class="code" href="class_field_1_1_object_director.html#affd7d774cc1f7ffebdef729b5889a4bc">mpGeoHitTableItemObjManager</a>; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="comment">// ...</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  u16 mNumObjectsA;         <span class="comment">// 0x20</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  ObjectBase** mppObjectsA; <span class="comment">// 0x24</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="comment">//..</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  u16 mNumObjectsB;         <span class="comment">// 0x30 short count</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  ObjectBase** mppObjectsB; <span class="comment">// 0x34 ObjArray</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  unk8 _54;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">bool</span> _55;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="comment">// .. or pad</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  unk* _58;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="comment">//...</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  unk* _1C; <span class="comment">// buf sizeof=800</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="comment">// ...</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  unk* _24; <span class="comment">// buf sizeof=800</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="comment">// ...</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  unk* _2C; <span class="comment">// buf sizeof=800</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="comment">// ...</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  unk* _34; <span class="comment">// buf sizeof=800</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="comment">// ...</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  unk* _3C; <span class="comment">// buf sizeof=800</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  unk* _40; <span class="comment">// buf sizeof=800</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <a class="code" href="struct_e_g_g_1_1_vector3f.html">EGG::Vector3f</a>* _44;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  unk* _48; <span class="comment">// buf sizeof=800</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="comment">// ...</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  f32 _124;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  f32 _128;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  f32 _12C;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  f32 _130;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;};</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;} <span class="comment">// namespace Field</span></div>
-<div class="ttc" id="aclass_field_1_1_base_geo_hit_table_manager_html"><div class="ttname"><a href="class_field_1_1_base_geo_hit_table_manager.html">Field::BaseGeoHitTableManager</a></div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:14</div></div>
-<div class="ttc" id="aclass_field_1_1_geo_hit_table_item_manager_html"><div class="ttname"><a href="class_field_1_1_geo_hit_table_item_manager.html">Field::GeoHitTableItemManager</a></div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:15</div></div>
-<div class="ttc" id="aclass_field_1_1_object_director_html"><div class="ttname"><a href="class_field_1_1_object_director.html">Field::ObjectDirector</a></div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:18</div></div>
-<div class="ttc" id="aclass_field_1_1_object_director_html_a25de0e636cfa6401699426133070a608"><div class="ttname"><a href="class_field_1_1_object_director.html#a25de0e636cfa6401699426133070a608">Field::ObjectDirector::mpObjectParameter</a></div><div class="ttdeci">ObjectParameter * mpObjectParameter</div><div class="ttdoc">[+0x04]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:27</div></div>
-<div class="ttc" id="aclass_field_1_1_object_director_html_a486d8cbacbb304b6a3ef672861b54b1b"><div class="ttname"><a href="class_field_1_1_object_director.html#a486d8cbacbb304b6a3ef672861b54b1b">Field::ObjectDirector::mpGeoHitTableKartObjManager</a></div><div class="ttdeci">GeoHitTableItemObjManager * mpGeoHitTableKartObjManager</div><div class="ttdoc">[+0x14]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:33</div></div>
-<div class="ttc" id="aclass_field_1_1_object_director_html_a59c188455708a73b5c8661ca1dacf8a2"><div class="ttname"><a href="class_field_1_1_object_director.html#a59c188455708a73b5c8661ca1dacf8a2">Field::ObjectDirector::mpGeoHitTableItemManager</a></div><div class="ttdeci">GeoHitTableItemManager * mpGeoHitTableItemManager</div><div class="ttdoc">[+0x08]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:29</div></div>
-<div class="ttc" id="aclass_field_1_1_object_director_html_adf02ec3936e53ebde7775f564c6acd8d"><div class="ttname"><a href="class_field_1_1_object_director.html#adf02ec3936e53ebde7775f564c6acd8d">Field::ObjectDirector::mpGeoHitTableKartManager</a></div><div class="ttdeci">GeoHitTableItemManager * mpGeoHitTableKartManager</div><div class="ttdoc">[+0x10]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:32</div></div>
-<div class="ttc" id="aclass_field_1_1_object_director_html_affd7d774cc1f7ffebdef729b5889a4bc"><div class="ttname"><a href="class_field_1_1_object_director.html#affd7d774cc1f7ffebdef729b5889a4bc">Field::ObjectDirector::mpGeoHitTableItemObjManager</a></div><div class="ttdeci">GeoHitTableItemObjManager * mpGeoHitTableItemObjManager</div><div class="ttdoc">[+0x0C]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:30</div></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#adf02ec3936e53ebde7775f564c6acd8d">   35</a></span>&#160;  <a class="code" href="class_field_1_1_geo_hit_table_item_manager.html">GeoHitTableItemManager</a>* <a class="code" href="class_field_1_1_object_director.html#adf02ec3936e53ebde7775f564c6acd8d">mpGeoHitTableKartManager</a>;       </div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_field_1_1_object_director.html#a486d8cbacbb304b6a3ef672861b54b1b">   36</a></span>&#160;  <a class="code" href="class_field_1_1_geo_hit_table_item_obj_manager.html">GeoHitTableItemObjManager</a>* <a class="code" href="class_field_1_1_object_director.html#a486d8cbacbb304b6a3ef672861b54b1b">mpGeoHitTableKartObjManager</a>; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="comment">// ...</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  u16 mNumObjectsA;         <span class="comment">// 0x20</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  ObjectBase** mppObjectsA; <span class="comment">// 0x24</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="comment">//..</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  u16 mNumObjectsB;         <span class="comment">// 0x30 short count</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  ObjectBase** mppObjectsB; <span class="comment">// 0x34 ObjArray</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  unk8 _54;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordtype">bool</span> _55;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="comment">// .. or pad</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  unk* _58;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="comment">//...</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  unk* _1C; <span class="comment">// buf sizeof=800</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="comment">// ...</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  unk* _24; <span class="comment">// buf sizeof=800</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="comment">// ...</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  unk* _2C; <span class="comment">// buf sizeof=800</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="comment">// ...</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  unk* _34; <span class="comment">// buf sizeof=800</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="comment">// ...</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  unk* _3C; <span class="comment">// buf sizeof=800</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  unk* _40; <span class="comment">// buf sizeof=800</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <a class="code" href="struct_e_g_g_1_1_vector3f.html">EGG::Vector3f</a>* _44;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  unk* _48; <span class="comment">// buf sizeof=800</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="comment">// ...</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  f32 _124;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  f32 _128;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  f32 _12C;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  f32 _130;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;};</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;} <span class="comment">// namespace Field</span></div>
+<div class="ttc" id="a_object_parameter_8hpp_html"><div class="ttname"><a href="_object_parameter_8hpp.html">ObjectParameter.hpp</a></div><div class="ttdoc">Manages the object flow (parameters)!</div></div>
+<div class="ttc" id="aclass_field_1_1_base_geo_hit_table_manager_html"><div class="ttname"><a href="class_field_1_1_base_geo_hit_table_manager.html">Field::BaseGeoHitTableManager</a></div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:16</div></div>
+<div class="ttc" id="aclass_field_1_1_geo_hit_table_item_manager_html"><div class="ttname"><a href="class_field_1_1_geo_hit_table_item_manager.html">Field::GeoHitTableItemManager</a></div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:17</div></div>
+<div class="ttc" id="aclass_field_1_1_geo_hit_table_item_obj_manager_html"><div class="ttname"><a href="class_field_1_1_geo_hit_table_item_obj_manager.html">Field::GeoHitTableItemObjManager</a></div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:19</div></div>
+<div class="ttc" id="aclass_field_1_1_object_director_html"><div class="ttname"><a href="class_field_1_1_object_director.html">Field::ObjectDirector</a></div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:21</div></div>
+<div class="ttc" id="aclass_field_1_1_object_director_html_a25de0e636cfa6401699426133070a608"><div class="ttname"><a href="class_field_1_1_object_director.html#a25de0e636cfa6401699426133070a608">Field::ObjectDirector::mpObjectParameter</a></div><div class="ttdeci">ObjectParameter * mpObjectParameter</div><div class="ttdoc">[+0x04]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:30</div></div>
+<div class="ttc" id="aclass_field_1_1_object_director_html_a486d8cbacbb304b6a3ef672861b54b1b"><div class="ttname"><a href="class_field_1_1_object_director.html#a486d8cbacbb304b6a3ef672861b54b1b">Field::ObjectDirector::mpGeoHitTableKartObjManager</a></div><div class="ttdeci">GeoHitTableItemObjManager * mpGeoHitTableKartObjManager</div><div class="ttdoc">[+0x14]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:36</div></div>
+<div class="ttc" id="aclass_field_1_1_object_director_html_a59c188455708a73b5c8661ca1dacf8a2"><div class="ttname"><a href="class_field_1_1_object_director.html#a59c188455708a73b5c8661ca1dacf8a2">Field::ObjectDirector::mpGeoHitTableItemManager</a></div><div class="ttdeci">GeoHitTableItemManager * mpGeoHitTableItemManager</div><div class="ttdoc">[+0x08]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:32</div></div>
+<div class="ttc" id="aclass_field_1_1_object_director_html_adf02ec3936e53ebde7775f564c6acd8d"><div class="ttname"><a href="class_field_1_1_object_director.html#adf02ec3936e53ebde7775f564c6acd8d">Field::ObjectDirector::mpGeoHitTableKartManager</a></div><div class="ttdeci">GeoHitTableItemManager * mpGeoHitTableKartManager</div><div class="ttdoc">[+0x10]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:35</div></div>
+<div class="ttc" id="aclass_field_1_1_object_director_html_affd7d774cc1f7ffebdef729b5889a4bc"><div class="ttname"><a href="class_field_1_1_object_director.html#affd7d774cc1f7ffebdef729b5889a4bc">Field::ObjectDirector::mpGeoHitTableItemObjManager</a></div><div class="ttdeci">GeoHitTableItemObjManager * mpGeoHitTableItemObjManager</div><div class="ttdoc">[+0x0C]</div><div class="ttdef"><b>Definition:</b> ObjectDirector.hpp:33</div></div>
 <div class="ttc" id="aclass_field_1_1_object_parameter_html"><div class="ttname"><a href="class_field_1_1_object_parameter.html">Field::ObjectParameter</a></div><div class="ttdef"><b>Definition:</b> ObjectParameter.hpp:14</div></div>
+<div class="ttc" id="aegg_vector_8hpp_html"><div class="ttname"><a href="egg_vector_8hpp.html">eggVector.hpp</a></div><div class="ttdoc">TODO.</div></div>
 <div class="ttc" id="astruct_e_g_g_1_1_vector3f_html"><div class="ttname"><a href="struct_e_g_g_1_1_vector3f.html">EGG::Vector3f</a></div><div class="ttdef"><b>Definition:</b> eggVector.hpp:31</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

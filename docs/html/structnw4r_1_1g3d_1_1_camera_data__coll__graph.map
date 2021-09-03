@@ -1,8 +1,12 @@
 <map id="nw4r::g3d::CameraData" name="nw4r::g3d::CameraData">
-<area shape="rect" id="node1" title=" " alt="" coords="145,241,336,268"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,60,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="113,5,176,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="209,5,272,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="321,5,368,32"/>
-<area shape="rect" id="node6" title=" " alt="" coords="433,5,480,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="220,552,410,579"/>
+<area shape="rect" id="node2" href="$structnw4r_1_1math_1_1_m_t_x44.html" title=" " alt="" coords="56,360,214,387"/>
+<area shape="rect" id="node3" href="$structnw4r_1_1math_1_1___m_t_x44.html" title=" " alt="" coords="46,124,213,151"/>
+<area shape="rect" id="node4" title=" " alt="" coords="106,5,153,32"/>
+<area shape="rect" id="node9" href="$structnw4r_1_1math_1_1___v_e_c3.html" title=" " alt="" coords="237,124,396,151"/>
+<area shape="rect" id="node5" href="$structnw4r_1_1math_1_1_m_t_x34.html" title=" " alt="" coords="414,360,573,387"/>
+<area shape="rect" id="node6" href="$structnw4r_1_1math_1_1___m_t_x34.html" title=" " alt="" coords="420,124,586,151"/>
+<area shape="rect" id="node7" title=" " alt="" coords="444,5,562,32"/>
+<area shape="rect" id="node8" href="$structnw4r_1_1math_1_1_v_e_c3.html" title=" " alt="" coords="240,360,390,387"/>
+<area shape="rect" id="node10" title=" " alt="" coords="597,360,644,387"/>
 </map>

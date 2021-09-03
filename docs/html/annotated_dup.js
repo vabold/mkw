@@ -36,6 +36,7 @@ var annotated_dup =
     [ "Field", null, [
       [ "BaseGeoHitTableManager", "class_field_1_1_base_geo_hit_table_manager.html", null ],
       [ "GeoHitTableItemManager", "class_field_1_1_geo_hit_table_item_manager.html", null ],
+      [ "GeoHitTableItemObjManager", "class_field_1_1_geo_hit_table_item_obj_manager.html", null ],
       [ "ObjectDirector", "class_field_1_1_object_director.html", "class_field_1_1_object_director" ],
       [ "ObjectParameter", "class_field_1_1_object_parameter.html", "class_field_1_1_object_parameter" ],
       [ "JmpResourceCourse", "class_field_1_1_jmp_resource_course.html", null ],
@@ -62,12 +63,27 @@ var annotated_dup =
         [ "CameraData", "structnw4r_1_1g3d_1_1_camera_data.html", "structnw4r_1_1g3d_1_1_camera_data" ],
         [ "Camera", "structnw4r_1_1g3d_1_1_camera.html", "structnw4r_1_1g3d_1_1_camera" ],
         [ "FogData", "structnw4r_1_1g3d_1_1_fog_data.html", "structnw4r_1_1g3d_1_1_fog_data" ],
-        [ "Fog", "structnw4r_1_1g3d_1_1_fog.html", "structnw4r_1_1g3d_1_1_fog" ]
+        [ "Fog", "structnw4r_1_1g3d_1_1_fog.html", "structnw4r_1_1g3d_1_1_fog" ],
+        [ "ResCommon", "classnw4r_1_1g3d_1_1_res_common.html", "classnw4r_1_1g3d_1_1_res_common" ],
+        [ "ResNameData", "structnw4r_1_1g3d_1_1_res_name_data.html", "structnw4r_1_1g3d_1_1_res_name_data" ],
+        [ "ResName", "structnw4r_1_1g3d_1_1_res_name.html", "structnw4r_1_1g3d_1_1_res_name" ]
       ] ],
       [ "math", null, [
         [ "detail", null, [
           [ "SinCosSample", "structnw4r_1_1math_1_1detail_1_1_sin_cos_sample.html", "structnw4r_1_1math_1_1detail_1_1_sin_cos_sample" ]
-        ] ]
+        ] ],
+        [ "_VEC3", "structnw4r_1_1math_1_1___v_e_c3.html", "structnw4r_1_1math_1_1___v_e_c3" ],
+        [ "__MTX33", "structnw4r_1_1math_1_1_____m_t_x33.html", "structnw4r_1_1math_1_1_____m_t_x33" ],
+        [ "_MTX33", "structnw4r_1_1math_1_1___m_t_x33.html", null ],
+        [ "__MTX34", "structnw4r_1_1math_1_1_____m_t_x34.html", "structnw4r_1_1math_1_1_____m_t_x34" ],
+        [ "_MTX34", "structnw4r_1_1math_1_1___m_t_x34.html", null ],
+        [ "_MTX44", "structnw4r_1_1math_1_1___m_t_x44.html", "structnw4r_1_1math_1_1___m_t_x44" ],
+        [ "VEC3", "structnw4r_1_1math_1_1_v_e_c3.html", "structnw4r_1_1math_1_1_v_e_c3" ],
+        [ "MTX33", "classnw4r_1_1math_1_1_m_t_x33.html", "classnw4r_1_1math_1_1_m_t_x33" ],
+        [ "MTX34", "structnw4r_1_1math_1_1_m_t_x34.html", "structnw4r_1_1math_1_1_m_t_x34" ],
+        [ "MTX44", "structnw4r_1_1math_1_1_m_t_x44.html", "structnw4r_1_1math_1_1_m_t_x44" ],
+        [ "_MTX33.__unnamed5__", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed5____.html", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed5____" ],
+        [ "_MTX34.__unnamed7__", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed7____.html", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed7____" ]
       ] ],
       [ "ut", null, [
         [ "Color", "structnw4r_1_1ut_1_1_color.html", "structnw4r_1_1ut_1_1_color" ],

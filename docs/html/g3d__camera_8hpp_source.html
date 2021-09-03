@@ -94,21 +94,21 @@ $(document).ready(function(){initNavTree('g3d__camera_8hpp_source.html',''); ini
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;rk_types.h&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;nw4r/math/mathTypes.h&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;nw4r/math/mathTypes.hpp&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;rvl/mtx/mtx.h&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;g3d_rescommon.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;g3d_rescommon.hpp&quot;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>nw4r {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>g3d {</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structnw4r_1_1g3d_1_1_camera_data.html">   16</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structnw4r_1_1g3d_1_1_camera_data.html">CameraData</a> {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  math::MTX34 mCamMtx;  <span class="comment">// at 0x0</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  math::MTX44 mProjMtx; <span class="comment">// at 0x30</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="structnw4r_1_1math_1_1_m_t_x34.html">math::MTX34</a> mCamMtx;  <span class="comment">// at 0x0</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <a class="code" href="structnw4r_1_1math_1_1_m_t_x44.html">math::MTX44</a> mProjMtx; <span class="comment">// at 0x30</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  u32 mFlags;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  math::VEC3 mPos; <span class="comment">// at 0x74</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  math::VEC3 VEC3_0x80;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  math::VEC3 VEC3_0x8C;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  math::VEC3 VEC3_0x98;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="structnw4r_1_1math_1_1_v_e_c3.html">math::VEC3</a> mPos; <span class="comment">// at 0x74</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <a class="code" href="structnw4r_1_1math_1_1_v_e_c3.html">math::VEC3</a> VEC3_0x80;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <a class="code" href="structnw4r_1_1math_1_1_v_e_c3.html">math::VEC3</a> VEC3_0x8C;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <a class="code" href="structnw4r_1_1math_1_1_v_e_c3.html">math::VEC3</a> VEC3_0x98;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  f32 FLOAT_0xA4;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  u32 INT_0xA8;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  f32 FLOAT_0xAC;</div>
@@ -140,14 +140,14 @@ $(document).ready(function(){initNavTree('g3d__camera_8hpp_source.html',''); ini
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structnw4r_1_1g3d_1_1_camera.html">   52</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structnw4r_1_1g3d_1_1_camera.html">Camera</a> {</div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="structnw4r_1_1g3d_1_1_camera.html">   53</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structnw4r_1_1g3d_1_1_camera.html#structnw4r_1_1g3d_1_1_camera_1_1_posture_info">PostureInfo</a> {</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> INT_0x0;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    math::VEC3 VEC3_0x04;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    math::VEC3 VEC3_0x10;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    math::VEC3 VEC3_0x1C;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="structnw4r_1_1math_1_1_v_e_c3.html">math::VEC3</a> VEC3_0x04;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="structnw4r_1_1math_1_1_v_e_c3.html">math::VEC3</a> VEC3_0x10;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="structnw4r_1_1math_1_1_v_e_c3.html">math::VEC3</a> VEC3_0x1C;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    f32 FLOAT_0x28;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">// . . .</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  };</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  ResCommon&lt;CameraData&gt; mCamData;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <a class="code" href="classnw4r_1_1g3d_1_1_res_common.html">ResCommon&lt;CameraData&gt;</a> mCamData;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keyword">inline</span> <a class="code" href="structnw4r_1_1g3d_1_1_camera.html">Camera</a>(<span class="keywordtype">void</span>* vptr) : mCamData(vptr) {}</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span> UpdateProjectionMtx()<span class="keyword"> const </span>{</div>
@@ -204,9 +204,13 @@ $(document).ready(function(){initNavTree('g3d__camera_8hpp_source.html',''); ini
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;};</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;} <span class="comment">// namespace g3d</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;} <span class="comment">// namespace nw4r</span></div>
+<div class="ttc" id="aclassnw4r_1_1g3d_1_1_res_common_html"><div class="ttname"><a href="classnw4r_1_1g3d_1_1_res_common.html">nw4r::g3d::ResCommon</a></div><div class="ttdef"><b>Definition:</b> g3d_rescommon.hpp:19</div></div>
 <div class="ttc" id="astructnw4r_1_1g3d_1_1_camera_data_html"><div class="ttname"><a href="structnw4r_1_1g3d_1_1_camera_data.html">nw4r::g3d::CameraData</a></div><div class="ttdef"><b>Definition:</b> g3d_camera.hpp:16</div></div>
 <div class="ttc" id="astructnw4r_1_1g3d_1_1_camera_html"><div class="ttname"><a href="structnw4r_1_1g3d_1_1_camera.html">nw4r::g3d::Camera</a></div><div class="ttdef"><b>Definition:</b> g3d_camera.hpp:52</div></div>
 <div class="ttc" id="astructnw4r_1_1g3d_1_1_camera_html_structnw4r_1_1g3d_1_1_camera_1_1_posture_info"><div class="ttname"><a href="structnw4r_1_1g3d_1_1_camera.html#structnw4r_1_1g3d_1_1_camera_1_1_posture_info">nw4r::g3d::Camera::PostureInfo</a></div><div class="ttdef"><b>Definition:</b> g3d_camera.hpp:53</div></div>
+<div class="ttc" id="astructnw4r_1_1math_1_1_m_t_x34_html"><div class="ttname"><a href="structnw4r_1_1math_1_1_m_t_x34.html">nw4r::math::MTX34</a></div><div class="ttdef"><b>Definition:</b> mathTypes.hpp:91</div></div>
+<div class="ttc" id="astructnw4r_1_1math_1_1_m_t_x44_html"><div class="ttname"><a href="structnw4r_1_1math_1_1_m_t_x44.html">nw4r::math::MTX44</a></div><div class="ttdef"><b>Definition:</b> mathTypes.hpp:106</div></div>
+<div class="ttc" id="astructnw4r_1_1math_1_1_v_e_c3_html"><div class="ttname"><a href="structnw4r_1_1math_1_1_v_e_c3.html">nw4r::math::VEC3</a></div><div class="ttdef"><b>Definition:</b> mathTypes.hpp:53</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
