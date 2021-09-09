@@ -22,6 +22,7 @@ digraph "source/egg/core/eggAllocator.cpp"
   Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node8 [label="rvl/os/osThread.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node9 [label="egg/core/eggThread.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_thread_8hpp.html",tooltip="Thread class for extending."];
   Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
@@ -29,5 +30,4 @@ digraph "source/egg/core/eggAllocator.cpp"
   Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node10 [label="rvl/os/osMessage.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
 }

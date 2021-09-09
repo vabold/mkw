@@ -26,6 +26,7 @@ digraph "source/egg/core/eggUnitHeap.cpp"
   Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node10 [label="rvl/os/osThread.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node11 [label="egg/core/eggThread.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_thread_8hpp.html",tooltip="Thread class for extending."];
   Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
@@ -33,7 +34,6 @@ digraph "source/egg/core/eggUnitHeap.cpp"
   Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node12 [label="rvl/os/osMessage.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node6 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node13 [label="rvl/mem/unitHeap.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }
