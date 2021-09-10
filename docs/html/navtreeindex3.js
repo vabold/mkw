@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"egg_unit_heap_8cpp.html#a2ff1163c5476e8f29328bbc72c1b15f7":[2,0,0,0,0,25,0],
+"egg_unit_heap_8hpp.html":[2,0,0,0,0,26],
+"egg_unit_heap_8hpp_source.html":[2,0,0,0,0,26],
+"egg_vector_8cpp.html":[2,0,0,0,1,4],
+"egg_vector_8hpp.html":[2,0,0,0,1,5],
+"egg_vector_8hpp_source.html":[2,0,0,0,1,5],
+"egg_video_8cpp.html":[2,0,0,0,0,27],
 "egg_video_8hpp.html":[2,0,0,0,0,28],
 "egg_video_8hpp_source.html":[2,0,0,0,0,28],
 "egg_viewport_8hpp.html":[2,0,0,0,0,29],

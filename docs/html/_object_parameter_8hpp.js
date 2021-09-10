@@ -32,6 +32,7 @@ var _object_parameter_8hpp =
       [ "P7", "class_field_1_1_object_parameter.html#af54c232128515a23356e200bca96eca5", null ]
     ] ],
     [ "Header", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_header", [
+      [ "entries", "class_field_1_1_object_parameter.html#af00aef42674a2367cd50bc0467c368cd", null ],
       [ "nEntry", "class_field_1_1_object_parameter.html#ae9dd4279e0ef560ba90c74c7ac926c77", null ]
     ] ],
     [ "eMapdataGeoObjID", "_object_parameter_8hpp.html#a010a1fef69e4254f9665e1bfb3cada49", null ]
