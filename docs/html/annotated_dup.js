@@ -104,6 +104,7 @@ var annotated_dup =
     [ "UI", null, [
       [ "ControlGroup", "class_u_i_1_1_control_group.html", "class_u_i_1_1_control_group" ],
       [ "MessageGroup", "class_u_i_1_1_message_group.html", "class_u_i_1_1_message_group" ],
+      [ "Page", "class_u_i_1_1_page.html", "class_u_i_1_1_page" ],
       [ "TypeInfo", "struct_u_i_1_1_type_info.html", "struct_u_i_1_1_type_info" ],
       [ "Deferred", "struct_u_i_1_1_deferred.html", "struct_u_i_1_1_deferred" ],
       [ "UnkStruct", "struct_u_i_1_1_unk_struct.html", "struct_u_i_1_1_unk_struct" ],

@@ -94,6 +94,7 @@ var hierarchy =
     ] ],
     [ "Field::ObjectDirector", "class_field_1_1_object_director.html", null ],
     [ "Field::ObjectParameter", "class_field_1_1_object_parameter.html", null ],
+    [ "UI::Page", "class_u_i_1_1_page.html", null ],
     [ "Field::ObjectParameter::Parameter", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter", null ],
     [ "System::ParameterFile", "class_system_1_1_parameter_file.html", null ],
     [ "nw4r::g3d::Camera::PostureInfo", "structnw4r_1_1g3d_1_1_camera.html#structnw4r_1_1g3d_1_1_camera_1_1_posture_info", null ],
