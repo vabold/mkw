@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"egg_unit_heap_8cpp.html#a29402af8fa7cc9b8a36134474c353347":[2,0,0,0,0,25,1],
 "egg_unit_heap_8cpp.html#a2ff1163c5476e8f29328bbc72c1b15f7":[2,0,0,0,0,25,0],
 "egg_unit_heap_8hpp.html":[2,0,0,0,0,26],
 "egg_unit_heap_8hpp_source.html":[2,0,0,0,0,26],
@@ -53,10 +54,11 @@ var NAVTREEINDEX3 =
 "group___k_m_p2320.html#gaaf3e12b8639768432ccb4ad06d26c005":[0,0,0],
 "hierarchy.html":[1,2],
 "index.html":[],
-"math_cast_8hpp_source.html":[2,0,0,2,1,0],
-"math_constants_8hpp_source.html":[2,0,0,2,1,1],
-"math_triangular_8hpp_source.html":[2,0,0,2,1,2],
-"math_types_8hpp_source.html":[2,0,0,2,1,3],
+"lyt__init_8hpp_source.html":[2,0,0,2,1,0],
+"math_cast_8hpp_source.html":[2,0,0,2,2,0],
+"math_constants_8hpp_source.html":[2,0,0,2,2,1],
+"math_triangular_8hpp_source.html":[2,0,0,2,2,2],
+"math_types_8hpp_source.html":[2,0,0,2,2,3],
 "modules.html":[0],
 "pages.html":[],
 "struct_e_g_g_1_1_bound_box2f.html":[1,0,0,25],
@@ -242,7 +244,7 @@ var NAVTREEINDEX3 =
 "structnw4r_1_1ut_1_1_color.html#ab68ff7df4de90e7fb6749c8e26c63d3c":[1,0,3,2,0,9],
 "structnw4r_1_1ut_1_1_color.html#ad1504b99d25e307c98c82edb3dd30d45":[1,0,3,2,0,8],
 "structnw4r_1_1ut_1_1_color.html#ae58921b9a0cf615a5eff9682d33d895a":[1,0,3,2,0,5],
-"ut_color_8hpp_source.html":[2,0,0,2,2,0],
-"ut_inlines_8hpp_source.html":[2,0,0,2,2,1],
-"ut_list_8hpp_source.html":[2,0,0,2,2,2]
+"ut_color_8hpp_source.html":[2,0,0,2,3,0],
+"ut_inlines_8hpp_source.html":[2,0,0,2,3,1],
+"ut_list_8hpp_source.html":[2,0,0,2,3,2]
 };
