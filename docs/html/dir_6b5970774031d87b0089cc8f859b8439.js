@@ -15,6 +15,7 @@ var dir_6b5970774031d87b0089cc8f859b8439 =
     ] ],
     [ "eggAsyncDisplay.hpp", "egg_async_display_8hpp_source.html", null ],
     [ "eggColorFader.hpp", "egg_color_fader_8hpp_source.html", null ],
+    [ "eggDecomp.hpp", "egg_decomp_8hpp_source.html", null ],
     [ "eggDisplay.hpp", "egg_display_8hpp_source.html", null ],
     [ "eggDisposer.cpp", "egg_disposer_8cpp.html", null ],
     [ "eggDisposer.hpp", "egg_disposer_8hpp.html", [
