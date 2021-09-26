@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
   node [fontname="FreeMono",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="nw4r::g3d::ResCommon\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnw4r_1_1g3d_1_1_res_common.html",tooltip=" "];
+  Node0 [label="nw4r::g3d::ResCommon\l\< nw4r::g3d::FogData \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnw4r_1_1g3d_1_1_res_common.html",tooltip=" "];
 }

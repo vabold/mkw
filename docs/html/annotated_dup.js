@@ -6,6 +6,7 @@ var annotated_dup =
       [ "Archive", "class_e_g_g_1_1_archive.html", "class_e_g_g_1_1_archive" ],
       [ "Fader", "class_e_g_g_1_1_fader.html", "class_e_g_g_1_1_fader" ],
       [ "ColorFader", "class_e_g_g_1_1_color_fader.html", "class_e_g_g_1_1_color_fader" ],
+      [ "Display", "class_e_g_g_1_1_display.html", "class_e_g_g_1_1_display" ],
       [ "Disposer", "class_e_g_g_1_1_disposer.html", "class_e_g_g_1_1_disposer" ],
       [ "DvdFile", "class_e_g_g_1_1_dvd_file.html", "class_e_g_g_1_1_dvd_file" ],
       [ "DvdRipper", "class_e_g_g_1_1_dvd_ripper.html", "class_e_g_g_1_1_dvd_ripper" ],

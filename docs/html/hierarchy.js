@@ -31,6 +31,7 @@ var hierarchy =
     [ "Field::ObjectParameter::Parameter::Data", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data", null ],
     [ "UI::Deferred< T >", "struct_u_i_1_1_deferred.html", null ],
     [ "UI::Deferred< UI::Element >", "struct_u_i_1_1_deferred.html", null ],
+    [ "EGG::Display", "class_e_g_g_1_1_display.html", null ],
     [ "DVDFileInfo", "class_d_v_d_file_info.html", null ],
     [ "EGG::DvdRipper", "class_e_g_g_1_1_dvd_ripper.html", null ],
     [ "UI::Element", "struct_u_i_1_1_element.html", null ],
