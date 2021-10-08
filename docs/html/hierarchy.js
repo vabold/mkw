@@ -5,11 +5,11 @@ var hierarchy =
     [ "nw4r::math::_MTX33", "structnw4r_1_1math_1_1___m_t_x33.html", [
       [ "nw4r::math::MTX33", "classnw4r_1_1math_1_1_m_t_x33.html", null ]
     ] ],
-    [ "nw4r::math::_MTX33.__unnamed5__", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed5____.html", null ],
+    [ "nw4r::math::_MTX33.__unnamed10__", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed10____.html", null ],
     [ "nw4r::math::_MTX34", "structnw4r_1_1math_1_1___m_t_x34.html", [
       [ "nw4r::math::MTX34", "structnw4r_1_1math_1_1_m_t_x34.html", null ]
     ] ],
-    [ "nw4r::math::_MTX34.__unnamed7__", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed7____.html", null ],
+    [ "nw4r::math::_MTX34.__unnamed12__", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed12____.html", null ],
     [ "nw4r::math::_MTX44", "structnw4r_1_1math_1_1___m_t_x44.html", [
       [ "nw4r::math::MTX44", "structnw4r_1_1math_1_1_m_t_x44.html", null ]
     ] ],
@@ -29,6 +29,7 @@ var hierarchy =
     [ "nw4r::ut::Color", "structnw4r_1_1ut_1_1_color.html", null ],
     [ "UI::ControlGroup", "class_u_i_1_1_control_group.html", null ],
     [ "Field::ObjectParameter::Parameter::Data", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data", null ],
+    [ "System::Date", "class_system_1_1_date.html", null ],
     [ "UI::Deferred< T >", "struct_u_i_1_1_deferred.html", null ],
     [ "UI::Deferred< UI::Element >", "struct_u_i_1_1_deferred.html", null ],
     [ "EGG::Display", "class_e_g_g_1_1_display.html", null ],
@@ -47,6 +48,8 @@ var hierarchy =
     [ "nw4r::g3d::FogData", "structnw4r_1_1g3d_1_1_fog_data.html", null ],
     [ "UI::ControlGroup::Functor", "struct_u_i_1_1_control_group_1_1_functor.html", null ],
     [ "Field::GeoHitTableItemObjManager", "class_field_1_1_geo_hit_table_item_obj_manager.html", null ],
+    [ "System::GhostFile", "class_system_1_1_ghost_file.html", null ],
+    [ "System::GhostFileGroup", "class_system_1_1_ghost_file_group.html", null ],
     [ "EGG::GraphicsFifo::GPStatus", "class_e_g_g_1_1_graphics_fifo.html#struct_e_g_g_1_1_graphics_fifo_1_1_g_p_status", null ],
     [ "EGG::GraphicsFifo", "class_e_g_g_1_1_graphics_fifo.html", null ],
     [ "EGG::ExpHeap::GroupSizeRecord", "struct_e_g_g_1_1_exp_heap_1_1_group_size_record.html", null ],
@@ -79,6 +82,7 @@ var hierarchy =
       [ "EGG::UnitHeap", "class_e_g_g_1_1_unit_heap.html", null ]
     ] ],
     [ "UI::MessageGroup", "class_u_i_1_1_message_group.html", null ],
+    [ "System::Mii", "class_system_1_1_mii.html", null ],
     [ "nw4r::ut::Node", "structnw4r_1_1ut_1_1_node.html", null ],
     [ "NonCopyable", "class_non_copyable.html", [
       [ "EGG::Disposer", "class_e_g_g_1_1_disposer.html", [
@@ -102,6 +106,7 @@ var hierarchy =
     [ "ProcessInfo", "struct_process_info.html", null ],
     [ "EGG::Quatf", "class_e_g_g_1_1_quatf.html", null ],
     [ "Util::Random", "class_util_1_1_random.html", null ],
+    [ "System::RawGhostFile", "struct_system_1_1_raw_ghost_file.html", null ],
     [ "nw4r::g3d::ResCommon< T >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
     [ "nw4r::g3d::ResCommon< const nw4r::g3d::ResNameData >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
     [ "nw4r::g3d::ResCommon< nw4r::g3d::CameraData >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
@@ -127,6 +132,7 @@ var hierarchy =
     [ "EGG::Thread", "class_e_g_g_1_1_thread.html", [
       [ "EGG::TaskThread", "class_e_g_g_1_1_task_thread.html", null ]
     ] ],
+    [ "System::Time", "class_system_1_1_time.html", null ],
     [ "EGG::TaskThread::TJob", "struct_e_g_g_1_1_task_thread_1_1_t_job.html", null ],
     [ "UI::TypeInfo", "struct_u_i_1_1_type_info.html", null ],
     [ "UI::UIControl", "class_u_i_1_1_u_i_control.html", null ],

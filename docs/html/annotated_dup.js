@@ -83,8 +83,8 @@ var annotated_dup =
         [ "MTX33", "classnw4r_1_1math_1_1_m_t_x33.html", "classnw4r_1_1math_1_1_m_t_x33" ],
         [ "MTX34", "structnw4r_1_1math_1_1_m_t_x34.html", "structnw4r_1_1math_1_1_m_t_x34" ],
         [ "MTX44", "structnw4r_1_1math_1_1_m_t_x44.html", "structnw4r_1_1math_1_1_m_t_x44" ],
-        [ "_MTX33.__unnamed5__", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed5____.html", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed5____" ],
-        [ "_MTX34.__unnamed7__", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed7____.html", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed7____" ]
+        [ "_MTX33.__unnamed10__", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed10____.html", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed10____" ],
+        [ "_MTX34.__unnamed12__", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed12____.html", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed12____" ]
       ] ],
       [ "ut", null, [
         [ "Color", "structnw4r_1_1ut_1_1_color.html", "structnw4r_1_1ut_1_1_color" ],
@@ -100,6 +100,12 @@ var annotated_dup =
       [ "BootStrapScene", "class_system_1_1_boot_strap_scene.html", "class_system_1_1_boot_strap_scene" ],
       [ "SceneCreatorStatic", "class_system_1_1_scene_creator_static.html", "class_system_1_1_scene_creator_static" ],
       [ "SystemManager", "class_system_1_1_system_manager.html", "class_system_1_1_system_manager" ],
+      [ "Time", "class_system_1_1_time.html", "class_system_1_1_time" ],
+      [ "Date", "class_system_1_1_date.html", "class_system_1_1_date" ],
+      [ "RawGhostFile", "struct_system_1_1_raw_ghost_file.html", "struct_system_1_1_raw_ghost_file" ],
+      [ "GhostFile", "class_system_1_1_ghost_file.html", "class_system_1_1_ghost_file" ],
+      [ "GhostFileGroup", "class_system_1_1_ghost_file_group.html", "class_system_1_1_ghost_file_group" ],
+      [ "Mii", "class_system_1_1_mii.html", "class_system_1_1_mii" ],
       [ "SystemManager.mSimpleAddressData", "struct_system_1_1_system_manager_8m_simple_address_data.html", "struct_system_1_1_system_manager_8m_simple_address_data" ]
     ] ],
     [ "UI", null, [
