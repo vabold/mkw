@@ -1,7 +1,7 @@
 <map id="Field::MapdataJugemPoint" name="Field::MapdataJugemPoint">
-<area shape="rect" id="node1" title=" " alt="" coords="5,260,220,287"/>
-<area shape="rect" id="node2" title=" " alt="" coords="9,140,56,167"/>
-<area shape="rect" id="node3" title=" " alt="" coords="89,140,136,167"/>
-<area shape="rect" id="node4" href="$struct_e_g_g_1_1_vector3f.html" title=" " alt="" coords="160,140,287,167"/>
-<area shape="rect" id="node5" title=" " alt="" coords="192,5,255,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="129,260,344,287"/>
+<area shape="rect" id="node2" href="$struct_e_g_g_1_1_vector3f.html" title=" " alt="" coords="5,140,132,167"/>
+<area shape="rect" id="node3" title=" " alt="" coords="37,5,100,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="213,140,260,167"/>
+<area shape="rect" id="node5" title=" " alt="" coords="284,140,331,167"/>
 </map>

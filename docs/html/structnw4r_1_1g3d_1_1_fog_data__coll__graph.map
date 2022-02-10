@@ -1,9 +1,9 @@
 <map id="nw4r::g3d::FogData" name="nw4r::g3d::FogData">
-<area shape="rect" id="node1" title=" " alt="" coords="224,199,391,225"/>
-<area shape="rect" id="node2" href="$structnw4r_1_1ut_1_1_color.html" title=" " alt="" coords="5,95,148,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="37,5,116,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="172,95,219,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="288,95,327,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="396,95,443,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="492,95,539,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="161,199,328,225"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,52,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="101,95,148,121"/>
+<area shape="rect" id="node4" href="$structnw4r_1_1ut_1_1_color.html" title=" " alt="" coords="172,95,315,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="204,5,283,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="339,95,377,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="433,95,480,121"/>
 </map>

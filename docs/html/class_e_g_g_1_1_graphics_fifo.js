@@ -6,6 +6,5 @@ var class_e_g_g_1_1_graphics_fifo =
       [ "overhi", "class_e_g_g_1_1_graphics_fifo.html#a84471999ad9237e504cf8486072f4cc8", null ],
       [ "readIdle", "class_e_g_g_1_1_graphics_fifo.html#a4665eabba4e830822656c848a5662caf", null ],
       [ "underlow", "class_e_g_g_1_1_graphics_fifo.html#a027038a47df5a3137135f9a42904a063", null ]
-    ] ],
-    [ "~GraphicsFifo", "class_e_g_g_1_1_graphics_fifo.html#a88a93a4910b8ee16112a7ac0ba745eb8", null ]
+    ] ]
 ];

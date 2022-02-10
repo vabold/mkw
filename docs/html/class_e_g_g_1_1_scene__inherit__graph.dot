@@ -7,9 +7,9 @@ digraph "EGG::Scene"
   Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node2 [label="EGG::Disposer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_disposer.html",tooltip="Base class for garbage-collected objects."];
   Node3 -> Node2 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeMono"];
-  Node3 [label="NonCopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
+  Node3 [label="NonCopyable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
   Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node4 [label="RKScene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_k_scene.html",tooltip=" "];
+  Node4 [label="RKScene",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_r_k_scene.html",tooltip=" "];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node5 [label="System::BootStrapScene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_system_1_1_boot_strap_scene.html",tooltip=" "];
+  Node5 [label="System::BootStrapScene",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_boot_strap_scene.html",tooltip=" "];
 }

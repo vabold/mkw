@@ -1,6 +1,6 @@
 <map id="EGG::ExpHeap::create" name="EGG::ExpHeap::create">
 <area shape="rect" id="node1" title="Create an EGG ExpHeap and wrapped MEM ExpHeap in a certain region." alt="" coords="260,56,443,83"/>
 <area shape="rect" id="node2" href="$class_e_g_g_1_1_exp_heap.html#a4dc8ac772f8f66133d05d9749d4ef0b9" title="Create a new ExpHeap as a child of an existing heap." alt="" coords="17,5,200,32"/>
-<area shape="rect" id="node3" href="$class_e_g_g_1_1_exp_heap.html#a2a964ab0c490e2cf702c266dc77472b3" title="There&#39;s no evidence of this macro/inline function existing, but it makes future work a lot cleaner." alt="" coords="25,56,192,83"/>
-<area shape="rect" id="node4" href="$class_e_g_g_1_1_exp_heap.html#a9b1bd57786e262855cdfb212ed10b9b3" title="There&#39;s no evidence of this macro/inline function existing, but it makes future work a lot cleaner." alt="" coords="5,107,212,133"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_exp_heap.html#a9f0c85d7096198820ee274575a411712" title="There&#39;s no evidence of this macro/inline function existing, but it makes future work a lot cleaner." alt="" coords="25,56,192,83"/>
+<area shape="rect" id="node4" href="$class_e_g_g_1_1_exp_heap.html#ab3944ac7bf7625414d36a0fd46195ed2" title="There&#39;s no evidence of this macro/inline function existing, but it makes future work a lot cleaner." alt="" coords="5,107,212,133"/>
 </map>

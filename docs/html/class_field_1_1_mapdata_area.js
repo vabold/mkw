@@ -1,8 +1,6 @@
 var class_field_1_1_mapdata_area =
 [
     [ "getShape", "class_field_1_1_mapdata_area.html#a724a3abb4ceeecd9bf65fda2d7565a68", null ],
-    [ "getType", "class_field_1_1_mapdata_area.html#aa80a449a428c3b15316b9856ae67928c", null ],
-    [ "_", "class_field_1_1_mapdata_area.html#aafc4b896542609dee1a40f65dc14be65", null ],
     [ "cameraIdx", "class_field_1_1_mapdata_area.html#afdb981818d1b8d2913b40f5e63c2473d", null ],
     [ "eneLinkID", "class_field_1_1_mapdata_area.html#a2e33cfd0cb4dfdb9d6e48e5152136e54", null ],
     [ "Parameter1", "class_field_1_1_mapdata_area.html#a226b1a3240f40d905b3f1e2acefc5560", null ],

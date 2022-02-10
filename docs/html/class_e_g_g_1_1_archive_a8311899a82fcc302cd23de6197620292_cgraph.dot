@@ -6,7 +6,7 @@ digraph "EGG::Archive::mountNoFastGet"
   rankdir="LR";
   Node1 [label="EGG::Archive::mountNoFastGet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Exact same as."];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node2 [label="EGG::Archive::findArchive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_archive.html#afd41911a784b7a0f9a49318e4b543e46",tooltip="Find the EGG Archive wrapping the ARC file starting at pArchive."];
+  Node2 [label="EGG::Archive::findArchive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_archive.html#aabacbc9022c2de616451c08ab50a7e30",tooltip="Find the EGG Archive wrapping the ARC file starting at pArchive."];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node3 [label="EGG::Archive::initHandle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_archive.html#a510d36f098617c4e05cf8d123534982d",tooltip=" "];
 }

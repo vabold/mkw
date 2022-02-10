@@ -11,8 +11,5 @@ var class_e_g_g_1_1_video =
       [ "RM_PAL50_16x9", "class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547aceaaec346c8ffe5100fca8705bf96aed", null ],
       [ "RM_EURGB60_16x9", "class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547ad84bdeaec2330e769351b8b82d5519f9", null ],
       [ "RM_PAL_16x9_PROGRESSIVE", "class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a43101816a4622bec637fcefb2641e052", null ]
-    ] ],
-    [ "Video", "class_e_g_g_1_1_video.html#a48e1e105cf25343097840ce308d212b6", null ],
-    [ "configure", "class_e_g_g_1_1_video.html#ac12442871459adf8cefc88ccb4ca9a97", null ],
-    [ "initialize", "class_e_g_g_1_1_video.html#a8af0c8c68292023528a46cbaeb670aaa", null ]
+    ] ]
 ];

@@ -24,6 +24,7 @@ var hierarchy =
     [ "EGG::BoundBox2f", "struct_e_g_g_1_1_bound_box2f.html", [
       [ "EGG::Viewport", "class_e_g_g_1_1_viewport.html", null ]
     ] ],
+    [ "BoxColUnit", "struct_box_col_unit.html", null ],
     [ "nw4r::g3d::Camera", "structnw4r_1_1g3d_1_1_camera.html", null ],
     [ "nw4r::g3d::CameraData", "structnw4r_1_1g3d_1_1_camera_data.html", null ],
     [ "nw4r::ut::Color", "structnw4r_1_1ut_1_1_color.html", null ],

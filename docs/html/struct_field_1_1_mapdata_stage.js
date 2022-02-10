@@ -1,10 +1,7 @@
 var struct_field_1_1_mapdata_stage =
 [
     [ "lensFlareOptions_t", "struct_field_1_1_mapdata_stage.html#struct_field_1_1_mapdata_stage_1_1lens_flare_options__t", [
-      [ "a", "struct_field_1_1_mapdata_stage.html#af927e31cfc78345a2ab300189465b5cf", null ],
-      [ "b", "struct_field_1_1_mapdata_stage.html#a5f2578641a973dc0ebfd44e22bb12ff7", null ],
-      [ "g", "struct_field_1_1_mapdata_stage.html#a535142edbf3761741d5ce9d1d30b433b", null ],
-      [ "r", "struct_field_1_1_mapdata_stage.html#a8919682722aee5c333cc10e3a1cea0c8", null ]
+      [ "b", "struct_field_1_1_mapdata_stage.html#a5f2578641a973dc0ebfd44e22bb12ff7", null ]
     ] ],
     [ "_", "group___k_m_p2320.html#gaaf3e12b8639768432ccb4ad06d26c005", null ],
     [ "mCorner", "struct_field_1_1_mapdata_stage.html#a835d77ea059431925715512fbb3684be", null ],

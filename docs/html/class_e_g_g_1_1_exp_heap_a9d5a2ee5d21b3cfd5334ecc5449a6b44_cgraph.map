@@ -1,0 +1,4 @@
+<map id="EGG::ExpHeap::destroy" name="EGG::ExpHeap::destroy">
+<area shape="rect" id="node1" title="Destroy the current heap and free itself from its parent if it has one." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_heap.html#a8908c172e99cdb568a7c244f0b08c418" title="Returns the Disposer&#39;s parent heap." alt="" coords="244,5,467,32"/>
+</map>

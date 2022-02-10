@@ -1,7 +1,7 @@
 <map id="Field::MapdataItemPoint" name="Field::MapdataItemPoint">
-<area shape="rect" id="node1" title=" " alt="" coords="45,245,252,272"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,140,52,167"/>
-<area shape="rect" id="node3" href="$struct_e_g_g_1_1_vector3f.html" title=" " alt="" coords="80,140,207,167"/>
-<area shape="rect" id="node4" title=" " alt="" coords="112,5,175,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="288,140,335,167"/>
+<area shape="rect" id="node1" title=" " alt="" coords="133,245,340,272"/>
+<area shape="rect" id="node2" href="$struct_e_g_g_1_1_vector3f.html" title=" " alt="" coords="5,140,132,167"/>
+<area shape="rect" id="node3" title=" " alt="" coords="37,5,100,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="213,140,260,167"/>
+<area shape="rect" id="node5" title=" " alt="" coords="325,140,372,167"/>
 </map>

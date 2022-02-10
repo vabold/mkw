@@ -11,6 +11,5 @@ var class_e_g_g_1_1_fader =
     [ "fadeIn", "class_e_g_g_1_1_fader.html#ae131ba4754fc99b35036a308c8a13466", null ],
     [ "fadeOut", "class_e_g_g_1_1_fader.html#a569136eb8077259d65bfde169b60983e", null ],
     [ "getStatus", "class_e_g_g_1_1_fader.html#acd9ac04a3bb6e78a215732eebd741b23", null ],
-    [ "setStatus", "class_e_g_g_1_1_fader.html#ab4421196d1143c063fb26d112bf8f402", null ],
-    [ "mStatus", "class_e_g_g_1_1_fader.html#aef22a63dd24e23c1b7299771139077b2", null ]
+    [ "setStatus", "class_e_g_g_1_1_fader.html#ab4421196d1143c063fb26d112bf8f402", null ]
 ];

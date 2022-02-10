@@ -6,6 +6,5 @@ var class_e_g_g_1_1_disposer =
     ] ],
     [ "~Disposer", "class_e_g_g_1_1_disposer.html#ad17ae2efef044636280d190d20b4a9fa", null ],
     [ "Disposer", "class_e_g_g_1_1_disposer.html#a2e05c359f93cc0f8778d0891fc11a21c", null ],
-    [ "getLifetime", "class_e_g_g_1_1_disposer.html#ae4c41462278b5d17ec40696e6d5b406d", null ],
-    [ "Heap", "class_e_g_g_1_1_disposer.html#a3d69975be2e998e7bf2dcd1b1c8b4577", null ]
+    [ "getLifetime", "class_e_g_g_1_1_disposer.html#ae4c41462278b5d17ec40696e6d5b406d", null ]
 ];
