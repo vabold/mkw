@@ -24,6 +24,8 @@ var hierarchy =
     [ "EGG::BoundBox2f", "struct_e_g_g_1_1_bound_box2f.html", [
       [ "EGG::Viewport", "class_e_g_g_1_1_viewport.html", null ]
     ] ],
+    [ "BoxColLeftPoint", "struct_box_col_left_point.html", null ],
+    [ "BoxColRightPoint", "struct_box_col_right_point.html", null ],
     [ "BoxColUnit", "struct_box_col_unit.html", null ],
     [ "nw4r::g3d::Camera", "structnw4r_1_1g3d_1_1_camera.html", null ],
     [ "nw4r::g3d::CameraData", "structnw4r_1_1g3d_1_1_camera_data.html", null ],
@@ -87,6 +89,7 @@ var hierarchy =
     [ "nw4r::ut::Node", "structnw4r_1_1ut_1_1_node.html", null ],
     [ "NonCopyable", "class_non_copyable.html", [
       [ "EGG::Disposer", "class_e_g_g_1_1_disposer.html", [
+        [ "BoxColManager", "class_box_col_manager.html", null ],
         [ "EGG::Archive", "class_e_g_g_1_1_archive.html", null ],
         [ "EGG::Heap", "class_e_g_g_1_1_heap.html", [
           [ "EGG::ExpHeap", "class_e_g_g_1_1_exp_heap.html", null ],

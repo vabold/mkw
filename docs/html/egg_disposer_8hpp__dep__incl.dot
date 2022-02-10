@@ -70,4 +70,8 @@ digraph "source/egg/core/eggDisposer.hpp"
   Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node29 [label="source/game/system\l/GhostFile.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node1 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node30 [label="source/game/geo/BoxColManager.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_box_col_manager_8hpp_source.html",tooltip=" "];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node31 [label="source/game/geo/BoxColManager.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

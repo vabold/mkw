@@ -121,6 +121,9 @@ var annotated_dup =
     [ "Util", null, [
       [ "Random", "class_util_1_1_random.html", null ]
     ] ],
+    [ "BoxColLeftPoint", "struct_box_col_left_point.html", null ],
+    [ "BoxColManager", "class_box_col_manager.html", null ],
+    [ "BoxColRightPoint", "struct_box_col_right_point.html", null ],
     [ "BoxColUnit", "struct_box_col_unit.html", null ],
     [ "DVDFileInfo", "class_d_v_d_file_info.html", null ],
     [ "HeapCollection", "struct_heap_collection.html", null ],
