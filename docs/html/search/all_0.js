@@ -10,5 +10,6 @@ var searchData=
   ['_5fmtx34_7',['_MTX34',['../structnw4r_1_1math_1_1___m_t_x34.html',1,'nw4r::math']]],
   ['_5fmtx34_2e_5f_5funnamed12_5f_5f_8',['_MTX34.__unnamed12__',['../unionnw4r_1_1math_1_1___m_t_x34_8____unnamed12____.html',1,'nw4r::math']]],
   ['_5fmtx44_9',['_MTX44',['../structnw4r_1_1math_1_1___m_t_x44.html',1,'nw4r::math']]],
-  ['_5fvec3_10',['_VEC3',['../structnw4r_1_1math_1_1___v_e_c3.html',1,'nw4r::math']]]
+  ['_5fvec2_10',['_VEC2',['../structnw4r_1_1math_1_1___v_e_c2.html',1,'nw4r::math']]],
+  ['_5fvec3_11',['_VEC3',['../structnw4r_1_1math_1_1___v_e_c3.html',1,'nw4r::math']]]
 ];

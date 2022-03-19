@@ -5,5 +5,7 @@ var searchData=
   ['fileinfo_2',['FileInfo',['../class_e_g_g_1_1_archive.html#struct_e_g_g_1_1_archive_1_1_file_info',1,'EGG::Archive']]],
   ['fog_3',['Fog',['../structnw4r_1_1g3d_1_1_fog.html',1,'nw4r::g3d']]],
   ['fogdata_4',['FogData',['../structnw4r_1_1g3d_1_1_fog_data.html',1,'nw4r::g3d']]],
-  ['functor_5',['Functor',['../struct_u_i_1_1_control_group_1_1_functor.html',1,'UI::ControlGroup']]]
+  ['font_5',['Font',['../structnw4r_1_1ut_1_1_font.html',1,'nw4r::ut']]],
+  ['frameheap_6',['FrameHeap',['../structnw4r_1_1snd_1_1detail_1_1_frame_heap.html',1,'nw4r::snd::detail']]],
+  ['functor_7',['Functor',['../struct_u_i_1_1_control_group_1_1_functor.html',1,'UI::ControlGroup']]]
 ];

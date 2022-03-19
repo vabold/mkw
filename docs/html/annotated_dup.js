@@ -3,6 +3,7 @@ var annotated_dup =
     [ "EGG", null, [
       [ "Allocator", "class_e_g_g_1_1_allocator.html", "class_e_g_g_1_1_allocator" ],
       [ "Archive", "class_e_g_g_1_1_archive.html", "class_e_g_g_1_1_archive" ],
+      [ "ArcPlayer", "class_e_g_g_1_1_arc_player.html", null ],
       [ "BaseSystem", "class_e_g_g_1_1_base_system.html", "class_e_g_g_1_1_base_system" ],
       [ "BoundBox2f", "struct_e_g_g_1_1_bound_box2f.html", null ],
       [ "CntFile", "class_e_g_g_1_1_cnt_file.html", null ],
@@ -80,14 +81,31 @@ var annotated_dup =
         [ "_MTX34", "structnw4r_1_1math_1_1___m_t_x34.html", null ],
         [ "_MTX34.__unnamed12__", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed12____.html", null ],
         [ "_MTX44", "structnw4r_1_1math_1_1___m_t_x44.html", null ],
+        [ "_VEC2", "structnw4r_1_1math_1_1___v_e_c2.html", null ],
         [ "_VEC3", "structnw4r_1_1math_1_1___v_e_c3.html", null ],
         [ "MTX33", "classnw4r_1_1math_1_1_m_t_x33.html", null ],
         [ "MTX34", "structnw4r_1_1math_1_1_m_t_x34.html", null ],
         [ "MTX44", "structnw4r_1_1math_1_1_m_t_x44.html", null ],
+        [ "VEC2", "structnw4r_1_1math_1_1_v_e_c2.html", null ],
         [ "VEC3", "structnw4r_1_1math_1_1_v_e_c3.html", null ]
       ] ],
+      [ "snd", null, [
+        [ "detail", null, [
+          [ "FrameHeap", "structnw4r_1_1snd_1_1detail_1_1_frame_heap.html", null ],
+          [ "SoundArchiveFileReader", "classnw4r_1_1snd_1_1detail_1_1_sound_archive_file_reader.html", null ]
+        ] ],
+        [ "DvdSoundArchive", "classnw4r_1_1snd_1_1_dvd_sound_archive.html", null ],
+        [ "SoundArchive", "classnw4r_1_1snd_1_1_sound_archive.html", null ],
+        [ "SoundHeap", "structnw4r_1_1snd_1_1_sound_heap.html", null ],
+        [ "SoundMemoryAllocatable", "structnw4r_1_1snd_1_1_sound_memory_allocatable.html", null ]
+      ] ],
       [ "ut", null, [
+        [ "CharStrmReader", "structnw4r_1_1ut_1_1_char_strm_reader.html", null ],
+        [ "CharWidths", "structnw4r_1_1ut_1_1_char_widths.html", null ],
+        [ "CharWriter", "classnw4r_1_1ut_1_1_char_writer.html", null ],
         [ "Color", "structnw4r_1_1ut_1_1_color.html", null ],
+        [ "Font", "structnw4r_1_1ut_1_1_font.html", null ],
+        [ "Glyph", "structnw4r_1_1ut_1_1_glyph.html", null ],
         [ "List", "structnw4r_1_1ut_1_1_list.html", null ],
         [ "Node", "structnw4r_1_1ut_1_1_node.html", null ]
       ] ]
@@ -125,7 +143,6 @@ var annotated_dup =
     [ "BoxColManager", "class_box_col_manager.html", null ],
     [ "BoxColRightPoint", "struct_box_col_right_point.html", null ],
     [ "BoxColUnit", "struct_box_col_unit.html", null ],
-    [ "DVDFileInfo", "class_d_v_d_file_info.html", null ],
     [ "HeapCollection", "struct_heap_collection.html", null ],
     [ "MEMAllocator", "class_m_e_m_allocator.html", null ],
     [ "MEMiUntHeapHead", "class_m_e_mi_unt_heap_head.html", null ],

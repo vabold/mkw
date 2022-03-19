@@ -1,0 +1,11 @@
+digraph "source/nw4r/snd"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
+  node [fontname="FreeMono",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_fa539d9f400cd8c961cb0a68e32183e6 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="nw4r", fontname="FreeMono", fontsize="10", URL="dir_fa539d9f400cd8c961cb0a68e32183e6.html"]
+  dir_9202b0b0976a2702a96d7c716ac15c69 [shape=box, label="snd", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_9202b0b0976a2702a96d7c716ac15c69.html"];
+  }
+}

@@ -13,9 +13,13 @@ var hierarchy =
     [ "nw4r::math::_MTX44", "structnw4r_1_1math_1_1___m_t_x44.html", [
       [ "nw4r::math::MTX44", "structnw4r_1_1math_1_1_m_t_x44.html", null ]
     ] ],
+    [ "nw4r::math::_VEC2", "structnw4r_1_1math_1_1___v_e_c2.html", [
+      [ "nw4r::math::VEC2", "structnw4r_1_1math_1_1_v_e_c2.html", null ]
+    ] ],
     [ "nw4r::math::_VEC3", "structnw4r_1_1math_1_1___v_e_c3.html", [
       [ "nw4r::math::VEC3", "structnw4r_1_1math_1_1_v_e_c3.html", null ]
     ] ],
+    [ "EGG::ArcPlayer", "class_e_g_g_1_1_arc_player.html", null ],
     [ "EGG::DvdRipper::Arg", "class_e_g_g_1_1_dvd_ripper_1_1_arg.html", null ],
     [ "Field::BaseGeoHitTableManager", "class_field_1_1_base_geo_hit_table_manager.html", [
       [ "Field::GeoHitTableItemManager", "class_field_1_1_geo_hit_table_item_manager.html", null ]
@@ -29,6 +33,9 @@ var hierarchy =
     [ "BoxColUnit", "struct_box_col_unit.html", null ],
     [ "nw4r::g3d::Camera", "structnw4r_1_1g3d_1_1_camera.html", null ],
     [ "nw4r::g3d::CameraData", "structnw4r_1_1g3d_1_1_camera_data.html", null ],
+    [ "nw4r::ut::CharStrmReader", "structnw4r_1_1ut_1_1_char_strm_reader.html", null ],
+    [ "nw4r::ut::CharWidths", "structnw4r_1_1ut_1_1_char_widths.html", null ],
+    [ "nw4r::ut::CharWriter", "classnw4r_1_1ut_1_1_char_writer.html", null ],
     [ "nw4r::ut::Color", "structnw4r_1_1ut_1_1_color.html", null ],
     [ "UI::ControlGroup", "class_u_i_1_1_control_group.html", null ],
     [ "Field::ObjectParameter::Parameter::Data", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data", null ],
@@ -36,7 +43,6 @@ var hierarchy =
     [ "UI::Deferred< T >", "struct_u_i_1_1_deferred.html", null ],
     [ "UI::Deferred< UI::Element >", "struct_u_i_1_1_deferred.html", null ],
     [ "EGG::Display", "class_e_g_g_1_1_display.html", null ],
-    [ "DVDFileInfo", "class_d_v_d_file_info.html", null ],
     [ "EGG::DvdRipper", "class_e_g_g_1_1_dvd_ripper.html", null ],
     [ "UI::Element", "struct_u_i_1_1_element.html", null ],
     [ "EGG::Fader", "class_e_g_g_1_1_fader.html", [
@@ -49,10 +55,13 @@ var hierarchy =
     [ "EGG::Archive::FileInfo", "class_e_g_g_1_1_archive.html#struct_e_g_g_1_1_archive_1_1_file_info", null ],
     [ "nw4r::g3d::Fog", "structnw4r_1_1g3d_1_1_fog.html", null ],
     [ "nw4r::g3d::FogData", "structnw4r_1_1g3d_1_1_fog_data.html", null ],
+    [ "nw4r::ut::Font", "structnw4r_1_1ut_1_1_font.html", null ],
+    [ "nw4r::snd::detail::FrameHeap", "structnw4r_1_1snd_1_1detail_1_1_frame_heap.html", null ],
     [ "UI::ControlGroup::Functor", "struct_u_i_1_1_control_group_1_1_functor.html", null ],
     [ "Field::GeoHitTableItemObjManager", "class_field_1_1_geo_hit_table_item_obj_manager.html", null ],
     [ "System::GhostFile", "class_system_1_1_ghost_file.html", null ],
     [ "System::GhostFileGroup", "class_system_1_1_ghost_file_group.html", null ],
+    [ "nw4r::ut::Glyph", "structnw4r_1_1ut_1_1_glyph.html", null ],
     [ "EGG::GraphicsFifo::GPStatus", "class_e_g_g_1_1_graphics_fifo.html#struct_e_g_g_1_1_graphics_fifo_1_1_g_p_status", null ],
     [ "EGG::GraphicsFifo", "class_e_g_g_1_1_graphics_fifo.html", null ],
     [ "EGG::ExpHeap::GroupSizeRecord", "struct_e_g_g_1_1_exp_heap_1_1_group_size_record.html", null ],
@@ -125,6 +134,13 @@ var hierarchy =
     ] ],
     [ "EGG::SceneManager", "class_e_g_g_1_1_scene_manager.html", null ],
     [ "nw4r::math::detail::SinCosSample", "structnw4r_1_1math_1_1detail_1_1_sin_cos_sample.html", null ],
+    [ "nw4r::snd::SoundArchive", "classnw4r_1_1snd_1_1_sound_archive.html", [
+      [ "nw4r::snd::DvdSoundArchive", "classnw4r_1_1snd_1_1_dvd_sound_archive.html", null ]
+    ] ],
+    [ "nw4r::snd::detail::SoundArchiveFileReader", "classnw4r_1_1snd_1_1detail_1_1_sound_archive_file_reader.html", null ],
+    [ "nw4r::snd::SoundMemoryAllocatable", "structnw4r_1_1snd_1_1_sound_memory_allocatable.html", [
+      [ "nw4r::snd::SoundHeap", "structnw4r_1_1snd_1_1_sound_heap.html", null ]
+    ] ],
     [ "EGG::Stream", "class_e_g_g_1_1_stream.html", null ],
     [ "EGG::StreamDecomp", "class_e_g_g_1_1_stream_decomp.html", [
       [ "EGG::LZStreamDecomp", "class_e_g_g_1_1_l_z_stream_decomp.html", null ]

@@ -126,19 +126,19 @@ $(document).ready(function(){initNavTree('egg_dvd_file_8hpp_source.html',''); in
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_e_g_g_1_1_dvd_file.html#aeddd7a1ad22593c6b7442147767785b9">open</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* path, <span class="keywordtype">void</span>*);</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keyword">inline</span> <a class="code hl_class" href="class_d_v_d_file_info.html">DVDFileInfo</a>* getFileInfo() { <span class="keywordflow">return</span> &amp;mFileInfo; }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keyword">inline</span> DVDFileInfo* getFileInfo() { <span class="keywordflow">return</span> &amp;mFileInfo; }</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keywordtype">void</span> initiate();</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  s32 sync();</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> doneProcess(s32 result, <a class="code hl_class" href="class_d_v_d_file_info.html">DVDFileInfo</a>* fileInfo);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> doneProcess(s32 result, DVDFileInfo* fileInfo);</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keyword">static</span> <span class="keywordtype">bool</span> sIsInitialized;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keyword">static</span> <a class="code hl_struct" href="structnw4r_1_1ut_1_1_list.html">nw4r::ut::List</a> sDvdList;</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keyword">struct </span>FileInfo : <span class="keyword">public</span> <a class="code hl_class" href="class_d_v_d_file_info.html">DVDFileInfo</a> {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keyword">struct </span>FileInfo : <span class="keyword">public</span> DVDFileInfo {</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <a class="code hl_class" href="class_e_g_g_1_1_dvd_file.html">DvdFile</a>* dvdFile;</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  };</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
@@ -155,7 +155,6 @@ $(document).ready(function(){initNavTree('egg_dvd_file_8hpp_source.html',''); in
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>};</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>} <span class="comment">// namespace EGG</span></div>
-<div class="ttc" id="aclass_d_v_d_file_info_html"><div class="ttname"><a href="class_d_v_d_file_info.html">DVDFileInfo</a></div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_dvd_file_html"><div class="ttname"><a href="class_e_g_g_1_1_dvd_file.html">EGG::DvdFile</a></div><div class="ttdef"><b>Definition:</b> eggDvdFile.hpp:19</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_dvd_file_html_a075a167f2c8f747b18569eed3303f50e"><div class="ttname"><a href="class_e_g_g_1_1_dvd_file.html#a075a167f2c8f747b18569eed3303f50e">EGG::DvdFile::writeData</a></div><div class="ttdeci">s32 writeData(const void *buffer, s32 length, s32 offset) override</div><div class="ttdoc">Always fails. The DVD is read-only.</div><div class="ttdef"><b>Definition:</b> eggDvdFile.cpp:76</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_dvd_file_html_a8817995bf5285cd7d141bd8fdc0b337b"><div class="ttname"><a href="class_e_g_g_1_1_dvd_file.html#a8817995bf5285cd7d141bd8fdc0b337b">EGG::DvdFile::~DvdFile</a></div><div class="ttdeci">~DvdFile() override</div><div class="ttdoc">Closes the file on the DVD.</div><div class="ttdef"><b>Definition:</b> eggDvdFile.cpp:19</div></div>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fadein_0',['fadeIn',['../class_e_g_g_1_1_fader.html#ae131ba4754fc99b35036a308c8a13466',1,'EGG::Fader::fadeIn()'],['../class_e_g_g_1_1_color_fader.html#af0ab2d26c8f6e61f936f1d71d5189580',1,'EGG::ColorFader::fadeIn()'],['../class_e_g_g_1_1_scene_manager.html#afeb705ef71a62f6dc907f712e94cc0e7',1,'EGG::SceneManager::fadeIn()']]],
+  ['fadein_0',['fadeIn',['../class_e_g_g_1_1_scene_manager.html#afeb705ef71a62f6dc907f712e94cc0e7',1,'EGG::SceneManager::fadeIn()'],['../class_e_g_g_1_1_color_fader.html#af0ab2d26c8f6e61f936f1d71d5189580',1,'EGG::ColorFader::fadeIn()'],['../class_e_g_g_1_1_fader.html#ae131ba4754fc99b35036a308c8a13466',1,'EGG::Fader::fadeIn()']]],
   ['fadeout_1',['fadeOut',['../class_e_g_g_1_1_color_fader.html#a7ee311e0cb7d1f7a9c4111fd861c89f1',1,'EGG::ColorFader::fadeOut()'],['../class_e_g_g_1_1_fader.html#a569136eb8077259d65bfde169b60983e',1,'EGG::Fader::fadeOut()']]],
   ['fader_2',['Fader',['../class_e_g_g_1_1_fader.html',1,'EGG']]],
   ['file_3',['File',['../class_e_g_g_1_1_file.html',1,'EGG']]],
@@ -12,9 +12,11 @@ var searchData=
   ['findthread_9',['findThread',['../class_e_g_g_1_1_thread.html#a891b22697eb55c1e2ad3ee0307f4656a',1,'EGG::Thread']]],
   ['fog_10',['Fog',['../structnw4r_1_1g3d_1_1_fog.html',1,'nw4r::g3d']]],
   ['fogdata_11',['FogData',['../structnw4r_1_1g3d_1_1_fog_data.html',1,'nw4r::g3d']]],
-  ['fovvyend_12',['fovVYEnd',['../struct_field_1_1_mapdata_camera.html#a9e19a4496871c2f6b77eeee2f9a6615a',1,'Field::MapdataCamera']]],
-  ['fovyspeed_13',['fovYSpeed',['../struct_field_1_1_mapdata_camera.html#a36754b535358fa48b194a2f2a43b8f1d',1,'Field::MapdataCamera']]],
-  ['fovystart_14',['fovYStart',['../struct_field_1_1_mapdata_camera.html#ab83c1e1264189bf060e31c629f0ca9c6',1,'Field::MapdataCamera']]],
-  ['free_15',['free',['../class_e_g_g_1_1_allocator.html#a61ebd29a375f4d1710b23e40a23187c3',1,'EGG::Allocator::free()'],['../class_e_g_g_1_1_exp_heap.html#aca029169acd8404e6dcc0612394998fd',1,'EGG::ExpHeap::free()'],['../class_e_g_g_1_1_heap.html#a79e919a2ffd7978e3e245c10bd79850c',1,'EGG::Heap::free()']]],
-  ['functor_16',['Functor',['../struct_u_i_1_1_control_group_1_1_functor.html',1,'UI::ControlGroup']]]
+  ['font_12',['Font',['../structnw4r_1_1ut_1_1_font.html',1,'nw4r::ut']]],
+  ['fovvyend_13',['fovVYEnd',['../struct_field_1_1_mapdata_camera.html#a9e19a4496871c2f6b77eeee2f9a6615a',1,'Field::MapdataCamera']]],
+  ['fovyspeed_14',['fovYSpeed',['../struct_field_1_1_mapdata_camera.html#a36754b535358fa48b194a2f2a43b8f1d',1,'Field::MapdataCamera']]],
+  ['fovystart_15',['fovYStart',['../struct_field_1_1_mapdata_camera.html#ab83c1e1264189bf060e31c629f0ca9c6',1,'Field::MapdataCamera']]],
+  ['frameheap_16',['FrameHeap',['../structnw4r_1_1snd_1_1detail_1_1_frame_heap.html',1,'nw4r::snd::detail']]],
+  ['free_17',['free',['../class_e_g_g_1_1_allocator.html#a61ebd29a375f4d1710b23e40a23187c3',1,'EGG::Allocator::free()'],['../class_e_g_g_1_1_exp_heap.html#aca029169acd8404e6dcc0612394998fd',1,'EGG::ExpHeap::free()'],['../class_e_g_g_1_1_heap.html#a79e919a2ffd7978e3e245c10bd79850c',1,'EGG::Heap::free()']]],
+  ['functor_18',['Functor',['../struct_u_i_1_1_control_group_1_1_functor.html',1,'UI::ControlGroup']]]
 ];

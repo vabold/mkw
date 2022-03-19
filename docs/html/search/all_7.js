@@ -11,7 +11,8 @@ var searchData=
   ['getvideo_8',['getVideo',['../class_e_g_g_1_1_base_system.html#a740d92d2420d015b6ffd71fe3b59f5a4',1,'EGG::BaseSystem']]],
   ['ghostfile_9',['GhostFile',['../class_system_1_1_ghost_file.html',1,'System']]],
   ['ghostfilegroup_10',['GhostFileGroup',['../class_system_1_1_ghost_file_group.html',1,'System']]],
-  ['gpstatus_11',['GPStatus',['../class_e_g_g_1_1_graphics_fifo.html#struct_e_g_g_1_1_graphics_fifo_1_1_g_p_status',1,'EGG::GraphicsFifo']]],
-  ['graphicsfifo_12',['GraphicsFifo',['../class_e_g_g_1_1_graphics_fifo.html',1,'EGG']]],
-  ['groupsizerecord_13',['GroupSizeRecord',['../struct_e_g_g_1_1_exp_heap_1_1_group_size_record.html',1,'EGG::ExpHeap']]]
+  ['glyph_11',['Glyph',['../structnw4r_1_1ut_1_1_glyph.html',1,'nw4r::ut']]],
+  ['gpstatus_12',['GPStatus',['../class_e_g_g_1_1_graphics_fifo.html#struct_e_g_g_1_1_graphics_fifo_1_1_g_p_status',1,'EGG::GraphicsFifo']]],
+  ['graphicsfifo_13',['GraphicsFifo',['../class_e_g_g_1_1_graphics_fifo.html',1,'EGG']]],
+  ['groupsizerecord_14',['GroupSizeRecord',['../struct_e_g_g_1_1_exp_heap_1_1_group_size_record.html',1,'EGG::ExpHeap']]]
 ];
