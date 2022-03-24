@@ -20,7 +20,7 @@ digraph "source/egg/core/eggDvdRipper.hpp"
   Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node8 [label="rvl/os/osThread.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node9 [label="rvl/rvlDvd.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 [label="rvl/dvd/dvd.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node10 [label="egg/core/eggHeap.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_heap_8hpp.html",tooltip="Base Heap class."];
   Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];

@@ -53,6 +53,9 @@ var hierarchy =
       [ "EGG::DvdFile", "class_e_g_g_1_1_dvd_file.html", null ]
     ] ],
     [ "EGG::Archive::FileInfo", "class_e_g_g_1_1_archive.html#struct_e_g_g_1_1_archive_1_1_file_info", null ],
+    [ "nw4r::ut::DvdFileStream::FileInfoStreamPair", "structnw4r_1_1ut_1_1_dvd_file_stream.html#structnw4r_1_1ut_1_1_dvd_file_stream_1_1_file_info_stream_pair", null ],
+    [ "nw4r::ut::DvdFileStream::FileInfoStreamPair.__unnamed14__", "structnw4r_1_1ut_1_1_dvd_file_stream.html#unionnw4r_1_1ut_1_1_dvd_file_stream_1_1_file_info_stream_pair_8____unnamed14____", null ],
+    [ "nw4r::ut::FileStream::FilePosition", "classnw4r_1_1ut_1_1_file_stream_1_1_file_position.html", null ],
     [ "nw4r::g3d::Fog", "structnw4r_1_1g3d_1_1_fog.html", null ],
     [ "nw4r::g3d::FogData", "structnw4r_1_1g3d_1_1_fog_data.html", null ],
     [ "nw4r::ut::Font", "structnw4r_1_1ut_1_1_font.html", null ],
@@ -115,6 +118,16 @@ var hierarchy =
     [ "UI::Page", "class_u_i_1_1_page.html", null ],
     [ "Field::ObjectParameter::Parameter", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter", null ],
     [ "System::ParameterFile", "class_system_1_1_parameter_file.html", null ],
+    [ "nw4r::ut::Polymorphic", "structnw4r_1_1ut_1_1_polymorphic.html", [
+      [ "nw4r::ut::IOStream", "structnw4r_1_1ut_1_1_i_o_stream.html", [
+        [ "nw4r::ut::FileStream", "classnw4r_1_1ut_1_1_file_stream.html", [
+          [ "nw4r::ut::DvdFileStream", "structnw4r_1_1ut_1_1_dvd_file_stream.html", [
+            [ "nw4r::ut::DvdLockedFileStream", "classnw4r_1_1ut_1_1_dvd_locked_file_stream.html", null ]
+          ] ],
+          [ "nw4r::ut::NandFileStream", "classnw4r_1_1ut_1_1_nand_file_stream.html", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "nw4r::g3d::Camera::PostureInfo", "structnw4r_1_1g3d_1_1_camera.html#structnw4r_1_1g3d_1_1_camera_1_1_posture_info", null ],
     [ "ProcessInfo", "struct_process_info.html", null ],
     [ "EGG::Quatf", "class_e_g_g_1_1_quatf.html", null ],
@@ -126,6 +139,7 @@ var hierarchy =
     [ "nw4r::g3d::ResCommon< nw4r::g3d::FogData >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
     [ "nw4r::g3d::ResName", "structnw4r_1_1g3d_1_1_res_name.html", null ],
     [ "nw4r::g3d::ResNameData", "structnw4r_1_1g3d_1_1_res_name_data.html", null ],
+    [ "nw4r::ut::detail::RuntimeTypeInfo", "structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html", null ],
     [ "rvlArchive", "classrvl_archive.html", [
       [ "EGG::LowArchive", "struct_e_g_g_1_1_low_archive.html", null ]
     ] ],

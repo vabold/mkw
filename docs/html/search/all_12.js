@@ -32,5 +32,6 @@ var searchData=
   ['rm_5fpal_5f4x3_5fprogressive_29',['RM_PAL_4x3_PROGRESSIVE',['../class_e_g_g_1_1_video.html#a83f74de524bd559336694dfef395e547a694a5edbb62343a3086307fd8f9b92e3',1,'EGG::Video']]],
   ['rotation_30',['rotation',['../class_field_1_1_mapdata_area.html#aa2806935ca7202ab1bd46317719ac41c',1,'Field::MapdataArea']]],
   ['run_31',['run',['../class_e_g_g_1_1_task_thread.html#a5aced17feb4cb65e575ddd6686180dac',1,'EGG::TaskThread::run()'],['../class_e_g_g_1_1_thread.html#ae0d86b06288a7259bfa008a0f9d272bd',1,'EGG::Thread::run()']]],
-  ['rvlarchive_32',['rvlArchive',['../classrvl_archive.html',1,'']]]
+  ['runtimetypeinfo_32',['RuntimeTypeInfo',['../structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html',1,'nw4r::ut::detail']]],
+  ['rvlarchive_33',['rvlArchive',['../classrvl_archive.html',1,'']]]
 ];

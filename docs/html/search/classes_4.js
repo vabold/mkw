@@ -7,6 +7,8 @@ var searchData=
   ['display_4',['Display',['../class_e_g_g_1_1_display.html',1,'EGG']]],
   ['disposer_5',['Disposer',['../class_e_g_g_1_1_disposer.html',1,'EGG']]],
   ['dvdfile_6',['DvdFile',['../class_e_g_g_1_1_dvd_file.html',1,'EGG']]],
-  ['dvdripper_7',['DvdRipper',['../class_e_g_g_1_1_dvd_ripper.html',1,'EGG']]],
-  ['dvdsoundarchive_8',['DvdSoundArchive',['../classnw4r_1_1snd_1_1_dvd_sound_archive.html',1,'nw4r::snd']]]
+  ['dvdfilestream_7',['DvdFileStream',['../structnw4r_1_1ut_1_1_dvd_file_stream.html',1,'nw4r::ut']]],
+  ['dvdlockedfilestream_8',['DvdLockedFileStream',['../classnw4r_1_1ut_1_1_dvd_locked_file_stream.html',1,'nw4r::ut']]],
+  ['dvdripper_9',['DvdRipper',['../class_e_g_g_1_1_dvd_ripper.html',1,'EGG']]],
+  ['dvdsoundarchive_10',['DvdSoundArchive',['../classnw4r_1_1snd_1_1_dvd_sound_archive.html',1,'nw4r::snd']]]
 ];

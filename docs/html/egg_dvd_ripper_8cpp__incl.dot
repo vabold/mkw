@@ -22,7 +22,7 @@ digraph "source/egg/core/eggDvdRipper.cpp"
   Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node9 [label="rvl/os/osThread.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node10 [label="rvl/rvlDvd.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 [label="rvl/dvd/dvd.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node11 [label="egg/core/eggHeap.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_heap_8hpp.html",tooltip="Base Heap class."];
   Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];

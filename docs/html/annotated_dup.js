@@ -100,14 +100,23 @@ var annotated_dup =
         [ "SoundMemoryAllocatable", "structnw4r_1_1snd_1_1_sound_memory_allocatable.html", null ]
       ] ],
       [ "ut", null, [
+        [ "detail", null, [
+          [ "RuntimeTypeInfo", "structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html", null ]
+        ] ],
         [ "CharStrmReader", "structnw4r_1_1ut_1_1_char_strm_reader.html", null ],
         [ "CharWidths", "structnw4r_1_1ut_1_1_char_widths.html", null ],
         [ "CharWriter", "classnw4r_1_1ut_1_1_char_writer.html", null ],
         [ "Color", "structnw4r_1_1ut_1_1_color.html", null ],
+        [ "DvdFileStream", "structnw4r_1_1ut_1_1_dvd_file_stream.html", "structnw4r_1_1ut_1_1_dvd_file_stream" ],
+        [ "DvdLockedFileStream", "classnw4r_1_1ut_1_1_dvd_locked_file_stream.html", null ],
+        [ "FileStream", "classnw4r_1_1ut_1_1_file_stream.html", "classnw4r_1_1ut_1_1_file_stream" ],
         [ "Font", "structnw4r_1_1ut_1_1_font.html", null ],
         [ "Glyph", "structnw4r_1_1ut_1_1_glyph.html", null ],
+        [ "IOStream", "structnw4r_1_1ut_1_1_i_o_stream.html", null ],
         [ "List", "structnw4r_1_1ut_1_1_list.html", null ],
-        [ "Node", "structnw4r_1_1ut_1_1_node.html", null ]
+        [ "NandFileStream", "classnw4r_1_1ut_1_1_nand_file_stream.html", null ],
+        [ "Node", "structnw4r_1_1ut_1_1_node.html", null ],
+        [ "Polymorphic", "structnw4r_1_1ut_1_1_polymorphic.html", null ]
       ] ]
     ] ],
     [ "System", null, [

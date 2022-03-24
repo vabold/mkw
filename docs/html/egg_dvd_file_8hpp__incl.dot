@@ -18,5 +18,5 @@ digraph "source/egg/core/eggDvdFile.hpp"
   Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node7 [label="rvl/os/osThread.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node8 [label="rvl/rvlDvd.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 [label="rvl/dvd/dvd.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }
