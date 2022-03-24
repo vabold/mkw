@@ -1,0 +1,4905 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  font-family: sans-serif;
+}
+.slices {
+  display: flex;
+}
+.rectangle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.rectangle .rectangle-tooltip {
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+.rectangle-below {
+  margin-top: 75px;
+}
+.rectangle-small {
+  background-color: gray;
+  visibility: hidden;
+}
+.rectangle:hover .rectangle-tooltip {
+  background-color: black;
+  visibility: visible;
+}
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: .2em 1em;
+}
+</style>
+</head>
+<body>
+
+<h2>Progress</h2>
+<table>
+    <thead>
+        <tr>
+            <th>          part          </th>
+            <th>          code split          </th>
+            <th>          code decomp          </th>
+            <th>          data decomp          </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="left">          DOL          </td>
+            <td align="right">           14.417%          </td>
+            <td align="right">           10.246%          </td>
+            <td align="right">            1.912%          </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/NW4R/DB          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/NW4R/EF          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/NW4R/G3D          </td>
+            <td align="right">            0.746%          </td>
+            <td align="right">            0.746%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/NW4R/LYT          </td>
+            <td align="right">            0.292%          </td>
+            <td align="right">            0.292%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/NW4R/MATH          </td>
+            <td align="right">           29.187%          </td>
+            <td align="right">           29.187%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/NW4R/SND          </td>
+            <td align="right">            0.672%          </td>
+            <td align="right">            0.174%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/NW4R/UT          </td>
+            <td align="right">           26.164%          </td>
+            <td align="right">           20.775%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/RFL          </td>
+            <td align="right">            1.316%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/DWC          </td>
+            <td align="right">            0.217%          </td>
+            <td align="right">            0.217%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/SPY          </td>
+            <td align="right">           81.851%          </td>
+            <td align="right">           81.851%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/RVL          </td>
+            <td align="right">            9.512%          </td>
+            <td align="right">            3.410%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > DOL/EGG          </td>
+            <td align="right">           12.996%          </td>
+            <td align="right">            6.366%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          REL          </td>
+            <td align="right">            0.256%          </td>
+            <td align="right">            0.199%          </td>
+            <td align="right">            0.030%          </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/JMAP          </td>
+            <td align="right">            1.040%          </td>
+            <td align="right">            1.040%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/SYSTEM          </td>
+            <td align="right">            2.162%          </td>
+            <td align="right">            1.287%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/SCENE          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/KART          </td>
+            <td align="right">            0.050%          </td>
+            <td align="right">            0.050%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/UI          </td>
+            <td align="right">            0.421%          </td>
+            <td align="right">            0.421%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/NET          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/GEO/0          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/GEO/1          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/SND          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/AI          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/GEO/2          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/ITEM          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/UI/CTRL          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/GEO/3          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/GEO          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/UI/PAGE          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          > REL/GEO/4          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">            0.000%          </td>
+            <td align="right">                    </td>
+        </tr>
+        <tr>
+            <td align="left">          TOTAL          </td>
+            <td align="right">            5.801%          </td>
+            <td align="right">            4.133%          </td>
+            <td align="right">            1.520%          </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+<h2>DOL Libraries</h2>
+<div class="slices">
+<span
+  class="rectangle"
+  style="background-color:#000000; width:60.888px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea57; width:9.016px;"
+>
+<span class="rectangle-tooltip rectangle-small">DOL/NW4R/DB</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#5a00ea; width:77.19200000000001px;"
+>
+<span class="rectangle-tooltip ">DOL/NW4R/EF</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#13ea00; width:91.64px;"
+>
+<span class="rectangle-tooltip ">DOL/NW4R/G3D</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00be; width:25.328px;"
+>
+<span class="rectangle-tooltip rectangle-small">DOL/NW4R/LYT</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#31ea00; width:3.344px;"
+>
+<span class="rectangle-tooltip rectangle-small">DOL/NW4R/MATH</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0085ea; width:82.72px;"
+>
+<span class="rectangle-tooltip ">DOL/NW4R/SND</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eac800; width:26.128px;"
+>
+<span class="rectangle-tooltip rectangle-small">DOL/NW4R/UT</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#9400ea; width:34.354px;"
+>
+<span class="rectangle-tooltip rectangle-small">DOL/RFL</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#b2ea00; width:71.114px;"
+>
+<span class="rectangle-tooltip rectangle-small">DOL/DWC</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea009b; width:108.04px;"
+>
+<span class="rectangle-tooltip ">DOL/SPY</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#004dea; width:482.13px;"
+>
+<span class="rectangle-tooltip ">DOL/RVL</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea01; width:109.524px;"
+>
+<span class="rectangle-tooltip ">DOL/EGG</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:664.02px;"
+>
+
+</span>
+
+</div>
+
+<h2>DOL Decompiled</h2>
+<div class="slices">
+<span
+  class="rectangle"
+  style="background-color:#ea1f00; width:0.128px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">asm/trkHeader.s</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:3.866px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6e00ea; width:0.154px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/trk/rvlTrkMem.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.212px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#91ea00; width:0.07200000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/trk/start.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.224px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.736px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.104px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.608px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#df00ea; width:0.022px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/host_system/SystemResource.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:9.446px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00abea; width:0.202px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/ansi_files.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea5e00; width:3.23px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/ansi_fp.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.3980000000000001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea3d; width:0.122px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/float.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.252px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7b00ea; width:0.184px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/mem.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#5dea00; width:0.36px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/mem_cpy.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.37px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0080; width:3.342px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/printf.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00b9ea; width:0.184px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/qsort.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7eea00; width:0.02px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/rand.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0088ea; width:2.616px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/scanf.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:9.288px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#d6ea00; width:0.088px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/wchar.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:18.888px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#5c00ea; width:0.046px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/ExceptionPPC.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.47200000000000003px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eacb; width:0.056px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/__init_cpp_exceptions.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.014px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eacd00; width:0.1px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/va_arg.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#c000ea; width:0.08600000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/global_destructor_chain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.196px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea9f00; width:0.798px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/eabi.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:148.108px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6100ea; width:0.556px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/g3d/g3d_camera.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:26.588px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea9b; width:0.128px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/g3d/g3d_fog.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:2.472px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00e4; width:0.042px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/lyt/lyt_init.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:7.806px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00e9ea; width:0.032px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_font.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:17.712px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#9100ea; width:0.5640000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/math/mathTriangular.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.068px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#22ea00; width:0.41200000000000003px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/math/mathTypes.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:23.364px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0900ea; width:0.556px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/snd/snd_dvdSoundArchive.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:60.836px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea5f00; width:0.34400000000000003px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/utList.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.6400000000000001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0500ea; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_IOStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#33ea00; width:0.19px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_fileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#009bea; width:0.798px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_dvdFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eaa000; width:0.502px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_dvdLockedFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#b700ea; width:1.6540000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_nandFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2dea00; width:0.23600000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_lockedCache.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:2.2760000000000002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea007b; width:3.106px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_charWriter.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:15.366px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea89; width:0.452px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rfl/rfl_init.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:34.338px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea8200; width:0.154px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/dwc/common/dwc_error.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:70.524px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eab1; width:1.322px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/darray.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#bbea00; width:0.588px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/hashtable.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#1f00ea; width:1.94px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/md5c.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea9d00; width:0.608px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/revolution/gsSocketRevolution.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.158px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#005eea; width:0.12px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/revolution/gsUtilRevolution.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:3.118px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea4f00; width:0.19px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsAvailable.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.244px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ba00ea; width:0.746px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsCore.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.864px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eac3; width:2.2800000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsUdpEngine.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea2700; width:11.998000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsXML.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea25; width:2.0060000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gp.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea3000; width:1.222px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpi.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00abea; width:3.736px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiBuddy.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0064; width:1.306px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiBuffer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#3dea00; width:0.6900000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiCallback.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00db; width:2.852px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiConnect.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00daea; width:4.684px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiInfo.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#aaea00; width:0.8200000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiKeys.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00dbea; width:0.876px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiOperation.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea1300; width:2.95px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiPeer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#5a00ea; width:1.188px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiProfile.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#74ea00; width:4.686px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiSearch.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2900ea; width:0.116px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiTransfer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#97ea00; width:0.3px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiUnique.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea003a; width:0.754px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiUtility.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0008ea; width:0.482px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Auth.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea2300; width:0.21px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Buffer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00bbea; width:1.088px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Callback.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0058; width:0.874px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Connection.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6bea00; width:0.51px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Main.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:6.2860000000000005px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#e000ea; width:1.48px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Socket.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#95ea00; width:0.374px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Utility.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0034ea; width:5.216px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/qr2/qr2.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0094; width:0.07200000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/qr2/qr2regkeys.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00caea; width:1.014px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpBuffer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.146px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#aeea00; width:0.14400000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpCallbacks.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#9a00ea; width:0.56px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpCommon.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.158px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ead9; width:0.934px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpConnection.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00b0; width:0.524px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpEncryption.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0076ea; width:1.09px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea5300; width:3.306px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpPost.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#009eea; width:3.368px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpProcess.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ead300; width:2.2520000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gstats/gbucket.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ead2; width:4.212px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gstats/gstats.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:4.188px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6f00ea; width:0.538px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_crypt.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea5d00; width:1.3940000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_queryengine.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00d4ea; width:1.6480000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_server.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7bea00; width:1.034px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_serverbrowsing.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea002c; width:7.402px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_serverlist.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#004bea; width:0.728px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/sake/sakeMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:4.146px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea003d; width:1.216px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/arc/rvlArchive.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:19.314px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#52ea00; width:0.184px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/base/ppcArch.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:121.468px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea002c; width:3.176px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/fs/fs.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:81.264px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea50; width:0.10200000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/ipc/ipcMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea4d00; width:3.2560000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/ipc/ipcclt.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:7.194px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#1b00ea; width:0.726px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mem/rvlMemHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea8b; width:1.612px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mem/rvlMemExpHeap.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea001f; width:0.5700000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mem/rvlMemFrmHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea32; width:0.34600000000000003px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mem/rvlMemUnitHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#a100ea; width:0.076px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mem/rvlMemAllocator.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#a5ea00; width:0.138px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mem/rvlMemList.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00e4ea; width:1.6320000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlMtx.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00ac; width:0.272px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlMtx2.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea62; width:0.274px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlVec.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea7d00; width:0.646px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlQuat.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0008ea; width:8.01px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/nand/nand.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:2.568px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#b4ea00; width:1.01px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osAlarm.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eacb; width:0.388px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osAlloc.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eae200; width:0.074px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osArena.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#dd00ea; width:0.602px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osAudio.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eae3; width:0.792px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osCache.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea003b; width:1.242px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osContext.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#007fea; width:1.114px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osError.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:3.6px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00c2; width:1.564px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osFatal.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea57; width:1.8960000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osFont.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eaa900; width:0.962px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osInterrupt.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00bcea; width:0.742px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osLink.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea7c00; width:0.362px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osMessage.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0049ea; width:1.1340000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osMemory.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#66ea00; width:0.39px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osMutex.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000dea; width:0.064px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osReboot.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea1f; width:1.06px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osReset.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.014px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#a000ea; width:1.35px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osRtc.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#3dea00; width:0.064px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osSync.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea008d; width:3.032px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osThread.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:7.23px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#75ea00; width:0.34px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/pad/rvlPadClamp.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0061ea; width:3.2px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/pad/rvlPad.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:14.664px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea1500; width:0.266px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/tpl/tpl.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:107.82600000000001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7000ea; width:1.868px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/so/soCommon.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#4cea00; width:0.106px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/so/soBasic.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:70.428px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#bd00ea; width:0.096px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggAllocator.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea9500; width:0.748px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggArchive.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.008px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00ea; width:1.036px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggAsyncDisplay.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.082px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eae700; width:1.3800000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/audio/eggAudioArcPlayerMgr.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:7.944px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#c300ea; width:0.384px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/util/eggCntFile.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:7.454px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea7a00; width:2.402px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDecomp.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea9d; width:0.324px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDisplay.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea003c; width:0.1px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDisposer.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:16.562px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ddea; width:0.47800000000000004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDvdFile.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea4200; width:0.762px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDvdRipper.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:7.79px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eaad; width:0.686px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggExpHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:4.894px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea001c; width:0.18px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggGraphicsFifo.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0065ea; width:1.154px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:32.552px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0048; width:1.348px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/math/eggQuat.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.582px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0086ea; width:0.10200000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggScene.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea000f; width:0.056px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggSceneManager.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:15.142px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eaaa; width:0.054px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggStreamDecomp.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.498px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#8300ea; width:0.794px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggTaskThread.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.482px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea28; width:0.5700000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggThread.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#9e00ea; width:0.342px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggUnitHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea6800; width:0.396px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/math/eggVector.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eac4; width:0.43px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggVideo.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00bc; width:0.11800000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggViewport.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#5fea00; width:0.08px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggXfb.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea001d; width:0.214px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggXfbManager.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.306px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#3dea00; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/__init_cpp_exceptions.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.036000000000000004px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#003aea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_IOStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea3c00; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_fileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#1c00ea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_dvdFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#aeea00; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_dvdLockedFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ae00ea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_nandFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eae100; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_lockedCache.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.034px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00bfea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/math/eggVector.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.008px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea1900; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/__init_cpp_exceptions.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.01px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.168px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eaa9; width:0.08px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/host_system/SystemResource.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:6.064px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6f00ea; width:2.056px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/math/mathTriangular.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:6.988px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ead4; width:0.0085px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/md5c.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#e8ea00; width:0.0055px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpProcess.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:13.0065px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0015ea; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlQuat.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.166px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea9400; width:0.011px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/pad/rvlPadClamp.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:9.357px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00cb; width:0.013000000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggExpHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.019px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#005bea; width:0.114px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.374px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea1500; width:0.32px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggVideo.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.016px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:55.096000000000004px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0000ea; width:0.035px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/lyt/lyt_init.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.673px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#9bea00; width:0.132px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/math/mathTriangular.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.1px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#8800ea; width:0.016px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/snd/snd_dvdSoundArchive.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.156px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ead700; width:0.05px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_dvdFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#002bea; width:0.05px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_dvdLockedFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea002c; width:0.046px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_nandFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.226px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea27; width:0.036000000000000004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rfl/rfl_init.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.964px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0040; width:0.044px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/dwc/common/dwc_error.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:10.916px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#004dea; width:0.032px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/md5c.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.06px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0e00; width:0.0165px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsAvailable.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#09ea00; width:0.20400000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsXML.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000cea; width:0.4405px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gp.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0cea00; width:0.0635px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpi.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0005px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0400; width:0.1615px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiBuddy.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0025px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#4e00ea; width:0.049px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiBuffer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.003px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eaba; width:0.0075px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiCallback.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0005px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea2d00; width:0.467px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiConnect.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#5d00ea; width:0.427px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiInfo.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#38ea00; width:0.0325px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiKeys.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0003ea; width:0.036000000000000004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiOperation.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7cea00; width:0.101px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiPeer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.003px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#be00ea; width:0.2185px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiProfile.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0015px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea42; width:0.398px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiSearch.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#e300ea; width:0.0165px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiTransfer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eab7; width:0.0315px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiUnique.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0005px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0003; width:0.0425px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiUtility.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0015px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#3a00ea; width:0.0165px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Auth.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6bea00; width:1.9415px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/qr2/qr2.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0025px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00d8ea; width:0.62px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/qr2/qr2regkeys.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea7c00; width:0.0045000000000000005px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpConnection.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00d8ea; width:0.0045000000000000005px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpEncryption.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0081; width:0.0125px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#c9ea00; width:0.28600000000000003px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpPost.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eacf; width:0.1015px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpProcess.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0025px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea008e; width:0.3px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gstats/gstats.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.14400000000000002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#40ea00; width:0.0185px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_queryengine.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0015px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#cb00ea; width:0.0045000000000000005px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_server.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#55ea00; width:0.016px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_serverbrowsing.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0021; width:0.022px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_serverlist.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2b00ea; width:0.123px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/sake/sakeMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.997px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2dea00; width:0.053px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/arc/rvlArchive.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:8.087px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0015ea; width:0.0275px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/base/ppcArch.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:25.7925px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#b3ea00; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osAlarm.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.34800000000000003px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eac2; width:0.22px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osContext.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:2.196px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0012; width:0.024px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osInterrupt.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:25.384px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0067ea; width:0.044px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/pad/rvlPad.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.448px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0080; width:0.021500000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/tpl/tpl.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:10.570500000000001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea2f; width:0.23800000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/so/soCommon.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#3a00ea; width:0.0375px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/so/soBasic.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.1465px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#4bea00; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggAllocator.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2100ea; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggArchive.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.446px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7dea00; width:0.016px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/util/eggCntFile.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.14400000000000002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00a8; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDisposer.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.294px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eab5; width:0.02px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDvdFile.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.28px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#d4ea00; width:0.022px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggExpHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.07px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000cea; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggGraphicsFifo.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea9700; width:0.022px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.6580000000000001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0098ea; width:0.02px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggScene.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.184px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#38ea00; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggStreamDecomp.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0081ea; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggTaskThread.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.012px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#c6ea00; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggThread.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7600ea; width:0.022px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggUnitHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.03px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.032px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:5.236px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eac8; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/ExceptionPPC.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6f00ea; width:0.384px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/global_destructor_chain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:152.376px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#29ea00; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_dvdLockedFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea008a; width:0.014px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_lockedCache.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#57ea00; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_charWriter.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:2.052px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#5e00ea; width:0.108px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsAvailable.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.024px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#50ea00; width:0.03px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsUdpEngine.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:2.05px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2c00ea; width:0.024px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Utility.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.008px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#75ea00; width:0.178px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/qr2/qr2.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.254px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#bb00ea; width:0.256px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gstats/gstats.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.656px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eaad00; width:0.128px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/sake/sakeMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:169.56px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0010ea; width:0.02px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mem/rvlMemHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:2.636px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0900; width:0.064px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/pad/rvlPad.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:30.712px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea06; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/so/soCommon.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:90.19200000000001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea3d00; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggArchive.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.27px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2500ea; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDisposer.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.6px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0700; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDvdFile.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.192px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#001eea; width:0.02px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.036px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0052; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggThread.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#008dea; width:0.066px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/math/eggVector.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.006px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.028px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eab400; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/rand.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.006px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#1300ea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/__init_cpp_exceptions.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.162px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#79ea00; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/lyt/lyt_init.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.39px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#005bea; width:0.0505px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsXML.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0015px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#75ea00; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gp.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2500ea; width:0.028px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpi.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#74ea00; width:0.077px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiBuddy.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.003px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#9000ea; width:0.011px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiBuffer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea7100; width:0.0735px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiConnect.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0025px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#8000ea; width:0.0905px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiInfo.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0015px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eabc; width:0.001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiKeys.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.003px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#8e00ea; width:0.0445px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiPeer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eace00; width:0.007px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiProfile.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eaaf; width:0.11750000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiSearch.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0025px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#caea00; width:0.0055px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiTransfer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0025px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea008d; width:0.006500000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiUnique.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0015px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea3f; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiUtility.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.008px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0050; width:0.0085px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Utility.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0039ea; width:0.021px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/qr2/qr2.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.003px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eac500; width:0.059500000000000004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/qr2/qr2regkeys.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0005px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#a800ea; width:0.0055px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpBuffer.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0025px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#deea00; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpCommon.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eaa3; width:0.0005px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0080; width:0.015px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpPost.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0005px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#006fea; width:0.0425px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpProcess.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0015px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0030; width:0.051000000000000004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gstats/gstats.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.025px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2700ea; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_queryengine.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eae000; width:0.0205px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_server.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0077ea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_serverbrowsing.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea1600; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_serverlist.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea20; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/sake/sakeMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.08600000000000001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0014; width:0.003px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/arc/rvlArchive.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.265px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#004fea; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlMtx.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.068px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7bea00; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osAlloc.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#006aea; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osArena.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.048px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0009; width:0.016px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/pad/rvlPad.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.16px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea0c; width:0.003px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/tpl/tpl.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.313px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#b500ea; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/so/soCommon.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea1e; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/so/soBasic.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.078px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00e5; width:0.0005px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDvdRipper.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0275px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.116px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00e0ea; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/platform/global_destructor_chain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.2px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea1400; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_IOStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea58; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_fileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea2b00; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_dvdFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7800ea; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_dvdLockedFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eab800; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_nandFileStream.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ab00ea; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_charWriter.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.02px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0fea00; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/dwc/common/dwc_error.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.08px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00b8; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/revolution/gsSocketRevolution.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#acea00; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/common/gsAvailable.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6800ea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gt2/gt2Utility.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea4c00; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/qr2/qr2.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00cfea; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpCommon.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eab200; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpConnection.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0600ea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0045; width:0.01px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpPost.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00e2ea; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gstats/gbucket.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#b0ea00; width:0.014px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gstats/gstats.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.042px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#e300ea; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_server.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eaa3; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_serverlist.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.464px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0039; width:0.01px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/ipc/ipcMain.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.03px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#002bea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mem/rvlMemHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.05px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea0e; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osAlarm.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7d00ea; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osAlloc.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea51; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osArena.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.02px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#e700ea; width:0.01px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/os/osInterrupt.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.078px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea9400; width:0.022px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/pad/rvlPad.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.022px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eacc; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/si/siBios.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.41200000000000003px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00a7; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/so/soCommon.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.036000000000000004px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea44; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggArchive.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.034px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#b900ea; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/util/eggCntFile.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.014px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea35; width:0.018000000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDecomp.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.006px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0006ea; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDvdFile.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#3eea00; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggDvdRipper.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.052000000000000005px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0005; width:0.0045000000000000005px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggGraphicsFifo.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.0035px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#64ea00; width:0.016px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.032px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#004fea; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggSceneManager.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.04px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0031; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggSystem.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.01px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea8a; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/math/eggVector.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.008px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:1.67px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7c00ea; width:0.022px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/g3d/g3d_camera.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.064px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#cfea00; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/g3d/g3d_fog.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.146px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eae8; width:0.018000000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/math/mathTriangular.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#8fea00; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/math/mathTypes.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.534px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7e00ea; width:0.016px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/nw4r/ut/ut_charWriter.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.184px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea0e; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/GP/gpiInfo.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00b1; width:0.003px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/qr2/qr2.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eae3; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/ghttp/ghttpPost.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0040; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/gstats/gbucket.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea17; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_server.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea001f; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/gamespy/serverbrowsing/sb_serverlist.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.47800000000000004px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#2000ea; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mem/rvlMemAllocator.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea71; width:0.016px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlMtx.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eac900; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlMtx2.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea00d3; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlVec.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00bcea; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/mtx/rvlQuat.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.048px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea2600; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/pad/rvlPadClamp.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.016px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea64; width:0.004px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/rvl/tpl/tpl.c</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.516px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eaa800; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggHeap.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.304px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6900ea; width:0.018000000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/math/eggQuat.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.122px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#d0ea00; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/math/eggVector.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0058ea; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/egg/core/eggVideo.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.02px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.03px;"
+>
+
+</span>
+
+</div>
+
+<h2>DOL Sections</h2>
+<div class="slices">
+<span
+  class="rectangle"
+  style="background-color:#ea00c9; width:4.656px;"
+>
+<span class="rectangle-tooltip rectangle-small">init</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea0f; width:0.736px;"
+>
+<span class="rectangle-tooltip rectangle-small">extab</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea005e; width:1.104px;"
+>
+<span class="rectangle-tooltip rectangle-small">extabindex</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#54ea00; width:1174.928px;"
+>
+<span class="rectangle-tooltip ">text</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#8f00ea; width:0.088px;"
+>
+<span class="rectangle-tooltip rectangle-small">ctors</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.008px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eacd; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-small">dtors</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.01px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#dbea00; width:39.776px;"
+>
+<span class="rectangle-tooltip rectangle-small">rodata</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#7100ea; width:154.976px;"
+>
+<span class="rectangle-tooltip ">data</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.032px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea72; width:460.224px;"
+>
+<span class="rectangle-tooltip ">bss</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea5b00; width:2.528px;"
+>
+<span class="rectangle-tooltip rectangle-small">sdata</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ceea; width:2.032px;"
+>
+<span class="rectangle-tooltip rectangle-small">sbss</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea001c; width:4.304px;"
+>
+<span class="rectangle-tooltip rectangle-small">sdata2</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#57ea00; width:0.03px;"
+>
+<span class="rectangle-tooltip rectangle-small">sbss2</span>
+
+</span>
+
+</div>
+
+<h2>REL Directories</h2>
+<div class="slices">
+<span
+  class="rectangle"
+  style="background-color:#00abea; width:16.542px;"
+>
+<span class="rectangle-tooltip rectangle-small">REL/JMAP</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6fea00; width:120.164px;"
+>
+<span class="rectangle-tooltip ">REL/SYSTEM</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0079; width:3.5300000000000002px;"
+>
+<span class="rectangle-tooltip rectangle-small">REL/SCENE</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:36.824px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#008dea; width:167.586px;"
+>
+<span class="rectangle-tooltip ">REL/KART</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.376px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0073; width:315.26800000000003px;"
+>
+<span class="rectangle-tooltip ">REL/UI</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#1bea00; width:82.056px;"
+>
+<span class="rectangle-tooltip ">REL/NET</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:6.0680000000000005px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0020ea; width:30.254px;"
+>
+<span class="rectangle-tooltip rectangle-small">REL/GEO/0</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:86.266px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#27ea00; width:129.302px;"
+>
+<span class="rectangle-tooltip ">REL/GEO/1</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0400ea; width:76.422px;"
+>
+<span class="rectangle-tooltip ">REL/SND</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:21.482px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#b9ea00; width:77.22800000000001px;"
+>
+<span class="rectangle-tooltip ">REL/AI</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:12.106px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00beea; width:92.764px;"
+>
+<span class="rectangle-tooltip ">REL/GEO/2</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:50.022px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#6aea00; width:77.378px;"
+>
+<span class="rectangle-tooltip ">REL/ITEM</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:72.63px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0028; width:50.334px;"
+>
+<span class="rectangle-tooltip rectangle-small">REL/UI/CTRL</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea61; width:68.108px;"
+>
+<span class="rectangle-tooltip rectangle-small">REL/GEO/3</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea2000; width:42.652px;"
+>
+<span class="rectangle-tooltip rectangle-small">REL/GEO</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:15.338000000000001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#8400ea; width:84.508px;"
+>
+<span class="rectangle-tooltip ">REL/UI/PAGE</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:22.054000000000002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#d0ea00; width:67.824px;"
+>
+<span class="rectangle-tooltip rectangle-small">REL/GEO/4</span>
+
+</span>
+
+</div>
+
+<h2>REL Decompiled</h2>
+<div class="slices">
+<span
+  class="rectangle"
+  style="background-color:#000000; width:4.464px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea009f; width:0.17200000000000001px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/jmap/JmpResourceCourse.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:19.534px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00dfea; width:2.598px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/system/GhostFile.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:114.632px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#9300ea; width:0.356px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/util/Random.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:120.062px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#02ea00; width:0.084px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/kart/KartComponent.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:102.666px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#1800ea; width:1.05px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/ui/ControlGroup.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:110.47800000000001px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#eaa200; width:0.276px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/ui/MessageGroup.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:815.234px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#d300ea; width:0.056px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/geo/BoxColManager.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea6300; width:0.1px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/geo/BoxColUnit.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:541.236px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.386px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.006px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.008px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:3.624px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea03; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/util/Random.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:9.956px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#da00ea; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/ui/MessageGroup.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:29.524px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00eac0; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/geo/BoxColUnit.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:29.158px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.048px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea9000; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/jmap/JmpResourceCourse.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.126px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea96; width:0.012px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/system/GhostFile.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:2.7600000000000002px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0017; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/util/Random.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:84.084px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:459.142px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.004px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#00ea94; width:0.002px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/jmap/JmpResourceCourse.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:8.458px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#d8ea00; width:0.008px;"
+>
+<span class="rectangle-tooltip rectangle-below rectangle-small">source/game/kart/KartComponent.cpp</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:6.976px;"
+>
+
+</span>
+
+</div>
+
+<h2>REL Sections</h2>
+<div class="slices">
+<span
+  class="rectangle"
+  style="background-color:#ea00db; width:1832.998px;"
+>
+<span class="rectangle-tooltip ">text</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#18ea00; width:0.386px;"
+>
+<span class="rectangle-tooltip rectangle-small">ctors</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#1a00ea; width:0.006px;"
+>
+<span class="rectangle-tooltip rectangle-small">dtors</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:0.008px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#ea0200; width:72.28px;"
+>
+<span class="rectangle-tooltip rectangle-small">rodata</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#0020ea; width:87.042px;"
+>
+<span class="rectangle-tooltip ">data</span>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#000000; width:459.142px;"
+>
+
+</span>
+<span
+  class="rectangle"
+  style="background-color:#05ea00; width:15.448px;"
+>
+<span class="rectangle-tooltip rectangle-small">bss</span>
+
+</span>
+
+</div>
+
+</body>
+</html>
