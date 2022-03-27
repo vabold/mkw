@@ -9,6 +9,7 @@ var searchData=
   ['resname_6',['ResName',['../structnw4r_1_1g3d_1_1_res_name.html',1,'nw4r::g3d']]],
   ['resnamedata_7',['ResNameData',['../structnw4r_1_1g3d_1_1_res_name_data.html',1,'nw4r::g3d']]],
   ['rkscene_8',['RKScene',['../class_r_k_scene.html',1,'']]],
-  ['runtimetypeinfo_9',['RuntimeTypeInfo',['../structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html',1,'nw4r::ut::detail']]],
-  ['rvlarchive_10',['rvlArchive',['../classrvl_archive.html',1,'']]]
+  ['romfont_9',['RomFont',['../structnw4r_1_1ut_1_1_rom_font.html',1,'nw4r::ut']]],
+  ['runtimetypeinfo_10',['RuntimeTypeInfo',['../structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html',1,'nw4r::ut::detail']]],
+  ['rvlarchive_11',['rvlArchive',['../classrvl_archive.html',1,'']]]
 ];

@@ -116,7 +116,8 @@ var annotated_dup =
         [ "List", "structnw4r_1_1ut_1_1_list.html", null ],
         [ "NandFileStream", "classnw4r_1_1ut_1_1_nand_file_stream.html", null ],
         [ "Node", "structnw4r_1_1ut_1_1_node.html", null ],
-        [ "Polymorphic", "structnw4r_1_1ut_1_1_polymorphic.html", null ]
+        [ "Polymorphic", "structnw4r_1_1ut_1_1_polymorphic.html", null ],
+        [ "RomFont", "structnw4r_1_1ut_1_1_rom_font.html", null ]
       ] ]
     ] ],
     [ "System", null, [

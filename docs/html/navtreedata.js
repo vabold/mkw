@@ -48,7 +48,7 @@ var NAVTREEINDEX =
 [
 "_box_col_manager_8hpp_source.html",
 "class_field_1_1_object_parameter.html",
-"structnw4r_1_1g3d_1_1_camera.html#structnw4r_1_1g3d_1_1_camera_1_1_posture_info"
+"structnw4r_1_1g3d_1_1_camera.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

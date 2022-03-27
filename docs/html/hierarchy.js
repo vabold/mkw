@@ -58,7 +58,9 @@ var hierarchy =
     [ "nw4r::ut::FileStream::FilePosition", "classnw4r_1_1ut_1_1_file_stream_1_1_file_position.html", null ],
     [ "nw4r::g3d::Fog", "structnw4r_1_1g3d_1_1_fog.html", null ],
     [ "nw4r::g3d::FogData", "structnw4r_1_1g3d_1_1_fog_data.html", null ],
-    [ "nw4r::ut::Font", "structnw4r_1_1ut_1_1_font.html", null ],
+    [ "nw4r::ut::Font", "structnw4r_1_1ut_1_1_font.html", [
+      [ "nw4r::ut::RomFont", "structnw4r_1_1ut_1_1_rom_font.html", null ]
+    ] ],
     [ "nw4r::snd::detail::FrameHeap", "structnw4r_1_1snd_1_1detail_1_1_frame_heap.html", null ],
     [ "UI::ControlGroup::Functor", "struct_u_i_1_1_control_group_1_1_functor.html", null ],
     [ "Field::GeoHitTableItemObjManager", "class_field_1_1_geo_hit_table_item_obj_manager.html", null ],

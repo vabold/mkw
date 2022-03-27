@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"structnw4r_1_1g3d_1_1_camera.html":[1,0,3,0,0],
 "structnw4r_1_1g3d_1_1_camera.html#structnw4r_1_1g3d_1_1_camera_1_1_posture_info":[1,0,3,0,0,0],
 "structnw4r_1_1g3d_1_1_fog.html":[1,0,3,0,2],
 "structnw4r_1_1g3d_1_1_res_name.html":[1,0,3,0,5],
@@ -22,10 +23,11 @@ var NAVTREEINDEX2 =
 "structnw4r_1_1ut_1_1_font.html":[1,0,3,3,8],
 "structnw4r_1_1ut_1_1_i_o_stream.html":[1,0,3,3,10],
 "structnw4r_1_1ut_1_1_polymorphic.html":[1,0,3,3,14],
+"structnw4r_1_1ut_1_1_rom_font.html":[1,0,3,3,15],
 "structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html":[1,0,3,3,0,0],
 "ut___i_o_stream_8hpp_source.html":[2,0,0,2,4,8],
 "ut___link_list_8hpp_source.html":[2,0,0,2,4,9],
-"ut___r_t_t_i_8hpp_source.html":[2,0,0,2,4,12],
+"ut___r_t_t_i_8hpp_source.html":[2,0,0,2,4,13],
 "ut__binary_file_format_8hpp_source.html":[2,0,0,2,4,0],
 "ut__char_strm_reader_8hpp_source.html":[2,0,0,2,4,1],
 "ut__char_writer_8hpp_source.html":[2,0,0,2,4,2],
@@ -36,7 +38,8 @@ var NAVTREEINDEX2 =
 "ut__glyph_8hpp_source.html":[2,0,0,2,4,7],
 "ut__locked_cache_8hpp_source.html":[2,0,0,2,4,10],
 "ut__nand_file_stream_8hpp_source.html":[2,0,0,2,4,11],
-"ut_color_8hpp_source.html":[2,0,0,2,4,13],
-"ut_inlines_8hpp_source.html":[2,0,0,2,4,14],
-"ut_list_8hpp_source.html":[2,0,0,2,4,15]
+"ut__rom_font_8hpp_source.html":[2,0,0,2,4,12],
+"ut_color_8hpp_source.html":[2,0,0,2,4,14],
+"ut_inlines_8hpp_source.html":[2,0,0,2,4,15],
+"ut_list_8hpp_source.html":[2,0,0,2,4,16]
 };
