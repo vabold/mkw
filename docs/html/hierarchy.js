@@ -59,8 +59,13 @@ var hierarchy =
     [ "nw4r::g3d::Fog", "structnw4r_1_1g3d_1_1_fog.html", null ],
     [ "nw4r::g3d::FogData", "structnw4r_1_1g3d_1_1_fog_data.html", null ],
     [ "nw4r::ut::Font", "structnw4r_1_1ut_1_1_font.html", [
-      [ "nw4r::ut::RomFont", "structnw4r_1_1ut_1_1_rom_font.html", null ]
+      [ "nw4r::ut::RomFont", "structnw4r_1_1ut_1_1_rom_font.html", null ],
+      [ "nw4r::ut::detail::ResFontBase", "structnw4r_1_1ut_1_1detail_1_1_res_font_base.html", null ]
     ] ],
+    [ "nw4r::ut::FontCodeMap", "structnw4r_1_1ut_1_1_font_code_map.html", null ],
+    [ "nw4r::ut::FontInformation", "structnw4r_1_1ut_1_1_font_information.html", null ],
+    [ "nw4r::ut::FontTextureGlyph", "structnw4r_1_1ut_1_1_font_texture_glyph.html", null ],
+    [ "nw4r::ut::FontWidth", "structnw4r_1_1ut_1_1_font_width.html", null ],
     [ "nw4r::snd::detail::FrameHeap", "structnw4r_1_1snd_1_1detail_1_1_frame_heap.html", null ],
     [ "UI::ControlGroup::Functor", "struct_u_i_1_1_control_group_1_1_functor.html", null ],
     [ "Field::GeoHitTableItemObjManager", "class_field_1_1_geo_hit_table_item_obj_manager.html", null ],

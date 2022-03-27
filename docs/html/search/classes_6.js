@@ -10,6 +10,10 @@ var searchData=
   ['fog_7',['Fog',['../structnw4r_1_1g3d_1_1_fog.html',1,'nw4r::g3d']]],
   ['fogdata_8',['FogData',['../structnw4r_1_1g3d_1_1_fog_data.html',1,'nw4r::g3d']]],
   ['font_9',['Font',['../structnw4r_1_1ut_1_1_font.html',1,'nw4r::ut']]],
-  ['frameheap_10',['FrameHeap',['../structnw4r_1_1snd_1_1detail_1_1_frame_heap.html',1,'nw4r::snd::detail']]],
-  ['functor_11',['Functor',['../struct_u_i_1_1_control_group_1_1_functor.html',1,'UI::ControlGroup']]]
+  ['fontcodemap_10',['FontCodeMap',['../structnw4r_1_1ut_1_1_font_code_map.html',1,'nw4r::ut']]],
+  ['fontinformation_11',['FontInformation',['../structnw4r_1_1ut_1_1_font_information.html',1,'nw4r::ut']]],
+  ['fonttextureglyph_12',['FontTextureGlyph',['../structnw4r_1_1ut_1_1_font_texture_glyph.html',1,'nw4r::ut']]],
+  ['fontwidth_13',['FontWidth',['../structnw4r_1_1ut_1_1_font_width.html',1,'nw4r::ut']]],
+  ['frameheap_14',['FrameHeap',['../structnw4r_1_1snd_1_1detail_1_1_frame_heap.html',1,'nw4r::snd::detail']]],
+  ['functor_15',['Functor',['../struct_u_i_1_1_control_group_1_1_functor.html',1,'UI::ControlGroup']]]
 ];

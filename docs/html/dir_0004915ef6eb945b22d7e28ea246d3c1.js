@@ -12,6 +12,7 @@ var dir_0004915ef6eb945b22d7e28ea246d3c1 =
     [ "ut_LinkList.hpp", "ut___link_list_8hpp_source.html", null ],
     [ "ut_lockedCache.hpp", "ut__locked_cache_8hpp_source.html", null ],
     [ "ut_nandFileStream.hpp", "ut__nand_file_stream_8hpp_source.html", null ],
+    [ "ut_resFontBase.hpp", "ut__res_font_base_8hpp_source.html", null ],
     [ "ut_romFont.hpp", "ut__rom_font_8hpp_source.html", null ],
     [ "ut_RTTI.hpp", "ut___r_t_t_i_8hpp_source.html", null ],
     [ "utColor.hpp", "ut_color_8hpp_source.html", null ],

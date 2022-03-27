@@ -101,6 +101,7 @@ var annotated_dup =
       ] ],
       [ "ut", null, [
         [ "detail", null, [
+          [ "ResFontBase", "structnw4r_1_1ut_1_1detail_1_1_res_font_base.html", null ],
           [ "RuntimeTypeInfo", "structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html", null ]
         ] ],
         [ "CharStrmReader", "structnw4r_1_1ut_1_1_char_strm_reader.html", null ],
@@ -111,6 +112,10 @@ var annotated_dup =
         [ "DvdLockedFileStream", "classnw4r_1_1ut_1_1_dvd_locked_file_stream.html", null ],
         [ "FileStream", "classnw4r_1_1ut_1_1_file_stream.html", "classnw4r_1_1ut_1_1_file_stream" ],
         [ "Font", "structnw4r_1_1ut_1_1_font.html", null ],
+        [ "FontCodeMap", "structnw4r_1_1ut_1_1_font_code_map.html", null ],
+        [ "FontInformation", "structnw4r_1_1ut_1_1_font_information.html", null ],
+        [ "FontTextureGlyph", "structnw4r_1_1ut_1_1_font_texture_glyph.html", null ],
+        [ "FontWidth", "structnw4r_1_1ut_1_1_font_width.html", null ],
         [ "Glyph", "structnw4r_1_1ut_1_1_glyph.html", null ],
         [ "IOStream", "structnw4r_1_1ut_1_1_i_o_stream.html", null ],
         [ "List", "structnw4r_1_1ut_1_1_list.html", null ],
