@@ -60,7 +60,9 @@ var hierarchy =
     [ "nw4r::g3d::FogData", "structnw4r_1_1g3d_1_1_fog_data.html", null ],
     [ "nw4r::ut::Font", "structnw4r_1_1ut_1_1_font.html", [
       [ "nw4r::ut::RomFont", "structnw4r_1_1ut_1_1_rom_font.html", null ],
-      [ "nw4r::ut::detail::ResFontBase", "structnw4r_1_1ut_1_1detail_1_1_res_font_base.html", null ]
+      [ "nw4r::ut::detail::ResFontBase", "structnw4r_1_1ut_1_1detail_1_1_res_font_base.html", [
+        [ "nw4r::ut::ResFont", "structnw4r_1_1ut_1_1_res_font.html", null ]
+      ] ]
     ] ],
     [ "nw4r::ut::FontCodeMap", "structnw4r_1_1ut_1_1_font_code_map.html", null ],
     [ "nw4r::ut::FontInformation", "structnw4r_1_1ut_1_1_font_information.html", null ],
