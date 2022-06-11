@@ -59,6 +59,7 @@ var dir_6b5970774031d87b0089cc8f859b8439 =
       [ "EGG::TaskThread", "class_e_g_g_1_1_task_thread.html", "class_e_g_g_1_1_task_thread" ],
       [ "EGG::TaskThread::TJob", "struct_e_g_g_1_1_task_thread_1_1_t_job.html", null ]
     ] ],
+    [ "eggTextureBuffer.hpp", "egg_texture_buffer_8hpp_source.html", null ],
     [ "eggThread.hpp", "egg_thread_8hpp.html", [
       [ "EGG::Thread", "class_e_g_g_1_1_thread.html", "class_e_g_g_1_1_thread" ]
     ] ],
@@ -74,5 +75,6 @@ var dir_6b5970774031d87b0089cc8f859b8439 =
       [ "EGG::Viewport", "class_e_g_g_1_1_viewport.html", null ]
     ] ],
     [ "eggXfb.hpp", "egg_xfb_8hpp_source.html", null ],
-    [ "eggXfbManager.hpp", "egg_xfb_manager_8hpp_source.html", null ]
+    [ "eggXfbManager.hpp", "egg_xfb_manager_8hpp_source.html", null ],
+    [ "g3d_scnrfl.hpp", "g3d__scnrfl_8hpp_source.html", null ]
 ];

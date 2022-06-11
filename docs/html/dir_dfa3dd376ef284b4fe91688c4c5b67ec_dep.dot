@@ -9,9 +9,10 @@ digraph "source/egg" {
     dir_dfa3dd376ef284b4fe91688c4c5b67ec [shape=plaintext label="egg"];
   dir_af060690d8ae23a15d4e6a45e8eeb08e [shape=box label="audio" fillcolor="white" style="filled" URL="dir_af060690d8ae23a15d4e6a45e8eeb08e.html"];
   dir_6b5970774031d87b0089cc8f859b8439 [shape=box label="core" fillcolor="white" style="filled" URL="dir_6b5970774031d87b0089cc8f859b8439.html"];
+  dir_9be805e0beee7499eb8b0822bc80e7cb [shape=box label="gfx" fillcolor="white" style="filled" URL="dir_9be805e0beee7499eb8b0822bc80e7cb.html"];
   dir_e4ca30498960a0cd3b65eeab0e5429aa [shape=box label="math" fillcolor="white" style="filled" URL="dir_e4ca30498960a0cd3b65eeab0e5429aa.html"];
   dir_318446f512858a556f477d31fe0f33fa [shape=box label="util" fillcolor="white" style="filled" URL="dir_318446f512858a556f477d31fe0f33fa.html"];
   }
   }
-  dir_318446f512858a556f477d31fe0f33fa->dir_6b5970774031d87b0089cc8f859b8439 [headlabel="1", labeldistance=1.5 headhref="dir_000005_000003.html"];
+  dir_318446f512858a556f477d31fe0f33fa->dir_6b5970774031d87b0089cc8f859b8439 [headlabel="1", labeldistance=1.5 headhref="dir_000006_000003.html"];
 }
