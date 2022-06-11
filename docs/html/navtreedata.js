@@ -48,7 +48,7 @@ var NAVTREEINDEX =
 [
 "_box_col_manager_8hpp_source.html",
 "class_field_1_1_object_director.html#affd7d774cc1f7ffebdef729b5889a4bc",
-"struct_field_1_1_mapdata_item_path.html#a0f7930351e1a24460799abb321f72611"
+"struct_field_1_1_mapdata_item_path.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

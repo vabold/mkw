@@ -1,0 +1,4 @@
+<map id="EGG::ColorFader::fadeOut" name="EGG::ColorFader::fadeOut">
+<area shape="rect" id="node1" title="Fade out from no&#45;obstruction." alt="" coords="316,13,531,39"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_scene_manager.html#af54800ce4da0beb43a62bec5b97b4a57" title="Fade out, and set the status flag to reinitialize the current scene the next frame." alt="" coords="5,5,268,47"/>
+</map>

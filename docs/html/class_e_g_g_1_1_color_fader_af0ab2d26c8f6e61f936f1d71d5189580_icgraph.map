@@ -1,0 +1,4 @@
+<map id="EGG::ColorFader::fadeIn" name="EGG::ColorFader::fadeIn">
+<area shape="rect" id="node1" title="Fade in from pure blacked&#45;out." alt="" coords="228,13,435,39"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_scene_manager.html#afeb705ef71a62f6dc907f712e94cc0e7" title="Fade into the scene." alt="" coords="5,5,180,47"/>
+</map>

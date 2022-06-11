@@ -9,7 +9,7 @@ var class_e_g_g_1_1_scene_manager =
       [ "STATUS_4", "class_e_g_g_1_1_scene_manager.html#a9dc43922d009f21abb909827f7d52340af8cc3be05e82ff880c78c1916573a782", null ]
     ] ],
     [ "SceneManager", "class_e_g_g_1_1_scene_manager.html#aae65d58e4348d0d6441dbba60d19beaf", null ],
-    [ "calc", "class_e_g_g_1_1_scene_manager.html#add71528bc6dd7273eba3e29425659774", null ],
+    [ "calc", "class_e_g_g_1_1_scene_manager.html#aa0db74b0c93e2585564ca39414362d7d", null ],
     [ "calcCurrentFader", "class_e_g_g_1_1_scene_manager.html#a272bad2586c261b1a9480489a45a64ff", null ],
     [ "calcCurrentScene", "class_e_g_g_1_1_scene_manager.html#abe1b98270bd00015af98547efa73057e", null ],
     [ "changeSiblingScene", "class_e_g_g_1_1_scene_manager.html#a8e578b08dd1acff981bec96549af9468", null ],
@@ -22,7 +22,7 @@ var class_e_g_g_1_1_scene_manager =
     [ "destroyCurrentSceneNoIncoming", "class_e_g_g_1_1_scene_manager.html#af60d0436183c84682a68c4c27f006a4c", null ],
     [ "destroyScene", "class_e_g_g_1_1_scene_manager.html#a60ef16ec42c113e7574f0be0d1cfff17", null ],
     [ "destroyToSelectSceneID", "class_e_g_g_1_1_scene_manager.html#a8cd2d96be7228e188d5fe355bd551237", null ],
-    [ "draw", "class_e_g_g_1_1_scene_manager.html#ae2c9a07c672bc8c86f733dc3eca63aa3", null ],
+    [ "draw", "class_e_g_g_1_1_scene_manager.html#a5aa7a4a352b0badb8848d2bcd77294b8", null ],
     [ "drawCurrentFader", "class_e_g_g_1_1_scene_manager.html#a5ee1f7d349b9104fd619a333f9a6d491", null ],
     [ "drawCurrentScene", "class_e_g_g_1_1_scene_manager.html#a9f49665c9f6ddda4ab7f8ef2dd8df5cb", null ],
     [ "fadeIn", "class_e_g_g_1_1_scene_manager.html#afeb705ef71a62f6dc907f712e94cc0e7", null ],
