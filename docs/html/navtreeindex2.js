@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"struct_e_g_g_1_1_vector3f.html":[1,0,0,30],
 "struct_field_1_1_mapdata_item_path.html":[1,0,1,13],
 "struct_field_1_1_mapdata_item_path.html#a0f7930351e1a24460799abb321f72611":[1,0,1,13,1],
 "struct_field_1_1_mapdata_item_path.html#a353bcba305cc76716004ac1540885ac4":[1,0,1,13,0],
