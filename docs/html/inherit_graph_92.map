@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structnw4r_1_1ut_1_1_node.html" title="Bidirectional list node." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node1" href="$structnw4r_1_1ut_1_1_polymorphic.html" title=" " alt="" coords="5,31,196,57"/>
+<area shape="rect" id="node2" href="$structnw4r_1_1ut_1_1_i_o_stream.html" title=" " alt="" coords="244,31,411,57"/>
+<area shape="rect" id="node3" href="$classnw4r_1_1ut_1_1_file_stream.html" title=" " alt="" coords="459,31,641,57"/>
+<area shape="rect" id="node4" href="$structnw4r_1_1ut_1_1_dvd_file_stream.html" title=" " alt="" coords="693,5,900,32"/>
+<area shape="rect" id="node6" href="$classnw4r_1_1ut_1_1_nand_file_stream.html" title=" " alt="" coords="689,56,904,83"/>
+<area shape="rect" id="node5" href="$classnw4r_1_1ut_1_1_dvd_locked_file_stream.html" title=" " alt="" coords="952,5,1207,32"/>
 </map>
