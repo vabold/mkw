@@ -6,4 +6,8 @@ digraph "source/egg/core/eggArchive.hpp"
   Node1 [label="source/egg/core/eggArchive.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A read-only view of a \"dolphin archive\" .arc file."];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node2 [label="source/egg/core/eggArchive.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_archive_8cpp.html",tooltip="TODO."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node3 [label="source/game/system\l/DvdArchive.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_dvd_archive_8hpp_source.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node4 [label="source/game/system\l/DvdArchive.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

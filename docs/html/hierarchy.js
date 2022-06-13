@@ -42,6 +42,7 @@ var hierarchy =
     [ "System::Date", "class_system_1_1_date.html", null ],
     [ "UI::Deferred< T >", "struct_u_i_1_1_deferred.html", null ],
     [ "EGG::Display", "class_e_g_g_1_1_display.html", null ],
+    [ "DvdArchive", "class_dvd_archive.html", null ],
     [ "EGG::DvdRipper", "class_e_g_g_1_1_dvd_ripper.html", null ],
     [ "UI::Element", "struct_u_i_1_1_element.html", null ],
     [ "EGG::Fader", "class_e_g_g_1_1_fader.html", [

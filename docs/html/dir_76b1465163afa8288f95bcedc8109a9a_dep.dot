@@ -7,5 +7,5 @@ digraph "source/game/system" {
   dir_76b1465163afa8288f95bcedc8109a9a [shape=box, label="system", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_76b1465163afa8288f95bcedc8109a9a.html"];
   }
   dir_dfa3dd376ef284b4fe91688c4c5b67ec [shape=box label="egg" fillcolor="white" style="filled" color="red" URL="dir_dfa3dd376ef284b4fe91688c4c5b67ec.html"];
-  dir_76b1465163afa8288f95bcedc8109a9a->dir_dfa3dd376ef284b4fe91688c4c5b67ec [headlabel="1", labeldistance=1.5 headhref="dir_000013_000001.html"];
+  dir_76b1465163afa8288f95bcedc8109a9a->dir_dfa3dd376ef284b4fe91688c4c5b67ec [headlabel="3", labeldistance=1.5 headhref="dir_000013_000001.html"];
 }

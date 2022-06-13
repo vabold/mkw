@@ -1,12 +1,13 @@
 var NAVTREEINDEX2 =
 {
+"struct_e_g_g_1_1_vector2f.html":[1,0,0,29],
 "struct_e_g_g_1_1_vector3f.html":[1,0,0,30],
 "struct_field_1_1_mapdata_item_path.html":[1,0,1,13],
 "struct_field_1_1_mapdata_item_path.html#a0f7930351e1a24460799abb321f72611":[1,0,1,13,1],
 "struct_field_1_1_mapdata_item_path.html#a353bcba305cc76716004ac1540885ac4":[1,0,1,13,0],
 "struct_field_1_1_mapdata_item_path.html#a7967042d2a342cbe93e6cd54daf7d847":[1,0,1,13,2],
 "struct_field_1_1_mapdata_item_path.html#a85bcfd3552536275f2188af04de57033":[1,0,1,13,3],
-"struct_heap_collection.html":[1,0,11],
+"struct_heap_collection.html":[1,0,12],
 "struct_system_1_1_raw_ghost_file.html":[1,0,4,7],
 "struct_system_1_1_system_manager_8m_simple_address_data.html":[2,0,0,1,1,3,2],
 "struct_u_i_1_1_control_group_1_1_functor.html":[1,0,5,0,0],

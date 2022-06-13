@@ -15,9 +15,10 @@ var searchData=
   ['draw_12',['draw',['../class_e_g_g_1_1_scene_manager.html#a5aa7a4a352b0badb8848d2bcd77294b8',1,'EGG::SceneManager::draw()'],['../class_e_g_g_1_1_color_fader.html#a354e62013bfee6a91093634588c4c3b6',1,'EGG::ColorFader::draw()'],['../class_e_g_g_1_1_fader.html#a47ecfbb45558e3779233725679ffcfec',1,'EGG::Fader::draw()']]],
   ['drawcurrentfader_13',['drawCurrentFader',['../class_e_g_g_1_1_scene_manager.html#a5ee1f7d349b9104fd619a333f9a6d491',1,'EGG::SceneManager']]],
   ['drawcurrentscene_14',['drawCurrentScene',['../class_e_g_g_1_1_scene_manager.html#a9f49665c9f6ddda4ab7f8ef2dd8df5cb',1,'EGG::SceneManager']]],
-  ['dvdfile_15',['DvdFile',['../class_e_g_g_1_1_dvd_file.html#a916858a243c35a35d0261a948d360d02',1,'EGG::DvdFile::DvdFile()'],['../class_e_g_g_1_1_dvd_file.html',1,'EGG::DvdFile']]],
-  ['dvdfilestream_16',['DvdFileStream',['../structnw4r_1_1ut_1_1_dvd_file_stream.html',1,'nw4r::ut']]],
-  ['dvdlockedfilestream_17',['DvdLockedFileStream',['../classnw4r_1_1ut_1_1_dvd_locked_file_stream.html',1,'nw4r::ut']]],
-  ['dvdripper_18',['DvdRipper',['../class_e_g_g_1_1_dvd_ripper.html',1,'EGG']]],
-  ['dvdsoundarchive_19',['DvdSoundArchive',['../classnw4r_1_1snd_1_1_dvd_sound_archive.html',1,'nw4r::snd']]]
+  ['dvdarchive_15',['DvdArchive',['../class_dvd_archive.html',1,'']]],
+  ['dvdfile_16',['DvdFile',['../class_e_g_g_1_1_dvd_file.html#a916858a243c35a35d0261a948d360d02',1,'EGG::DvdFile::DvdFile()'],['../class_e_g_g_1_1_dvd_file.html',1,'EGG::DvdFile']]],
+  ['dvdfilestream_17',['DvdFileStream',['../structnw4r_1_1ut_1_1_dvd_file_stream.html',1,'nw4r::ut']]],
+  ['dvdlockedfilestream_18',['DvdLockedFileStream',['../classnw4r_1_1ut_1_1_dvd_locked_file_stream.html',1,'nw4r::ut']]],
+  ['dvdripper_19',['DvdRipper',['../class_e_g_g_1_1_dvd_ripper.html',1,'EGG']]],
+  ['dvdsoundarchive_20',['DvdSoundArchive',['../classnw4r_1_1snd_1_1_dvd_sound_archive.html',1,'nw4r::snd']]]
 ];

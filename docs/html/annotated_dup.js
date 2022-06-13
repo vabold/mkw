@@ -159,6 +159,7 @@ var annotated_dup =
     [ "BoxColManager", "class_box_col_manager.html", null ],
     [ "BoxColRightPoint", "struct_box_col_right_point.html", null ],
     [ "BoxColUnit", "struct_box_col_unit.html", null ],
+    [ "DvdArchive", "class_dvd_archive.html", null ],
     [ "HeapCollection", "struct_heap_collection.html", null ],
     [ "MEMAllocator", "class_m_e_m_allocator.html", null ],
     [ "MEMiUntHeapHead", "class_m_e_mi_unt_heap_head.html", null ],
