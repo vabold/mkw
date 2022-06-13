@@ -37,9 +37,9 @@ var annotated_dup =
     ] ],
     [ "Field", null, [
       [ "BaseGeoHitTableManager", "class_field_1_1_base_geo_hit_table_manager.html", null ],
+      [ "CourseMap", "class_field_1_1_course_map.html", null ],
       [ "GeoHitTableItemManager", "class_field_1_1_geo_hit_table_item_manager.html", null ],
       [ "GeoHitTableItemObjManager", "class_field_1_1_geo_hit_table_item_obj_manager.html", null ],
-      [ "JmpResourceCourse", "class_field_1_1_jmp_resource_course.html", null ],
       [ "MapdataArea", "class_field_1_1_mapdata_area.html", "class_field_1_1_mapdata_area" ],
       [ "MapdataCamera", "struct_field_1_1_mapdata_camera.html", "struct_field_1_1_mapdata_camera" ],
       [ "MapdataCannonPoint", "struct_field_1_1_mapdata_cannon_point.html", null ],
