@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"struct_e_g_g_1_1_heap_error_arg.html":[1,0,0,17],
+"struct_e_g_g_1_1_low_archive.html":[1,0,0,18],
 "struct_e_g_g_1_1_task_thread_1_1_t_job.html":[1,0,0,26,0],
 "struct_e_g_g_1_1_vector2f.html":[1,0,0,29],
 "struct_e_g_g_1_1_vector3f.html":[1,0,0,30],

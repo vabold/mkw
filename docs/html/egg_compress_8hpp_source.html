@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mkw: UI::MessageGroup Class Reference</title>
+<title>mkw: source/egg/core/eggCompress.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_u_i_1_1_message_group.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('egg_compress_8hpp_source.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -83,42 +83,37 @@ $(document).ready(function(){initNavTree('class_u_i_1_1_message_group.html','');
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="class_u_i_1_1_message_group-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">UI::MessageGroup Class Reference</div></div>
+  <div class="headertitle"><div class="title">eggCompress.hpp</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ae6d48e8aa3073afaf7a5ed5ac24ca7ba"><td class="memItemLeft" align="right" valign="top"><a id="ae6d48e8aa3073afaf7a5ed5ac24ca7ba" name="ae6d48e8aa3073afaf7a5ed5ac24ca7ba"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const char *filename)</td></tr>
-<tr class="separator:ae6d48e8aa3073afaf7a5ed5ac24ca7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84ad67da5ff92bfb98e2e442d6e00536"><td class="memItemLeft" align="right" valign="top"><a id="a84ad67da5ff92bfb98e2e442d6e00536" name="a84ad67da5ff92bfb98e2e442d6e00536"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const void *file)</td></tr>
-<tr class="separator:a84ad67da5ff92bfb98e2e442d6e00536"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d3b3a550bebd4151d582c5607fb9bd1"><td class="memItemLeft" align="right" valign="top"><a id="a4d3b3a550bebd4151d582c5607fb9bd1" name="a4d3b3a550bebd4151d582c5607fb9bd1"></a>
-s32&#160;</td><td class="memItemRight" valign="bottom"><b>getSlot</b> (u32 messageId) const</td></tr>
-<tr class="separator:a4d3b3a550bebd4151d582c5607fb9bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc65b59c1324b27c4fbd5cbb5ab38cc1"><td class="memItemLeft" align="right" valign="top"><a id="abc65b59c1324b27c4fbd5cbb5ab38cc1" name="abc65b59c1324b27c4fbd5cbb5ab38cc1"></a>
-const wchar_t *&#160;</td><td class="memItemRight" valign="bottom"><b>getMessage</b> (s32 slot)</td></tr>
-<tr class="separator:abc65b59c1324b27c4fbd5cbb5ab38cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a078637bb1531b9fa8c16f43eb7409484"><td class="memItemLeft" align="right" valign="top"><a id="a078637bb1531b9fa8c16f43eb7409484" name="a078637bb1531b9fa8c16f43eb7409484"></a>
-const u8 *&#160;</td><td class="memItemRight" valign="bottom"><b>getAttributes</b> (s32 slot)</td></tr>
-<tr class="separator:a078637bb1531b9fa8c16f43eb7409484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>source/game/ui/<a class="el" href="_message_group_8hpp_source.html">MessageGroup.hpp</a></li>
-<li>source/game/ui/MessageGroup.cpp</li>
-</ul>
-</div><!-- contents -->
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;rk_types.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;decomp.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// PAL: 0x802156ac..0x8021587c</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>UNKNOWN_FUNCTION(Comp_encodeSZS);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// PAL: 0x8021587c..0x802159b8</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>UNKNOWN_FUNCTION(unk_8021587c);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// PAL: 0x802159b8..0x80215aa8</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>UNKNOWN_FUNCTION(unk_802159b8);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// PAL: 0x80215aa8..0x80215cbc</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>UNKNOWN_FUNCTION(unk_80215aa8);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>}</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#endif</span></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>UI</b></li><li class="navelem"><a class="el" href="class_u_i_1_1_message_group.html">MessageGroup</a></li>
+    <li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_dfa3dd376ef284b4fe91688c4c5b67ec.html">egg</a></li><li class="navelem"><a class="el" href="dir_6b5970774031d87b0089cc8f859b8439.html">core</a></li><li class="navelem"><b>eggCompress.hpp</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
