@@ -166,7 +166,9 @@ var hierarchy =
     [ "nw4r::snd::SoundMemoryAllocatable", "structnw4r_1_1snd_1_1_sound_memory_allocatable.html", [
       [ "nw4r::snd::SoundHeap", "structnw4r_1_1snd_1_1_sound_heap.html", null ]
     ] ],
-    [ "EGG::Stream", "class_e_g_g_1_1_stream.html", null ],
+    [ "EGG::Stream", "struct_e_g_g_1_1_stream.html", [
+      [ "EGG::RamStream", "class_e_g_g_1_1_ram_stream.html", null ]
+    ] ],
     [ "EGG::StreamDecomp", "class_e_g_g_1_1_stream_decomp.html", [
       [ "EGG::LZStreamDecomp", "class_e_g_g_1_1_l_z_stream_decomp.html", null ]
     ] ],

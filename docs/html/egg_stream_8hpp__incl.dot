@@ -6,4 +6,6 @@ digraph "source/egg/util/eggStream.hpp"
   Node1 [label="source/egg/util/eggStream.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="The Stream class."];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node2 [label="rk_types.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node3 [label="decomp.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

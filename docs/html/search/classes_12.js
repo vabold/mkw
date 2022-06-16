@@ -9,7 +9,7 @@ var searchData=
   ['soundarchivefilereader_6',['SoundArchiveFileReader',['../classnw4r_1_1snd_1_1detail_1_1_sound_archive_file_reader.html',1,'nw4r::snd::detail']]],
   ['soundheap_7',['SoundHeap',['../structnw4r_1_1snd_1_1_sound_heap.html',1,'nw4r::snd']]],
   ['soundmemoryallocatable_8',['SoundMemoryAllocatable',['../structnw4r_1_1snd_1_1_sound_memory_allocatable.html',1,'nw4r::snd']]],
-  ['stream_9',['Stream',['../class_e_g_g_1_1_stream.html',1,'EGG']]],
+  ['stream_9',['Stream',['../struct_e_g_g_1_1_stream.html',1,'EGG']]],
   ['streamdecomp_10',['StreamDecomp',['../class_e_g_g_1_1_stream_decomp.html',1,'EGG']]],
   ['systemmanager_11',['SystemManager',['../class_system_1_1_system_manager.html',1,'System']]],
   ['systemmanager_2emsimpleaddressdata_12',['SystemManager.mSimpleAddressData',['../struct_system_1_1_system_manager_8m_simple_address_data.html',1,'System']]],
