@@ -19,9 +19,10 @@ var searchData=
   ['colorfader_16',['ColorFader',['../class_e_g_g_1_1_color_fader.html#a23dc23209b7ce2a246f17b4557b6bf94',1,'EGG::ColorFader::ColorFader()'],['../class_e_g_g_1_1_color_fader.html',1,'EGG::ColorFader']]],
   ['controlgroup_17',['ControlGroup',['../class_u_i_1_1_control_group.html',1,'UI']]],
   ['convertpathtoentryid_18',['convertPathToEntryID',['../class_e_g_g_1_1_archive.html#a89b9cf49c9f310409da607ad25ec7d9b',1,'EGG::Archive']]],
-  ['coursemap_19',['CourseMap',['../class_field_1_1_course_map.html',1,'Field']]],
-  ['create_20',['create',['../class_e_g_g_1_1_exp_heap.html#a9a63a218301dad5a4deb08a550aeeaf3',1,'EGG::ExpHeap::create(void *block, u32 size, u16 attr) NEVER_INLINE'],['../class_e_g_g_1_1_exp_heap.html#a4dc8ac772f8f66133d05d9749d4ef0b9',1,'EGG::ExpHeap::create(u32 size, Heap *heap, u16 attr)'],['../class_e_g_g_1_1_graphics_fifo.html#a35a31b03868714c1ff4fa68603a1aaa5',1,'EGG::GraphicsFifo::create()'],['../class_e_g_g_1_1_scene_creator.html#a2188828f97a6261a27c6f2f3db34e82b',1,'EGG::SceneCreator::create()'],['../class_system_1_1_scene_creator_static.html#a49ae2db4bb863600836f085a2df3eb0e',1,'System::SceneCreatorStatic::create()']]],
-  ['createchildscene_21',['createChildScene',['../class_e_g_g_1_1_scene_manager.html#af30004e9faae45f8a1fc78453ae23704',1,'EGG::SceneManager']]],
-  ['createdefaultfader_22',['createDefaultFader',['../class_e_g_g_1_1_scene_manager.html#abe43a0d5474b3072de4a83da2aa93847',1,'EGG::SceneManager']]],
-  ['createscene_23',['createScene',['../class_e_g_g_1_1_scene_manager.html#aa849c75af922520bc3c1f76379e09817',1,'EGG::SceneManager']]]
+  ['coursearchive_19',['CourseArchive',['../class_system_1_1_course_archive.html',1,'System']]],
+  ['coursemap_20',['CourseMap',['../class_field_1_1_course_map.html',1,'Field']]],
+  ['create_21',['create',['../class_e_g_g_1_1_exp_heap.html#a9a63a218301dad5a4deb08a550aeeaf3',1,'EGG::ExpHeap::create(void *block, u32 size, u16 attr) NEVER_INLINE'],['../class_e_g_g_1_1_exp_heap.html#a4dc8ac772f8f66133d05d9749d4ef0b9',1,'EGG::ExpHeap::create(u32 size, Heap *heap, u16 attr)'],['../class_e_g_g_1_1_graphics_fifo.html#a35a31b03868714c1ff4fa68603a1aaa5',1,'EGG::GraphicsFifo::create()'],['../class_e_g_g_1_1_scene_creator.html#a2188828f97a6261a27c6f2f3db34e82b',1,'EGG::SceneCreator::create()'],['../class_system_1_1_scene_creator_static.html#a49ae2db4bb863600836f085a2df3eb0e',1,'System::SceneCreatorStatic::create()']]],
+  ['createchildscene_22',['createChildScene',['../class_e_g_g_1_1_scene_manager.html#af30004e9faae45f8a1fc78453ae23704',1,'EGG::SceneManager']]],
+  ['createdefaultfader_23',['createDefaultFader',['../class_e_g_g_1_1_scene_manager.html#abe43a0d5474b3072de4a83da2aa93847',1,'EGG::SceneManager']]],
+  ['createscene_24',['createScene',['../class_e_g_g_1_1_scene_manager.html#aa849c75af922520bc3c1f76379e09817',1,'EGG::SceneManager']]]
 ];

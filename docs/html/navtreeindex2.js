@@ -1,5 +1,10 @@
 var NAVTREEINDEX2 =
 {
+"snd__sound_memory_allocatable_8hpp_source.html":[2,0,0,2,3,5],
+"struct_box_col_unit.html":[1,0,10],
+"struct_e_g_g_1_1_bound_box2f.html":[1,0,0,4],
+"struct_e_g_g_1_1_exp_heap_1_1_group_size_record.html":[1,0,0,11,0],
+"struct_e_g_g_1_1_heap_alloc_arg.html":[1,0,0,16],
 "struct_e_g_g_1_1_heap_error_arg.html":[1,0,0,17],
 "struct_e_g_g_1_1_low_archive.html":[1,0,0,18],
 "struct_e_g_g_1_1_task_thread_1_1_t_job.html":[1,0,0,26,0],
@@ -11,7 +16,7 @@ var NAVTREEINDEX2 =
 "struct_field_1_1_mapdata_item_path.html#a7967042d2a342cbe93e6cd54daf7d847":[1,0,1,13,2],
 "struct_field_1_1_mapdata_item_path.html#a85bcfd3552536275f2188af04de57033":[1,0,1,13,3],
 "struct_heap_collection.html":[1,0,11],
-"struct_system_1_1_raw_ghost_file.html":[1,0,4,8],
+"struct_system_1_1_raw_ghost_file.html":[1,0,4,11],
 "struct_system_1_1_system_manager_8m_simple_address_data.html":[2,0,0,1,1,3,2],
 "struct_u_i_1_1_control_group_1_1_functor.html":[1,0,5,0,0],
 "struct_u_i_1_1_deferred.html":[1,0,5,1],

@@ -131,17 +131,21 @@ var annotated_dup =
         [ "SystemResourceEntry", "struct_system_1_1_resource_1_1_system_resource_entry.html", null ]
       ] ],
       [ "BootStrapScene", "class_system_1_1_boot_strap_scene.html", null ],
+      [ "CourseArchive", "class_system_1_1_course_archive.html", null ],
       [ "Date", "class_system_1_1_date.html", null ],
       [ "DvdArchive", "class_system_1_1_dvd_archive.html", "class_system_1_1_dvd_archive" ],
       [ "GhostFile", "class_system_1_1_ghost_file.html", null ],
       [ "GhostFileGroup", "class_system_1_1_ghost_file_group.html", null ],
       [ "Mii", "class_system_1_1_mii.html", null ],
+      [ "MultiDvdArchive", "class_system_1_1_multi_dvd_archive.html", null ],
       [ "ParameterFile", "class_system_1_1_parameter_file.html", null ],
+      [ "RaceArchive", "class_system_1_1_race_archive.html", null ],
       [ "RawGhostFile", "struct_system_1_1_raw_ghost_file.html", null ],
       [ "SceneCreatorStatic", "class_system_1_1_scene_creator_static.html", "class_system_1_1_scene_creator_static" ],
       [ "SystemManager", "class_system_1_1_system_manager.html", "class_system_1_1_system_manager" ],
       [ "SystemManager.mSimpleAddressData", "struct_system_1_1_system_manager_8m_simple_address_data.html", null ],
-      [ "Time", "class_system_1_1_time.html", null ]
+      [ "Time", "class_system_1_1_time.html", null ],
+      [ "Unk2Archive", "class_system_1_1_unk2_archive.html", null ]
     ] ],
     [ "UI", null, [
       [ "ControlGroup", "class_u_i_1_1_control_group.html", "class_u_i_1_1_control_group" ],

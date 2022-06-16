@@ -107,6 +107,11 @@ var hierarchy =
     ] ],
     [ "UI::MessageGroup", "class_u_i_1_1_message_group.html", null ],
     [ "System::Mii", "class_system_1_1_mii.html", null ],
+    [ "System::MultiDvdArchive", "class_system_1_1_multi_dvd_archive.html", [
+      [ "System::CourseArchive", "class_system_1_1_course_archive.html", null ],
+      [ "System::RaceArchive", "class_system_1_1_race_archive.html", null ],
+      [ "System::Unk2Archive", "class_system_1_1_unk2_archive.html", null ]
+    ] ],
     [ "nw4r::ut::Node", "structnw4r_1_1ut_1_1_node.html", null ],
     [ "NonCopyable", "class_non_copyable.html", [
       [ "EGG::Disposer", "class_e_g_g_1_1_disposer.html", [

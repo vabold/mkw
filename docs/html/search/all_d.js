@@ -71,6 +71,7 @@ var searchData=
   ['mtx33_68',['MTX33',['../classnw4r_1_1math_1_1_m_t_x33.html',1,'nw4r::math']]],
   ['mtx34_69',['MTX34',['../structnw4r_1_1math_1_1_m_t_x34.html',1,'nw4r::math']]],
   ['mtx44_70',['MTX44',['../structnw4r_1_1math_1_1_m_t_x44.html',1,'nw4r::math']]],
-  ['munk08_71',['mUnk08',['../group___k_m_p2320.html#ga09b9e9a2679d3308b51d47c4fca55483',1,'Field::MapdataStage']]],
-  ['myear_72',['mYear',['../class_system_1_1_system_manager.html#aee22258e8c8dd8dff8a9dfd58effc389',1,'System::SystemManager']]]
+  ['multidvdarchive_71',['MultiDvdArchive',['../class_system_1_1_multi_dvd_archive.html',1,'System']]],
+  ['munk08_72',['mUnk08',['../group___k_m_p2320.html#ga09b9e9a2679d3308b51d47c4fca55483',1,'Field::MapdataStage']]],
+  ['myear_73',['mYear',['../class_system_1_1_system_manager.html#aee22258e8c8dd8dff8a9dfd58effc389',1,'System::SystemManager']]]
 ];

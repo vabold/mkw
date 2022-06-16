@@ -20,5 +20,6 @@ var searchData=
   ['mii_17',['Mii',['../class_system_1_1_mii.html',1,'System']]],
   ['mtx33_18',['MTX33',['../classnw4r_1_1math_1_1_m_t_x33.html',1,'nw4r::math']]],
   ['mtx34_19',['MTX34',['../structnw4r_1_1math_1_1_m_t_x34.html',1,'nw4r::math']]],
-  ['mtx44_20',['MTX44',['../structnw4r_1_1math_1_1_m_t_x44.html',1,'nw4r::math']]]
+  ['mtx44_20',['MTX44',['../structnw4r_1_1math_1_1_m_t_x44.html',1,'nw4r::math']]],
+  ['multidvdarchive_21',['MultiDvdArchive',['../class_system_1_1_multi_dvd_archive.html',1,'System']]]
 ];

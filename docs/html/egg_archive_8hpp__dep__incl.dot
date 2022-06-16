@@ -10,4 +10,12 @@ digraph "source/egg/core/eggArchive.hpp"
   Node3 [label="source/game/system\l/DvdArchive.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_dvd_archive_8hpp_source.html",tooltip=" "];
   Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node4 [label="source/game/system\l/DvdArchive.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node5 [label="source/game/system\l/MultiDvdArchive.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_multi_dvd_archive_8hpp_source.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node6 [label="source/game/system\l/LocalizedArchive.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_localized_archive_8hpp_source.html",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node7 [label="source/game/system\l/LocalizedArchive.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node8 [label="source/game/system\l/MultiDvdArchive.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }
