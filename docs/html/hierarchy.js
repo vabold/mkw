@@ -5,11 +5,11 @@ var hierarchy =
     [ "nw4r::math::_MTX33", "structnw4r_1_1math_1_1___m_t_x33.html", [
       [ "nw4r::math::MTX33", "classnw4r_1_1math_1_1_m_t_x33.html", null ]
     ] ],
-    [ "nw4r::math::_MTX33.__unnamed10__", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed10____.html", null ],
+    [ "nw4r::math::_MTX33.__unnamed11__", "unionnw4r_1_1math_1_1___m_t_x33_8____unnamed11____.html", null ],
     [ "nw4r::math::_MTX34", "structnw4r_1_1math_1_1___m_t_x34.html", [
       [ "nw4r::math::MTX34", "structnw4r_1_1math_1_1_m_t_x34.html", null ]
     ] ],
-    [ "nw4r::math::_MTX34.__unnamed12__", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed12____.html", null ],
+    [ "nw4r::math::_MTX34.__unnamed13__", "unionnw4r_1_1math_1_1___m_t_x34_8____unnamed13____.html", null ],
     [ "nw4r::math::_MTX44", "structnw4r_1_1math_1_1___m_t_x44.html", [
       [ "nw4r::math::MTX44", "structnw4r_1_1math_1_1_m_t_x44.html", null ]
     ] ],
@@ -55,7 +55,7 @@ var hierarchy =
     ] ],
     [ "EGG::Archive::FileInfo", "class_e_g_g_1_1_archive.html#struct_e_g_g_1_1_archive_1_1_file_info", null ],
     [ "nw4r::ut::DvdFileStream::FileInfoStreamPair", "structnw4r_1_1ut_1_1_dvd_file_stream.html#structnw4r_1_1ut_1_1_dvd_file_stream_1_1_file_info_stream_pair", null ],
-    [ "nw4r::ut::DvdFileStream::FileInfoStreamPair.__unnamed14__", "structnw4r_1_1ut_1_1_dvd_file_stream.html#unionnw4r_1_1ut_1_1_dvd_file_stream_1_1_file_info_stream_pair_8____unnamed14____", null ],
+    [ "nw4r::ut::DvdFileStream::FileInfoStreamPair.__unnamed15__", "structnw4r_1_1ut_1_1_dvd_file_stream.html#unionnw4r_1_1ut_1_1_dvd_file_stream_1_1_file_info_stream_pair_8____unnamed15____", null ],
     [ "nw4r::ut::FileStream::FilePosition", "classnw4r_1_1ut_1_1_file_stream_1_1_file_position.html", null ],
     [ "nw4r::g3d::Fog", "structnw4r_1_1g3d_1_1_fog.html", null ],
     [ "nw4r::g3d::FogData", "structnw4r_1_1g3d_1_1_fog_data.html", null ],
@@ -108,9 +108,9 @@ var hierarchy =
     [ "UI::MessageGroup", "class_u_i_1_1_message_group.html", null ],
     [ "System::Mii", "class_system_1_1_mii.html", null ],
     [ "System::MultiDvdArchive", "class_system_1_1_multi_dvd_archive.html", [
-      [ "System::CourseArchive", "class_system_1_1_course_archive.html", null ],
-      [ "System::RaceArchive", "class_system_1_1_race_archive.html", null ],
-      [ "System::Unk2Archive", "class_system_1_1_unk2_archive.html", null ]
+      [ "System::CourseDvdArchive", "class_system_1_1_course_dvd_archive.html", null ],
+      [ "System::RaceSysDvdArchive", "class_system_1_1_race_sys_dvd_archive.html", null ],
+      [ "System::UIDvdArchive", "class_system_1_1_u_i_dvd_archive.html", null ]
     ] ],
     [ "nw4r::ut::Node", "structnw4r_1_1ut_1_1_node.html", null ],
     [ "NonCopyable", "class_non_copyable.html", [

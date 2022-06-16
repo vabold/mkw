@@ -85,6 +85,8 @@ $(document).ready(function(){initNavTree('class_system_1_1_multi_dvd_archive.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_system_1_1_multi_dvd_archive-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">System::MultiDvdArchive Class Reference</div></div>
@@ -97,10 +99,10 @@ $(document).ready(function(){initNavTree('class_system_1_1_multi_dvd_archive.htm
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_system_1_1_multi_dvd_archive__inherit__graph.png" border="0" usemap="#a_system_1_1_multi_dvd_archive_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_system_1_1_multi_dvd_archive_inherit__map" id="a_system_1_1_multi_dvd_archive_inherit__map">
-<area shape="rect" title=" " alt="" coords="204,5,411,32"/>
-<area shape="rect" href="class_system_1_1_course_archive.html" title=" " alt="" coords="5,80,196,107"/>
-<area shape="rect" href="class_system_1_1_race_archive.html" title=" " alt="" coords="220,80,395,107"/>
-<area shape="rect" href="class_system_1_1_unk2_archive.html" title=" " alt="" coords="419,80,593,107"/>
+<area shape="rect" title=" " alt="" coords="252,5,459,32"/>
+<area shape="rect" href="class_system_1_1_course_dvd_archive.html" title=" " alt="" coords="5,80,220,107"/>
+<area shape="rect" href="class_system_1_1_race_sys_dvd_archive.html" title=" " alt="" coords="244,80,467,107"/>
+<area shape="rect" href="class_system_1_1_u_i_dvd_archive.html" title=" " alt="" coords="491,80,673,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -110,12 +112,13 @@ $(document).ready(function(){initNavTree('class_system_1_1_multi_dvd_archive.htm
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_system_1_1_multi_dvd_archive__coll__graph.png" border="0" usemap="#a_system_1_1_multi_dvd_archive_coll__map" alt="Collaboration graph"/></div>
 <map name="a_system_1_1_multi_dvd_archive_coll__map" id="a_system_1_1_multi_dvd_archive_coll__map">
-<area shape="rect" title=" " alt="" coords="252,109,459,136"/>
+<area shape="rect" title=" " alt="" coords="308,95,515,121"/>
 <area shape="rect" href="class_system_1_1_dvd_archive.html" title=" " alt="" coords="5,5,172,32"/>
 <area shape="rect" title=" " alt="" coords="196,5,243,32"/>
 <area shape="rect" title=" " alt="" coords="332,5,379,32"/>
 <area shape="rect" title=" " alt="" coords="440,5,495,32"/>
 <area shape="rect" title=" " alt="" coords="532,5,611,32"/>
+<area shape="rect" title=" " alt="" coords="635,5,777,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -124,6 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aece8c16652abc2c14df845f5ff2bc707"><td class="memItemLeft" align="right" valign="top"><a id="aece8c16652abc2c14df845f5ff2bc707" name="aece8c16652abc2c14df845f5ff2bc707"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>MultiDvdArchive</b> (u16 archiveCount)</td></tr>
 <tr class="separator:aece8c16652abc2c14df845f5ff2bc707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3397f123b122bb8c4aaf26fa94aff1b"><td class="memItemLeft" align="right" valign="top"><a id="ae3397f123b122bb8c4aaf26fa94aff1b" name="ae3397f123b122bb8c4aaf26fa94aff1b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> ()</td></tr>
+<tr class="separator:ae3397f123b122bb8c4aaf26fa94aff1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a248eb22ca36f72adcf0ec32f8e28c2cb"><td class="memItemLeft" align="right" valign="top"><a id="a248eb22ca36f72adcf0ec32f8e28c2cb" name="a248eb22ca36f72adcf0ec32f8e28c2cb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
 <tr class="separator:a248eb22ca36f72adcf0ec32f8e28c2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,30 +145,47 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>unmount</b> ()</td></
 <tr class="memitem:a49ed291daa1f158c9c8a3bbc8cec0182"><td class="memItemLeft" align="right" valign="top"><a id="a49ed291daa1f158c9c8a3bbc8cec0182" name="a49ed291daa1f158c9c8a3bbc8cec0182"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>rip</b> (const char *name, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *heap)</td></tr>
 <tr class="separator:a49ed291daa1f158c9c8a3bbc8cec0182"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1ca405487b9d009a01f79a7a31c6a82"><td class="memItemLeft" align="right" valign="top"><a id="ac1ca405487b9d009a01f79a7a31c6a82" name="ac1ca405487b9d009a01f79a7a31c6a82"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const char *filename, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *param_3, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *heap, unk32 param_5)</td></tr>
-<tr class="separator:ac1ca405487b9d009a01f79a7a31c6a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9971308e7ba88de800bee9e75ff3d02a"><td class="memItemLeft" align="right" valign="top"><a id="a9971308e7ba88de800bee9e75ff3d02a" name="a9971308e7ba88de800bee9e75ff3d02a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const char *filename, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *archiveHeap, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *fileHeap, unk32 param_5)</td></tr>
+<tr class="separator:a9971308e7ba88de800bee9e75ff3d02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fbd1578a9f6f909b3bd9834938ae80b"><td class="memItemLeft" align="right" valign="top"><a id="a1fbd1578a9f6f909b3bd9834938ae80b" name="a1fbd1578a9f6f909b3bd9834938ae80b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>loadOther</b> (<a class="el" href="class_system_1_1_multi_dvd_archive.html">MultiDvdArchive</a> *other, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *heap)</td></tr>
 <tr class="separator:a1fbd1578a9f6f909b3bd9834938ae80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af16f276e8efeff8b5c29e5606c8f3803"><td class="memItemLeft" align="right" valign="top"><a id="af16f276e8efeff8b5c29e5606c8f3803" name="af16f276e8efeff8b5c29e5606c8f3803"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isLoaded</b> ()</td></tr>
 <tr class="separator:af16f276e8efeff8b5c29e5606c8f3803"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0a30f77732b5f514f005e2b33cc2d02"><td class="memItemLeft" align="right" valign="top"><a id="ac0a30f77732b5f514f005e2b33cc2d02" name="ac0a30f77732b5f514f005e2b33cc2d02"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>getEarliestResBufInMem</b> ()</td></tr>
-<tr class="separator:ac0a30f77732b5f514f005e2b33cc2d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8638eed2b536c9e7c7f17a0c40b711ba"><td class="memItemLeft" align="right" valign="top"><a id="a8638eed2b536c9e7c7f17a0c40b711ba" name="a8638eed2b536c9e7c7f17a0c40b711ba"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>getFarthestResBufInMem</b> ()</td></tr>
-<tr class="separator:a8638eed2b536c9e7c7f17a0c40b711ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e27c10ea4f6fc36cc5e8ca8c478d11c"><td class="memItemLeft" align="right" valign="top"><a id="a2e27c10ea4f6fc36cc5e8ca8c478d11c" name="a2e27c10ea4f6fc36cc5e8ca8c478d11c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>totalArchiveSize</b> ()</td></tr>
 <tr class="separator:a2e27c10ea4f6fc36cc5e8ca8c478d11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ab2e0938e997847c4ed9002b709a74f"><td class="memItemLeft" align="right" valign="top"><a id="a8ab2e0938e997847c4ed9002b709a74f" name="a8ab2e0938e997847c4ed9002b709a74f"></a>
 u16&#160;</td><td class="memItemRight" valign="bottom"><b>rippedArchiveCount</b> ()</td></tr>
 <tr class="separator:a8ab2e0938e997847c4ed9002b709a74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3397f123b122bb8c4aaf26fa94aff1b"><td class="memItemLeft" align="right" valign="top"><a id="ae3397f123b122bb8c4aaf26fa94aff1b" name="ae3397f123b122bb8c4aaf26fa94aff1b"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> ()</td></tr>
-<tr class="separator:ae3397f123b122bb8c4aaf26fa94aff1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:ad00c37874b1df4073602a7252dedc8b0"><td class="memItemLeft" align="right" valign="top"><a id="ad00c37874b1df4073602a7252dedc8b0" name="ad00c37874b1df4073602a7252dedc8b0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EResourceKind</b> { <br />
+&#160;&#160;<b>RES_KIND_FILE_DOUBLE_FORMAT</b>
+, <b>RES_KIND_FILE_SINGLE_FORMAT</b>
+, <b>RES_KIND_BUFFER</b>
+, <b>RES_KIND_3</b>
+, <br />
+&#160;&#160;<b>RES_KIND_4</b>
+, <b>RES_KIND_DEFAULT</b> = RES_KIND_FILE_DOUBLE_FORMAT
+<br />
+ }</td></tr>
+<tr class="separator:ad00c37874b1df4073602a7252dedc8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9792ff72fbd86fe3dc72cf6c83e460f1"><td class="memItemLeft" align="right" valign="top"><a id="a9792ff72fbd86fe3dc72cf6c83e460f1" name="a9792ff72fbd86fe3dc72cf6c83e460f1"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>SUFFIX_SIZE</b> = 128
+ }</td></tr>
+<tr class="separator:a9792ff72fbd86fe3dc72cf6c83e460f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac0a30f77732b5f514f005e2b33cc2d02"><td class="memItemLeft" align="right" valign="top"><a id="ac0a30f77732b5f514f005e2b33cc2d02" name="ac0a30f77732b5f514f005e2b33cc2d02"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>getEarliestResBufInMem</b> ()</td></tr>
+<tr class="separator:ac0a30f77732b5f514f005e2b33cc2d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8638eed2b536c9e7c7f17a0c40b711ba"><td class="memItemLeft" align="right" valign="top"><a id="a8638eed2b536c9e7c7f17a0c40b711ba" name="a8638eed2b536c9e7c7f17a0c40b711ba"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>getFarthestResBufInMem</b> ()</td></tr>
+<tr class="separator:a8638eed2b536c9e7c7f17a0c40b711ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -181,9 +204,9 @@ char **&#160;</td><td class="memItemRight" valign="bottom"><b>suffixes</b></td><
 <tr class="memitem:a35925cedf42dd0979c56b4f487599f72"><td class="memItemLeft" align="right" valign="top"><a id="a35925cedf42dd0979c56b4f487599f72" name="a35925cedf42dd0979c56b4f487599f72"></a>
 void **&#160;</td><td class="memItemRight" valign="bottom"><b>fileStarts</b></td></tr>
 <tr class="separator:a35925cedf42dd0979c56b4f487599f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf79bcc75dacf7b8852d962c07d259a6"><td class="memItemLeft" align="right" valign="top"><a id="abf79bcc75dacf7b8852d962c07d259a6" name="abf79bcc75dacf7b8852d962c07d259a6"></a>
-u32 *&#160;</td><td class="memItemRight" valign="bottom"><b>kinds</b></td></tr>
-<tr class="separator:abf79bcc75dacf7b8852d962c07d259a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b5062eaa04819010feeeb8c068422c0"><td class="memItemLeft" align="right" valign="top"><a id="a9b5062eaa04819010feeeb8c068422c0" name="a9b5062eaa04819010feeeb8c068422c0"></a>
+EResourceKind *&#160;</td><td class="memItemRight" valign="bottom"><b>kinds</b></td></tr>
+<tr class="separator:a9b5062eaa04819010feeeb8c068422c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>source/game/system/<a class="el" href="_multi_dvd_archive_8hpp_source.html">MultiDvdArchive.hpp</a></li>

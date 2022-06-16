@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['racearchive_0',['RaceArchive',['../class_system_1_1_race_archive.html',1,'System']]],
+  ['racesysdvdarchive_0',['RaceSysDvdArchive',['../class_system_1_1_race_sys_dvd_archive.html',1,'System']]],
   ['railid_1',['railID',['../class_field_1_1_mapdata_area.html#ad5e872943aae973313ee1946140a4bf4',1,'Field::MapdataArea']]],
   ['random_2',['Random',['../class_util_1_1_random.html',1,'Util']]],
   ['rawghostfile_3',['RawGhostFile',['../struct_system_1_1_raw_ghost_file.html',1,'System']]],

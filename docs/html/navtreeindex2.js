@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"snd__sound_memory_allocatable_8hpp_source.html":[2,0,0,2,3,5],
 "struct_box_col_unit.html":[1,0,10],
 "struct_e_g_g_1_1_bound_box2f.html":[1,0,0,4],
 "struct_e_g_g_1_1_exp_heap_1_1_group_size_record.html":[1,0,0,11,0],
@@ -41,7 +40,7 @@ var NAVTREEINDEX2 =
 "structnw4r_1_1ut_1_1_color.html":[1,0,3,3,4],
 "structnw4r_1_1ut_1_1_dvd_file_stream.html":[1,0,3,3,5],
 "structnw4r_1_1ut_1_1_dvd_file_stream.html#structnw4r_1_1ut_1_1_dvd_file_stream_1_1_file_info_stream_pair":[1,0,3,3,5,0],
-"structnw4r_1_1ut_1_1_dvd_file_stream.html#unionnw4r_1_1ut_1_1_dvd_file_stream_1_1_file_info_stream_pair_8____unnamed14____":[1,0,3,3,5,1],
+"structnw4r_1_1ut_1_1_dvd_file_stream.html#unionnw4r_1_1ut_1_1_dvd_file_stream_1_1_file_info_stream_pair_8____unnamed15____":[1,0,3,3,5,1],
 "structnw4r_1_1ut_1_1_font.html":[1,0,3,3,8],
 "structnw4r_1_1ut_1_1_i_o_stream.html":[1,0,3,3,14],
 "structnw4r_1_1ut_1_1_polymorphic.html":[1,0,3,3,18],

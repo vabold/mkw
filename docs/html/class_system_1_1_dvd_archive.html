@@ -93,18 +93,14 @@ $(document).ready(function(){initNavTree('class_system_1_1_dvd_archive.html','')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a120e076d7c80453c4b7352e685ef4835"><td class="memItemLeft" align="right" valign="top"><a id="a120e076d7c80453c4b7352e685ef4835" name="a120e076d7c80453c4b7352e685ef4835"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_mount</b> (<a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *archiveHeap)</td></tr>
-<tr class="separator:a120e076d7c80453c4b7352e685ef4835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5782c59cc795fec389bd03b7b772d8b4"><td class="memItemLeft" align="right" valign="top"><a id="a5782c59cc795fec389bd03b7b772d8b4" name="a5782c59cc795fec389bd03b7b772d8b4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_UNKNOWN</b> ()</td></tr>
-<tr class="separator:a5782c59cc795fec389bd03b7b772d8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad20c6b3a83a4b30433f801fe393c5059"><td class="memItemLeft" align="right" valign="top"><a id="ad20c6b3a83a4b30433f801fe393c5059" name="ad20c6b3a83a4b30433f801fe393c5059"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const char *path, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *archiveHeap, int decompress, s32 param_4, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *filePath, u32 param_6)</td></tr>
-<tr class="separator:ad20c6b3a83a4b30433f801fe393c5059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56f3beea17725d921f6628d2247a2e2"><td class="memItemLeft" align="right" valign="top"><a id="ae56f3beea17725d921f6628d2247a2e2" name="ae56f3beea17725d921f6628d2247a2e2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>mount</b> (<a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *archiveHeap)</td></tr>
+<tr class="separator:ae56f3beea17725d921f6628d2247a2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30bc3cff8e8d22078ac93a1bec684a1"><td class="memItemLeft" align="right" valign="top"><a id="ad30bc3cff8e8d22078ac93a1bec684a1" name="ad30bc3cff8e8d22078ac93a1bec684a1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const char *path, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *archiveHeap, bool isCompressed, s32 align, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *fileHeap, u32 param_6)</td></tr>
+<tr class="separator:ad30bc3cff8e8d22078ac93a1bec684a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae19f9c66be78d775a2d9a5428c1267f2"><td class="memItemLeft" align="right" valign="top"><a id="ae19f9c66be78d775a2d9a5428c1267f2" name="ae19f9c66be78d775a2d9a5428c1267f2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const char *path, u32 _unused, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *archiveHeap)</td></tr>
-<tr class="memdesc:ae19f9c66be78d775a2d9a5428c1267f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads uncompressed archives <br /></td></tr>
 <tr class="separator:ae19f9c66be78d775a2d9a5428c1267f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cfe3087097f607a3d857739df95595f"><td class="memItemLeft" align="right" valign="top"><a id="a9cfe3087097f607a3d857739df95595f" name="a9cfe3087097f607a3d857739df95595f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>loadBuffer</b> (void *fileStart, u32 fileSize, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *archiveHeap, s32 param_4)</td></tr>
@@ -112,48 +108,39 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>loadBuffer</b> (void 
 <tr class="memitem:ae3e208672639b95e1cb81ec1cde16f84"><td class="memItemLeft" align="right" valign="top"><a id="ae3e208672639b95e1cb81ec1cde16f84" name="ae3e208672639b95e1cb81ec1cde16f84"></a>
 void *&#160;</td><td class="memItemRight" valign="bottom"><b>getFileCopy</b> (char *filename, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *heap, size_t *size, s8 param_4)</td></tr>
 <tr class="separator:ae3e208672639b95e1cb81ec1cde16f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1750fb351c9b0b54ca82ba279242e7e8"><td class="memItemLeft" align="right" valign="top"><a id="a1750fb351c9b0b54ca82ba279242e7e8" name="a1750fb351c9b0b54ca82ba279242e7e8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_UNKNOWN2</b> (int, u8 *p)</td></tr>
-<tr class="separator:a1750fb351c9b0b54ca82ba279242e7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c011d08f4cc38ab8ef7c35f2fe324d"><td class="memItemLeft" align="right" valign="top"><a id="af4c011d08f4cc38ab8ef7c35f2fe324d" name="af4c011d08f4cc38ab8ef7c35f2fe324d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ripFile</b> (const char *path, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *fileHeap, u8 align)</td></tr>
 <tr class="separator:af4c011d08f4cc38ab8ef7c35f2fe324d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06a767a8bb9925659c17c5f28312586a"><td class="memItemLeft" align="right" valign="top"><a id="a06a767a8bb9925659c17c5f28312586a" name="a06a767a8bb9925659c17c5f28312586a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_tryRipFile</b> (const char *path, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *fileHeap, u8 align)</td></tr>
-<tr class="separator:a06a767a8bb9925659c17c5f28312586a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5690e2fdb54df4120d27052415be40c2"><td class="memItemLeft" align="right" valign="top"><a id="a5690e2fdb54df4120d27052415be40c2" name="a5690e2fdb54df4120d27052415be40c2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>tryRipFile</b> (const char *path, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *fileHeap, s8 align)</td></tr>
+<tr class="separator:a5690e2fdb54df4120d27052415be40c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29680d2e372014c3ad763ab660ef5558"><td class="memItemLeft" align="right" valign="top"><a id="a29680d2e372014c3ad763ab660ef5558" name="a29680d2e372014c3ad763ab660ef5558"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
 <tr class="separator:a29680d2e372014c3ad763ab660ef5558"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef41e605255716433d8e7dc2e35090a1"><td class="memItemLeft" align="right" valign="top"><a id="aef41e605255716433d8e7dc2e35090a1" name="aef41e605255716433d8e7dc2e35090a1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_UNKNOWN3</b> ()</td></tr>
-<tr class="separator:aef41e605255716433d8e7dc2e35090a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabbc575051463c4f4acc82228b161a23"><td class="memItemLeft" align="right" valign="top"><a id="aabbc575051463c4f4acc82228b161a23" name="aabbc575051463c4f4acc82228b161a23"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>unmount</b> ()</td></tr>
 <tr class="separator:aabbc575051463c4f4acc82228b161a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15e9c6945ab22ba8899fdb401d2f1549"><td class="memItemLeft" align="right" valign="top"><a id="a15e9c6945ab22ba8899fdb401d2f1549" name="a15e9c6945ab22ba8899fdb401d2f1549"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_clearArchive</b> ()</td></tr>
-<tr class="separator:a15e9c6945ab22ba8899fdb401d2f1549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a333999a2da66e5293b96cb21f807eafd"><td class="memItemLeft" align="right" valign="top"><a id="a333999a2da66e5293b96cb21f807eafd" name="a333999a2da66e5293b96cb21f807eafd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_clearFile</b> ()</td></tr>
-<tr class="separator:a333999a2da66e5293b96cb21f807eafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff507124d947967498eccc5fb941ba9"><td class="memItemLeft" align="right" valign="top"><a id="afff507124d947967498eccc5fb941ba9" name="afff507124d947967498eccc5fb941ba9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clearArchive</b> ()</td></tr>
+<tr class="separator:afff507124d947967498eccc5fb941ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f58a747ca53fbb5d9eb2c6052da3320"><td class="memItemLeft" align="right" valign="top"><a id="a9f58a747ca53fbb5d9eb2c6052da3320" name="a9f58a747ca53fbb5d9eb2c6052da3320"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clearFile</b> ()</td></tr>
+<tr class="separator:a9f58a747ca53fbb5d9eb2c6052da3320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeedc592bb4f927394b9cffbaf1d849d"><td class="memItemLeft" align="right" valign="top"><a id="afeedc592bb4f927394b9cffbaf1d849d" name="afeedc592bb4f927394b9cffbaf1d849d"></a>
 void *&#160;</td><td class="memItemRight" valign="bottom"><b>getFile</b> (const char *filename, size_t *size)</td></tr>
 <tr class="separator:afeedc592bb4f927394b9cffbaf1d849d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f3812147cdf90ee813038f8d98ba7b8"><td class="memItemLeft" align="right" valign="top"><a id="a8f3812147cdf90ee813038f8d98ba7b8" name="a8f3812147cdf90ee813038f8d98ba7b8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>decompress</b> (const char *path, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *archiveHeap, u32 _unused)</td></tr>
 <tr class="separator:a8f3812147cdf90ee813038f8d98ba7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb7b0133ecfbbe8ad6a2ff327604b279"><td class="memItemLeft" align="right" valign="top"><a id="afb7b0133ecfbbe8ad6a2ff327604b279" name="afb7b0133ecfbbe8ad6a2ff327604b279"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_move</b> ()</td></tr>
-<tr class="separator:afb7b0133ecfbbe8ad6a2ff327604b279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad8889c238d6f23376682d6aa5841fee"><td class="memItemLeft" align="right" valign="top"><a id="aad8889c238d6f23376682d6aa5841fee" name="aad8889c238d6f23376682d6aa5841fee"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>move</b> ()</td></tr>
+<tr class="separator:aad8889c238d6f23376682d6aa5841fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaac16dca6add20909071598ad822c2db"><td class="memItemLeft" align="right" valign="top"><a id="aaac16dca6add20909071598ad822c2db" name="aaac16dca6add20909071598ad822c2db"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>loadOther</b> (const <a class="el" href="class_system_1_1_dvd_archive.html">DvdArchive</a> *other, <a class="el" href="class_e_g_g_1_1_heap.html">EGG::Heap</a> *heap)</td></tr>
 <tr class="separator:aaac16dca6add20909071598ad822c2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a620b92e91c3622e00c96d74f6d3c6bad"><td class="memItemLeft" align="right" valign="top"><a id="a620b92e91c3622e00c96d74f6d3c6bad" name="a620b92e91c3622e00c96d74f6d3c6bad"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isLoaded</b> () const</td></tr>
 <tr class="separator:a620b92e91c3622e00c96d74f6d3c6bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50f27bd3f3350d55439f4199a9bb840e"><td class="memItemLeft" align="right" valign="top"><a id="a50f27bd3f3350d55439f4199a9bb840e" name="a50f27bd3f3350d55439f4199a9bb840e"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>getArchiveEnd</b> () const</td></tr>
-<tr class="separator:a50f27bd3f3350d55439f4199a9bb840e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b4465a8de5e0f4dd9863b2cf985aa86"><td class="memItemLeft" align="right" valign="top"><a id="a3b4465a8de5e0f4dd9863b2cf985aa86" name="a3b4465a8de5e0f4dd9863b2cf985aa86"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isRipped</b> () const</td></tr>
 <tr class="separator:a3b4465a8de5e0f4dd9863b2cf985aa86"><td class="memSeparator" colspan="2">&#160;</td></tr>
