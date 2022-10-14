@@ -30,6 +30,9 @@ jobs:
 
       - run: pip install -r requirements.txt
         if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+        
+      - run: pip install -e .
+        if: steps.cache-virtualenv.outputs.cache-hit != 'true'
 
       - name: Extract tooling
         env:
