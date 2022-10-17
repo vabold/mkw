@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_e_g_g_1_1_stream_decomp.html" title="Interface for streamed decompression." alt="" coords="5,5,164,32"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_l_z_stream_decomp.html" title=" " alt="" coords="212,5,387,32"/>
+<area shape="rect" id="node1" href="$struct_e_g_g_1_1_stream.html" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_ram_stream.html" title="The Stream class allows for reading binary / text streams from RAM." alt="" coords="164,5,299,32"/>
 </map>

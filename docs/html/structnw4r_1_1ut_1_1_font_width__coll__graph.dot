@@ -8,7 +8,7 @@ digraph "nw4r::ut::FontWidth"
   Node2 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mNext" ,fontname="FreeMono"];
   Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mWidthTable" ,fontname="FreeMono"];
-  Node3 [label="nw4r::ut::CharWidths",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_char_widths.html",tooltip=" "];
+  Node3 [label="nw4r::ut::CharWidths",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_char_widths.html",tooltip=" "];
   Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" BYTE_0x0\nBYTE_0x1\nBYTE_0x2" ,fontname="FreeMono"];
   Node4 [label="char",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

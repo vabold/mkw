@@ -7,9 +7,9 @@ digraph "nw4r::g3d::Camera::PostureInfo"
   Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" INT_0x0" ,fontname="FreeMono"];
   Node2 [label="int",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" VEC3_0x04\nVEC3_0x10\nVEC3_0x1C" ,fontname="FreeMono"];
-  Node3 [label="nw4r::math::VEC3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1math_1_1_v_e_c3.html",tooltip=" "];
+  Node3 [label="nw4r::math::VEC3",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1math_1_1_v_e_c3.html",tooltip=" "];
   Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node4 [label="nw4r::math::_VEC3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1math_1_1___v_e_c3.html",tooltip=" "];
+  Node4 [label="nw4r::math::_VEC3",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1math_1_1___v_e_c3.html",tooltip=" "];
   Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" x\ny\nz" ,fontname="FreeMono"];
   Node5 [label="f32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" FLOAT_0x28" ,fontname="FreeMono"];

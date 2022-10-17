@@ -1,0 +1,9 @@
+<map id="System::Mii" name="System::Mii">
+<area shape="rect" id="node1" title=" " alt="" coords="265,363,376,389"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,177,52,203"/>
+<area shape="rect" id="node3" title=" " alt="" coords="103,5,141,32"/>
+<area shape="rect" id="node6" href="$struct_system_1_1unk_struct.html" title=" " alt="" coords="151,177,309,203"/>
+<area shape="rect" id="node4" title=" " alt="" coords="333,177,372,203"/>
+<area shape="rect" id="node5" href="$class_system_1_1_raw_mii.html" title=" " alt="" coords="396,177,531,203"/>
+<area shape="rect" id="node7" title=" " alt="" coords="555,177,601,203"/>
+</map>

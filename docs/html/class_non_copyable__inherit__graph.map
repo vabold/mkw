@@ -1,12 +1,14 @@
 <map id="NonCopyable" name="NonCopyable">
-<area shape="rect" id="node1" title=" " alt="" coords="225,5,336,32"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="217,80,344,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="291,5,401,32"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="283,80,409,107"/>
 <area shape="rect" id="node3" href="$class_box_col_manager.html" title=" " alt="" coords="5,155,132,181"/>
 <area shape="rect" id="node4" href="$class_e_g_g_1_1_archive.html" title=" " alt="" coords="156,155,275,181"/>
 <area shape="rect" id="node5" href="$class_e_g_g_1_1_heap.html" title="Base Heap class." alt="" coords="299,155,393,181"/>
-<area shape="rect" id="node8" href="$class_e_g_g_1_1_scene.html" title=" " alt="" coords="421,155,524,181"/>
-<area shape="rect" id="node6" href="$class_e_g_g_1_1_exp_heap.html" title=" " alt="" coords="140,229,259,256"/>
-<area shape="rect" id="node7" href="$class_e_g_g_1_1_unit_heap.html" title=" " alt="" coords="283,229,409,256"/>
-<area shape="rect" id="node9" href="$class_r_k_scene.html" title=" " alt="" coords="433,229,512,256"/>
-<area shape="rect" id="node10" href="$class_system_1_1_boot_strap_scene.html" title=" " alt="" coords="536,229,735,256"/>
+<area shape="rect" id="node8" href="$class_e_g_g_1_1_scene.html" title=" " alt="" coords="419,155,521,181"/>
+<area shape="rect" id="node12" href="$class_system_1_1_course_cache.html" title=" " alt="" coords="545,155,720,181"/>
+<area shape="rect" id="node6" href="$class_e_g_g_1_1_exp_heap.html" title=" " alt="" coords="139,229,257,256"/>
+<area shape="rect" id="node7" href="$class_e_g_g_1_1_unit_heap.html" title=" " alt="" coords="281,229,408,256"/>
+<area shape="rect" id="node9" href="$class_r_k_scene.html" title=" " alt="" coords="432,229,511,256"/>
+<area shape="rect" id="node11" href="$class_system_1_1_boot_strap_scene.html" title=" " alt="" coords="535,229,733,256"/>
+<area shape="rect" id="node10" href="$class_system_1_1_init_scene.html" title=" " alt="" coords="392,304,551,331"/>
 </map>

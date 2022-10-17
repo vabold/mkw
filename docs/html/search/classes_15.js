@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['vec2_0',['VEC2',['../structnw4r_1_1math_1_1_v_e_c2.html',1,'nw4r::math']]],
-  ['vec3_1',['VEC3',['../structnw4r_1_1math_1_1_v_e_c3.html',1,'nw4r::math']]],
-  ['vector2f_2',['Vector2f',['../struct_e_g_g_1_1_vector2f.html',1,'EGG']]],
-  ['vector3f_3',['Vector3f',['../struct_e_g_g_1_1_vector3f.html',1,'EGG']]],
-  ['video_4',['Video',['../class_e_g_g_1_1_video.html',1,'EGG']]],
-  ['viewport_5',['Viewport',['../class_e_g_g_1_1_viewport.html',1,'EGG']]]
+  ['uicontrol_0',['UIControl',['../class_u_i_1_1_u_i_control.html',1,'UI']]],
+  ['uidvdarchive_1',['UIDvdArchive',['../class_system_1_1_u_i_dvd_archive.html',1,'System']]],
+  ['unitheap_2',['UnitHeap',['../class_e_g_g_1_1_unit_heap.html',1,'EGG']]],
+  ['unkstruct_3',['unkStruct',['../struct_system_1_1unk_struct.html',1,'System']]],
+  ['unkstruct_4',['UnkStruct',['../struct_u_i_1_1_unk_struct.html',1,'UI']]]
 ];

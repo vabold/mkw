@@ -5,5 +5,5 @@ digraph "nw4r::math::_MTX34"
   node [fontname="FreeMono",fontsize="10",shape=record];
   Node1 [label="nw4r::math::_MTX34",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node2 [label="nw4r::math::MTX34",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1math_1_1_m_t_x34.html",tooltip=" "];
+  Node2 [label="nw4r::math::MTX34",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1math_1_1_m_t_x34.html",tooltip=" "];
 }

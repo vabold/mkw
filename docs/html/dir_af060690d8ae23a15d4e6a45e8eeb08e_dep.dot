@@ -1,0 +1,11 @@
+digraph "source/egg/audio"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
+  node [fontname="FreeMono",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_dfa3dd376ef284b4fe91688c4c5b67ec {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="egg", fontname="FreeMono", fontsize="10", URL="dir_dfa3dd376ef284b4fe91688c4c5b67ec.html"]
+  dir_af060690d8ae23a15d4e6a45e8eeb08e [shape=box, label="audio", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_af060690d8ae23a15d4e6a45e8eeb08e.html"];
+  }
+}

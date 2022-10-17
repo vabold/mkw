@@ -9,7 +9,7 @@ digraph "EGG::UnitHeap"
   Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node3 [label="EGG::Disposer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_disposer.html",tooltip="Base class for garbage-collected objects."];
   Node4 -> Node3 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeMono"];
-  Node4 [label="NonCopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
+  Node4 [label="NonCopyable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
   Node5 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeMono"];
-  Node5 [label="MEMiUntHeapHead",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_e_mi_unt_heap_head.html",tooltip=" "];
+  Node5 [label="MEMiUntHeapHead",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_m_e_mi_unt_heap_head.html",tooltip=" "];
 }

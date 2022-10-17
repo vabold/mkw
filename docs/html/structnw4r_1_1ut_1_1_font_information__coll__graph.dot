@@ -12,12 +12,12 @@ digraph "nw4r::ut::FontInformation"
   Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mAlternateChar" ,fontname="FreeMono"];
   Node4 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mDefaultCharWidths" ,fontname="FreeMono"];
-  Node5 [label="nw4r::ut::CharWidths",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_char_widths.html",tooltip=" "];
+  Node5 [label="nw4r::ut::CharWidths",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_char_widths.html",tooltip=" "];
   Node2 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" BYTE_0x0\nBYTE_0x1\nBYTE_0x2" ,fontname="FreeMono"];
   Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mAscent\nmEncoding\nmHeight\nmWidth" ,fontname="FreeMono"];
   Node6 [label="u8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mTextureGlyph" ,fontname="FreeMono"];
-  Node7 [label="nw4r::ut::FontTextureGlyph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_font_texture_glyph.html",tooltip=" "];
+  Node7 [label="nw4r::ut::FontTextureGlyph",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_font_texture_glyph.html",tooltip=" "];
   Node6 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" PTR_0x14\nmCellHeight\nmCellWidth\nmMaxCharWidth" ,fontname="FreeMono"];
   Node3 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mBaselinePos" ,fontname="FreeMono"];
   Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" WORD_0x4" ,fontname="FreeMono"];
@@ -26,12 +26,12 @@ digraph "nw4r::ut::FontInformation"
   Node9 [label="short",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node4 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" SHORT_0x10\nSHORT_0x12\nSHORT_0xC\nSHORT_0xE\nmFormat" ,fontname="FreeMono"];
   Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mWidthList" ,fontname="FreeMono"];
-  Node10 [label="nw4r::ut::FontWidth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_font_width.html",tooltip=" "];
+  Node10 [label="nw4r::ut::FontWidth",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_font_width.html",tooltip=" "];
   Node4 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mFirstChar\nmLastChar" ,fontname="FreeMono"];
   Node10 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mNext" ,fontname="FreeMono"];
   Node5 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mWidthTable" ,fontname="FreeMono"];
   Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mCodeMapList" ,fontname="FreeMono"];
-  Node11 [label="nw4r::ut::FontCodeMap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_font_code_map.html",tooltip=" "];
+  Node11 [label="nw4r::ut::FontCodeMap",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_font_code_map.html",tooltip=" "];
   Node4 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mFirstChar\nmGlyphTable\nmLastChar\nmType" ,fontname="FreeMono"];
   Node11 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mNext" ,fontname="FreeMono"];
 }

@@ -1,7 +1,7 @@
 var dir_0004915ef6eb945b22d7e28ea246d3c1 =
 [
     [ "ut_binaryFileFormat.hpp", "ut__binary_file_format_8hpp_source.html", null ],
-    [ "ut_charStrmReader.hpp", "ut__char_strm_reader_8hpp_source.html", null ],
+    [ "ut_CharStrmReader.hpp", "ut___char_strm_reader_8hpp_source.html", null ],
     [ "ut_charWriter.hpp", "ut__char_writer_8hpp_source.html", null ],
     [ "ut_dvdFileStream.hpp", "ut__dvd_file_stream_8hpp_source.html", null ],
     [ "ut_dvdLockedFileStream.hpp", "ut__dvd_locked_file_stream_8hpp_source.html", null ],

@@ -1,11 +1,13 @@
-digraph "source/egg/util" {
+digraph "source/egg/util"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
+  node [fontname="FreeMono",fontsize="10",shape=record];
   compound=true
-  node [ fontsize="10", fontname="FreeMono"];
-  edge [ labelfontsize="10", labelfontname="FreeMono"];
   subgraph clusterdir_dfa3dd376ef284b4fe91688c4c5b67ec {
-    graph [ bgcolor="#ddddee", pencolor="black", label="egg" fontname="FreeMono", fontsize="10", URL="dir_dfa3dd376ef284b4fe91688c4c5b67ec.html"]
-  dir_6b5970774031d87b0089cc8f859b8439 [shape=box label="core" URL="dir_6b5970774031d87b0089cc8f859b8439.html"];
-  dir_318446f512858a556f477d31fe0f33fa [shape=box, label="util", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_318446f512858a556f477d31fe0f33fa.html"];
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="egg", fontname="FreeMono", fontsize="10", URL="dir_dfa3dd376ef284b4fe91688c4c5b67ec.html"]
+  dir_6b5970774031d87b0089cc8f859b8439 [shape=box, label="core", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_6b5970774031d87b0089cc8f859b8439.html"];
+  dir_318446f512858a556f477d31fe0f33fa [shape=box, label="util", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_318446f512858a556f477d31fe0f33fa.html"];
   }
-  dir_318446f512858a556f477d31fe0f33fa->dir_6b5970774031d87b0089cc8f859b8439 [headlabel="1", labeldistance=1.5 headhref="dir_000006_000003.html"];
+  dir_318446f512858a556f477d31fe0f33fa->dir_6b5970774031d87b0089cc8f859b8439 [headlabel="1", labeldistance=1.5 headhref="dir_000023_000001.html"];
 }

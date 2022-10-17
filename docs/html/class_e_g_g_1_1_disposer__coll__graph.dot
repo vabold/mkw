@@ -5,5 +5,5 @@ digraph "EGG::Disposer"
   node [fontname="FreeMono",fontsize="10",shape=record];
   Node1 [label="EGG::Disposer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Base class for garbage-collected objects."];
   Node2 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeMono"];
-  Node2 [label="NonCopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
+  Node2 [label="NonCopyable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
 }

@@ -10,7 +10,7 @@ digraph "EGG::UnitHeap"
   Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node3 [label="EGG::Disposer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_disposer.html",tooltip="Base class for garbage-collected objects."];
   Node4 -> Node3 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeMono"];
-  Node4 [label="NonCopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
+  Node4 [label="NonCopyable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
   Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" __pad0__" ,fontname="FreeMono"];
   Node5 [label="HEAP_PRIVATE",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sRootMutex" ,fontname="FreeMono"];
@@ -36,11 +36,11 @@ digraph "EGG::UnitHeap"
   Node15 [label="nw4r::ut::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_node.html",tooltip="Bidirectional list node."];
   Node13 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pred\nsucc" ,fontname="FreeMono"];
   Node16 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mChildren" ,fontname="FreeMono"];
-  Node16 [label="nw4r::ut::List",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_list.html",tooltip=" "];
+  Node16 [label="nw4r::ut::List",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_list.html",tooltip=" "];
   Node13 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" head\ntail" ,fontname="FreeMono"];
   Node14 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" count\nintrusion_offset" ,fontname="FreeMono"];
   Node17 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mName" ,fontname="FreeMono"];
   Node17 [label="const char *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node18 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeMono"];
-  Node18 [label="MEMiUntHeapHead",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_m_e_mi_unt_heap_head.html",tooltip=" "];
+  Node18 [label="MEMiUntHeapHead",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_m_e_mi_unt_heap_head.html",tooltip=" "];
 }

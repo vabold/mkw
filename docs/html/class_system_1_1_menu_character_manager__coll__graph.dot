@@ -1,0 +1,56 @@
+digraph "System::MenuCharacterManager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
+  node [fontname="FreeMono",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="System::MenuCharacterManager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeMono"];
+  Node2 [label="System::S",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$struct_system_1_1_s.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node3 [label="System::T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$struct_system_1_1_t.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mpArchiveHeap\nmpFileHeap" ,fontname="FreeMono"];
+  Node4 [label="EGG::ExpHeap",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_exp_heap.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node5 [label="EGG::Heap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_heap.html",tooltip="Base Heap class."];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node6 [label="EGG::Disposer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_disposer.html",tooltip="Base class for garbage-collected objects."];
+  Node7 -> Node6 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeMono"];
+  Node7 [label="NonCopyable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" __pad0__" ,fontname="FreeMono"];
+  Node8 [label="HEAP_PRIVATE",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sRootMutex" ,fontname="FreeMono"];
+  Node9 [label="OSMutex",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mParentHeap\nsAllocatableHeap\nsCurrentHeap" ,fontname="FreeMono"];
+  Node10 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sIsHeapListInitialized" ,fontname="FreeMono"];
+  Node10 [label="int",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sErrorCallback" ,fontname="FreeMono"];
+  Node11 [label="static ErrorCallback",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sAllocCallback" ,fontname="FreeMono"];
+  Node12 [label="static HeapAllocCallback",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node13 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sAllocCallbackArg\nsErrorCallbackArg" ,fontname="FreeMono"];
+  Node13 [label="static void *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node14 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sAllocatableThread" ,fontname="FreeMono"];
+  Node14 [label="EGG::Thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html",tooltip="Wrapper for OSThread."];
+  Node15 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mHeapHandle" ,fontname="FreeMono"];
+  Node15 [label="MEMHeapHandle",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node16 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mParentBlock" ,fontname="FreeMono"];
+  Node16 [label="void *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node17 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mFlag" ,fontname="FreeMono"];
+  Node17 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node18 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mNode" ,fontname="FreeMono"];
+  Node18 [label="nw4r::ut::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_node.html",tooltip="Bidirectional list node."];
+  Node16 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pred\nsucc" ,fontname="FreeMono"];
+  Node19 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mChildren" ,fontname="FreeMono"];
+  Node19 [label="nw4r::ut::List",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_list.html",tooltip=" "];
+  Node16 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" head\ntail" ,fontname="FreeMono"];
+  Node17 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" count\nintrusion_offset" ,fontname="FreeMono"];
+  Node20 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mName" ,fontname="FreeMono"];
+  Node20 [label="const char *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node21 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mState" ,fontname="FreeMono"];
+  Node21 [label="MenuCharacterManagerState",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node22 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mCharacter" ,fontname="FreeMono"];
+  Node22 [label="CharacterId",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node23 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mTeam" ,fontname="FreeMono"];
+  Node23 [label="BattleTeam",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

@@ -1,7 +1,8 @@
 <map id="source/egg/core/eggStreamDecomp.hpp" name="source/egg/core/eggStreamDecomp.hpp">
-<area shape="rect" id="node1" title="Wrappers for the CX streaming decompressors." alt="" coords="293,5,516,47"/>
-<area shape="rect" id="node2" href="$egg_dvd_ripper_8hpp.html" title="Headers for the EGG DVD ripper." alt="" coords="128,102,407,129"/>
-<area shape="rect" id="node5" href="$egg_stream_decomp_8cpp.html" title="Implementations for the EGG streaming decompressor headers." alt="" coords="431,95,653,136"/>
+<area shape="rect" id="node1" title="Wrappers for the CX streaming decompressors." alt="" coords="473,5,696,47"/>
+<area shape="rect" id="node2" href="$egg_dvd_ripper_8hpp.html" title="Headers for the EGG DVD ripper." alt="" coords="263,102,541,129"/>
+<area shape="rect" id="node5" title=" " alt="" coords="499,184,681,225"/>
+<area shape="rect" id="node6" href="$egg_stream_decomp_8cpp.html" title="Implementations for the EGG streaming decompressor headers." alt="" coords="621,95,844,136"/>
 <area shape="rect" id="node3" href="$egg_dvd_ripper_8cpp.html" title="Implementations for the EGG DVD ripper." alt="" coords="5,191,284,218"/>
 <area shape="rect" id="node4" title=" " alt="" coords="308,184,475,225"/>
 </map>

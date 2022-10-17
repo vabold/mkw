@@ -1,0 +1,48 @@
+digraph "System::T"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
+  node [fontname="FreeMono",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="System::T",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mpArchiveHeap\nmpFileHeap" ,fontname="FreeMono"];
+  Node2 [label="EGG::ExpHeap",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_exp_heap.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node3 [label="EGG::Heap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_heap.html",tooltip="Base Heap class."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node4 [label="EGG::Disposer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_disposer.html",tooltip="Base class for garbage-collected objects."];
+  Node5 -> Node4 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeMono"];
+  Node5 [label="NonCopyable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_non_copyable.html",tooltip=" "];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" __pad0__" ,fontname="FreeMono"];
+  Node6 [label="HEAP_PRIVATE",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sRootMutex" ,fontname="FreeMono"];
+  Node7 [label="OSMutex",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mParentHeap\nsAllocatableHeap\nsCurrentHeap" ,fontname="FreeMono"];
+  Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sIsHeapListInitialized" ,fontname="FreeMono"];
+  Node8 [label="int",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sErrorCallback" ,fontname="FreeMono"];
+  Node9 [label="static ErrorCallback",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sAllocCallback" ,fontname="FreeMono"];
+  Node10 [label="static HeapAllocCallback",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sAllocCallbackArg\nsErrorCallbackArg" ,fontname="FreeMono"];
+  Node11 [label="static void *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sAllocatableThread" ,fontname="FreeMono"];
+  Node12 [label="EGG::Thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html",tooltip="Wrapper for OSThread."];
+  Node13 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mHeapHandle" ,fontname="FreeMono"];
+  Node13 [label="MEMHeapHandle",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node14 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mParentBlock" ,fontname="FreeMono"];
+  Node14 [label="void *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node15 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mFlag" ,fontname="FreeMono"];
+  Node15 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node16 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mNode" ,fontname="FreeMono"];
+  Node16 [label="nw4r::ut::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_node.html",tooltip="Bidirectional list node."];
+  Node14 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pred\nsucc" ,fontname="FreeMono"];
+  Node17 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mChildren" ,fontname="FreeMono"];
+  Node17 [label="nw4r::ut::List",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_list.html",tooltip=" "];
+  Node14 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" head\ntail" ,fontname="FreeMono"];
+  Node15 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" count\nintrusion_offset" ,fontname="FreeMono"];
+  Node18 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mName" ,fontname="FreeMono"];
+  Node18 [label="const char *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node19 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mState" ,fontname="FreeMono"];
+  Node19 [label="MenuCharacterManagerState",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

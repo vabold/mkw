@@ -5,11 +5,11 @@ digraph "nw4r::ut::FileStream"
   node [fontname="FreeMono",fontsize="10",shape=record];
   Node1 [label="nw4r::ut::FileStream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node2 [label="nw4r::ut::IOStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_i_o_stream.html",tooltip=" "];
+  Node2 [label="nw4r::ut::IOStream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_i_o_stream.html",tooltip=" "];
   Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node3 [label="nw4r::ut::Polymorphic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_polymorphic.html",tooltip=" "];
+  Node3 [label="nw4r::ut::Polymorphic",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_polymorphic.html",tooltip=" "];
   Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" typeInfo" ,fontname="FreeMono"];
-  Node4 [label="nw4r::ut::detail::Runtime\lTypeInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html",tooltip=" "];
+  Node4 [label="nw4r::ut::detail::Runtime\lTypeInfo",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html",tooltip=" "];
   Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mBase" ,fontname="FreeMono"];
   Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" BOOL_0x4" ,fontname="FreeMono"];
   Node5 [label="bool",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
