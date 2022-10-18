@@ -1,0 +1,7 @@
+<map id="System::InputManager" name="System::InputManager">
+<area shape="rect" id="node1" title=" " alt="" coords="60,199,243,225"/>
+<area shape="rect" id="node2" href="$class_system_1_1_player_input.html" title=" " alt="" coords="64,109,239,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,44,32"/>
+<area shape="rect" id="node4" href="$class_system_1_1_controller.html" title=" " alt="" coords="68,5,235,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="259,5,329,32"/>
+</map>

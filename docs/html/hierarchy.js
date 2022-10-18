@@ -41,6 +41,7 @@ var hierarchy =
     [ "System::CompetitionSettings", "struct_system_1_1_competition_settings.html", null ],
     [ "System::CompetitionWrapper", "struct_system_1_1_competition_wrapper.html", null ],
     [ "UI::ControlGroup", "class_u_i_1_1_control_group.html", null ],
+    [ "System::Controller", "class_system_1_1_controller.html", null ],
     [ "Field::CourseMap", "class_field_1_1_course_map.html", null ],
     [ "Field::ObjectParameter::Parameter::Data", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data", null ],
     [ "System::Date", "class_system_1_1_date.html", null ],
@@ -88,7 +89,7 @@ var hierarchy =
     [ "EGG::HeapAllocArg", "struct_e_g_g_1_1_heap_alloc_arg.html", null ],
     [ "HeapCollection", "struct_heap_collection.html", null ],
     [ "EGG::HeapErrorArg", "struct_e_g_g_1_1_heap_error_arg.html", null ],
-    [ "InputManager", "class_input_manager.html", null ],
+    [ "System::InputManager", "class_system_1_1_input_manager.html", null ],
     [ "System::JobContext", "struct_system_1_1_job_context.html", null ],
     [ "Kart::KartComponent", "class_kart_1_1_kart_component.html", null ],
     [ "Field::MapdataStage::lensFlareOptions_t", "struct_field_1_1_mapdata_stage.html#struct_field_1_1_mapdata_stage_1_1lens_flare_options__t", null ],
@@ -147,6 +148,7 @@ var hierarchy =
       [ "System::RaceConfig", "class_system_1_1_race_config.html", null ]
     ] ],
     [ "System::RaceConfig::Player", "class_system_1_1_race_config_1_1_player.html", null ],
+    [ "System::PlayerInput", "class_system_1_1_player_input.html", null ],
     [ "nw4r::ut::Polymorphic", "structnw4r_1_1ut_1_1_polymorphic.html", [
       [ "nw4r::ut::IOStream", "structnw4r_1_1ut_1_1_i_o_stream.html", [
         [ "nw4r::ut::FileStream", "classnw4r_1_1ut_1_1_file_stream.html", [

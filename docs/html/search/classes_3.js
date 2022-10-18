@@ -12,7 +12,8 @@ var searchData=
   ['competitionsettings_9',['CompetitionSettings',['../struct_system_1_1_competition_settings.html',1,'System']]],
   ['competitionwrapper_10',['CompetitionWrapper',['../struct_system_1_1_competition_wrapper.html',1,'System']]],
   ['controlgroup_11',['ControlGroup',['../class_u_i_1_1_control_group.html',1,'UI']]],
-  ['coursecache_12',['CourseCache',['../class_system_1_1_course_cache.html',1,'System']]],
-  ['coursedvdarchive_13',['CourseDvdArchive',['../class_system_1_1_course_dvd_archive.html',1,'System']]],
-  ['coursemap_14',['CourseMap',['../class_field_1_1_course_map.html',1,'Field']]]
+  ['controller_12',['Controller',['../class_system_1_1_controller.html',1,'System']]],
+  ['coursecache_13',['CourseCache',['../class_system_1_1_course_cache.html',1,'System']]],
+  ['coursedvdarchive_14',['CourseDvdArchive',['../class_system_1_1_course_dvd_archive.html',1,'System']]],
+  ['coursemap_15',['CourseMap',['../class_field_1_1_course_map.html',1,'Field']]]
 ];

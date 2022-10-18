@@ -1,0 +1,23 @@
+digraph "System::GhostFile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
+  node [fontname="FreeMono",fontsize="10",shape=record];
+  Node1 [label="System::GhostFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mDriftIsAuto\nmHeaderIsValid" ,fontname="FreeMono"];
+  Node2 [label="bool",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mUserData" ,fontname="FreeMono"];
+  Node3 [label="wchar_t",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mMii" ,fontname="FreeMono"];
+  Node4 [label="System::RawMii",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_raw_mii.html",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mInputs\nmLapCount" ,fontname="FreeMono"];
+  Node5 [label="u8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mLapTimes\nmRaceTime" ,fontname="FreeMono"];
+  Node6 [label="System::Time",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_time.html",tooltip=" "];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mCharacterId\nmControllerId\nmInputsSize\nmLocation\nmType\nmVehicleId" ,fontname="FreeMono"];
+  Node7 [label="u32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mCourseId" ,fontname="FreeMono"];
+  Node8 [label="s32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mDate" ,fontname="FreeMono"];
+  Node9 [label="System::Date",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_date.html",tooltip=" "];
+}
