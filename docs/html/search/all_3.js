@@ -25,7 +25,7 @@ var searchData=
   ['convertpathtoentryid_22',['convertPathToEntryID',['../class_e_g_g_1_1_archive.html#a89b9cf49c9f310409da607ad25ec7d9b',1,'EGG::Archive']]],
   ['coursecache_23',['CourseCache',['../class_system_1_1_course_cache.html',1,'System']]],
   ['coursedvdarchive_24',['CourseDvdArchive',['../class_system_1_1_course_dvd_archive.html',1,'System']]],
-  ['coursemap_25',['CourseMap',['../class_field_1_1_course_map.html',1,'Field']]],
+  ['coursemap_25',['CourseMap',['../class_system_1_1_course_map.html',1,'System']]],
   ['create_26',['create',['../class_e_g_g_1_1_exp_heap.html#a9a63a218301dad5a4deb08a550aeeaf3',1,'EGG::ExpHeap::create(void *block, u32 size, u16 attr) NEVER_INLINE'],['../class_e_g_g_1_1_exp_heap.html#a4dc8ac772f8f66133d05d9749d4ef0b9',1,'EGG::ExpHeap::create(u32 size, Heap *heap, u16 attr)'],['../class_e_g_g_1_1_graphics_fifo.html#a35a31b03868714c1ff4fa68603a1aaa5',1,'EGG::GraphicsFifo::create()'],['../class_e_g_g_1_1_scene_creator.html#a2188828f97a6261a27c6f2f3db34e82b',1,'EGG::SceneCreator::create()'],['../class_system_1_1_scene_creator_static.html#a49ae2db4bb863600836f085a2df3eb0e',1,'System::SceneCreatorStatic::create()']]],
   ['createchildscene_27',['createChildScene',['../class_e_g_g_1_1_scene_manager.html#af30004e9faae45f8a1fc78453ae23704',1,'EGG::SceneManager']]],
   ['createdefaultfader_28',['createDefaultFader',['../class_e_g_g_1_1_scene_manager.html#abe43a0d5474b3072de4a83da2aa93847',1,'EGG::SceneManager']]],

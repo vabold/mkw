@@ -42,7 +42,7 @@ var hierarchy =
     [ "System::CompetitionWrapper", "struct_system_1_1_competition_wrapper.html", null ],
     [ "UI::ControlGroup", "class_u_i_1_1_control_group.html", null ],
     [ "System::Controller", "class_system_1_1_controller.html", null ],
-    [ "Field::CourseMap", "class_field_1_1_course_map.html", null ],
+    [ "System::CourseMap", "class_system_1_1_course_map.html", null ],
     [ "Field::ObjectParameter::Parameter::Data", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data", null ],
     [ "System::Date", "class_system_1_1_date.html", null ],
     [ "UI::Deferred< T >", "struct_u_i_1_1_deferred.html", null ],
@@ -92,8 +92,10 @@ var hierarchy =
     [ "System::InputManager", "class_system_1_1_input_manager.html", null ],
     [ "System::JobContext", "struct_system_1_1_job_context.html", null ],
     [ "Kart::KartComponent", "class_kart_1_1_kart_component.html", null ],
+    [ "System::KmpSectionHeader", "struct_system_1_1_kmp_section_header.html", null ],
     [ "Field::MapdataStage::lensFlareOptions_t", "struct_field_1_1_mapdata_stage.html#struct_field_1_1_mapdata_stage_1_1lens_flare_options__t", null ],
     [ "nw4r::ut::List", "structnw4r_1_1ut_1_1_list.html", null ],
+    [ "System::MapdataAccessorBase< T, TData >", "struct_system_1_1_mapdata_accessor_base.html", null ],
     [ "Field::MapdataArea", "class_field_1_1_mapdata_area.html", null ],
     [ "Field::MapdataCamera", "struct_field_1_1_mapdata_camera.html", null ],
     [ "Field::MapdataCannonPoint", "struct_field_1_1_mapdata_cannon_point.html", null ],
@@ -108,6 +110,7 @@ var hierarchy =
     [ "Field::MapdataJugemPoint", "struct_field_1_1_mapdata_jugem_point.html", null ],
     [ "Field::MapdataStage", "struct_field_1_1_mapdata_stage.html", null ],
     [ "Field::MapdataStartPoint", "struct_field_1_1_mapdata_start_point.html", null ],
+    [ "System::MapdataStartPoint", "class_system_1_1_mapdata_start_point.html", null ],
     [ "MEMAllocator", "class_m_e_m_allocator.html", [
       [ "EGG::Allocator", "class_e_g_g_1_1_allocator.html", null ]
     ] ],
@@ -190,6 +193,7 @@ var hierarchy =
       [ "System::SceneCreatorStatic", "class_system_1_1_scene_creator_static.html", null ]
     ] ],
     [ "EGG::SceneManager", "class_e_g_g_1_1_scene_manager.html", null ],
+    [ "System::MapdataStartPoint::SData", "class_system_1_1_mapdata_start_point.html#struct_system_1_1_mapdata_start_point_1_1_s_data", null ],
     [ "System::RaceConfig::Settings", "struct_system_1_1_race_config_1_1_settings.html", null ],
     [ "nw4r::math::detail::SinCosSample", "structnw4r_1_1math_1_1detail_1_1_sin_cos_sample.html", null ],
     [ "nw4r::snd::SoundArchive", "classnw4r_1_1snd_1_1_sound_archive.html", [

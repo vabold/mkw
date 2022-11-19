@@ -15,5 +15,5 @@ var searchData=
   ['controller_12',['Controller',['../class_system_1_1_controller.html',1,'System']]],
   ['coursecache_13',['CourseCache',['../class_system_1_1_course_cache.html',1,'System']]],
   ['coursedvdarchive_14',['CourseDvdArchive',['../class_system_1_1_course_dvd_archive.html',1,'System']]],
-  ['coursemap_15',['CourseMap',['../class_field_1_1_course_map.html',1,'Field']]]
+  ['coursemap_15',['CourseMap',['../class_system_1_1_course_map.html',1,'System']]]
 ];

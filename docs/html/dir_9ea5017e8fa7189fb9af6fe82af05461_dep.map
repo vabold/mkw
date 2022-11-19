@@ -1,6 +1,6 @@
 <map id="source/game" name="source/game">
 <area shape="rect" id="node1" href="dir_dfa3dd376ef284b4fe91688c4c5b67ec.html" title="egg" alt="" coords="425,255,497,303"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000004_000002.html" title="26" alt="" coords="437,227,454,242"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000004_000002.html" title="27" alt="" coords="437,227,454,242"/>
 <area shape="rect" id="node3" href="dir_60279ab551deee43ead5f0018e1e0cee.html" title="geo" alt="" coords="229,63,301,111"/>
 <area shape="rect" id="edge2-headlabel" href="dir_000005_000002.html" title="3" alt="" coords="458,228,467,242"/>
 <area shape="rect" id="node4" href="dir_44b515eb409b2fb9e7cf4ac48543db6d.html" title="host_system" alt="" coords="285,159,395,207"/>
@@ -9,7 +9,7 @@
 <area shape="rect" id="edge4-headlabel" href="dir_000008_000002.html" title="9" alt="" coords="483,234,493,249"/>
 <area shape="rect" id="node6" href="dir_08f2e9109a3e9d1a5838c3cb9dd65cd4.html" title="kart" alt="" coords="325,63,397,111"/>
 <area shape="rect" id="node7" href="dir_76b1465163afa8288f95bcedc8109a9a.html" title="system" alt="" coords="421,63,493,111"/>
-<area shape="rect" id="edge6-headlabel" href="dir_000020_000002.html" title="8" alt="" coords="464,229,474,243"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000020_000002.html" title="9" alt="" coords="464,229,474,243"/>
 <area shape="rect" id="edge5-headlabel" href="dir_000020_000007.html" title="4" alt="" coords="383,147,393,161"/>
 <area shape="rect" id="node8" href="dir_e289bcd2df3e0c1b092339898d2b01ed.html" title="ui" alt="" coords="613,63,685,111"/>
 <area shape="rect" id="edge7-headlabel" href="dir_000021_000002.html" title="1" alt="" coords="498,240,508,255"/>

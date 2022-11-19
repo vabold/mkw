@@ -14,7 +14,7 @@ digraph "System::RaceConfig::Player"
   Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mCharacterId" ,fontname="FreeMono"];
   Node5 [label="CharacterId",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mPlayerType" ,fontname="FreeMono"];
-  Node6 [label="PlayerType",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 [label="Type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mMii" ,fontname="FreeMono"];
   Node7 [label="System::Mii",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_mii.html",tooltip=" "];
   Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _4\n_5C\n_C" ,fontname="FreeMono"];

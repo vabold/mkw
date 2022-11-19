@@ -8,10 +8,16 @@ digraph "System::RaceConfig::Settings"
   Node2 [label="CourseId",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mBattleType\nmCpuMode\nmEngineClass\nmItemMode\nmSeed1\nmSeed2" ,fontname="FreeMono"];
   Node3 [label="u32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mCupId\nmGameMode\nmGameType\nmModeFlags" ,fontname="FreeMono"];
-  Node4 [label="s32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mHudPlayerIds" ,fontname="FreeMono"];
-  Node5 [label="s8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mLapCount\nmRaceNumber" ,fontname="FreeMono"];
-  Node6 [label="u8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mGameMode" ,fontname="FreeMono"];
+  Node4 [label="GameMode",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mCameraMode" ,fontname="FreeMono"];
+  Node5 [label="CameraMode",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mHudPlayerIds" ,fontname="FreeMono"];
+  Node6 [label="s8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mCupId" ,fontname="FreeMono"];
+  Node7 [label="CupId",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mLapCount\nmRaceNumber" ,fontname="FreeMono"];
+  Node8 [label="u8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mModeFlags" ,fontname="FreeMono"];
+  Node9 [label="ModeFlags",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

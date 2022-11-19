@@ -1,5 +1,5 @@
 <map id="source/egg/math/eggVector.hpp" name="source/egg/math/eggVector.hpp">
-<area shape="rect" id="node1" title="TODO." alt="" coords="1924,5,2179,32"/>
+<area shape="rect" id="node1" title="TODO." alt="" coords="2047,5,2301,32"/>
 <area shape="rect" id="node2" href="$egg_bound_box_8hpp_source.html" title=" " alt="" coords="48,80,263,121"/>
 <area shape="rect" id="node5" href="$egg_quat_8hpp.html" title="TODO." alt="" coords="300,87,539,114"/>
 <area shape="rect" id="node7" href="$egg_vector_8cpp.html" title="TODO." alt="" coords="563,87,817,114"/>
@@ -14,7 +14,8 @@
 <area shape="rect" id="node21" href="$_mapdata_item_point_8hpp_source.html" title=" " alt="" coords="2927,80,3149,121"/>
 <area shape="rect" id="node22" href="$_mapdata_jugem_point_8hpp_source.html" title=" " alt="" coords="3173,80,3396,121"/>
 <area shape="rect" id="node23" href="$_mapdata_start_point_8hpp_source.html" title=" " alt="" coords="3420,80,3643,121"/>
-<area shape="rect" id="node24" href="$_u_i_control_8hpp_source.html" title=" " alt="" coords="3667,87,3913,114"/>
+<area shape="rect" id="node24" href="$_course_map_8hpp_source.html" title=" " alt="" coords="3667,80,3833,121"/>
+<area shape="rect" id="node26" href="$_u_i_control_8hpp_source.html" title=" " alt="" coords="3863,87,4109,114"/>
 <area shape="rect" id="node3" href="$egg_viewport_8hpp.html" title="TODO." alt="" coords="5,177,276,203"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,259,276,285"/>
 <area shape="rect" id="node6" href="$egg_quat_8cpp.html" title="TODO." alt="" coords="300,177,539,203"/>
@@ -23,6 +24,7 @@
 <area shape="rect" id="node10" title=" " alt="" coords="563,259,849,285"/>
 <area shape="rect" id="node13" title=" " alt="" coords="1160,177,1447,203"/>
 <area shape="rect" id="node15" href="$_mapdata_8hpp_source.html" title=" " alt="" coords="2433,169,2656,211"/>
-<area shape="rect" id="node25" title=" " alt="" coords="3513,177,3784,203"/>
-<area shape="rect" id="node26" title=" " alt="" coords="3808,177,4055,203"/>
+<area shape="rect" id="node25" title=" " alt="" coords="3660,169,3827,211"/>
+<area shape="rect" id="node27" title=" " alt="" coords="3851,177,4121,203"/>
+<area shape="rect" id="node28" title=" " alt="" coords="4145,177,4392,203"/>
 </map>
