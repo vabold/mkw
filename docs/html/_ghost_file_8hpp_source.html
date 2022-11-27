@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('_ghost_file_8hpp_source.html',''); ini
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="class_system_1_1_time.html">~Time</a>() { u8 i; } <span class="comment">// Trust me bro</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#pragma warn_unusedvar off</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  u16 getClampedMinutes()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <a class="code hl_class" href="classu16.html">u16</a> getClampedMinutes()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordflow">if</span> (mMinutes &gt; 99) {</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>      <span class="keywordflow">return</span> 99;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    }</div>
@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('_ghost_file_8hpp_source.html',''); ini
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">return</span> mMinutes;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  }</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  u16 getClampedSeconds()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <a class="code hl_class" href="classu16.html">u16</a> getClampedSeconds()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">if</span> (mMinutes &gt; 99) {</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>      <span class="keywordflow">return</span> 59;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('_ghost_file_8hpp_source.html',''); ini
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordflow">return</span> mSeconds;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  }</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  u16 getClampedMilliseconds()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <a class="code hl_class" href="classu16.html">u16</a> getClampedMilliseconds()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">if</span> (mMinutes &gt; 99) {</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>      <span class="keywordflow">return</span> 999;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('_ghost_file_8hpp_source.html',''); ini
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">void</span> setIsValid(<span class="keywordtype">bool</span> isValid) { mIsValid = isValid; }</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">void</span> set(u16 minutes, u8 seconds, u16 milliseconds, <span class="keywordtype">bool</span> isValid = <span class="keyword">true</span>) {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">void</span> set(<a class="code hl_class" href="classu16.html">u16</a> minutes, u8 seconds, <a class="code hl_class" href="classu16.html">u16</a> milliseconds, <span class="keywordtype">bool</span> isValid = <span class="keyword">true</span>) {</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    mIsValid = isValid;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    mMinutes = minutes;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    mSeconds = seconds;</div>
@@ -138,9 +138,9 @@ $(document).ready(function(){initNavTree('_ghost_file_8hpp_source.html',''); ini
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  }</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  u16 mMinutes;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <a class="code hl_class" href="classu16.html">u16</a> mMinutes;</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  u8 mSeconds;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  u16 mMilliseconds;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <a class="code hl_class" href="classu16.html">u16</a> mMilliseconds;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">bool</span> mIsValid;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
@@ -235,14 +235,14 @@ $(document).ready(function(){initNavTree('_ghost_file_8hpp_source.html',''); ini
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>      u32 day : 5;</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>      u32 controllerId : 4;</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>      u16 _pad1 : 4;</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>      u16 isCompressed : 1;</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>      u16 _pad2 : 2;</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>      u16 type : 7;</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>      u16 driftIsAuto : 1;</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>      u16 _pad3 : 1;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>      <a class="code hl_class" href="classu16.html">u16</a> _pad1 : 4;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>      <a class="code hl_class" href="classu16.html">u16</a> isCompressed : 1;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>      <a class="code hl_class" href="classu16.html">u16</a> _pad2 : 2;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>      <a class="code hl_class" href="classu16.html">u16</a> type : 7;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>      <a class="code hl_class" href="classu16.html">u16</a> driftIsAuto : 1;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>      <a class="code hl_class" href="classu16.html">u16</a> _pad3 : 1;</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>      u16 inputsSize;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>      <a class="code hl_class" href="classu16.html">u16</a> inputsSize;</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>      u8 lapCount;</div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>      <span class="keyword">struct </span>{</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        u32 minutes : 7;</div>
@@ -323,14 +323,14 @@ $(document).ready(function(){initNavTree('_ghost_file_8hpp_source.html',''); ini
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
 <div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>  <span class="keyword">virtual</span> <a class="code hl_class" href="class_system_1_1_ghost_file_group.html">~GhostFileGroup</a>();</div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>  <span class="keywordtype">void</span> invalidate(u16 idx);</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>  <span class="keywordtype">void</span> invalidate(<a class="code hl_class" href="classu16.html">u16</a> idx);</div>
 <div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>  <a class="code hl_class" href="class_system_1_1_ghost_file.html">GhostFile</a>* get(u16 idx);</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>  <a class="code hl_class" href="class_system_1_1_ghost_file.html">GhostFile</a>* get(<a class="code hl_class" href="classu16.html">u16</a> idx);</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  <span class="keywordtype">void</span> readHeader(u16 idx, <span class="keyword">const</span> <a class="code hl_struct" href="struct_system_1_1_raw_ghost_file.html">RawGhostFile</a>&amp; raw);</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  <span class="keywordtype">void</span> readHeader(<a class="code hl_class" href="classu16.html">u16</a> idx, <span class="keyword">const</span> <a class="code hl_struct" href="struct_system_1_1_raw_ghost_file.html">RawGhostFile</a>&amp; raw);</div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  u16 mCount;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  <a class="code hl_class" href="classu16.html">u16</a> mCount;</div>
 <div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  s32 mType;</div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>  <a class="code hl_class" href="class_system_1_1_ghost_file.html">GhostFile</a>* mFiles;</div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  <span class="keywordtype">bool</span>* _10;</div>
@@ -343,6 +343,7 @@ $(document).ready(function(){initNavTree('_ghost_file_8hpp_source.html',''); ini
 <div class="ttc" id="aclass_system_1_1_ghost_file_html"><div class="ttname"><a href="class_system_1_1_ghost_file.html">System::GhostFile</a></div><div class="ttdef"><b>Definition:</b> GhostFile.hpp:175</div></div>
 <div class="ttc" id="aclass_system_1_1_raw_mii_html"><div class="ttname"><a href="class_system_1_1_raw_mii.html">System::RawMii</a></div><div class="ttdef"><b>Definition:</b> Mii.hpp:9</div></div>
 <div class="ttc" id="aclass_system_1_1_time_html"><div class="ttname"><a href="class_system_1_1_time.html">System::Time</a></div><div class="ttdef"><b>Definition:</b> GhostFile.hpp:11</div></div>
+<div class="ttc" id="aclassu16_html"><div class="ttname"><a href="classu16.html">u16</a></div></div>
 <div class="ttc" id="aegg_heap_8hpp_html"><div class="ttname"><a href="egg_heap_8hpp.html">eggHeap.hpp</a></div><div class="ttdoc">Base Heap class.</div></div>
 <div class="ttc" id="astruct_system_1_1_raw_ghost_file_html"><div class="ttname"><a href="struct_system_1_1_raw_ghost_file.html">System::RawGhostFile</a></div><div class="ttdef"><b>Definition:</b> GhostFile.hpp:109</div></div>
 </div><!-- fragment --></div><!-- contents -->

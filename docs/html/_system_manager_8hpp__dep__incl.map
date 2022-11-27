@@ -1,12 +1,13 @@
 <map id="source/game/host_system/SystemManager.hpp" name="source/game/host_system/SystemManager.hpp">
-<area shape="rect" id="node1" title="System Manager." alt="" coords="204,5,411,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,184,188,225"/>
-<area shape="rect" id="node3" href="$_multi_dvd_archive_8hpp_source.html" title=" " alt="" coords="216,95,399,136"/>
-<area shape="rect" id="node9" title=" " alt="" coords="235,452,417,493"/>
-<area shape="rect" id="node4" href="$_localized_archive_8hpp_source.html" title=" " alt="" coords="212,184,403,225"/>
-<area shape="rect" id="node6" href="$_resource_manager_8hpp_source.html" title=" " alt="" coords="283,273,465,315"/>
-<area shape="rect" id="node5" title=" " alt="" coords="68,273,259,315"/>
-<area shape="rect" id="node7" href="$_race_config_8hpp_source.html" title=" " alt="" coords="83,363,249,404"/>
-<area shape="rect" id="node10" title=" " alt="" coords="325,370,596,397"/>
-<area shape="rect" id="node8" title=" " alt="" coords="44,452,211,493"/>
+<area shape="rect" id="node1" title="System Manager." alt="" coords="231,5,437,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="32,184,215,225"/>
+<area shape="rect" id="node3" href="$_multi_dvd_archive_8hpp_source.html" title=" " alt="" coords="243,95,425,136"/>
+<area shape="rect" id="node10" title=" " alt="" coords="348,452,531,493"/>
+<area shape="rect" id="node4" href="$_localized_archive_8hpp_source.html" title=" " alt="" coords="239,184,429,225"/>
+<area shape="rect" id="node6" href="$_resource_manager_8hpp_source.html" title=" " alt="" coords="309,273,492,315"/>
+<area shape="rect" id="node5" title=" " alt="" coords="95,273,285,315"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,363,172,404"/>
+<area shape="rect" id="node8" href="$_race_config_8hpp_source.html" title=" " alt="" coords="196,363,363,404"/>
+<area shape="rect" id="node11" title=" " alt="" coords="439,370,709,397"/>
+<area shape="rect" id="node9" title=" " alt="" coords="157,452,324,493"/>
 </map>

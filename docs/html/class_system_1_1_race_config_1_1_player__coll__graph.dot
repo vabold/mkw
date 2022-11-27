@@ -35,7 +35,7 @@ digraph "System::RaceConfig::Player"
   Node14 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _d4" ,fontname="FreeMono"];
   Node14 [label="unk32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node15 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _dc\nmGpScore\nmPreviousScore" ,fontname="FreeMono"];
-  Node15 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node15 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
   Node16 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mGpRankScore" ,fontname="FreeMono"];
   Node16 [label="s16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mFinishPos\nmPrevFinishPos" ,fontname="FreeMono"];

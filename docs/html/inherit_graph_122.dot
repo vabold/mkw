@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
   node [fontname="FreeMono",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="System::Rating",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_system_1_1_rating.html",tooltip=" "];
+  Node0 [label="System::MapdataJugemPoint\l::SData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_system_1_1_mapdata_jugem_point.html#struct_system_1_1_mapdata_jugem_point_1_1_s_data",tooltip=" "];
 }

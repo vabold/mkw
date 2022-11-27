@@ -9,7 +9,7 @@ digraph "System::RaceSysDvdArchive"
   Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" archives" ,fontname="FreeMono"];
   Node3 [label="System::DvdArchive",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_dvd_archive.html",tooltip=" "];
   Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" archiveCount" ,fontname="FreeMono"];
-  Node4 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
   Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fileSizes" ,fontname="FreeMono"];
   Node5 [label="u32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" suffixes" ,fontname="FreeMono"];

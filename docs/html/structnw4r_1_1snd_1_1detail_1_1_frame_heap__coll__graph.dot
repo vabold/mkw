@@ -11,5 +11,5 @@ digraph "nw4r::snd::detail::FrameHeap"
   Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" head\ntail" ,fontname="FreeMono"];
   Node4 [label="void *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" count\nintrusion_offset" ,fontname="FreeMono"];
-  Node5 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
 }

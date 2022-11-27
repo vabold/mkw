@@ -1,0 +1,5 @@
+<map id="System::MapdataAreaBase" name="System::MapdataAreaBase">
+<area shape="rect" id="node1" title=" " alt="" coords="123,5,329,32"/>
+<area shape="rect" id="node2" href="$class_system_1_1_mapdata_area_box.html" title=" " alt="" coords="5,80,204,107"/>
+<area shape="rect" id="node3" href="$class_system_1_1_mapdata_area_cylinder.html" title=" " alt="" coords="228,80,467,107"/>
+</map>

@@ -1,6 +1,6 @@
 <map id="System::CompetitionSettings" name="System::CompetitionSettings">
 <area shape="rect" id="node1" title=" " alt="" coords="149,316,388,343"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,117,52,143"/>
+<area shape="rect" id="node2" href="$classu16.html" title=" " alt="" coords="5,117,52,143"/>
 <area shape="rect" id="node3" title=" " alt="" coords="145,117,184,143"/>
 <area shape="rect" id="node4" title=" " alt="" coords="349,117,396,143"/>
 <area shape="rect" id="node5" href="$struct_system_1_1_character_vehicle_choice.html" title=" " alt="" coords="420,109,635,151"/>

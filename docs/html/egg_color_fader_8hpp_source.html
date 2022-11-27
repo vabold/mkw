@@ -122,8 +122,8 @@ $(document).ready(function(){initNavTree('egg_color_fader_8hpp_source.html','');
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  };</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  u8 mFlag; <span class="comment">// 08</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="comment">// 1B implicit pad</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  u16 mFrameCount; <span class="comment">// 0A s/u? set to 20 in ctor</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  u16 mFrame;      <span class="comment">// set to 0 in ctor</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <a class="code hl_class" href="classu16.html">u16</a> mFrameCount; <span class="comment">// 0A s/u? set to 20 in ctor</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <a class="code hl_class" href="classu16.html">u16</a> mFrame;      <span class="comment">// set to 0 in ctor</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="comment">// 2B implicit pad</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_e_g_g_1_1_color_fader.html#a1da558d013ebd5b8239127d7c6890492">   44</a></span>  <a class="code hl_struct" href="structnw4r_1_1ut_1_1_color.html">nw4r::ut::Color</a> <a class="code hl_variable" href="class_e_g_g_1_1_color_fader.html#a1da558d013ebd5b8239127d7c6890492">mColor</a>; </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_e_g_g_1_1_color_fader.html#a53ac010866424939de64bc8cefa394b6">   45</a></span>  f32 <a class="code hl_variable" href="class_e_g_g_1_1_color_fader.html#a53ac010866424939de64bc8cefa394b6">mLeftX</a>;             </div>
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('egg_color_fader_8hpp_source.html','');
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <a class="code hl_function" href="class_e_g_g_1_1_color_fader.html#a23dc23209b7ce2a246f17b4557b6bf94">ColorFader</a>(f32 leftX, f32 bottomY, f32 width, f32 height,</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>             <a class="code hl_struct" href="structnw4r_1_1ut_1_1_color.html">nw4r::ut::Color</a> color, <a class="code hl_enumeration" href="class_e_g_g_1_1_fader.html#a6bbba96774fd141f7c5f5214e129e03c">Fader::EStatus</a> status);</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_e_g_g_1_1_color_fader.html#a4e431df2a9ecded76cbb4d2de3b892ee">setFrame</a>(u16 frame);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_e_g_g_1_1_color_fader.html#a4e431df2a9ecded76cbb4d2de3b892ee">setFrame</a>(<a class="code hl_class" href="classu16.html">u16</a> frame);</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_e_g_g_1_1_color_fader.html#af89a18fb5605c7e655db3ff4c4df7f80">setColor</a>(<a class="code hl_struct" href="structnw4r_1_1ut_1_1_color.html">nw4r::ut::Color</a> color);</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
@@ -179,6 +179,7 @@ $(document).ready(function(){initNavTree('egg_color_fader_8hpp_source.html','');
 <div class="ttc" id="aclass_e_g_g_1_1_fader_html_acd9ac04a3bb6e78a215732eebd741b23"><div class="ttname"><a href="class_e_g_g_1_1_fader.html#acd9ac04a3bb6e78a215732eebd741b23">EGG::Fader::getStatus</a></div><div class="ttdeci">virtual EStatus getStatus() const =0</div><div class="ttdoc">[vt+0x0C]</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_fader_html_ae131ba4754fc99b35036a308c8a13466"><div class="ttname"><a href="class_e_g_g_1_1_fader.html#ae131ba4754fc99b35036a308c8a13466">EGG::Fader::fadeIn</a></div><div class="ttdeci">virtual bool fadeIn()=0</div><div class="ttdoc">[vt+0x10]</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_fader_html_ae72b3b3a8fd459c01fe2877e1ef637c7"><div class="ttname"><a href="class_e_g_g_1_1_fader.html#ae72b3b3a8fd459c01fe2877e1ef637c7">EGG::Fader::calc</a></div><div class="ttdeci">virtual int calc()=0</div><div class="ttdoc">[vt+0x18]</div></div>
+<div class="ttc" id="aclassu16_html"><div class="ttname"><a href="classu16.html">u16</a></div></div>
 <div class="ttc" id="astructnw4r_1_1ut_1_1_color_html"><div class="ttname"><a href="structnw4r_1_1ut_1_1_color.html">nw4r::ut::Color</a></div><div class="ttdef"><b>Definition:</b> utColor.hpp:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

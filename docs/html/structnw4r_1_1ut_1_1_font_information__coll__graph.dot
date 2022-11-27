@@ -10,7 +10,7 @@ digraph "nw4r::ut::FontInformation"
   Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mLineFeed" ,fontname="FreeMono"];
   Node3 [label="s8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mAlternateChar" ,fontname="FreeMono"];
-  Node4 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
   Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mDefaultCharWidths" ,fontname="FreeMono"];
   Node5 [label="nw4r::ut::CharWidths",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_char_widths.html",tooltip=" "];
   Node2 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" BYTE_0x0\nBYTE_0x1\nBYTE_0x2" ,fontname="FreeMono"];

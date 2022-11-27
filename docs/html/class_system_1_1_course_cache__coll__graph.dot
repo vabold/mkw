@@ -35,7 +35,7 @@ digraph "System::CourseCache"
   Node14 [label="MEMHeapHandle",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node4 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mParentBlock" ,fontname="FreeMono"];
   Node15 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mFlag" ,fontname="FreeMono"];
-  Node15 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node15 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
   Node16 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mNode" ,fontname="FreeMono"];
   Node16 [label="nw4r::ut::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_node.html",tooltip="Bidirectional list node."];
   Node4 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pred\nsucc" ,fontname="FreeMono"];

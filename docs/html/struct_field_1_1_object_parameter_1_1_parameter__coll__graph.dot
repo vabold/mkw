@@ -11,6 +11,6 @@ digraph "Field::ObjectParameter::Parameter"
   Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" AssetsListing\nName" ,fontname="FreeMono"];
   Node4 [label="char",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" P0" ,fontname="FreeMono"];
-  Node5 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
   Node2 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Attribute\nClipBias\nClipFar\nClipNear\nP4\nP5\nP6\nP7" ,fontname="FreeMono"];
 }

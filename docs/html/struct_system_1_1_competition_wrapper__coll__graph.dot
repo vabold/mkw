@@ -13,7 +13,7 @@ digraph "System::CompetitionWrapper"
   Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dataLength\nfield3_0xc\nheaderLength" ,fontname="FreeMono"];
   Node5 [label="s32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cameraAngle\ncannonFlag\ncompetitionType\ncpuCount\nfield13_0x20\nfield14_0x22\nfield24_0x46\nfield25_0x48\nfield26_0x4a\nminimapObject\n..." ,fontname="FreeMono"];
-  Node6 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
   Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" controllerRestriction\ncourseId\nengineClass\nfield19_0x3f\nfield23_0x45\nfield9_0x19\nnumLaps\ns32roSetting" ,fontname="FreeMono"];
   Node7 [label="u8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cpuCombos" ,fontname="FreeMono"];

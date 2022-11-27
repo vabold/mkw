@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
   node [fontname="FreeMono",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="System::DvdArchive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_system_1_1_dvd_archive.html",tooltip=" "];
+  Node0 [label="System::MapdataCheckPath",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_system_1_1_mapdata_check_path.html",tooltip=" "];
 }

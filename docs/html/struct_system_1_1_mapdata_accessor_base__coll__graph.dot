@@ -35,7 +35,7 @@ digraph "System::MapdataAccessorBase&lt; T, TData &gt;"
   Node15 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mParentBlock" ,fontname="FreeMono"];
   Node15 [label="void *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node16 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mFlag" ,fontname="FreeMono"];
-  Node16 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node16 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
   Node17 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mNode" ,fontname="FreeMono"];
   Node17 [label="nw4r::ut::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_node.html",tooltip="Bidirectional list node."];
   Node15 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pred\nsucc" ,fontname="FreeMono"];

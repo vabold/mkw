@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
   node [fontname="FreeMono",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="nw4r::ut::CharStrmReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_char_strm_reader.html",tooltip=" "];
+  Node0 [label="nw4r::ut::Node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_node.html",tooltip="Bidirectional list node."];
 }

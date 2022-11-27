@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "mkw", "index.html", [
-    [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -47,8 +46,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_box_col_manager_8hpp_source.html",
-"class_field_1_1_mapdata_area.html#ad6860d08767e0c59606da8e42c3365ac",
-"g3d__rescommon_8hpp_source.html"
+"class_non_copyable.html",
+"g3d__camera_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

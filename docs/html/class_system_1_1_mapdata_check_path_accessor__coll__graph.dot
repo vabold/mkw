@@ -1,0 +1,20 @@
+digraph "System::MapdataCheckPathAccessor"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
+  node [fontname="FreeMono",fontsize="10",shape=record];
+  Node1 [label="System::MapdataCheckPath\lAccessor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node2 [label="System::MapdataAccessorBase\l\< MapdataCheckPath, MapdataCheck\lPath::SData \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$struct_system_1_1_mapdata_accessor_base.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" entries" ,fontname="FreeMono"];
+  Node3 [label="System::MapdataCheckPath",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_mapdata_check_path.html",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" numEntries" ,fontname="FreeMono"];
+  Node4 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sectionHeader" ,fontname="FreeMono"];
+  Node5 [label="System::KmpSectionHeader",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$struct_system_1_1_kmp_section_header.html",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sectionMagic" ,fontname="FreeMono"];
+  Node6 [label="s32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" entryCount" ,fontname="FreeMono"];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" extraValue" ,fontname="FreeMono"];
+  Node7 [label="s16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

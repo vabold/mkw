@@ -21,10 +21,7 @@ var searchData=
   ['fontinformation_18',['FontInformation',['../structnw4r_1_1ut_1_1_font_information.html',1,'nw4r::ut']]],
   ['fonttextureglyph_19',['FontTextureGlyph',['../structnw4r_1_1ut_1_1_font_texture_glyph.html',1,'nw4r::ut']]],
   ['fontwidth_20',['FontWidth',['../structnw4r_1_1ut_1_1_font_width.html',1,'nw4r::ut']]],
-  ['fovvyend_21',['fovVYEnd',['../struct_field_1_1_mapdata_camera.html#a9e19a4496871c2f6b77eeee2f9a6615a',1,'Field::MapdataCamera']]],
-  ['fovyspeed_22',['fovYSpeed',['../struct_field_1_1_mapdata_camera.html#a36754b535358fa48b194a2f2a43b8f1d',1,'Field::MapdataCamera']]],
-  ['fovystart_23',['fovYStart',['../struct_field_1_1_mapdata_camera.html#ab83c1e1264189bf060e31c629f0ca9c6',1,'Field::MapdataCamera']]],
-  ['frameheap_24',['FrameHeap',['../structnw4r_1_1snd_1_1detail_1_1_frame_heap.html',1,'nw4r::snd::detail']]],
-  ['free_25',['free',['../class_e_g_g_1_1_allocator.html#a61ebd29a375f4d1710b23e40a23187c3',1,'EGG::Allocator::free()'],['../class_e_g_g_1_1_exp_heap.html#aca029169acd8404e6dcc0612394998fd',1,'EGG::ExpHeap::free()'],['../class_e_g_g_1_1_heap.html#a79e919a2ffd7978e3e245c10bd79850c',1,'EGG::Heap::free()']]],
-  ['functor_26',['Functor',['../struct_u_i_1_1_control_group_1_1_functor.html',1,'UI::ControlGroup']]]
+  ['frameheap_21',['FrameHeap',['../structnw4r_1_1snd_1_1detail_1_1_frame_heap.html',1,'nw4r::snd::detail']]],
+  ['free_22',['free',['../class_e_g_g_1_1_allocator.html#a61ebd29a375f4d1710b23e40a23187c3',1,'EGG::Allocator::free()'],['../class_e_g_g_1_1_exp_heap.html#aca029169acd8404e6dcc0612394998fd',1,'EGG::ExpHeap::free()'],['../class_e_g_g_1_1_heap.html#a79e919a2ffd7978e3e245c10bd79850c',1,'EGG::Heap::free()']]],
+  ['functor_23',['Functor',['../struct_u_i_1_1_control_group_1_1_functor.html',1,'UI::ControlGroup']]]
 ];

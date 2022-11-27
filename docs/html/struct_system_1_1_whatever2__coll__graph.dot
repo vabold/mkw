@@ -12,5 +12,5 @@ digraph "System::Whatever2"
   Node4 [label="u32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node2 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _04" ,fontname="FreeMono"];
   Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _08" ,fontname="FreeMono"];
-  Node5 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
 }

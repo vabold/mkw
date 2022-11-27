@@ -4,10 +4,9 @@ var indexSectionsWithContent =
   1: "_abcdefghijklmnopqrstuvw",
   2: "eops",
   3: "abcdfghiklmorstuw~",
-  4: "_bcdefjlmnoprstuv",
+  4: "_bcdemnoprsu",
   5: "ehrs",
-  6: "aehlrs",
-  7: "k"
+  6: "aehlrs"
 };
 
 var indexSectionNames =
@@ -18,8 +17,7 @@ var indexSectionNames =
   3: "functions",
   4: "variables",
   5: "enums",
-  6: "enumvalues",
-  7: "groups"
+  6: "enumvalues"
 };
 
 var indexSectionLabels =
@@ -30,7 +28,6 @@ var indexSectionLabels =
   3: "Functions",
   4: "Variables",
   5: "Enumerations",
-  6: "Enumerator",
-  7: "Modules"
+  6: "Enumerator"
 };
 

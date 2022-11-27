@@ -93,23 +93,32 @@ var hierarchy =
     [ "System::JobContext", "struct_system_1_1_job_context.html", null ],
     [ "Kart::KartComponent", "class_kart_1_1_kart_component.html", null ],
     [ "System::KmpSectionHeader", "struct_system_1_1_kmp_section_header.html", null ],
-    [ "Field::MapdataStage::lensFlareOptions_t", "struct_field_1_1_mapdata_stage.html#struct_field_1_1_mapdata_stage_1_1lens_flare_options__t", null ],
     [ "nw4r::ut::List", "structnw4r_1_1ut_1_1_list.html", null ],
     [ "System::MapdataAccessorBase< T, TData >", "struct_system_1_1_mapdata_accessor_base.html", null ],
-    [ "Field::MapdataArea", "class_field_1_1_mapdata_area.html", null ],
-    [ "Field::MapdataCamera", "struct_field_1_1_mapdata_camera.html", null ],
-    [ "Field::MapdataCannonPoint", "struct_field_1_1_mapdata_cannon_point.html", null ],
-    [ "Field::MapdataCheckPath", "struct_field_1_1_mapdata_check_path.html", null ],
-    [ "Field::MapdataCheckPoint", "struct_field_1_1_mapdata_check_point.html", null ],
-    [ "Field::MapdataCourse", "struct_field_1_1_mapdata_course.html", null ],
-    [ "Field::MapdataEnemyPath", "struct_field_1_1_mapdata_enemy_path.html", null ],
-    [ "Field::MapdataEnemyPoint", "struct_field_1_1_mapdata_enemy_point.html", null ],
-    [ "Field::MapdataGeoObj", "struct_field_1_1_mapdata_geo_obj.html", null ],
-    [ "Field::MapdataItemPath", "struct_field_1_1_mapdata_item_path.html", null ],
-    [ "Field::MapdataItemPoint", "struct_field_1_1_mapdata_item_point.html", null ],
-    [ "Field::MapdataJugemPoint", "struct_field_1_1_mapdata_jugem_point.html", null ],
-    [ "Field::MapdataStage", "struct_field_1_1_mapdata_stage.html", null ],
-    [ "Field::MapdataStartPoint", "struct_field_1_1_mapdata_start_point.html", null ],
+    [ "System::MapdataAccessorBase< MapdataCheckPath, MapdataCheckPath::SData >", "struct_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataCheckPathAccessor", "class_system_1_1_mapdata_check_path_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataCheckPoint, MapdataCheckPoint::SData >", "struct_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataCheckPointAccessor", "class_system_1_1_mapdata_check_point_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAreaBase", "class_system_1_1_mapdata_area_base.html", [
+      [ "System::MapdataAreaBox", "class_system_1_1_mapdata_area_box.html", null ],
+      [ "System::MapdataAreaCylinder", "class_system_1_1_mapdata_area_cylinder.html", null ]
+    ] ],
+    [ "System::MapdataCamera", "class_system_1_1_mapdata_camera.html", null ],
+    [ "System::MapdataCannonPoint", "class_system_1_1_mapdata_cannon_point.html", null ],
+    [ "System::MapdataCheckPath", "class_system_1_1_mapdata_check_path.html", null ],
+    [ "System::MapdataCheckPoint", "class_system_1_1_mapdata_check_point.html", null ],
+    [ "System::MapdataEnemyPath", "class_system_1_1_mapdata_enemy_path.html", null ],
+    [ "System::MapdataEnemyPoint", "class_system_1_1_mapdata_enemy_point.html", null ],
+    [ "System::MapdataFileAccessor", "class_system_1_1_mapdata_file_accessor.html", null ],
+    [ "System::MapdataGeoObj", "class_system_1_1_mapdata_geo_obj.html", null ],
+    [ "System::MapdataItemPath", "class_system_1_1_mapdata_item_path.html", null ],
+    [ "System::MapdataItemPoint", "class_system_1_1_mapdata_item_point.html", null ],
+    [ "System::MapdataJugemPoint", "class_system_1_1_mapdata_jugem_point.html", null ],
+    [ "System::MapdataMissionPoint", "class_system_1_1_mapdata_mission_point.html", null ],
+    [ "System::MapdataPointInfo", "class_system_1_1_mapdata_point_info.html", null ],
+    [ "System::MapdataStage", "class_system_1_1_mapdata_stage.html", null ],
     [ "System::MapdataStartPoint", "class_system_1_1_mapdata_start_point.html", null ],
     [ "MEMAllocator", "class_m_e_m_allocator.html", [
       [ "EGG::Allocator", "class_e_g_g_1_1_allocator.html", null ]
@@ -193,6 +202,21 @@ var hierarchy =
       [ "System::SceneCreatorStatic", "class_system_1_1_scene_creator_static.html", null ]
     ] ],
     [ "EGG::SceneManager", "class_e_g_g_1_1_scene_manager.html", null ],
+    [ "System::MapdataAreaBase::SData", "class_system_1_1_mapdata_area_base.html#struct_system_1_1_mapdata_area_base_1_1_s_data", null ],
+    [ "System::MapdataCamera::SData", "class_system_1_1_mapdata_camera.html#struct_system_1_1_mapdata_camera_1_1_s_data", null ],
+    [ "System::MapdataCannonPoint::SData", "class_system_1_1_mapdata_cannon_point.html#struct_system_1_1_mapdata_cannon_point_1_1_s_data", null ],
+    [ "System::MapdataCheckPath::SData", "class_system_1_1_mapdata_check_path.html#struct_system_1_1_mapdata_check_path_1_1_s_data", null ],
+    [ "System::MapdataCheckPoint::SData", "class_system_1_1_mapdata_check_point.html#struct_system_1_1_mapdata_check_point_1_1_s_data", null ],
+    [ "System::MapdataEnemyPath::SData", "class_system_1_1_mapdata_enemy_path.html#struct_system_1_1_mapdata_enemy_path_1_1_s_data", null ],
+    [ "System::MapdataEnemyPoint::SData", "class_system_1_1_mapdata_enemy_point.html#struct_system_1_1_mapdata_enemy_point_1_1_s_data", null ],
+    [ "System::MapdataFileAccessor::SData", "class_system_1_1_mapdata_file_accessor.html#struct_system_1_1_mapdata_file_accessor_1_1_s_data", null ],
+    [ "System::MapdataGeoObj::SData", "class_system_1_1_mapdata_geo_obj.html#struct_system_1_1_mapdata_geo_obj_1_1_s_data", null ],
+    [ "System::MapdataItemPath::SData", "class_system_1_1_mapdata_item_path.html#struct_system_1_1_mapdata_item_path_1_1_s_data", null ],
+    [ "System::MapdataItemPoint::SData", "class_system_1_1_mapdata_item_point.html#struct_system_1_1_mapdata_item_point_1_1_s_data", null ],
+    [ "System::MapdataJugemPoint::SData", "class_system_1_1_mapdata_jugem_point.html#struct_system_1_1_mapdata_jugem_point_1_1_s_data", null ],
+    [ "System::MapdataMissionPoint::SData", "class_system_1_1_mapdata_mission_point.html#struct_system_1_1_mapdata_mission_point_1_1_s_data", null ],
+    [ "System::MapdataPointInfo::SData", "class_system_1_1_mapdata_point_info.html#struct_system_1_1_mapdata_point_info_1_1_s_data", null ],
+    [ "System::MapdataStage::SData", "class_system_1_1_mapdata_stage.html#struct_system_1_1_mapdata_stage_1_1_s_data", null ],
     [ "System::MapdataStartPoint::SData", "class_system_1_1_mapdata_start_point.html#struct_system_1_1_mapdata_start_point_1_1_s_data", null ],
     [ "System::RaceConfig::Settings", "struct_system_1_1_race_config_1_1_settings.html", null ],
     [ "nw4r::math::detail::SinCosSample", "structnw4r_1_1math_1_1detail_1_1_sin_cos_sample.html", null ],
@@ -229,5 +253,6 @@ var hierarchy =
     [ "EGG::Vector3f", "struct_e_g_g_1_1_vector3f.html", null ],
     [ "EGG::Video", "class_e_g_g_1_1_video.html", null ],
     [ "System::Whatever", "struct_system_1_1_whatever.html", null ],
-    [ "System::Whatever2", "struct_system_1_1_whatever2.html", null ]
+    [ "System::Whatever2", "struct_system_1_1_whatever2.html", null ],
+    [ "u16", "classu16.html", null ]
 ];

@@ -7,7 +7,7 @@ digraph "nw4r::ut::RomFont"
   Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node2 [label="nw4r::ut::Font",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$structnw4r_1_1ut_1_1_font.html",tooltip=" "];
   Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mReaderFunc" ,fontname="FreeMono"];
-  Node3 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
   Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mAlternateChar\nmFontEncode" ,fontname="FreeMono"];
   Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mBuffer" ,fontname="FreeMono"];
   Node4 [label="void *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];

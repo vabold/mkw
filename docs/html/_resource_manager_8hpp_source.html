@@ -380,7 +380,7 @@ $(document).ready(function(){initNavTree('_resource_manager_8hpp_source.html',''
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="struct_system_1_1_whatever2.html">  292</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_system_1_1_whatever2.html">Whatever2</a> {</div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>  u8 _00[0x4 - 0x0];</div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  <a class="code hl_struct" href="struct_system_1_1_whatever.html">Whatever</a>* _04;</div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>  u16 _08; <span class="comment">// ...</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>  <a class="code hl_class" href="classu16.html">u16</a> _08; <span class="comment">// ...</span></div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>};</div>
 <div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span> </div>
 <div class="line"><a id="l00298" name="l00298"></a><span class="lineno"><a class="line" href="class_system_1_1_resource_manager.html">  298</a></span><span class="keyword">class </span><a class="code hl_class" href="class_system_1_1_resource_manager.html">ResourceManager</a> {</div>
@@ -472,14 +472,14 @@ $(document).ready(function(){initNavTree('_resource_manager_8hpp_source.html',''
 <div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>  <span class="keywordtype">bool</span> isKartArchiveLoaded(s32 idx);</div>
 <div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>  <span class="keywordtype">bool</span> isBackupKartArchiveLoaded(s32 idx);</div>
 <div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>  <span class="keywordtype">bool</span> isSystemArchiveLoaded(s32 idx);</div>
-<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>  <span class="keywordtype">bool</span> setArcResourceLink(s32 multiIdx, u16 archiveIdx, <span class="keywordtype">void</span>* arcResource,</div>
+<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>  <span class="keywordtype">bool</span> setArcResourceLink(s32 multiIdx, <a class="code hl_class" href="classu16.html">u16</a> archiveIdx, <span class="keywordtype">void</span>* arcResource,</div>
 <div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>                          <span class="keyword">const</span> <span class="keywordtype">char</span>* dirname);</div>
-<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>  u16 getLoadedArchiveCount(s32 idx);</div>
+<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>  <a class="code hl_class" href="classu16.html">u16</a> getLoadedArchiveCount(s32 idx);</div>
 <div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>  <span class="comment">// I need this terribleness to match attachArcResourceAccessor</span></div>
-<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span>  <span class="keyword">inline</span> u16 getLoadedArchiveCountInverse(u32 idx)<span class="keyword"> volatile </span>{</div>
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span>  <span class="keyword">inline</span> <a class="code hl_class" href="classu16.html">u16</a> getLoadedArchiveCountInverse(u32 idx)<span class="keyword"> volatile </span>{</div>
 <div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>    <span class="keywordflow">return</span> !isSceneArchiveLoaded(idx) ? 0 : mppSceneArchives[idx]-&gt;archiveCount;</div>
 <div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>  }</div>
-<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>  u16 getMenuArchiveCount();</div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>  <a class="code hl_class" href="classu16.html">u16</a> getMenuArchiveCount();</div>
 <div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>  <span class="keywordtype">bool</span> tryRequestTask(EGG::TaskThread::TFunction mainFunction, <span class="keywordtype">void</span>* arg);</div>
 <div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>  <span class="keywordtype">bool</span> requestTask(EGG::TaskThread::TFunction mainFunction, <span class="keywordtype">void</span>* arg,</div>
 <div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>                   <span class="keywordtype">void</span>* _8);</div>
@@ -588,6 +588,7 @@ $(document).ready(function(){initNavTree('_resource_manager_8hpp_source.html',''
 <div class="ttc" id="aclass_system_1_1_multi_dvd_archive_html"><div class="ttname"><a href="class_system_1_1_multi_dvd_archive.html">System::MultiDvdArchive</a></div><div class="ttdef"><b>Definition:</b> MultiDvdArchive.hpp:35</div></div>
 <div class="ttc" id="aclass_system_1_1_resource_manager_html"><div class="ttname"><a href="class_system_1_1_resource_manager.html">System::ResourceManager</a></div><div class="ttdef"><b>Definition:</b> ResourceManager.hpp:298</div></div>
 <div class="ttc" id="aclass_system_1_1_resource_manager_html_union_system_1_1_resource_manager_1_1_res_mgr_instance"><div class="ttname"><a href="class_system_1_1_resource_manager.html#union_system_1_1_resource_manager_1_1_res_mgr_instance">System::ResourceManager::ResMgrInstance</a></div><div class="ttdef"><b>Definition:</b> ResourceManager.hpp:306</div></div>
+<div class="ttc" id="aclassu16_html"><div class="ttname"><a href="classu16.html">u16</a></div></div>
 <div class="ttc" id="aegg_disposer_8hpp_html"><div class="ttname"><a href="egg_disposer_8hpp.html">eggDisposer.hpp</a></div><div class="ttdoc">Headers for EGG::Disposer.</div></div>
 <div class="ttc" id="aegg_exp_heap_8hpp_html"><div class="ttname"><a href="egg_exp_heap_8hpp.html">eggExpHeap.hpp</a></div><div class="ttdoc">EGG wraper for expanded heaps header.</div></div>
 <div class="ttc" id="astruct_system_1_1_job_context_html"><div class="ttname"><a href="struct_system_1_1_job_context.html">System::JobContext</a></div><div class="ttdef"><b>Definition:</b> ResourceManager.hpp:26</div></div>

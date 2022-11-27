@@ -13,5 +13,5 @@ digraph "nw4r::ut::FontTextureGlyph"
   Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" UNK_0x8" ,fontname="FreeMono"];
   Node5 [label="short",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" SHORT_0x10\nSHORT_0x12\nSHORT_0xC\nSHORT_0xE\nmFormat" ,fontname="FreeMono"];
-  Node6 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
 }

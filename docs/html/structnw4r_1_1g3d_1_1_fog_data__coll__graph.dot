@@ -15,5 +15,5 @@ digraph "nw4r::g3d::FogData"
   Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" BYTE_0x18\nBYTE_0x19" ,fontname="FreeMono"];
   Node6 [label="u8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mAdjTable" ,fontname="FreeMono"];
-  Node7 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
 }

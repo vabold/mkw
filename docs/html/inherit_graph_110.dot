@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
   node [fontname="FreeMono",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="System::KmpSectionHeader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_system_1_1_kmp_section_header.html",tooltip=" "];
+  Node0 [label="System::MapdataEnemyPath\l::SData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_system_1_1_mapdata_enemy_path.html#struct_system_1_1_mapdata_enemy_path_1_1_s_data",tooltip=" "];
 }

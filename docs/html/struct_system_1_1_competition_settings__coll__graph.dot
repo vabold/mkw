@@ -5,7 +5,7 @@ digraph "System::CompetitionSettings"
   node [fontname="FreeMono",fontsize="10",shape=record];
   Node1 [label="System::CompetitionSettings",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cameraAngle\ncannonFlag\ncpuCount\nfield0_0x0\nfield10_0x4c\nfield11_0x4e\nfield1_0x2\nminimapObject" ,fontname="FreeMono"];
-  Node2 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
   Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" controllerRestriction\ncourseId\nengineClass\nfield13_0x52\nfield5_0x8\npadding" ,fontname="FreeMono"];
   Node3 [label="u8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" field7_0x30" ,fontname="FreeMono"];

@@ -19,15 +19,17 @@ digraph "source/egg/core/eggTaskThread.hpp"
   Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node8 [label="source/game/system\l/ResourceManager.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_resource_manager_8hpp_source.html",tooltip=" "];
   Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node9 [label="source/game/system\l/RaceConfig.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_race_config_8hpp_source.html",tooltip=" "];
-  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node10 [label="source/game/system\l/RaceConfig.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node11 [label="source/game/system\l/ResourceManager.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node9 [label="source/game/system\l/CourseMap.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node10 [label="source/game/system\l/RaceConfig.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_race_config_8hpp_source.html",tooltip=" "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node11 [label="source/game/system\l/RaceConfig.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node12 [label="source/game/system\l/ResourceManager.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node12 [label="source/game/ui/MessageGroup.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node13 [label="source/game/ui/MessageGroup.cpp",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
   Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
 }
