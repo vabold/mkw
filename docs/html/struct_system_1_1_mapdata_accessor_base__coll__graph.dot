@@ -54,5 +54,5 @@ digraph "System::MapdataAccessorBase&lt; T, TData &gt;"
   Node22 [label="s32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node16 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" entryCount" ,fontname="FreeMono"];
   Node23 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" extraValue" ,fontname="FreeMono"];
-  Node23 [label="s16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node23 [label="s8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }
