@@ -94,13 +94,20 @@ var hierarchy =
     [ "Kart::KartComponent", "class_kart_1_1_kart_component.html", null ],
     [ "System::KmpSectionHeader", "struct_system_1_1_kmp_section_header.html", null ],
     [ "nw4r::ut::List", "structnw4r_1_1ut_1_1_list.html", null ],
-    [ "System::MapdataAccessorBase< T, TData >", "struct_system_1_1_mapdata_accessor_base.html", null ],
-    [ "System::MapdataAccessorBase< MapdataCheckPath, MapdataCheckPath::SData >", "struct_system_1_1_mapdata_accessor_base.html", [
+    [ "System::MapdataAccessorBase< T, TData >", "class_system_1_1_mapdata_accessor_base.html", null ],
+    [ "System::MapdataAccessorBase< MapdataCheckPath, MapdataCheckPath::SData >", "class_system_1_1_mapdata_accessor_base.html", [
       [ "System::MapdataCheckPathAccessor", "class_system_1_1_mapdata_check_path_accessor.html", null ]
     ] ],
-    [ "System::MapdataAccessorBase< MapdataCheckPoint, MapdataCheckPoint::SData >", "struct_system_1_1_mapdata_accessor_base.html", [
+    [ "System::MapdataAccessorBase< MapdataCheckPoint, MapdataCheckPoint::SData >", "class_system_1_1_mapdata_accessor_base.html", [
       [ "System::MapdataCheckPointAccessor", "class_system_1_1_mapdata_check_point_accessor.html", null ]
     ] ],
+    [ "System::MapdataAccessorBase< MapdataGeoObj, MapdataGeoObj::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataGeoObjAccessor", "class_system_1_1_mapdata_geo_obj_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataStartPoint, MapdataStartPoint::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataStartPointAccessor", "class_system_1_1_mapdata_start_point_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAreaAccessor", "class_system_1_1_mapdata_area_accessor.html", null ],
     [ "System::MapdataAreaBase", "class_system_1_1_mapdata_area_base.html", [
       [ "System::MapdataAreaBox", "class_system_1_1_mapdata_area_box.html", null ],
       [ "System::MapdataAreaCylinder", "class_system_1_1_mapdata_area_cylinder.html", null ]
@@ -249,6 +256,7 @@ var hierarchy =
     [ "UI::UIControl", "class_u_i_1_1_u_i_control.html", null ],
     [ "System::unkStruct", "struct_system_1_1unk_struct.html", null ],
     [ "UI::UnkStruct", "struct_u_i_1_1_unk_struct.html", null ],
+    [ "System::MapdataGeoObj::Vec3", "struct_system_1_1_mapdata_geo_obj_1_1_vec3.html", null ],
     [ "EGG::Vector2f", "struct_e_g_g_1_1_vector2f.html", null ],
     [ "EGG::Vector3f", "struct_e_g_g_1_1_vector3f.html", null ],
     [ "EGG::Video", "class_e_g_g_1_1_video.html", null ],

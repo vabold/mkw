@@ -1,6 +1,6 @@
 <map id="EGG::ExpHeap" name="EGG::ExpHeap">
-<area shape="rect" id="node1" title=" " alt="" coords="9,229,128,256"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_heap.html" title="Base Heap class." alt="" coords="21,155,116,181"/>
-<area shape="rect" id="node3" href="$class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="5,80,132,107"/>
-<area shape="rect" id="node4" href="$class_non_copyable.html" title=" " alt="" coords="13,5,124,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="9,225,128,251"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_heap.html" title="Base Heap class." alt="" coords="21,152,116,177"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_disposer.html" title="Base class for garbage&#45;collected objects." alt="" coords="5,79,132,104"/>
+<area shape="rect" id="node4" href="$class_non_copyable.html" title=" " alt="" coords="13,5,124,31"/>
 </map>

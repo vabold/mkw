@@ -1,8 +1,8 @@
 <map id="nw4r::ut::FileStream" name="nw4r::ut::FileStream">
-<area shape="rect" id="node1" title=" " alt="" coords="159,155,341,181"/>
-<area shape="rect" id="node4" href="$structnw4r_1_1ut_1_1_dvd_file_stream.html" title=" " alt="" coords="29,229,236,256"/>
-<area shape="rect" id="node6" href="$classnw4r_1_1ut_1_1_nand_file_stream.html" title=" " alt="" coords="260,229,475,256"/>
-<area shape="rect" id="node2" href="$structnw4r_1_1ut_1_1_i_o_stream.html" title=" " alt="" coords="167,80,333,107"/>
-<area shape="rect" id="node3" href="$structnw4r_1_1ut_1_1_polymorphic.html" title=" " alt="" coords="155,5,345,32"/>
-<area shape="rect" id="node5" href="$classnw4r_1_1ut_1_1_dvd_locked_file_stream.html" title=" " alt="" coords="5,304,260,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="159,152,341,177"/>
+<area shape="rect" id="node4" href="$structnw4r_1_1ut_1_1_dvd_file_stream.html" title=" " alt="" coords="29,225,236,251"/>
+<area shape="rect" id="node6" href="$classnw4r_1_1ut_1_1_nand_file_stream.html" title=" " alt="" coords="260,225,475,251"/>
+<area shape="rect" id="node2" href="$structnw4r_1_1ut_1_1_i_o_stream.html" title=" " alt="" coords="167,79,333,104"/>
+<area shape="rect" id="node3" href="$structnw4r_1_1ut_1_1_polymorphic.html" title=" " alt="" coords="155,5,345,31"/>
+<area shape="rect" id="node5" href="$classnw4r_1_1ut_1_1_dvd_locked_file_stream.html" title=" " alt="" coords="5,299,260,324"/>
 </map>

@@ -1,12 +1,13 @@
 digraph "EGG::Thread::run"
 {
  // LATEX_PDF_SIZE
-  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
-  node [fontname="FreeMono",fontsize="10",shape=record];
+  bgcolor="transparent";
+  edge [fontname=FreeMono,fontsize=10,labelfontname=FreeMono,labelfontsize=10];
+  node [fontname=FreeMono,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="RL";
-  Node1 [label="EGG::Thread::run",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="[vt+0x0C]"];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node2 [label="EGG::Thread::start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html#a929a2a527dd1243d64f355164b579467",tooltip="Starts a thread."];
-  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node3 [label="EGG::Thread::Thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html#a1a390cc8d8a258a20d33cbd8331c5815",tooltip="< [vt+0x10]"];
+  Node1 [label="EGG::Thread::run",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="[vt+0x0C]"];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="EGG::Thread::start",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html#a929a2a527dd1243d64f355164b579467",tooltip="Starts a thread."];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="EGG::Thread::Thread",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html#a1a390cc8d8a258a20d33cbd8331c5815",tooltip="< [vt+0x10]"];
 }

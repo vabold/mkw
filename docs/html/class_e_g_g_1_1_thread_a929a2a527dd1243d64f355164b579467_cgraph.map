@@ -1,4 +1,4 @@
 <map id="EGG::Thread::start" name="EGG::Thread::start">
-<area shape="rect" id="node1" title="Starts a thread." alt="" coords="5,5,172,32"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#ae0d86b06288a7259bfa008a0f9d272bd" title="[vt+0x0C]" alt="" coords="220,5,371,32"/>
+<area shape="rect" id="node1" title="Starts a thread." alt="" coords="5,5,172,31"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#ae0d86b06288a7259bfa008a0f9d272bd" title="[vt+0x0C]" alt="" coords="220,5,371,31"/>
 </map>

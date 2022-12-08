@@ -1,4 +1,4 @@
 <map id="EGG::DvdFile::close" name="EGG::DvdFile::close">
-<area shape="rect" id="node1" title="Closes the file and removes this* from sDvdList." alt="" coords="252,5,427,32"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_dvd_file.html#a8817995bf5285cd7d141bd8fdc0b337b" title="Closes the file on the DVD." alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node1" title="Closes the file and removes this* from sDvdList." alt="" coords="252,5,427,31"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_dvd_file.html#a8817995bf5285cd7d141bd8fdc0b337b" title="Closes the file on the DVD." alt="" coords="5,5,204,31"/>
 </map>

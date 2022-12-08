@@ -1,21 +1,22 @@
 digraph "source/egg/core/eggVideo.cpp"
 {
  // LATEX_PDF_SIZE
-  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
-  node [fontname="FreeMono",fontsize="10",shape=record];
-  Node1 [label="source/egg/core/eggVideo.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Implementations for the EGG video / render manager."];
-  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node2 [label="egg/core/eggVideo.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$egg_video_8hpp.html",tooltip=" "];
-  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node3 [label="rk_types.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node4 [label="rvl/gx.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node5 [label="rvl/gx/gxFrameBuf.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node6 [label="rvl/os/osThread.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node7 [label="rvl/sc.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node8 [label="rvl/vi.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  bgcolor="transparent";
+  edge [fontname=FreeMono,fontsize=10,labelfontname=FreeMono,labelfontsize=10];
+  node [fontname=FreeMono,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="source/egg/core/eggVideo.cpp",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Implementations for the EGG video / render manager."];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="egg/core/eggVideo.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$egg_video_8hpp.html",tooltip=" "];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="rk_types.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="rvl/gx.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="rvl/gx/gxFrameBuf.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="rvl/os/osThread.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="rvl/sc.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node1 -> Node8 [color="steelblue1",style="solid"];
+  Node8 [label="rvl/vi.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
 }

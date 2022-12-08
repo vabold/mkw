@@ -1,7 +1,7 @@
 <map id="source/game/geo/ObjectDirector.hpp" name="source/game/geo/ObjectDirector.hpp">
-<area shape="rect" id="node1" title="Manages the objects and related tables!" alt="" coords="141,5,436,32"/>
-<area shape="rect" id="node2" href="$_object_parameter_8hpp.html" title="Manages the object flow (parameters)!" alt="" coords="5,155,252,181"/>
-<area shape="rect" id="node3" title=" " alt="" coords="237,229,340,256"/>
-<area shape="rect" id="node4" href="$egg_vector_8hpp.html" title="TODO." alt="" coords="325,80,524,107"/>
-<area shape="rect" id="node5" href="$egg_math_8hpp.html" title="Provides a compile&#45;time generic interface for performing basic math operations on a certain type." alt="" coords="331,155,513,181"/>
+<area shape="rect" id="node1" title="Manages the objects and related tables!" alt="" coords="143,5,437,31"/>
+<area shape="rect" id="node2" href="$_object_parameter_8hpp.html" title="Manages the object flow (parameters)!" alt="" coords="5,152,252,177"/>
+<area shape="rect" id="node3" title=" " alt="" coords="239,225,341,251"/>
+<area shape="rect" id="node4" href="$egg_vector_8hpp.html" title="TODO." alt="" coords="328,79,527,104"/>
+<area shape="rect" id="node5" href="$egg_math_8hpp.html" title="Provides a compile&#45;time generic interface for performing basic math operations on a certain type." alt="" coords="332,152,515,177"/>
 </map>

@@ -1,9 +1,10 @@
 digraph "EGG::DvdFile::open"
 {
  // LATEX_PDF_SIZE
-  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
-  node [fontname="FreeMono",fontsize="10",shape=record];
+  bgcolor="transparent";
+  edge [fontname=FreeMono,fontsize=10,labelfontname=FreeMono,labelfontsize=10];
+  node [fontname=FreeMono,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node1 [label="EGG::DvdFile::open",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Opens a file given the path."];
-  Node1 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node1 [label="EGG::DvdFile::open",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Opens a file given the path."];
+  Node1 -> Node1 [color="steelblue1",style="solid"];
 }

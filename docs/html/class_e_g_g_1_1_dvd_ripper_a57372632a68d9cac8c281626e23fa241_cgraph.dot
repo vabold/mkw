@@ -1,10 +1,11 @@
 digraph "EGG::DvdRipper::loadToMainRAMDecomp"
 {
  // LATEX_PDF_SIZE
-  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
-  node [fontname="FreeMono",fontsize="10",shape=record];
+  bgcolor="transparent";
+  edge [fontname=FreeMono,fontsize=10,labelfontname=FreeMono,labelfontsize=10];
+  node [fontname=FreeMono,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node1 [label="EGG::DvdRipper::loadToMain\lRAMDecomp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Load and decompress a file on the disc to main RAM given the DvdFile wrapper."];
-  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node2 [label="EGG::DvdFile::getFileSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_dvd_file.html#ac8c0e98e48912678939842aff6bc8b8f",tooltip="Get the filesize."];
+  Node1 [label="EGG::DvdRipper::loadToMain\lRAMDecomp",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Load and decompress a file on the disc to main RAM given the DvdFile wrapper."];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="EGG::DvdFile::getFileSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_dvd_file.html#ac8c0e98e48912678939842aff6bc8b8f",tooltip="Get the filesize."];
 }

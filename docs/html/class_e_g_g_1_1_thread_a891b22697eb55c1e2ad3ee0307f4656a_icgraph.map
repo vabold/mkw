@@ -1,6 +1,6 @@
 <map id="EGG::Thread::findThread" name="EGG::Thread::findThread">
-<area shape="rect" id="node1" title="Find the (first) EGG::Thread that matches the provided osThread." alt="" coords="531,35,737,61"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_heap.html#ad2bc7d4622e0f6e4868d9b58d3f8dc05" title="Allocate a block of memory in a heap." alt="" coords="296,5,447,32"/>
-<area shape="rect" id="node3" href="$class_e_g_g_1_1_thread.html#a277a20ae3c47826fb11f094dfcbc1910" title="The callback for switching threads." alt="" coords="260,57,483,98"/>
-<area shape="rect" id="node4" href="$class_e_g_g_1_1_thread.html#abbfc0a82282070f7ac540cde4f2199bb" title="Initialize EGG Thread." alt="" coords="5,64,212,91"/>
+<area shape="rect" id="node1" title="Find the (first) EGG::Thread that matches the provided osThread." alt="" coords="531,35,737,60"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_heap.html#ad2bc7d4622e0f6e4868d9b58d3f8dc05" title="Allocate a block of memory in a heap." alt="" coords="296,5,447,31"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_thread.html#a277a20ae3c47826fb11f094dfcbc1910" title="The callback for switching threads." alt="" coords="260,55,483,95"/>
+<area shape="rect" id="node4" href="$class_e_g_g_1_1_thread.html#abbfc0a82282070f7ac540cde4f2199bb" title="Initialize EGG Thread." alt="" coords="5,63,212,88"/>
 </map>

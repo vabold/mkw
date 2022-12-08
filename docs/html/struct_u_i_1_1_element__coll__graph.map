@@ -1,7 +1,7 @@
 <map id="UI::Element" name="UI::Element">
-<area shape="rect" id="node1" title=" " alt="" coords="221,260,332,287"/>
-<area shape="rect" id="node2" href="$struct_e_g_g_1_1_vector3f.html" title=" " alt="" coords="5,140,132,167"/>
-<area shape="rect" id="node3" title=" " alt="" coords="141,5,204,32"/>
-<area shape="rect" id="node4" href="$struct_e_g_g_1_1_vector2f.html" title=" " alt="" coords="213,140,340,167"/>
-<area shape="rect" id="node5" title=" " alt="" coords="421,140,460,167"/>
+<area shape="rect" id="node1" title=" " alt="" coords="221,259,332,284"/>
+<area shape="rect" id="node2" href="$struct_e_g_g_1_1_vector3f.html" title=" " alt="" coords="5,139,132,165"/>
+<area shape="rect" id="node3" title=" " alt="" coords="141,5,204,31"/>
+<area shape="rect" id="node4" href="$struct_e_g_g_1_1_vector2f.html" title=" " alt="" coords="213,139,340,165"/>
+<area shape="rect" id="node5" title=" " alt="" coords="421,139,460,165"/>
 </map>

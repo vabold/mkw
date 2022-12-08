@@ -1,11 +1,12 @@
 digraph "source/game/kart"
 {
  // LATEX_PDF_SIZE
-  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
-  node [fontname="FreeMono",fontsize="10",shape=record];
+  bgcolor="transparent";
+  edge [fontname=FreeMono,fontsize=10,labelfontname=FreeMono,labelfontsize=10];
+  node [fontname=FreeMono,fontsize=10,shape=box,height=0.2,width=0.4];
   compound=true
   subgraph clusterdir_9ea5017e8fa7189fb9af6fe82af05461 {
-    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="game", fontname="FreeMono", fontsize="10", URL="dir_9ea5017e8fa7189fb9af6fe82af05461.html"]
-  dir_08f2e9109a3e9d1a5838c3cb9dd65cd4 [shape=box, label="kart", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_08f2e9109a3e9d1a5838c3cb9dd65cd4.html"];
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="game", fontname=FreeMono,fontsize=10 style="filled,dashed", URL="dir_9ea5017e8fa7189fb9af6fe82af05461.html",tooltip=""]
+  dir_08f2e9109a3e9d1a5838c3cb9dd65cd4 [label="kart", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_08f2e9109a3e9d1a5838c3cb9dd65cd4.html",tooltip=""];
   }
 }

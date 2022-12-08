@@ -1,4 +1,4 @@
 <map id="EGG::Heap::findParentHeap" name="EGG::Heap::findParentHeap">
-<area shape="rect" id="node1" title="Returns the Disposer&#39;s parent heap." alt="" coords="244,5,467,32"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_exp_heap.html#a9d5a2ee5d21b3cfd5334ecc5449a6b44" title="Destroy the current heap and free itself from its parent if it has one." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node1" title="Returns the Disposer&#39;s parent heap." alt="" coords="244,5,467,31"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_exp_heap.html#a9d5a2ee5d21b3cfd5334ecc5449a6b44" title="Destroy the current heap and free itself from its parent if it has one." alt="" coords="5,5,196,31"/>
 </map>

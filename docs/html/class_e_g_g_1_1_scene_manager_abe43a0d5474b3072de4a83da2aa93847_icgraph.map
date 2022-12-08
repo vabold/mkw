@@ -1,4 +1,4 @@
 <map id="EGG::SceneManager::createDefaultFader" name="EGG::SceneManager::createDefaultFader">
-<area shape="rect" id="node1" title="[vt+0x20] Create the default fader for this manager" alt="" coords="228,5,403,47"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_scene_manager.html#aae65d58e4348d0d6441dbba60d19beaf" title="Constructor." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node1" title="[vt+0x20] Create the default fader for this manager" alt="" coords="228,5,403,45"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_scene_manager.html#aae65d58e4348d0d6441dbba60d19beaf" title="Constructor." alt="" coords="5,5,180,45"/>
 </map>

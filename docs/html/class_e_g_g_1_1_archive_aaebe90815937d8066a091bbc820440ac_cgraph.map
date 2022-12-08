@@ -1,5 +1,5 @@
 <map id="EGG::Archive::mount" name="EGG::Archive::mount">
-<area shape="rect" id="node1" title="Mount an archive." alt="" coords="5,31,180,57"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_archive.html#aabacbc9022c2de616451c08ab50a7e30" title="Find the EGG Archive wrapping the ARC file starting at pArchive." alt="" coords="228,5,451,32"/>
-<area shape="rect" id="node3" href="$class_e_g_g_1_1_archive.html#a510d36f098617c4e05cf8d123534982d" title=" " alt="" coords="232,56,447,83"/>
+<area shape="rect" id="node1" title="Mount an archive." alt="" coords="5,31,180,56"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_archive.html#aabacbc9022c2de616451c08ab50a7e30" title="Find the EGG Archive wrapping the ARC file starting at pArchive." alt="" coords="228,5,451,31"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_archive.html#a510d36f098617c4e05cf8d123534982d" title=" " alt="" coords="232,55,447,80"/>
 </map>

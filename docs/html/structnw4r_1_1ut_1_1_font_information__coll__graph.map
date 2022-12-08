@@ -1,13 +1,13 @@
 <map id="nw4r::ut::FontInformation" name="nw4r::ut::FontInformation">
-<area shape="rect" id="node1" title=" " alt="" coords="909,300,1132,327"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,125,60,152"/>
-<area shape="rect" id="node5" href="$structnw4r_1_1ut_1_1_char_widths.html" title=" " alt="" coords="181,296,364,323"/>
-<area shape="rect" id="node3" title=" " alt="" coords="253,401,292,428"/>
-<area shape="rect" id="node7" href="$structnw4r_1_1ut_1_1_font_texture_glyph.html" title=" " alt="" coords="517,459,748,485"/>
-<area shape="rect" id="node4" href="$classu16.html" title=" " alt="" coords="249,117,296,144"/>
-<area shape="rect" id="node10" href="$structnw4r_1_1ut_1_1_font_width.html" title=" " alt="" coords="545,273,720,300"/>
-<area shape="rect" id="node11" href="$structnw4r_1_1ut_1_1_font_code_map.html" title=" " alt="" coords="537,145,728,172"/>
-<area shape="rect" id="node6" title=" " alt="" coords="253,624,292,651"/>
-<area shape="rect" id="node8" title=" " alt="" coords="249,465,296,492"/>
-<area shape="rect" id="node9" title=" " alt="" coords="241,516,304,543"/>
+<area shape="rect" id="node1" title=" " alt="" coords="909,302,1132,327"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,127,60,153"/>
+<area shape="rect" id="node5" href="$structnw4r_1_1ut_1_1_char_widths.html" title=" " alt="" coords="181,298,364,323"/>
+<area shape="rect" id="node3" title=" " alt="" coords="253,405,292,430"/>
+<area shape="rect" id="node7" href="$structnw4r_1_1ut_1_1_font_texture_glyph.html" title=" " alt="" coords="517,461,748,486"/>
+<area shape="rect" id="node4" href="$classu16.html" title=" " alt="" coords="249,119,296,145"/>
+<area shape="rect" id="node10" href="$structnw4r_1_1ut_1_1_font_width.html" title=" " alt="" coords="545,275,720,301"/>
+<area shape="rect" id="node11" href="$structnw4r_1_1ut_1_1_font_code_map.html" title=" " alt="" coords="537,155,728,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="253,626,292,651"/>
+<area shape="rect" id="node8" title=" " alt="" coords="249,469,296,494"/>
+<area shape="rect" id="node9" title=" " alt="" coords="241,518,304,543"/>
 </map>

@@ -1,11 +1,11 @@
 <map id="source/egg/core/eggExpHeap.hpp" name="source/egg/core/eggExpHeap.hpp">
-<area shape="rect" id="node1" title="EGG wraper for expanded heaps header." alt="" coords="5,5,268,32"/>
-<area shape="rect" id="node2" href="$egg_heap_8hpp.html" title="Base Heap class." alt="" coords="216,80,399,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="21,304,124,331"/>
-<area shape="rect" id="node3" href="$egg_disposer_8hpp.html" title="Headers for EGG::Disposer." alt="" coords="55,155,269,181"/>
-<area shape="rect" id="node4" href="$ut_list_8hpp_source.html" title=" " alt="" coords="111,229,277,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="544,229,703,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="616,155,815,181"/>
-<area shape="rect" id="node8" href="$egg_thread_8hpp.html" title="Thread class for extending." alt="" coords="344,155,543,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="353,229,520,256"/>
+<area shape="rect" id="node1" title="EGG wraper for expanded heaps header." alt="" coords="5,5,268,31"/>
+<area shape="rect" id="node2" href="$egg_heap_8hpp.html" title="Base Heap class." alt="" coords="216,79,399,104"/>
+<area shape="rect" id="node5" title=" " alt="" coords="23,299,125,324"/>
+<area shape="rect" id="node3" href="$egg_disposer_8hpp.html" title="Headers for EGG::Disposer." alt="" coords="55,152,269,177"/>
+<area shape="rect" id="node4" href="$ut_list_8hpp_source.html" title=" " alt="" coords="112,225,279,251"/>
+<area shape="rect" id="node6" title=" " alt="" coords="545,225,704,251"/>
+<area shape="rect" id="node7" title=" " alt="" coords="620,152,819,177"/>
+<area shape="rect" id="node8" href="$egg_thread_8hpp.html" title="Thread class for extending." alt="" coords="345,152,544,177"/>
+<area shape="rect" id="node9" title=" " alt="" coords="355,225,521,251"/>
 </map>

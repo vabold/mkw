@@ -1,0 +1,26 @@
+digraph "System::MapdataAreaBase"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeMono,fontsize=10,labelfontname=FreeMono,labelfontsize=10];
+  node [fontname=FreeMono,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="System::MapdataAreaBase",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mpData" ];
+  Node2 [label="System::MapdataAreaBase\l::SData",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_mapdata_area_base.html#struct_system_1_1_mapdata_area_base_1_1_s_data",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" eneLinkID\npriority\nrailID\nshape\ntype" ];
+  Node3 [label="u8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" cameraIdx" ];
+  Node4 [label="s8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" position\nrotation\nscale" ];
+  Node5 [label="EGG::Vector3f",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$struct_e_g_g_1_1_vector3f.html",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",style="dashed",label=" x\ny\nz" ];
+  Node6 [label="float",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node5 [dir="back",color="darkorchid3",style="dashed",label=" ex\ney\nez\nzero" ];
+  Node7 -> Node2 [dir="back",color="darkorchid3",style="dashed",label=" parameters" ];
+  Node7 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mDims\nmXAxis\nmYAxis\nmZAxis" ];
+  Node8 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mBoundingSphereRadiusSq\nmEllipseAspectRatio\nmEllipseXRadiusSq" ];
+  Node8 [label="f32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mIndex" ];
+  Node9 [label="s16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

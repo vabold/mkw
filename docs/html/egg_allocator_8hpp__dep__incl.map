@@ -1,5 +1,5 @@
 <map id="source/egg/core/eggAllocator.hpp" name="source/egg/core/eggAllocator.hpp">
-<area shape="rect" id="node1" title="Abstract allocator interface, an object that can reserve and release blocks of memory." alt="" coords="155,5,433,32"/>
-<area shape="rect" id="node2" href="$egg_allocator_8cpp.html" title="Implementation for the allocator wrapper." alt="" coords="5,80,284,107"/>
-<area shape="rect" id="node3" href="$egg_unit_heap_8cpp.html" title="EGG wraper for unit heaps (each element uniform size)." alt="" coords="308,80,579,107"/>
+<area shape="rect" id="node1" title="Abstract allocator interface, an object that can reserve and release blocks of memory." alt="" coords="155,5,433,31"/>
+<area shape="rect" id="node2" href="$egg_allocator_8cpp.html" title="Implementation for the allocator wrapper." alt="" coords="5,79,284,104"/>
+<area shape="rect" id="node3" href="$egg_unit_heap_8cpp.html" title="EGG wraper for unit heaps (each element uniform size)." alt="" coords="308,79,579,104"/>
 </map>

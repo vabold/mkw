@@ -1,4 +1,4 @@
 <map id="EGG::Thread::setCommonMesgQueue" name="EGG::Thread::setCommonMesgQueue">
-<area shape="rect" id="node1" title="Configures the message queue." alt="" coords="228,5,459,47"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#a1a390cc8d8a258a20d33cbd8331c5815" title="&lt; [vt+0x10]" alt="" coords="5,13,180,39"/>
+<area shape="rect" id="node1" title="Configures the message queue." alt="" coords="228,5,459,45"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#a1a390cc8d8a258a20d33cbd8331c5815" title="&lt; [vt+0x10]" alt="" coords="5,13,180,38"/>
 </map>

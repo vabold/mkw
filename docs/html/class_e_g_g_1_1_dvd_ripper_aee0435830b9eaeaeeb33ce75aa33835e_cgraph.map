@@ -1,4 +1,4 @@
 <map id="EGG::DvdRipper::loadToMainRAMDecomp" name="EGG::DvdRipper::loadToMainRAMDecomp">
-<area shape="rect" id="node1" title="Load and decompress a file on the disc to main RAM given the path." alt="" coords="5,29,236,71"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_dvd_file.html#aeddd7a1ad22593c6b7442147767785b9" title="Opens a file given the path." alt="" coords="284,37,451,63"/>
+<area shape="rect" id="node1" title="Load and decompress a file on the disc to main RAM given the path." alt="" coords="5,29,236,69"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_dvd_file.html#aeddd7a1ad22593c6b7442147767785b9" title="Opens a file given the path." alt="" coords="284,37,451,62"/>
 </map>

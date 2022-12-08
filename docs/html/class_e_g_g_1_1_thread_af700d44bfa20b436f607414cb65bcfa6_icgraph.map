@@ -1,5 +1,5 @@
 <map id="EGG::Thread::onExit" name="EGG::Thread::onExit">
-<area shape="rect" id="node1" title="&lt; [vt+0x14]" alt="" coords="531,13,705,39"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#a277a20ae3c47826fb11f094dfcbc1910" title="The callback for switching threads." alt="" coords="260,5,483,47"/>
-<area shape="rect" id="node3" href="$class_e_g_g_1_1_thread.html#abbfc0a82282070f7ac540cde4f2199bb" title="Initialize EGG Thread." alt="" coords="5,13,212,39"/>
+<area shape="rect" id="node1" title="&lt; [vt+0x14]" alt="" coords="531,13,705,38"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#a277a20ae3c47826fb11f094dfcbc1910" title="The callback for switching threads." alt="" coords="260,5,483,45"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_thread.html#abbfc0a82282070f7ac540cde4f2199bb" title="Initialize EGG Thread." alt="" coords="5,13,212,38"/>
 </map>

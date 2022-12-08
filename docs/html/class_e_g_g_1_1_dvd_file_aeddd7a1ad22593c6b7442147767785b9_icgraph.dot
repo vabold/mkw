@@ -1,15 +1,16 @@
 digraph "EGG::DvdFile::open"
 {
  // LATEX_PDF_SIZE
-  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
-  node [fontname="FreeMono",fontsize="10",shape=record];
+  bgcolor="transparent";
+  edge [fontname=FreeMono,fontsize=10,labelfontname=FreeMono,labelfontsize=10];
+  node [fontname=FreeMono,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="RL";
-  Node1 [label="EGG::DvdFile::open",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Opens a file given the path."];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node2 [label="EGG::DvdRipper::loadToMainRAM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_dvd_ripper.html#adf2e7e58ac039603e56a0fd1c27b58c5",tooltip="Load a file on the disc to main RAM given the path."];
-  Node2 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node3 [label="EGG::DvdRipper::loadToMain\lRAMDecomp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_dvd_ripper.html#aee0435830b9eaeaeeb33ce75aa33835e",tooltip="Load and decompress a file on the disc to main RAM given the path."];
-  Node3 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node1 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
+  Node1 [label="EGG::DvdFile::open",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Opens a file given the path."];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="EGG::DvdRipper::loadToMainRAM",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_dvd_ripper.html#adf2e7e58ac039603e56a0fd1c27b58c5",tooltip="Load a file on the disc to main RAM given the path."];
+  Node2 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="EGG::DvdRipper::loadToMain\lRAMDecomp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_dvd_ripper.html#aee0435830b9eaeaeeb33ce75aa33835e",tooltip="Load and decompress a file on the disc to main RAM given the path."];
+  Node3 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node1 [dir="back",color="steelblue1",style="solid"];
 }

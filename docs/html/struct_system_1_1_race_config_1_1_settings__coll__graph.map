@@ -1,11 +1,11 @@
 <map id="System::RaceConfig::Settings" name="System::RaceConfig::Settings">
-<area shape="rect" id="node1" title=" " alt="" coords="381,168,548,209"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,92,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="137,5,184,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="241,5,328,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="352,5,455,32"/>
-<area shape="rect" id="node6" title=" " alt="" coords="509,5,548,32"/>
-<area shape="rect" id="node7" title=" " alt="" coords="641,5,704,32"/>
-<area shape="rect" id="node8" title=" " alt="" coords="741,5,780,32"/>
-<area shape="rect" id="node9" title=" " alt="" coords="833,5,928,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="381,167,548,207"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,92,31"/>
+<area shape="rect" id="node3" title=" " alt="" coords="137,5,184,31"/>
+<area shape="rect" id="node4" title=" " alt="" coords="241,5,328,31"/>
+<area shape="rect" id="node5" title=" " alt="" coords="352,5,455,31"/>
+<area shape="rect" id="node6" title=" " alt="" coords="509,5,548,31"/>
+<area shape="rect" id="node7" title=" " alt="" coords="641,5,704,31"/>
+<area shape="rect" id="node8" title=" " alt="" coords="741,5,780,31"/>
+<area shape="rect" id="node9" title=" " alt="" coords="833,5,928,31"/>
 </map>

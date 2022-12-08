@@ -1,11 +1,11 @@
 <map id="source/egg/core/eggFile.hpp" name="source/egg/core/eggFile.hpp">
-<area shape="rect" id="node1" title="Base file class." alt="" coords="457,5,696,32"/>
-<area shape="rect" id="node2" href="$egg_dvd_file_8hpp.html" title="Implementation of File for files on the DVD (read&#45;only)." alt="" coords="300,80,563,107"/>
-<area shape="rect" id="node8" href="$egg_cnt_file_8hpp.html" title="Implementation of File for NAND&#45;Content files (read&#45;only)." alt="" coords="591,80,853,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,155,268,181"/>
-<area shape="rect" id="node4" href="$egg_dvd_ripper_8hpp.html" title="Headers for the EGG DVD ripper." alt="" coords="292,155,571,181"/>
-<area shape="rect" id="node5" href="$egg_dvd_ripper_8cpp.html" title="Implementations for the EGG DVD ripper." alt="" coords="45,237,324,263"/>
-<area shape="rect" id="node6" title=" " alt="" coords="348,229,515,271"/>
-<area shape="rect" id="node7" title=" " alt="" coords="539,229,721,271"/>
-<area shape="rect" id="node9" title=" " alt="" coords="595,155,857,181"/>
+<area shape="rect" id="node1" title="Base file class." alt="" coords="457,5,696,31"/>
+<area shape="rect" id="node2" href="$egg_dvd_file_8hpp.html" title="Implementation of File for files on the DVD (read&#45;only)." alt="" coords="300,79,563,104"/>
+<area shape="rect" id="node8" href="$egg_cnt_file_8hpp.html" title="Implementation of File for NAND&#45;Content files (read&#45;only)." alt="" coords="591,79,853,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,152,268,177"/>
+<area shape="rect" id="node4" href="$egg_dvd_ripper_8hpp.html" title="Headers for the EGG DVD ripper." alt="" coords="292,152,571,177"/>
+<area shape="rect" id="node5" href="$egg_dvd_ripper_8cpp.html" title="Implementations for the EGG DVD ripper." alt="" coords="45,233,324,258"/>
+<area shape="rect" id="node6" title=" " alt="" coords="348,225,515,265"/>
+<area shape="rect" id="node7" title=" " alt="" coords="539,225,721,265"/>
+<area shape="rect" id="node9" title=" " alt="" coords="595,152,857,177"/>
 </map>

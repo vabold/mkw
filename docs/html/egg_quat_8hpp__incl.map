@@ -1,6 +1,6 @@
 <map id="source/egg/math/eggQuat.hpp" name="source/egg/math/eggQuat.hpp">
-<area shape="rect" id="node1" title="TODO." alt="" coords="5,5,244,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="87,229,189,256"/>
-<area shape="rect" id="node3" href="$egg_vector_8hpp.html" title="TODO." alt="" coords="125,80,252,107"/>
-<area shape="rect" id="node4" href="$egg_math_8hpp.html" title="Provides a compile&#45;time generic interface for performing basic math operations on a certain type." alt="" coords="112,155,295,181"/>
+<area shape="rect" id="node1" title="TODO." alt="" coords="5,5,244,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="87,225,189,251"/>
+<area shape="rect" id="node3" href="$egg_vector_8hpp.html" title="TODO." alt="" coords="125,79,252,104"/>
+<area shape="rect" id="node4" href="$egg_math_8hpp.html" title="Provides a compile&#45;time generic interface for performing basic math operations on a certain type." alt="" coords="112,152,295,177"/>
 </map>

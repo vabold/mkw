@@ -1,8 +1,9 @@
 digraph "Graphical Class Hierarchy"
 {
  // LATEX_PDF_SIZE
-  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
-  node [fontname="FreeMono",fontsize="10",shape=record];
+  bgcolor="transparent";
+  edge [fontname=FreeMono,fontsize=10,labelfontname=FreeMono,labelfontsize=10];
+  node [fontname=FreeMono,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [label="EGG::GraphicsFifo::\lGPStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_graphics_fifo.html#struct_e_g_g_1_1_graphics_fifo_1_1_g_p_status",tooltip="Holds the state of the Graphics Processor at any given moment."];
+  Node0 [label="EGG::GraphicsFifo::\lGPStatus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_graphics_fifo.html#struct_e_g_g_1_1_graphics_fifo_1_1_g_p_status",tooltip="Holds the state of the Graphics Processor at any given moment."];
 }

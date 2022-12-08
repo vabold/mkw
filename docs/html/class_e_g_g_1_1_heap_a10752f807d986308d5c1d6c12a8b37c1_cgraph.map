@@ -1,4 +1,4 @@
 <map id="EGG::Heap::dispose" name="EGG::Heap::dispose">
-<area shape="rect" id="node1" title="Destroy all child heaps." alt="" coords="5,5,172,32"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html#ad17ae2efef044636280d190d20b4a9fa" title="Disposer destructor: detach from heap." alt="" coords="220,5,435,32"/>
+<area shape="rect" id="node1" title="Destroy all child heaps." alt="" coords="5,5,172,31"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_disposer.html#ad17ae2efef044636280d190d20b4a9fa" title="Disposer destructor: detach from heap." alt="" coords="220,5,435,31"/>
 </map>

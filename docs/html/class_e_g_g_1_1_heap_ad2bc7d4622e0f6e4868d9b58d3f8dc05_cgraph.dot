@@ -1,10 +1,13 @@
 digraph "EGG::Heap::alloc"
 {
  // LATEX_PDF_SIZE
-  edge [fontname="FreeMono",fontsize="10",labelfontname="FreeMono",labelfontsize="10"];
-  node [fontname="FreeMono",fontsize="10",shape=record];
+  bgcolor="transparent";
+  edge [fontname=FreeMono,fontsize=10,labelfontname=FreeMono,labelfontsize=10];
+  node [fontname=FreeMono,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node1 [label="EGG::Heap::alloc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Allocate a block of memory in a heap."];
-  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeMono"];
-  Node2 [label="EGG::Thread::findThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html#a891b22697eb55c1e2ad3ee0307f4656a",tooltip="Find the (first) EGG::Thread that matches the provided osThread."];
+  Node1 [label="EGG::Heap::alloc",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Allocate a block of memory in a heap."];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="EGG::Thread::findThread",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html#a891b22697eb55c1e2ad3ee0307f4656a",tooltip="Find the (first) EGG::Thread that matches the provided osThread."];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="EGG::Thread::getAllocatableHeap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_e_g_g_1_1_thread.html#a8d7b870c33c3c9e4dc7e7c6a2c1e9155",tooltip="When not NULL will override the heap used for allocations."];
 }

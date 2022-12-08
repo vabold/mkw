@@ -1,4 +1,4 @@
 <map id="EGG::SceneManager::reinitCurrentSceneAfterFadeOut" name="EGG::SceneManager::reinitCurrentSceneAfterFadeOut">
-<area shape="rect" id="node1" title="Fade out, and set the status flag to reinitialize the current scene the next frame." alt="" coords="5,5,268,47"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_color_fader.html#a7ee311e0cb7d1f7a9c4111fd861c89f1" title="Fade out from no&#45;obstruction." alt="" coords="316,13,531,39"/>
+<area shape="rect" id="node1" title="Fade out, and set the status flag to reinitialize the current scene the next frame." alt="" coords="5,5,268,45"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_color_fader.html#a7ee311e0cb7d1f7a9c4111fd861c89f1" title="Fade out from no&#45;obstruction." alt="" coords="316,13,531,38"/>
 </map>

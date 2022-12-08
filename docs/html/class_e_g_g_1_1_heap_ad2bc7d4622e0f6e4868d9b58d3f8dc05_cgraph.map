@@ -1,4 +1,5 @@
 <map id="EGG::Heap::alloc" name="EGG::Heap::alloc">
-<area shape="rect" id="node1" title="Allocate a block of memory in a heap." alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#a891b22697eb55c1e2ad3ee0307f4656a" title="Find the (first) EGG::Thread that matches the provided osThread." alt="" coords="204,5,411,32"/>
+<area shape="rect" id="node1" title="Allocate a block of memory in a heap." alt="" coords="5,31,156,56"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_thread.html#a891b22697eb55c1e2ad3ee0307f4656a" title="Find the (first) EGG::Thread that matches the provided osThread." alt="" coords="236,5,443,31"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_thread.html#a8d7b870c33c3c9e4dc7e7c6a2c1e9155" title="When not NULL will override the heap used for allocations." alt="" coords="204,55,475,80"/>
 </map>

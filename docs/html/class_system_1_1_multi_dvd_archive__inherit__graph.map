@@ -1,6 +1,6 @@
 <map id="System::MultiDvdArchive" name="System::MultiDvdArchive">
-<area shape="rect" id="node1" title=" " alt="" coords="252,5,459,32"/>
-<area shape="rect" id="node2" href="$class_system_1_1_course_dvd_archive.html" title=" " alt="" coords="5,80,220,107"/>
-<area shape="rect" id="node3" href="$class_system_1_1_race_sys_dvd_archive.html" title=" " alt="" coords="244,80,467,107"/>
-<area shape="rect" id="node4" href="$class_system_1_1_u_i_dvd_archive.html" title=" " alt="" coords="491,80,673,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="252,5,459,31"/>
+<area shape="rect" id="node2" href="$class_system_1_1_course_dvd_archive.html" title=" " alt="" coords="5,79,220,104"/>
+<area shape="rect" id="node3" href="$class_system_1_1_race_sys_dvd_archive.html" title=" " alt="" coords="244,79,467,104"/>
+<area shape="rect" id="node4" href="$class_system_1_1_u_i_dvd_archive.html" title=" " alt="" coords="491,79,673,104"/>
 </map>

@@ -1,10 +1,10 @@
 <map id="nw4r::snd::SoundHeap" name="nw4r::snd::SoundHeap">
-<area shape="rect" id="node1" title=" " alt="" coords="264,303,447,329"/>
-<area shape="rect" id="node2" href="$structnw4r_1_1snd_1_1_sound_memory_allocatable.html" title=" " alt="" coords="5,206,292,233"/>
-<area shape="rect" id="node3" title=" " alt="" coords="316,206,395,233"/>
-<area shape="rect" id="node4" href="$structnw4r_1_1snd_1_1detail_1_1_frame_heap.html" title=" " alt="" coords="419,199,593,240"/>
-<area shape="rect" id="node5" title=" " alt="" coords="432,109,479,136"/>
-<area shape="rect" id="node6" href="$structnw4r_1_1ut_1_1_list.html" title=" " alt="" coords="503,109,637,136"/>
-<area shape="rect" id="node7" title=" " alt="" coords="493,5,564,32"/>
-<area shape="rect" id="node8" href="$classu16.html" title=" " alt="" coords="588,5,635,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="264,299,447,324"/>
+<area shape="rect" id="node2" href="$structnw4r_1_1snd_1_1_sound_memory_allocatable.html" title=" " alt="" coords="5,203,292,229"/>
+<area shape="rect" id="node3" title=" " alt="" coords="316,203,395,229"/>
+<area shape="rect" id="node4" href="$structnw4r_1_1snd_1_1detail_1_1_frame_heap.html" title=" " alt="" coords="419,196,593,236"/>
+<area shape="rect" id="node5" title=" " alt="" coords="432,108,479,133"/>
+<area shape="rect" id="node6" href="$structnw4r_1_1ut_1_1_list.html" title=" " alt="" coords="503,108,637,133"/>
+<area shape="rect" id="node7" title=" " alt="" coords="493,5,564,31"/>
+<area shape="rect" id="node8" href="$classu16.html" title=" " alt="" coords="588,5,635,31"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="EGG::DvdFile::open" name="EGG::DvdFile::open">
-<area shape="rect" id="node1" title="Opens a file given the path." alt="" coords="308,71,475,97"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_dvd_ripper.html#adf2e7e58ac039603e56a0fd1c27b58c5" title="Load a file on the disc to main RAM given the path." alt="" coords="5,29,260,56"/>
-<area shape="rect" id="node3" href="$class_e_g_g_1_1_dvd_ripper.html#aee0435830b9eaeaeeb33ce75aa33835e" title="Load and decompress a file on the disc to main RAM given the path." alt="" coords="17,105,248,146"/>
+<area shape="rect" id="node1" title="Opens a file given the path." alt="" coords="308,71,475,96"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_dvd_ripper.html#adf2e7e58ac039603e56a0fd1c27b58c5" title="Load a file on the disc to main RAM given the path." alt="" coords="5,29,260,55"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_dvd_ripper.html#aee0435830b9eaeaeeb33ce75aa33835e" title="Load and decompress a file on the disc to main RAM given the path." alt="" coords="17,103,248,143"/>
 </map>

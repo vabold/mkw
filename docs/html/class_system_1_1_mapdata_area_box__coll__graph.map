@@ -1,4 +1,12 @@
 <map id="System::MapdataAreaBox" name="System::MapdataAreaBox">
-<area shape="rect" id="node1" title=" " alt="" coords="9,80,208,107"/>
-<area shape="rect" id="node2" href="$class_system_1_1_mapdata_area_base.html" title=" " alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="397,528,596,553"/>
+<area shape="rect" id="node2" href="$class_system_1_1_mapdata_area_base.html" title=" " alt="" coords="393,453,600,479"/>
+<area shape="rect" id="node3" href="$class_system_1_1_mapdata_area_base.html#struct_system_1_1_mapdata_area_base_1_1_s_data" title=" " alt="" coords="145,312,352,352"/>
+<area shape="rect" id="node4" title=" " alt="" coords="117,139,156,165"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,139,44,165"/>
+<area shape="rect" id="node6" href="$struct_e_g_g_1_1_vector3f.html" title=" " alt="" coords="352,139,479,165"/>
+<area shape="rect" id="node7" title=" " alt="" coords="384,5,447,31"/>
+<area shape="rect" id="node8" href="$classu16.html" title=" " alt="" coords="225,139,272,165"/>
+<area shape="rect" id="node9" title=" " alt="" coords="536,319,583,345"/>
+<area shape="rect" id="node10" title=" " alt="" coords="733,319,780,345"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="EGG::ColorFader::ColorFader" name="EGG::ColorFader::ColorFader">
-<area shape="rect" id="node1" title="A constructor." alt="" coords="5,31,244,57"/>
-<area shape="rect" id="node2" href="$class_e_g_g_1_1_color_fader.html#af89a18fb5605c7e655db3ff4c4df7f80" title="Sets the color. Does not modify alpha." alt="" coords="296,5,519,32"/>
-<area shape="rect" id="node3" href="$class_e_g_g_1_1_color_fader.html#aea4fa77e07166dd32192667986d6832d" title="Sets the status of the color fader." alt="" coords="292,56,523,83"/>
+<area shape="rect" id="node1" title="A constructor." alt="" coords="5,31,244,56"/>
+<area shape="rect" id="node2" href="$class_e_g_g_1_1_color_fader.html#af89a18fb5605c7e655db3ff4c4df7f80" title="Sets the color. Does not modify alpha." alt="" coords="296,5,519,31"/>
+<area shape="rect" id="node3" href="$class_e_g_g_1_1_color_fader.html#aea4fa77e07166dd32192667986d6832d" title="Sets the status of the color fader." alt="" coords="292,55,523,80"/>
 </map>
