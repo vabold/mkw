@@ -33,9 +33,7 @@ struct Vector3f {
   float y;
   float z;
 
-  float dot() const {
-    return x*x + y*y + z*z;
-  }
+  float dot() const { return x * x + y * y + z * z; }
 
   float normalise();
   // uses fsqrt directly

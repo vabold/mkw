@@ -72,7 +72,8 @@ extern UNKNOWN_FUNCTION(Vec3_add);
 // PAL: 0x8051486c
 extern UNKNOWN_FUNCTION(VEC3_sub);
 // PAL: 0x80514b24
-extern UNKNOWN_FUNCTION(unk_80514b24);
+extern UNKNOWN_FUNCTION(
+    initKart__Q26System17MapdataStartPointCFRQ23EGG8Vector3fRQ23EGG8Vector3fUll);
 // PAL: 0x80514b30
 extern UNKNOWN_FUNCTION(getStartPoint__Q26System9CourseMapCFUs);
 // PAL: 0x80514bc8
@@ -5850,7 +5851,7 @@ asm UNKNOWN_FUNCTION(Raceinfo_getInitialPosAndRotForPlayer) {
   /* 80536574 7F65DB78 */ mr          r5, r27
   /* 80536578 7FE6FB78 */ mr          r6, r31
   /* 8053657C 57A7063E */ clrlwi      r7, r29, 0x18
-  /* 80536580 4BFDE5A5 */ bl          unk_80514b24
+  /* 80536580 4BFDE5A5 */ bl          initKart__Q26System17MapdataStartPointCFRQ23EGG8Vector3fRQ23EGG8Vector3fUll
   /* 80536584 4800002C */ b           lbl_805365b0
   lbl_80536588:
   /* 80536588 3C808089 */ lis         r4, lbl_80890150@ha

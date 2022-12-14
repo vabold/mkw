@@ -97,7 +97,8 @@ UNKNOWN_FUNCTION(unk_80514208);
 // PAL: 0x80514258..0x80514368
 UNKNOWN_FUNCTION(unk_80514258);
 // PAL: 0x80514368..0x80514794
-UNKNOWN_FUNCTION(unk_80514368);
+UNKNOWN_FUNCTION(
+    initKart___Q26System17MapdataStartPointCFRQ23EGG8Vector3fRQ23EGG8Vector3fUcl);
 // PAL: 0x80514794..0x805147d4
 UNKNOWN_FUNCTION(unk_80514794);
 // PAL: 0x805147d4..0x805147fc
@@ -113,7 +114,8 @@ UNKNOWN_FUNCTION(VEC3_sub);
 // PAL: 0x805148a0..0x80514b24
 UNKNOWN_FUNCTION(unk_805148a0);
 // PAL: 0x80514b24..0x80514b30
-UNKNOWN_FUNCTION(unk_80514b24);
+UNKNOWN_FUNCTION(
+    initKart__Q26System17MapdataStartPointCFRQ23EGG8Vector3fRQ23EGG8Vector3fUll);
 // PAL: 0x80514b30..0x80514b7c
 UNKNOWN_FUNCTION(getStartPoint__Q26System9CourseMapCFUs);
 // PAL: 0x80514b7c..0x80514bc8
@@ -582,7 +584,13 @@ public:
 
   MapdataStartPoint(const SData* data) : mpData(data) {}
 
+  void initKart(EGG::Vector3f& pos, EGG::Vector3f& rot, u32 placement,
+                s32 playerCount) const;
+
 private:
+  void initKart_(EGG::Vector3f& pos, EGG::Vector3f& rot, u8 placement,
+                 s32 playerCount) const;
+
   const SData* mpData;
   s8 mEnemyPoint;
 };

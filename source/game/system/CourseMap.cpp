@@ -100,7 +100,8 @@ extern UNKNOWN_FUNCTION(get__Q26System25MapdataJugemPointAccessorCFUs);
 // PAL: 0x80514124
 extern UNKNOWN_FUNCTION(get__Q26System25MapdataStartPointAccessorCFUs);
 // PAL: 0x80514368
-extern UNKNOWN_FUNCTION(unk_80514368);
+extern UNKNOWN_FUNCTION(
+    initKart___Q26System17MapdataStartPointCFRQ23EGG8Vector3fRQ23EGG8Vector3fUcl);
 // PAL: 0x805147d4
 extern UNKNOWN_FUNCTION(VEC3_fromNeg);
 // PAL: 0x805147fc
@@ -1193,10 +1194,14 @@ MapdataStartPointAccessor::MapdataStartPointAccessor(
 
 } // namespace System
 
-// Symbol: unk_80514368
+// Symbol:
+// initKart___Q26System17MapdataStartPointCFRQ23EGG8Vector3fRQ23EGG8Vector3fUcl
 // PAL: 0x80514368..0x80514794
-MARK_BINARY_BLOB(unk_80514368, 0x80514368, 0x80514794);
-asm UNKNOWN_FUNCTION(unk_80514368) {
+MARK_BINARY_BLOB(
+    initKart___Q26System17MapdataStartPointCFRQ23EGG8Vector3fRQ23EGG8Vector3fUcl,
+    0x80514368, 0x80514794);
+asm UNKNOWN_FUNCTION(
+    initKart___Q26System17MapdataStartPointCFRQ23EGG8Vector3fRQ23EGG8Vector3fUcl) {
   // clang-format off
   nofralloc
   /* 80514368 9421FEA0 */ stwu        r1, -0x160(r1)
@@ -1786,19 +1791,12 @@ asm UNKNOWN_FUNCTION(unk_805148a0) {
   // clang-format on
 }
 
-// Symbol: unk_80514b24
-// PAL: 0x80514b24..0x80514b30
-MARK_BINARY_BLOB(unk_80514b24, 0x80514b24, 0x80514b30);
-asm UNKNOWN_FUNCTION(unk_80514b24) {
-  // clang-format off
-  nofralloc
-  /* 80514B24 3806FFFF */ addi        r0, r6, -0x1
-  /* 80514B28 5406063E */ clrlwi      r6, r0, 0x18
-  /* 80514B2C 4BFFF83C */ b           unk_80514368
-  // clang-format on
-}
-
 namespace System {
+
+void MapdataStartPoint::initKart(EGG::Vector3f& pos, EGG::Vector3f& rot,
+                                 u32 placement, s32 playerCount) const {
+  return initKart_(pos, rot, placement - 1, playerCount);
+}
 
 MapdataStartPoint* CourseMap::getStartPoint(u16 i) const {
   u16 count = mpStartPoint ? mpStartPoint->size() : 0;
@@ -3086,7 +3084,7 @@ MapdataCheckPath* CourseMap::getCheckPath(u16 i) const {
 // Symbol: unk_80515cbc
 // PAL: 0x80515cbc..0x80515d3c
 MARK_BINARY_BLOB(unk_80515cbc, 0x80515cbc, 0x80515d3c);
-asm UNKNOWN_FUNCTION(unk_80515cbc){
+asm UNKNOWN_FUNCTION(unk_80515cbc) {
   // clang-format off
   nofralloc
   /* 80515CBC 80C3001C */ lwz         r6, 0x1c(r3)
