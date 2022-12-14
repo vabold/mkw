@@ -24,8 +24,10 @@ digraph "source/egg/core/eggScene.hpp"
   Node8 -> Node9 [dir="back",color="steelblue1",style="solid"];
   Node9 [label="source/game/system\l/RaceConfig.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_race_config_8hpp_source.html",tooltip=" "];
   Node9 -> Node10 [dir="back",color="steelblue1",style="solid"];
-  Node10 [label="source/game/system\l/RaceConfig.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node10 [label="source/game/system\l/CourseMap.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node9 -> Node11 [dir="back",color="steelblue1",style="solid"];
-  Node11 [label="source/game/system\l/ResourceManager.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node7 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="source/game/system\l/RaceConfig.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node9 -> Node12 [dir="back",color="steelblue1",style="solid"];
+  Node12 [label="source/game/system\l/ResourceManager.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node7 -> Node12 [dir="back",color="steelblue1",style="solid"];
 }

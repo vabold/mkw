@@ -27,6 +27,7 @@ digraph "source/egg/core/eggHeap.hpp"
   Node11 [label="source/game/system\l/CourseMap.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node10 -> Node12 [dir="back",color="steelblue1",style="solid"];
   Node12 [label="source/game/system\l/RaceConfig.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_race_config_8hpp_source.html",tooltip=" "];
+  Node12 -> Node11 [dir="back",color="steelblue1",style="solid"];
   Node12 -> Node13 [dir="back",color="steelblue1",style="solid"];
   Node13 [label="source/game/system\l/RaceConfig.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node12 -> Node14 [dir="back",color="steelblue1",style="solid"];

@@ -7,4 +7,6 @@ digraph "System::MapdataItemPath::SData"
   Node1 [label="System::MapdataItemPath\l::SData",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" last\nnext\nsize\nstart" ];
   Node2 [label="u8",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" _0e" ];
+  Node3 [label="u16",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$classu16.html",tooltip=" "];
 }

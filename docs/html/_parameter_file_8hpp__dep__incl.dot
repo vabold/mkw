@@ -10,7 +10,9 @@ digraph "source/game/host_system/ParameterFile.hpp"
   Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
   Node3 [label="source/game/system\l/RaceConfig.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_race_config_8hpp_source.html",tooltip=" "];
   Node3 -> Node4 [dir="back",color="steelblue1",style="solid"];
-  Node4 [label="source/game/system\l/RaceConfig.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node4 [label="source/game/system\l/CourseMap.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node3 -> Node5 [dir="back",color="steelblue1",style="solid"];
-  Node5 [label="source/game/system\l/ResourceManager.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node5 [label="source/game/system\l/RaceConfig.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="source/game/system\l/ResourceManager.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
 }

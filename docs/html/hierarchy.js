@@ -95,14 +95,44 @@ var hierarchy =
     [ "System::KmpSectionHeader", "struct_system_1_1_kmp_section_header.html", null ],
     [ "nw4r::ut::List", "structnw4r_1_1ut_1_1_list.html", null ],
     [ "System::MapdataAccessorBase< T, TData >", "class_system_1_1_mapdata_accessor_base.html", null ],
+    [ "System::MapdataAccessorBase< MapdataCamera, MapdataCamera::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataCameraAccessor", "class_system_1_1_mapdata_camera_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataCannonPoint, MapdataCannonPoint::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataCannonPointAccessor", "class_system_1_1_mapdata_cannon_point_accessor.html", null ]
+    ] ],
     [ "System::MapdataAccessorBase< MapdataCheckPath, MapdataCheckPath::SData >", "class_system_1_1_mapdata_accessor_base.html", [
       [ "System::MapdataCheckPathAccessor", "class_system_1_1_mapdata_check_path_accessor.html", null ]
     ] ],
     [ "System::MapdataAccessorBase< MapdataCheckPoint, MapdataCheckPoint::SData >", "class_system_1_1_mapdata_accessor_base.html", [
       [ "System::MapdataCheckPointAccessor", "class_system_1_1_mapdata_check_point_accessor.html", null ]
     ] ],
+    [ "System::MapdataAccessorBase< MapdataEnemyPath, MapdataEnemyPath::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataEnemyPathAccessor", "class_system_1_1_mapdata_enemy_path_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataEnemyPoint, MapdataEnemyPoint::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataEnemyPointAccessor", "class_system_1_1_mapdata_enemy_point_accessor.html", null ]
+    ] ],
     [ "System::MapdataAccessorBase< MapdataGeoObj, MapdataGeoObj::SData >", "class_system_1_1_mapdata_accessor_base.html", [
       [ "System::MapdataGeoObjAccessor", "class_system_1_1_mapdata_geo_obj_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataItemPath, MapdataItemPath::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataItemPathAccessor", "class_system_1_1_mapdata_item_path_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataItemPoint, MapdataItemPoint::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataItemPointAccessor", "class_system_1_1_mapdata_item_point_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataJugemPoint, MapdataJugemPoint::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataJugemPointAccessor", "class_system_1_1_mapdata_jugem_point_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataMissionPoint, MapdataMissionPoint::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataMissionPointAccessor", "class_system_1_1_mapdata_mission_point_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataPointInfo, MapdataPointInfo::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataPointInfoAccessor", "class_system_1_1_mapdata_point_info_accessor.html", null ]
+    ] ],
+    [ "System::MapdataAccessorBase< MapdataStage, MapdataStage::SData >", "class_system_1_1_mapdata_accessor_base.html", [
+      [ "System::MapdataStageAccessor", "class_system_1_1_mapdata_stage_accessor.html", null ]
     ] ],
     [ "System::MapdataAccessorBase< MapdataStartPoint, MapdataStartPoint::SData >", "class_system_1_1_mapdata_accessor_base.html", [
       [ "System::MapdataStartPointAccessor", "class_system_1_1_mapdata_start_point_accessor.html", null ]
@@ -168,6 +198,7 @@ var hierarchy =
     ] ],
     [ "System::RaceConfig::Player", "class_system_1_1_race_config_1_1_player.html", null ],
     [ "System::PlayerInput", "class_system_1_1_player_input.html", null ],
+    [ "System::MapdataPointInfo::SData::Point", "class_system_1_1_mapdata_point_info.html#struct_system_1_1_mapdata_point_info_1_1_s_data_1_1_point", null ],
     [ "nw4r::ut::Polymorphic", "structnw4r_1_1ut_1_1_polymorphic.html", [
       [ "nw4r::ut::IOStream", "structnw4r_1_1ut_1_1_i_o_stream.html", [
         [ "nw4r::ut::FileStream", "classnw4r_1_1ut_1_1_file_stream.html", [

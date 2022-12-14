@@ -1,13 +1,13 @@
 <map id="source/egg/core/eggExpHeap.hpp" name="source/egg/core/eggExpHeap.hpp">
-<area shape="rect" id="node1" title="EGG wraper for expanded heaps header." alt="" coords="321,5,584,31"/>
-<area shape="rect" id="node2" href="$egg_exp_heap_8cpp.html" title="EGG wraper for expanded heaps implementation." alt="" coords="152,79,415,104"/>
-<area shape="rect" id="node3" href="$_r_k_scene_8hpp_source.html" title=" " alt="" coords="545,79,752,104"/>
-<area shape="rect" id="node9" href="$_resource_manager_8hpp_source.html" title=" " alt="" coords="335,152,517,192"/>
-<area shape="rect" id="node4" title=" " alt="" coords="784,152,991,192"/>
-<area shape="rect" id="node5" href="$_init_scene_8hpp_source.html" title=" " alt="" coords="593,152,760,192"/>
-<area shape="rect" id="node8" title=" " alt="" coords="439,328,621,368"/>
-<area shape="rect" id="node6" href="$_race_config_8hpp_source.html" title=" " alt="" coords="593,240,760,280"/>
-<area shape="rect" id="node7" title=" " alt="" coords="645,328,812,368"/>
-<area shape="rect" id="node10" title=" " alt="" coords="300,240,467,280"/>
+<area shape="rect" id="node1" title="EGG wraper for expanded heaps header." alt="" coords="211,5,473,31"/>
+<area shape="rect" id="node2" href="$egg_exp_heap_8cpp.html" title="EGG wraper for expanded heaps implementation." alt="" coords="41,79,304,104"/>
+<area shape="rect" id="node3" href="$_r_k_scene_8hpp_source.html" title=" " alt="" coords="469,79,676,104"/>
+<area shape="rect" id="node10" href="$_resource_manager_8hpp_source.html" title=" " alt="" coords="223,152,405,192"/>
+<area shape="rect" id="node4" title=" " alt="" coords="672,152,879,192"/>
+<area shape="rect" id="node5" href="$_init_scene_8hpp_source.html" title=" " alt="" coords="429,152,596,192"/>
+<area shape="rect" id="node9" title=" " alt="" coords="543,328,725,368"/>
+<area shape="rect" id="node6" href="$_race_config_8hpp_source.html" title=" " alt="" coords="352,240,519,280"/>
+<area shape="rect" id="node7" title=" " alt="" coords="161,328,328,368"/>
+<area shape="rect" id="node8" title=" " alt="" coords="352,328,519,368"/>
 <area shape="rect" id="node11" title=" " alt="" coords="5,247,276,273"/>
 </map>

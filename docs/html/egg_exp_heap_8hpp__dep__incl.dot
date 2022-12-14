@@ -16,16 +16,17 @@ digraph "source/egg/core/eggExpHeap.hpp"
   Node5 -> Node6 [dir="back",color="steelblue1",style="solid"];
   Node6 [label="source/game/system\l/RaceConfig.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_race_config_8hpp_source.html",tooltip=" "];
   Node6 -> Node7 [dir="back",color="steelblue1",style="solid"];
-  Node7 [label="source/game/system\l/RaceConfig.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node7 [label="source/game/system\l/CourseMap.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node6 -> Node8 [dir="back",color="steelblue1",style="solid"];
-  Node8 [label="source/game/system\l/ResourceManager.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node3 -> Node8 [dir="back",color="steelblue1",style="solid"];
-  Node1 -> Node9 [dir="back",color="steelblue1",style="solid"];
-  Node9 [label="source/game/system\l/ResourceManager.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_resource_manager_8hpp_source.html",tooltip=" "];
-  Node9 -> Node10 [dir="back",color="steelblue1",style="solid"];
-  Node10 [label="source/game/system\l/CourseMap.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node9 -> Node6 [dir="back",color="steelblue1",style="solid"];
-  Node9 -> Node8 [dir="back",color="steelblue1",style="solid"];
-  Node9 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="source/game/system\l/RaceConfig.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node6 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="source/game/system\l/ResourceManager.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node3 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="source/game/system\l/ResourceManager.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_resource_manager_8hpp_source.html",tooltip=" "];
+  Node10 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node10 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node10 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node10 -> Node11 [dir="back",color="steelblue1",style="solid"];
   Node11 [label="source/game/ui/MessageGroup.cpp",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
 }

@@ -14,7 +14,6 @@ digraph "System::MapdataCamera::SData"
   Node5 -> Node4 [dir="back",color="darkorchid3",style="dashed",label=" x\ny\nz" ];
   Node5 [label="float",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node4 -> Node4 [dir="back",color="darkorchid3",style="dashed",label=" ex\ney\nez\nzero" ];
-  Node6 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" fovVYEnd\nfovYStart" ];
+  Node6 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" fovVYEnd\nfovYStart\ntime" ];
   Node6 [label="f32",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node5 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" time" ];
 }
