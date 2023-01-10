@@ -9,7 +9,7 @@ var NAVTREEINDEX0 =
 "_ghost_file_8hpp_source.html":[1,0,0,1,3,3],
 "_init_scene_8hpp_source.html":[1,0,0,1,3,4],
 "_input_manager_8hpp_source.html":[1,0,0,1,3,5],
-"_kart_component_8hpp_source.html":[1,0,0,1,2,0],
+"_kart_object_proxy_8hpp_source.html":[1,0,0,1,2,0],
 "_localized_archive_8hpp_source.html":[1,0,0,1,3,6],
 "_message_group_8hpp_source.html":[1,0,0,1,4,1],
 "_mii_8hpp_source.html":[1,0,0,1,3,7],
@@ -29,8 +29,8 @@ var NAVTREEINDEX0 =
 "_race_config_8hpp_source.html":[1,0,0,1,3,10],
 "_race_manager_8hpp_source.html":[1,0,0,1,3,11],
 "_random_8hpp_source.html":[1,0,0,1,5,0],
-"_resource_manager_8hpp_source.html":[1,0,0,1,3,12],
-"_save_manager_8hpp_source.html":[1,0,0,1,3,13],
+"_rating_8hpp_source.html":[1,0,0,1,3,12],
+"_resource_manager_8hpp_source.html":[1,0,0,1,3,13],
 "_scene_creator_static_8hpp.html":[1,0,0,1,1,1],
 "_scene_creator_static_8hpp_source.html":[1,0,0,1,1,1],
 "_system_manager_8cpp.html":[1,0,0,1,1,2],
@@ -248,6 +248,6 @@ var NAVTREEINDEX0 =
 "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data":[0,0,1,4,1,0],
 "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data":[1,0,0,1,0,5,2],
 "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data":[1,0,0,1,0,5,1,0],
-"class_kart_1_1_kart_component.html":[0,0,2,0],
+"class_kart_1_1_kart_object_proxy.html":[0,0,2,0],
 "class_m_e_m_allocator.html":[0,0,14]
 };

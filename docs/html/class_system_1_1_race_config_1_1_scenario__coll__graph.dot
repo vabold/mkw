@@ -45,7 +45,6 @@ digraph "System::RaceConfig::Scenario"
   Node2 -> Node3 [dir="back",color="darkorchid3",style="dashed",label=" mFinishPos\nmPrevFinishPos" ];
   Node18 -> Node3 [dir="back",color="darkorchid3",style="dashed",label=" mRating" ];
   Node18 [label="System::Rating",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_rating.html",tooltip=" "];
-  Node16 -> Node18 [dir="back",color="darkorchid3",style="dashed",label=" mPoints" ];
   Node19 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mSettings" ];
   Node19 [label="System::RaceConfig\l::Settings",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$struct_system_1_1_race_config_1_1_settings.html",tooltip=" "];
   Node20 -> Node19 [dir="back",color="darkorchid3",style="dashed",label=" mCourseId" ];

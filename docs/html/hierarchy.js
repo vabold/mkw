@@ -91,7 +91,7 @@ var hierarchy =
     [ "EGG::HeapErrorArg", "struct_e_g_g_1_1_heap_error_arg.html", null ],
     [ "System::InputManager", "class_system_1_1_input_manager.html", null ],
     [ "System::JobContext", "struct_system_1_1_job_context.html", null ],
-    [ "Kart::KartComponent", "class_kart_1_1_kart_component.html", null ],
+    [ "Kart::KartObjectProxy", "class_kart_1_1_kart_object_proxy.html", null ],
     [ "System::KmpSectionHeader", "struct_system_1_1_kmp_section_header.html", null ],
     [ "nw4r::ut::List", "structnw4r_1_1ut_1_1_list.html", null ],
     [ "System::MapdataAccessorBase< T, TData >", "class_system_1_1_mapdata_accessor_base.html", null ],

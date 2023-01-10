@@ -44,7 +44,7 @@ var annotated_dup =
       [ "ObjectParameter", "class_field_1_1_object_parameter.html", "class_field_1_1_object_parameter" ]
     ] ],
     [ "Kart", null, [
-      [ "KartComponent", "class_kart_1_1_kart_component.html", null ]
+      [ "KartObjectProxy", "class_kart_1_1_kart_object_proxy.html", null ]
     ] ],
     [ "nw4r", null, [
       [ "g3d", null, [

@@ -42,5 +42,4 @@ digraph "System::RaceConfig::Player"
   Node9 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mFinishPos\nmPrevFinishPos" ];
   Node17 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mRating" ];
   Node17 [label="System::Rating",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",URL="$class_system_1_1_rating.html",tooltip=" "];
-  Node15 -> Node17 [dir="back",color="darkorchid3",style="dashed",label=" mPoints" ];
 }
