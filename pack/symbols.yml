@@ -12209,7 +12209,7 @@ global:
     0x80590128: 'initList__Q24Kart15KartObjectProxyFv'
     0x80590138: 'setupInList__Q24Kart15KartObjectProxyFPQ24Kart12KartAccessor'
     0x8059018c: '__ct__Q24Kart15KartObjectProxyFv'
-    0x805901d0: 'setupSingle'
+    0x805901d0: 'apply__Q24Kart15KartObjectProxyFl'
     0x8059020c: 'PlayerPointers_getPlayerPosition'
     0x80590224: 'PlayerPointers_getPlayerPhysicsHolderPosition'
     0x80590238: 'various_stuff_set_player_position'

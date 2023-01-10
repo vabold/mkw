@@ -37,7 +37,7 @@ out/rel/rodata_80890d0c_80891370.o
 out/rel/data_808b3c2c_808b42e0.o
 out/Random.o
 out/rel/text_8055572c_80590128.o
-out/rel/rodata_80891380_80891c5c.o
+out/rel/rodata_80891380_80891c58.o
 out/rel/data_808b42ec_808dd3d4.o
 out/rel/bss_809bd73c_809c1900.o
 out/KartObjectProxy.o

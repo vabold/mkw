@@ -15,7 +15,7 @@ UNKNOWN_FUNCTION(setupInList__Q24Kart15KartObjectProxyFPQ24Kart12KartAccessor);
 // PAL: 0x8059018c..0x805901d0
 UNKNOWN_FUNCTION(__ct__Q24Kart15KartObjectProxyFv);
 // PAL: 0x805901d0..0x8059020c
-UNKNOWN_FUNCTION(setupSingle);
+UNKNOWN_FUNCTION(apply__Q24Kart15KartObjectProxyFl);
 // PAL: 0x8059020c..0x80590224
 UNKNOWN_FUNCTION(PlayerPointers_getPlayerPosition);
 // PAL: 0x80590224..0x80590238
@@ -387,24 +387,245 @@ UNKNOWN_FUNCTION(unk_805919e8);
 }
 #endif
 
-
+#include <egg/math/eggVector.hpp>
+#include <egg/math/eggQuat.hpp>
+#include <game/geo/BoxColUnit.hpp>
+#include <game/system/ResourceManager.hpp>
 #include <nw4r/ut/utList.hpp>
 
 namespace Kart {
 
-class KartAccessor;
+struct KartAccessor {
+  void* mSettings;
+  void* mState;
+  void* mBody;
+  void** mSuspensions;
+  void** mTires;
+  void* mModel;
+  void* mSub;
+  void* mSound;
+  u8 _20[0x24 - 0x20];
+  void* mCamera;
+  void* mMove;
+  void* mAction;
+  void* mCollide;
+  u8 _34[0x3c - 0x34];
+  void* mSender;
+  void* mReceiver;
+  u8 _44[0x4c - 0x44];
+  BoxColUnit* m_entity;
+  u8 _50[0x54 - 0x50];
+  void* mBlink;
+  u8 _58[0x60 - 0x58];
+  void* mBullet;
+};
+static_assert(sizeof(KartAccessor) == 0x64);
 
 class KartObjectProxy {
 public:
+  KartObjectProxy();
+
+  void apply(s32 playerIdx);
+  void playSound(s32 sound);
+  void startOobWipe(s32 oobWipeState);
+
+  // Returns unknown struct in KartAccessor field 0x20
+  void* _20();
+  // Returns unknown struct in KartAccessor field 0x34
+  void* _34();
+  // Returns unknown struct in KartAccessor field 0x38
+  void* _38();
+  // Returns unknown struct in KartAccessor field 0x44
+  void* _44();
+  // Returns unknown struct in KartAccessor field 0x48
+  void* _48();
+  // Returns unknown struct in KartAccessor field 0x50
+  void* _50();
+  // Returns unknown struct in KartAccessor field 0x54
+  void* _54();
+  // Returns unknown struct in KartAccessor field 0x5c
+  void* _5c();
+  BoxColUnit* boxColUnit();
+  // Returns KartAction*
+  void* kartAction();
+  // Returns KartAction*, unused (const?)
+  void* kartAction_();
+  // Returns KartBlink*
+  void* kartBlink();
+  // Returns KartBlink*, unused (const?)
+  void* kartBlink_();
+  // Returns KartBody*
+  void* kartBody();
+  // Returns KartBody*, unused (const?)
+  void* kartBody_();
+  // Returns KartCollide*
+  void* kartCollide();
+  // Returns KartCollide*, unused (const?)
+  void* kartCollide_();
+  // Returns KartKiller*
+  void* kartKiller();
+  // Returns KartModel*
+  void* kartModel();
+  // Returns KartMove*
+  void* kartMove();
+  // Returns KartMove*, unused (const?)
+  void* kartMove_();
+  // Returns KartNetSender*
+  void* kartNetSender();
+  // Returns KartNetReceiver*
+  void* kartNetReceiver();
+  // Returns KartParam*
+  void* kartParam();
+  // Returns KartSound*
+  void* kartSound();
+  // Returns KartSub*
+  void* kartSub();
+  // Returns KartSub*, unused (const?)
+  void* kartSub_();
+  // Returns KartSub*, unused (???)
+  void* kartSub__();
+  // Returns KartSus*
+  void* kartSus(s32 idx);
+  // Returns KartSus*, unused (const?)
+  void* kartSus_(s32 idx);
+  // Returns KartSusPhysics*
+  void* kartSusPhysics(s32 idx);
+  // Returns KartSusPhysics*, unused (const?)
+  void* kartSusPhysics_(s32 idx);
+  // Returns KartTire*
+  void* kartTire(s32 idx);
+  // Returns KartTire*, unused (const?)
+  void* kartTire_(s32 idx);
+  // Returns KartTirePhysics*
+  void* kartTirePhysics(s32 idx);
+  // Returns KartTirePhysics*, unused (const?)
+  void* kartTirePhysics_(s32 idx);
+  // Returns VehicleDynamics*
+  void* vehicleDynamics();
+  // Returns VehicleDynamics*, unused (const?)
+  void* vehicleDynamics_();
+  // Returns VehiclePhysics*
+  void* vehiclePhysics();
+  // Returns VehiclePhysics*, unused (const?)
+  void* vehiclePhysics_();
+
+  s32 getAppliedHopStickX() const;
+  s16 getBackwardsAllowCounter() const;
+  f32 getBaseSpeed() const;
+  // Returns BikePartsDispParams*
+  void* getBikePartsDispParams() const;
+  void getBodyForward(EGG::Vector3f& xAxis) const;
+  void getBodyFront(EGG::Vector3f& zAxis) const;
+  // Returns EGG::Matrix34f&
+  void* getBodyRot() const;
+  void getBodyUp(EGG::Vector3f& yAxis) const;
+  // Returns BSP*
+  void* getBsp() const;
+  // Returns BSPHitbox* (unused)
+  void* getBspHitbox() const;
+  // Returns BSPWheel*
+  void* getBspWheel(s32 idx) const;
+  u32 getClosestFloorFlags() const;
+  u32 getClosestFloorSettings() const;
+  // Returns CollisionData&
+  void* getCollisionData();
+  // Returns CollisionData&
+  void* getCollisionData(const s32 tireIdx);
+  // Returns CollisionGroup*
+  void* getCollisionGroup();
+  // Returns CollisionGroup*, unused
+  void* getCollisonGroup(const s32 tireIdx);
+  // Returns CollisionGroup*, unused (const?)
+  void* getCollisionGroup_();
+  s16 getDriftState() const;
+  // Returns DriverDispParams*
+  void* getDriverDispParams() const;
+  // Returns DriverSnd*
+  void* getDriverSound();
+  EGG::Vector3f& getDynamicsXAxis() const;
+  EGG::Vector3f& getDynamicsYAxis() const;
+  EGG::Vector3f& getDynamicsZAxis() const;
+  s32 getHopStickX() const;
+  // Returns Input*
+  void* getInput() const;
+  f32 getInternalVelocity() const;
+  // Returns KartDriverDispParams*
+  void* getKartDriverDispParams() const;
+  // Returns KartHalfPipe*
+  void* getKartHalfPipe();
+  // Returns KartJump*
+  void* getKartJump();
+  // Returns KartNetSender::Flags*
+  void* getKartNetSenderFlags();
+  // Returns KartPartsDispParams*
+  void* getKartPartsDispParams() const;
+  // Returns KartStats*
+  void* getKartStats() const;
+  s16 getMaxMtCharge() const;
+  s16 getMaxSmtCharge() const;
+  s16 getMtCharge() const;
+  s32 getOobWipeState() const;
+  u8 getPlayerIdx() const;
+  EGG::Vector3f& getPos() const;
+  // Most likely going to need a rename
+  // Returns EGG::Matrix34f&
+  void* getPose() const;
+  EGG::Vector3f* getPrevPos() const;
+  // Returns RotatingItemObjParams&
+  void* getRotatingItemObjParams() const;
+  EGG::Vector3f &getScale() const;
+  s16 getSmtCharge() const;
+  f32 getSpeedRatio() const;
+  f32 getSpeedRatioCapped() const;
+  f32 getStartBoostCharge() const;
+  System::VehicleId getVehicle() const;
+  // Returns VehicleForm
+  s32 getVehicleForm() const;
+  // Returns VehicleType
+  s32 getVehicleType() const;
+  EGG::Vector3f& getVelocity() const;
+  // Returns WheelCount
+  s32 getWheelCount() const;
+  u16 getWheelCount0() const;
+  u16 getWheelCount1() const;
+  // Unused
+  f32 getWheelCountRecip() const;
+  // Unused
+  f32 getWheelCountPlusOneRecip() const;
+  u32 getWheelClosestFloorFlags(s32 tireIdx) const;
+  u32 getWheelClosestFloorSettings(s32 tireIdx) const;
+  EGG::Vector3f& getWheelPos(s32 tireIdx) const;
+
+  bool checkWheelie() const;
+  bool hasCamera() const;
+  bool hasFloorCollision(const s32 tireIdx) const;
+  bool isCpu() const;
+  bool isGhost() const;
+  bool isGrounded() const;
+  bool isMii() const;
+  bool isReal() const;
+
+  void addPos(const EGG::Vector3f& pos);
+  // Takes in KartCamera
+  void setCamera(void* camera);
+  void setInertiaScale(const EGG::Vector3f& pos);
+  void setPos(const EGG::Vector3f& pos);
+  void setRot(const EGG::Quatf& rot);
+  void setScale(const EGG::Vector3f& pos);
+  void setStartBoostIdx(const s32 startBoostIdx);
+  void setTrickFlags(s32 param_1);
+
   static void initList();
   static void setupInList(KartAccessor* accessor);
-  KartObjectProxy();
 
 private:
   inline KartObjectProxy(const KartObjectProxy&) {}
-  static nw4r::ut::List sList;
+
   KartAccessor* mAccessor;
   nw4r::ut::Node mNode;
+
+  static nw4r::ut::List sList;
 };
+static_assert(sizeof(KartObjectProxy) == 0xc);
 
 } // namespace Kart
