@@ -53,7 +53,7 @@ extern UNKNOWN_FUNCTION(PlayerHolder_getPlayer);
 // PAL: 0x80590a9c
 extern UNKNOWN_FUNCTION(unk_80590a9c);
 // PAL: 0x805946f4
-extern UNKNOWN_FUNCTION(PlayerSub1c_startOobWipe);
+extern UNKNOWN_FUNCTION(setWipeState__Q24Kart9KartStateFQ34Kart9KartState9WipeState);
 // PAL: 0x80599eac
 extern UNKNOWN_FUNCTION(WheelPhysics_hasFloorCollision);
 // PAL: 0x80599ec8

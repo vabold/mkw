@@ -84,7 +84,7 @@ extern UNKNOWN_FUNCTION(kartHalfPipe__Q24Kart15KartObjectProxyFv);
 // PAL: 0x80591914
 extern UNKNOWN_FUNCTION(kartJump__Q24Kart15KartObjectProxyFv);
 // PAL: 0x80594594
-extern UNKNOWN_FUNCTION(unk_80594594);
+extern UNKNOWN_FUNCTION(reset__Q24Kart9KartStateFv);
 // PAL: 0x80594bd4
 extern UNKNOWN_FUNCTION(PlayerSub1c_updateCollisions);
 // PAL: 0x805959d4
@@ -96,7 +96,7 @@ extern UNKNOWN_FUNCTION(WheelPhysics_hasFloorCollision);
 // PAL: 0x80599ec8
 extern UNKNOWN_FUNCTION(WheelPhysics_getCollisionData);
 // PAL: 0x80865138
-extern UNKNOWN_FUNCTION(unk_80865138);// Extern data references.
+extern UNKNOWN_FUNCTION(unk_80865138); // Extern data references.
 // PAL: 0x802a4100
 extern UNKNOWN_DATA(lbl_802a4100);
 // PAL: 0x802a4130
@@ -133,140 +133,148 @@ extern UNKNOWN_DATA(lbl_809c1951);
 
 // .data
 
-
 // .bss
-
 
 // Symbol: PlayerSub1c_construct
 // PAL: 0x805943b4..0x8059455c
 MARK_BINARY_BLOB(PlayerSub1c_construct, 0x805943b4, 0x8059455c);
 asm UNKNOWN_FUNCTION(PlayerSub1c_construct) {
-  #include "asm/805943b4.s"
+#include "asm/805943b4.s"
 }
 
-// Symbol: unk_8059455c
-// PAL: 0x8059455c..0x80594594
-MARK_BINARY_BLOB(unk_8059455c, 0x8059455c, 0x80594594);
-asm UNKNOWN_FUNCTION(unk_8059455c) {
-  #include "asm/8059455c.s"
+namespace Kart {
+
+void KartState::init() {
+  reset();
+  resetOob();
 }
 
-// Symbol: unk_80594594
+} // namespace Kart
+
+// Symbol: reset__Q24Kart9KartStateFv
 // PAL: 0x80594594..0x80594634
-MARK_BINARY_BLOB(unk_80594594, 0x80594594, 0x80594634);
-asm UNKNOWN_FUNCTION(unk_80594594) {
-  #include "asm/80594594.s"
+MARK_BINARY_BLOB(reset__Q24Kart9KartStateFv, 0x80594594, 0x80594634);
+asm UNKNOWN_FUNCTION(reset__Q24Kart9KartStateFv) {
+#include "asm/80594594.s"
 }
 
-// Symbol: unk_80594634
-// PAL: 0x80594634..0x80594644
-MARK_BINARY_BLOB(unk_80594634, 0x80594634, 0x80594644);
-asm UNKNOWN_FUNCTION(unk_80594634) {
-  #include "asm/80594634.s"
+namespace Kart {
+
+void KartState::resetOob() {
+  mWipeState = WIPE_STATE_NONE;
+  mWipeFrame = -1;
 }
+
+} // namespace Kart
 
 // Symbol: unk_80594644
 // PAL: 0x80594644..0x805946f4
 MARK_BINARY_BLOB(unk_80594644, 0x80594644, 0x805946f4);
 asm UNKNOWN_FUNCTION(unk_80594644) {
-  #include "asm/80594644.s"
+#include "asm/80594644.s"
 }
 
-// Symbol: PlayerSub1c_startOobWipe
-// PAL: 0x805946f4..0x80594704
-MARK_BINARY_BLOB(PlayerSub1c_startOobWipe, 0x805946f4, 0x80594704);
-asm UNKNOWN_FUNCTION(PlayerSub1c_startOobWipe) {
-  #include "asm/805946f4.s"
+namespace Kart {
+
+void KartState::setWipeState(WipeState wipeState) {
+  mWipeState = wipeState;
+  mWipeFrame = 0;
 }
+
+} // namespace Kart
 
 // Symbol: unk_80594704
 // PAL: 0x80594704..0x8059474c
 MARK_BINARY_BLOB(unk_80594704, 0x80594704, 0x8059474c);
-asm UNKNOWN_FUNCTION(unk_80594704) {
-  #include "asm/80594704.s"
+asm UNKNOWN_FUNCTION(unk_80594704){
+#include "asm/80594704.s"
 }
 
 // Symbol: PlayerSub1c_updateCollisionsAndMore
 // PAL: 0x8059474c..0x8059487c
 MARK_BINARY_BLOB(PlayerSub1c_updateCollisionsAndMore, 0x8059474c, 0x8059487c);
-asm UNKNOWN_FUNCTION(PlayerSub1c_updateCollisionsAndMore) {
-  #include "asm/8059474c.s"
+asm UNKNOWN_FUNCTION(PlayerSub1c_updateCollisionsAndMore){
+#include "asm/8059474c.s"
 }
 
 // Symbol: PlayerSub1c_updateFromInput
 // PAL: 0x8059487c..0x80594bd4
 MARK_BINARY_BLOB(PlayerSub1c_updateFromInput, 0x8059487c, 0x80594bd4);
-asm UNKNOWN_FUNCTION(PlayerSub1c_updateFromInput) {
-  #include "asm/8059487c.s"
+asm UNKNOWN_FUNCTION(PlayerSub1c_updateFromInput){
+#include "asm/8059487c.s"
 }
 
 // Symbol: PlayerSub1c_updateCollisions
 // PAL: 0x80594bd4..0x805958ec
 MARK_BINARY_BLOB(PlayerSub1c_updateCollisions, 0x80594bd4, 0x805958ec);
-asm UNKNOWN_FUNCTION(PlayerSub1c_updateCollisions) {
-  #include "asm/80594bd4.s"
+asm UNKNOWN_FUNCTION(PlayerSub1c_updateCollisions){
+#include "asm/80594bd4.s"
 }
 
 // Symbol: unk_805958ec
 // PAL: 0x805958ec..0x805958f0
 MARK_BINARY_BLOB(unk_805958ec, 0x805958ec, 0x805958f0);
-asm UNKNOWN_FUNCTION(unk_805958ec) {
-  #include "asm/805958ec.s"
+asm UNKNOWN_FUNCTION(unk_805958ec){
+#include "asm/805958ec.s"
 }
 
-// Symbol: unk_805958f0
-// PAL: 0x805958f0..0x80595918
-MARK_BINARY_BLOB(unk_805958f0, 0x805958f0, 0x80595918);
-asm UNKNOWN_FUNCTION(unk_805958f0) {
-  #include "asm/805958f0.s"
+namespace Kart {
+
+// TODO: better name
+// TODO: all reset flags documented
+void KartState::resetCollisionFlags() {
+  // mFlags.reset(KartFlags::FLAG_ZIPPER_COLLISION);
+  // mFlags.reset(KartFlags::FLAG_SOMETHING_WHEEL_PHYSICS);
+  // mFlags.reset(KartFlags::FLAG_REJECT_ROAD);
+  mFlags.field(1) &= ~0x8080200;
+  mFlags.field(2) &= ~0x408;
 }
+
+} // namespace Kart
 
 // Symbol: PlayerSub1c_updateStartBoostCharge
 // PAL: 0x80595918..0x805959d4
 MARK_BINARY_BLOB(PlayerSub1c_updateStartBoostCharge, 0x80595918, 0x805959d4);
-asm UNKNOWN_FUNCTION(PlayerSub1c_updateStartBoostCharge) {
-  #include "asm/80595918.s"
+asm UNKNOWN_FUNCTION(PlayerSub1c_updateStartBoostCharge){
+#include "asm/80595918.s"
 }
 
 // Symbol: PlayerSub1c_computeStartBoost
 // PAL: 0x805959d4..0x80595af8
 MARK_BINARY_BLOB(PlayerSub1c_computeStartBoost, 0x805959d4, 0x80595af8);
-asm UNKNOWN_FUNCTION(PlayerSub1c_computeStartBoost) {
-  #include "asm/805959d4.s"
+asm UNKNOWN_FUNCTION(PlayerSub1c_computeStartBoost){
+#include "asm/805959d4.s"
 }
 
 // Symbol: PlayerSub1c_applyStartBoost
 // PAL: 0x80595af8..0x80595c5c
 MARK_BINARY_BLOB(PlayerSub1c_applyStartBoost, 0x80595af8, 0x80595c5c);
-asm UNKNOWN_FUNCTION(PlayerSub1c_applyStartBoost) {
-  #include "asm/80595af8.s"
+asm UNKNOWN_FUNCTION(PlayerSub1c_applyStartBoost){
+#include "asm/80595af8.s"
 }
 
 // Symbol: unk_80595c5c
 // PAL: 0x80595c5c..0x80595ca4
 MARK_BINARY_BLOB(unk_80595c5c, 0x80595c5c, 0x80595ca4);
 asm UNKNOWN_FUNCTION(unk_80595c5c) {
-  #include "asm/80595c5c.s"
+#include "asm/80595c5c.s"
 }
 
-// Symbol: unk_80595ca4
-// PAL: 0x80595ca4..0x80595cb4
-MARK_BINARY_BLOB(unk_80595ca4, 0x80595ca4, 0x80595cb4);
-asm UNKNOWN_FUNCTION(unk_80595ca4) {
-  #include "asm/80595ca4.s"
+namespace Kart {
+
+void KartState::setCameraFlag() {
+  mFlags.set(KartFlags::FLAG_SOMETHING_CAMERA);
 }
 
-// Symbol: unk_80595cb4
-// PAL: 0x80595cb4..0x80595cc4
-MARK_BINARY_BLOB(unk_80595cb4, 0x80595cb4, 0x80595cc4);
-asm UNKNOWN_FUNCTION(unk_80595cb4) {
-  #include "asm/80595cb4.s"
+void KartState::resetCameraFlag() {
+  mFlags.reset(KartFlags::FLAG_SOMETHING_CAMERA);
 }
+
+} // namespace Kart
 
 // Symbol: PlayerSub1c_destroy
 // PAL: 0x80595cc4..0x80595d04
 MARK_BINARY_BLOB(PlayerSub1c_destroy, 0x80595cc4, 0x80595d04);
 asm UNKNOWN_FUNCTION(PlayerSub1c_destroy) {
-  #include "asm/80595cc4.s"
+#include "asm/80595cc4.s"
 }
-

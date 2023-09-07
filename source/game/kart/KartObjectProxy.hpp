@@ -542,10 +542,8 @@ public:
 
   void reset(size_t n) { mFields[n / NBITS32] &= ~(1 << (n % NBITS32)); }
 
-  u32& field(size_t n) const {
-    static_assert(n * NBITS32 < N);
-    return mFields[n];
-  }
+  // TODO: find valid static assert
+  u32& field(size_t n) { return mFields[n]; }
 };
 
 } // namespace Kart
