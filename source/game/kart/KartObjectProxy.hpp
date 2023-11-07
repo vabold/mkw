@@ -520,4 +520,29 @@ private:
   nw4r::ut::Node mNode;
 };
 
+// ================================
+
+template <size_t N> class RKBitField {
+private:
+  static const size_t NBITS32 = sizeof(u32) * 8;
+  u32 mFields[ROUND_UP(N, 32) / NBITS32];
+
+public:
+  RKBitField() {
+    for (int i = 0; i < ARRAY_SIZE(mFields); i++) {
+      mFields[i] = 0;
+    }
+  }
+
+  bool on(size_t n) const {
+    return mFields[n / NBITS32] & (1 << (n % NBITS32));
+  }
+
+  void set(size_t n) { mFields[n / NBITS32] |= (1 << (n % NBITS32)); }
+
+  void reset(size_t n) { mFields[n / NBITS32] &= ~(1 << (n % NBITS32)); }
+
+  u32& field(size_t n) { return mFields[n]; }
+};
+
 } // namespace Kart

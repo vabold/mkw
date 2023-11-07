@@ -4,6 +4,8 @@
 
 #include <decomp.h>
 
+#include <game/kart/KartObjectProxy.hpp>
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -50,3 +52,24 @@ UNKNOWN_FUNCTION(PlayerSub1c_destroy);
 #ifdef __cplusplus
 }
 #endif
+
+namespace Kart {
+
+namespace KartFlags {
+
+// We never reference this enum directly, we only reference the values
+enum _KartFlags {};
+
+} // namespace KartFlags
+
+class KartState {
+private:
+  u8 _00[0x04 - 0x00];
+  // For now, we round up to 160 until we have a certain number
+  RKBitField<160> mFlags;
+  KartObjectProxy* mProxy;
+  u8 _1c[0xc0 - 0x1c];
+};
+static_assert(sizeof(KartState) == 0xc0);
+
+} // namespace Kart
