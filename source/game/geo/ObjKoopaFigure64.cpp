@@ -33,7 +33,7 @@ extern UNKNOWN_FUNCTION(unk_8082051c);
 // PAL: 0x80821640
 extern UNKNOWN_FUNCTION(unk_80821640); // Extern data references.
 // PAL: 0x802a4100
-extern UNKNOWN_DATA(lbl_802a4100);
+extern UNKNOWN_DATA(RKSystem_zero);
 // PAL: 0x808a0340
 extern UNKNOWN_DATA(lbl_808a0340);
 // PAL: 0x808a0348
@@ -51,7 +51,7 @@ extern UNKNOWN_DATA(lbl_808c5c84);
 // PAL: 0x809bd728
 extern UNKNOWN_DATA(spInstance__Q26System10RaceConfig);
 // PAL: 0x809bd730
-extern UNKNOWN_DATA(lbl_809bd730);
+extern UNKNOWN_DATA(spInstance__Q26System11RaceManager);
 // PAL: 0x809c18f8
 extern UNKNOWN_DATA(lbl_809c18f8);
 // PAL: 0x809c21d0

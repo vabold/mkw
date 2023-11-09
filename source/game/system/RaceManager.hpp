@@ -4,6 +4,8 @@
 
 #include <decomp.h>
 
+#include <game/system/KPadController.hpp>
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -232,3 +234,26 @@ UNKNOWN_FUNCTION(unk_80538344);
 #ifdef __cplusplus
 }
 #endif
+
+namespace System {
+
+class RaceManager {
+public:
+  class Player {
+  private:
+    u8 _00[0x48 - 0x00];
+
+  public:
+    System::KPad* mPad;
+  };
+
+private:
+  u8 _00[0x0c - 0x00];
+
+public:
+  Player** mPlayers;
+
+  static RaceManager *spInstance;
+};
+
+} // namespace System

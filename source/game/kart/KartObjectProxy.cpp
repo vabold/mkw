@@ -53,7 +53,7 @@ extern UNKNOWN_FUNCTION(PlayerHolder_getPlayer);
 // PAL: 0x80590a9c
 extern UNKNOWN_FUNCTION(unk_80590a9c);
 // PAL: 0x805946f4
-extern UNKNOWN_FUNCTION(PlayerSub1c_startOobWipe);
+extern UNKNOWN_FUNCTION(startWipe__Q24Kart9KartStateFi);
 // PAL: 0x80599eac
 extern UNKNOWN_FUNCTION(WheelPhysics_hasFloorCollision);
 // PAL: 0x80599ec8
@@ -83,7 +83,7 @@ extern UNKNOWN_FUNCTION(unk_808646f0); // Extern data references.
 // PAL: 0x809bd728
 extern UNKNOWN_DATA(spInstance__Q26System10RaceConfig);
 // PAL: 0x809bd730
-extern UNKNOWN_DATA(lbl_809bd730);
+extern UNKNOWN_DATA(spInstance__Q26System11RaceManager);
 // PAL: 0x809c18f8
 extern UNKNOWN_DATA(lbl_809c18f8);
 }

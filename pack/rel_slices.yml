@@ -91,7 +91,7 @@ source/game/kart/KartObjectProxy.cpp:
 
 source/game/kart/KartState.cpp:
     text: [0x805943b4, 0x80595d04]
-    rodata: [0x80891ef0, 0x80891f18]
+    rodata: [0x80891ef0, 0x80891f00]
     data: [0x808b64e8, 0x808b6540]
 
 source/game/kart/KartPhysics.cpp:

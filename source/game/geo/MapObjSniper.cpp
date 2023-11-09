@@ -12,7 +12,7 @@ extern UNKNOWN_FUNCTION(unk_806f10fc);
 // PAL: 0x8081f064
 extern UNKNOWN_FUNCTION(unk_8081f064); // Extern data references.
 // PAL: 0x802a4100
-extern UNKNOWN_DATA(lbl_802a4100);
+extern UNKNOWN_DATA(RKSystem_zero);
 // PAL: 0x802a4148
 extern UNKNOWN_DATA(lbl_802a4148);
 // PAL: 0x808a046c

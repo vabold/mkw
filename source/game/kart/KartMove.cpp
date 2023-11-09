@@ -395,7 +395,7 @@ extern UNKNOWN_FUNCTION(unk_80591924);
 // PAL: 0x8059197c
 extern UNKNOWN_FUNCTION(unk_8059197c);
 // PAL: 0x80595cb4
-extern UNKNOWN_FUNCTION(unk_80595cb4);
+extern UNKNOWN_FUNCTION(resetCameraFlag__Q24Kart9KartStateFv);
 // PAL: 0x80597934
 extern UNKNOWN_FUNCTION(unk_80597934);
 // PAL: 0x80598338
@@ -517,7 +517,7 @@ extern UNKNOWN_FUNCTION(unk_80865390);
 // PAL: 0x808655b4
 extern UNKNOWN_FUNCTION(unk_808655b4); // Extern data references.
 // PAL: 0x802a4100
-extern UNKNOWN_DATA(lbl_802a4100);
+extern UNKNOWN_DATA(RKSystem_zero);
 // PAL: 0x802a4118
 extern UNKNOWN_DATA(lbl_802a4118);
 // PAL: 0x802a4130
@@ -695,7 +695,7 @@ extern UNKNOWN_DATA(spInstance__Q26System9CourseMap);
 // PAL: 0x809bd728
 extern UNKNOWN_DATA(spInstance__Q26System10RaceConfig);
 // PAL: 0x809bd730
-extern UNKNOWN_DATA(lbl_809bd730);
+extern UNKNOWN_DATA(spInstance__Q26System11RaceManager);
 // PAL: 0x809c18e0
 extern UNKNOWN_DATA(lbl_809c18e0);
 // PAL: 0x809c18f8

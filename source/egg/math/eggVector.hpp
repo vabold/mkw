@@ -28,8 +28,10 @@ struct Vector2f {
   inline Vector2f(float _x, float _y) : x(_x), y(_y) {}
   inline Vector2f() {}
 
+#ifndef REL
   // For now
   ~Vector2f();
+#endif
 };
 
 struct Vector3f : public nw4r::math::VEC3 {

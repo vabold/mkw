@@ -499,6 +499,10 @@ public:
   const KartJump* kartJump() { return mJump; }
   const KartHalfPipe* kartHalfPipe() { return mHalfPipe; }
 
+  void setScaledStartBoostCharge(f32 charge) {
+    mScaledStartBoostCharge = charge;
+  }
+
 private:
   u8 _00c[0x014 - 0x00c];
   f32 mBaseSpeed;
@@ -515,7 +519,9 @@ private:
   s16 mSmtCharge;
   u8 _102[0x164 - 0x102];
   EGG::Vector3f mScale;
-  u8 _170[0x238 - 0x170];
+  u8 _170[0x224 - 0x170];
+  f32 mScaledStartBoostCharge;
+  u8 _228[0x238 - 0x228];
   s16 _someTimer;
   s16 mRespawnTimer;
   u8 _23c[0x248 - 0x23c];

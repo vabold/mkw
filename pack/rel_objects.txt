@@ -56,7 +56,7 @@ out/rel/text_805919f4_805943b4.o
 out/rel/rodata_80891c80_80891ef0.o
 out/KartState.o
 out/rel/text_80595d04_8059f5bc.o
-out/rel/rodata_80891f18_80892010.o
+out/rel/rodata_80891f00_80892010.o
 out/rel/data_808b6540_808b69e8.o
 out/KartPhysics.o
 out/rel/rodata_80892024_80892750.o
