@@ -1,0 +1,7 @@
+Sections:
+	.text       type:code align:4 vaddr:0x805103B4
+	.ctors      type:rodata align:4 vaddr:0x8088F400
+	.dtors      type:rodata align:4 vaddr:0x8088F704
+	.rodata     type:rodata align:32 vaddr:0x8088F720
+	.data       type:data align:8 vaddr:0x808B2BD0
+	.bss        type:bss align:32 vaddr:0x809BD6E0
