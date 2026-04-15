@@ -296,12 +296,12 @@ config.libs = [
     },
     {
         "lib": "RVL_SDK",
-        "mw_version": config.linker_version,
+        "mw_version": "GC/3.0a5.2",
         "cflags": cflags_base,
         "progress_category": "sdk",
         "objects": [
             Object(NonMatching, "RVL_SDK/ai/ai.c"),
-            Object(NonMatching, "RVL_SDK/arc/arc.c"),
+            Object(Matching, "RVL_SDK/arc/arc.c"),
             Object(NonMatching, "RVL_SDK/ax/AX.c"),
             Object(NonMatching, "RVL_SDK/ax/AXAlloc.c"),
             Object(NonMatching, "RVL_SDK/ax/AXAux.c"),

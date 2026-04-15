@@ -29,6 +29,7 @@ ContinuationIndentWidth: 8
 IncludeBlocks: Preserve
 IndentAccessModifiers: False
 IndentCaseLabels: False
+IndentExternBlock: NoIndent
 IndentGotoLabels: True
 IndentWidth: 4
 InsertBraces: True
