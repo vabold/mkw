@@ -495,7 +495,7 @@ config.libs = [
             Object(NonMatching, "nw4r/snd/snd_WsdFile.cpp"),
             Object(NonMatching, "nw4r/snd/snd_WsdPlayer.cpp"),
             Object(NonMatching, "nw4r/snd/snd_adpcm.cpp"),
-            Object(NonMatching, "nw4r/ut/ut_list.cpp"),
+            Object(Matching, "nw4r/ut/ut_list.cpp"),
             Object(NonMatching, "nw4r/ut/ut_LinkList.cpp"),
             Object(NonMatching, "nw4r/ut/ut_binaryFileFormat.cpp"),
             Object(NonMatching, "nw4r/ut/ut_CharStrmReader.cpp"),
