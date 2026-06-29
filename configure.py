@@ -777,7 +777,7 @@ config.libs = [
     {
         "lib": "EGG",
         "mw_version": config.linker_version,
-        "cflags": cflags_base,
+        "cflags": [*cflags_base, "-func_align=4"],
         "progress_category": "egg",
         "objects": [
             Object(NonMatching, "egg/core/eggAllocator.cpp"),
@@ -803,7 +803,7 @@ config.libs = [
             Object(NonMatching, "egg/gfxe/eggCpuTexture.cpp"),
             Object(NonMatching, "egg/core/eggDecomp.cpp"),
             Object(NonMatching, "egg/core/eggDisplay.cpp"),
-            Object(NonMatching, "egg/core/eggDisposer.cpp"),
+            Object(Matching, "egg/core/eggDisposer.cpp"),
             Object(NonMatching, "egg/gfxe/eggDrawGX.cpp"),
             Object(NonMatching, "egg/gfxe/eggDrawPathBase.cpp"),
             Object(NonMatching, "egg/gfxe/eggDrawPathBloom.cpp"),
