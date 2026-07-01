@@ -15,6 +15,7 @@ typedef float f64;
 
 typedef u32 size_t;
 typedef u32 uintptr_t;
+typedef s32 ptrdiff_t;
 
 typedef int BOOL;
 #define TRUE 1
