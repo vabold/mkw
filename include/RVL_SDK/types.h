@@ -29,6 +29,8 @@ typedef int BOOL;
 #endif
 #endif
 
+#define ASM asm
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -55,6 +57,39 @@ extern __locale _current_locale;
 inline int tolower( int c )
 {
     return c < 0 || c >= 0x100 ? c : _current_locale.ctype_cmpt_ptr->lower_map_ptr[ c ];
+}
+
+// math.h
+
+double sqrt( double x );
+double sin( double x );
+double cos( double x );
+double tan( double x );
+double acos( double x );
+
+inline float sqrtf( float x )
+{
+    return sqrt( x );
+}
+
+inline float sinf( float x )
+{
+    return sin( x );
+}
+
+inline float cosf( float x )
+{
+    return cos( x );
+}
+
+inline float tanf( float x )
+{
+    return tan( x );
+}
+
+inline float acosf( float x )
+{
+    return acos( x );
 }
 
 #ifdef __cplusplus

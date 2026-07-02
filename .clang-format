@@ -57,3 +57,4 @@ SpacesInLineCommentPrefix:
 SpacesInParentheses: True
 SpacesInSquareBrackets: True
 UseTab: Never
+WhitespaceSensitiveMacros: [ASM]
