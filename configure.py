@@ -413,7 +413,7 @@ config.libs = [
             Object(NonMatching, "nw4r/lyt/lyt_util.cpp"),
             Object(NonMatching, "nw4r/math/math_arithmetic.cpp"),
             Object(NonMatching, "nw4r/math/math_triangular.cpp"),
-            Object(NonMatching, "nw4r/math/math_types.cpp"),
+            Object(Matching, "nw4r/math/math_types.cpp"),
             Object(NonMatching, "nw4r/math/math_geometry.cpp"),
             Object(NonMatching, "nw4r/math/math_equation.cpp"),
             # NOTE (vabold): I don't know what this is
