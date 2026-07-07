@@ -8,6 +8,8 @@ extern "C"
 
 #include <RVL_SDK/types.h>
 
+#include <RVL_SDK/os/OSFastCast.h>
+
 // TODO: This is likely defined elsewhere
 __attribute__( ( weak ) ) void OSReport( const char *msg, ... );
 __attribute__( ( weak ) ) void OSPanic( const char *file, int line, const char *msg, ... );
