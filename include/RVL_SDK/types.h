@@ -72,16 +72,35 @@ inline int tolower( int c )
 
 // math.h
 
-double sqrt( double x );
+#define NAN -( 0.0f / 0.0f )
+
+double ceil( double x );
+double floor( double x );
+double modf( double x, double *iptr );
 double sin( double x );
 double cos( double x );
 double tan( double x );
 double asin( double x );
 double acos( double x );
+double fmod( double x, double y );
+double sqrt( double x );
 
-inline float sqrtf( float x )
+inline float ceilf( float x )
 {
-    return sqrt( x );
+    return ceil( x );
+}
+
+inline float floorf( float x )
+{
+    return floor( x );
+}
+
+inline float modff( float x, float *iptr )
+{
+    double i;
+    f32 res = modf( x, &i );
+    *iptr = i;
+    return res;
 }
 
 inline float sinf( float x )
@@ -107,6 +126,16 @@ inline float asinf( float x )
 inline float acosf( float x )
 {
     return acos( x );
+}
+
+inline float fmodf( float x, float y )
+{
+    return fmod( x, y );
+}
+
+inline float sqrtf( float x )
+{
+    return sqrt( x );
 }
 
 #ifdef __cplusplus
