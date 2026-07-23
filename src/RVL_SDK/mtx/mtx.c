@@ -1344,9 +1344,8 @@ void C_MTXLightPerspective( MtxPtr m,
     OSAssertMessage( fovY > 0.0 && fovY < 180.0, "MTXLightPerspective():  'fovY' out of range " );
     OSAssertMessage( aspect != 0.0f, "MTXLightPerspective():  'aspect' is 0 " );
 
-    // Matching with C_MTXPerspective, debug compliance
     angle = fovY * 0.5f;
-    angle = angle * DEG2RAD;
+    angle = MTXDegToRad( angle );
     cot = 1.0f / tanf( angle );
 
     m[ 0 ][ 0 ] = cot / aspect * scaleS;
