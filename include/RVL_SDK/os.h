@@ -8,7 +8,10 @@ extern "C"
 
 #include <RVL_SDK/types.h>
 
+#include <RVL_SDK/os/OSContext.h>
 #include <RVL_SDK/os/OSFastCast.h>
+#include <RVL_SDK/os/OSMutex.h>
+#include <RVL_SDK/os/OSThread.h>
 
 // TODO: This is likely defined elsewhere
 __attribute__( ( weak ) ) void OSReport( const char *msg, ... );
