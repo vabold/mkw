@@ -18,6 +18,8 @@ extern "C" {
 
 /// [GSDEAF]/smash.elf:.debug_info
 typedef s32 OSPriority;
+typedef struct OSMutex OSMutex;
+typedef struct OSThread OSThread;
 
 /// [SSDDRV]/SdRGameD.elf:.debug_info::0x00001939
 typedef struct OSThreadQueue {
