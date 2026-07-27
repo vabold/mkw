@@ -515,6 +515,30 @@ config.libs = [
         ],
     },
     {
+        "lib": "RVLFaceLibrary",
+        "mw_version": config.linker_version,
+        "cflags": cflags_base,
+        "progress_category": "rfl",
+        "objects": [
+            Object(NonMatching, "RVLFaceLibrary/RFL_System.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_NANDLoader.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_NANDAccess.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_Model.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_MakeTex.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_Icon.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_HiddenDatabase.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_Database.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_Controller.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_MiddleDatabase.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_MakeRandomFace.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_DefaultDatabase.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_DataUtility.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_NWC24.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_Format.c"),
+            Object(NonMatching, "RVLFaceLibrary/RFL_WiFi.c"),
+        ],
+    },
+    {
         "lib": "RVL_SDK",
         "mw_version": "GC/3.0a5.2",
         "cflags": cflags_base,
@@ -907,6 +931,7 @@ def link_order_callback(module_id: int, objects: List[str]) -> List[str]:
 # Adjust as desired for your project
 config.progress_categories = [
     ProgressCategory("sdk", "SDK"),
+    ProgressCategory("rfl", "RFL"),
     ProgressCategory("nw4r", "nw4r"),
     ProgressCategory("egg", "EGG"),
 ]
