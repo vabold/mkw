@@ -1036,6 +1036,107 @@ nw4r/ut/ut_TextWriterBase.cpp:
 	.sbss       start:0x80386280 end:0x80386298
 	.sdata2     start:0x80388300 end:0x80388318
 
+RVLFaceLibrary/RFL_System.c:
+	extab       start:0x800064A8 end:0x800064D8
+	extabindex  start:0x80006A5C end:0x80006AA4
+	.text       start:0x800BBB80 end:0x800BC6EC
+	.data       start:0x80274F30 end:0x80274F88
+	.sdata      start:0x80384DD8 end:0x80384DE0
+	.sbss       start:0x80386298 end:0x803862A8
+
+RVLFaceLibrary/RFL_NANDLoader.c:
+	extab       start:0x800064D8 end:0x80006558
+	extabindex  start:0x80006AA4 end:0x80006B64
+	.text       start:0x800BC6F0 end:0x800BD788
+	.rodata     start:0x8024B7D8 end:0x8024B868
+	.data       start:0x80274F88 end:0x80274FA8
+	.sdata      start:0x80384DE0 end:0x80384DE8
+
+RVLFaceLibrary/RFL_NANDAccess.c:
+	extab       start:0x80006558 end:0x80006630
+	extabindex  start:0x80006B64 end:0x80006CA8
+	.text       start:0x800BD790 end:0x800C05B0
+	.data       start:0x80274FA8 end:0x80275058
+	.sdata      start:0x80384DE8 end:0x80384DF8
+	.sdata2     start:0x80388318 end:0x80388320
+	.sbss2      start:0x80389148 end:0x80389150
+
+RVLFaceLibrary/RFL_Model.c:
+	extab       start:0x80006630 end:0x80006690
+	extabindex  start:0x80006CA8 end:0x80006D38
+	.text       start:0x800C05B0 end:0x800C2550
+	.rodata     start:0x8024B868 end:0x8024B978
+	.data       start:0x80275058 end:0x80275068
+	.sdata2     start:0x80388320 end:0x80388360
+
+RVLFaceLibrary/RFL_MakeTex.c:
+	extab       start:0x80006690 end:0x800066D0
+	extabindex  start:0x80006D38 end:0x80006D98
+	.text       start:0x800C2550 end:0x800C4E00
+	.rodata     start:0x8024B978 end:0x8024BA38
+	.sdata2     start:0x80388360 end:0x80388420
+
+RVLFaceLibrary/RFL_Icon.c:
+	extab       start:0x800066D0 end:0x800066E0
+	extabindex  start:0x80006D98 end:0x80006DB0
+	.text       start:0x800C4E00 end:0x800C53A0
+	.rodata     start:0x8024BA38 end:0x8024BA78
+	.sdata2     start:0x80388420 end:0x80388460
+
+RVLFaceLibrary/RFL_HiddenDatabase.c:
+	extab       start:0x800066E0 end:0x80006780
+	extabindex  start:0x80006DB0 end:0x80006EA0
+	.text       start:0x800C53A0 end:0x800C63D8
+
+RVLFaceLibrary/RFL_Database.c:
+	extab       start:0x80006780 end:0x80006870
+	extabindex  start:0x80006EA0 end:0x80007008
+	.text       start:0x800C63E0 end:0x800C7EE0
+
+RVLFaceLibrary/RFL_Controller.c:
+	extab       start:0x80006870 end:0x800068A8
+	extabindex  start:0x80007008 end:0x8000705C
+	.text       start:0x800C7EE0 end:0x800C884C
+
+RVLFaceLibrary/RFL_MiddleDatabase.c:
+	extab       start:0x800068A8 end:0x80006908
+	extabindex  start:0x8000705C end:0x800070EC
+	.text       start:0x800C8850 end:0x800C99B0
+
+RVLFaceLibrary/RFL_MakeRandomFace.c:
+	extab       start:0x80006908 end:0x80006928
+	extabindex  start:0x800070EC end:0x8000711C
+	.text       start:0x800C99B0 end:0x800CA7C4
+	.rodata     start:0x8024BA78 end:0x8024C4D0
+	.data       start:0x80275068 end:0x802756B8
+
+RVLFaceLibrary/RFL_DefaultDatabase.c:
+	extab       start:0x80006928 end:0x80006930
+	extabindex  start:0x8000711C end:0x80007128
+	.text       start:0x800CA7D0 end:0x800CA8C0
+	.rodata     start:0x8024C4D0 end:0x8024C690
+
+RVLFaceLibrary/RFL_DataUtility.c:
+	extab       start:0x80006930 end:0x80006988
+	extabindex  start:0x80007128 end:0x800071AC
+	.text       start:0x800CA8C0 end:0x800CB920
+	.rodata     start:0x8024C690 end:0x8024C6A0
+
+RVLFaceLibrary/RFL_NWC24.c:
+	extab       start:0x80006988 end:0x80006990
+	extabindex  start:0x800071AC end:0x800071B8
+	.text       start:0x800CB920 end:0x800CBA34
+
+RVLFaceLibrary/RFL_Format.c:
+	extab       start:0x80006990 end:0x800069E0
+	extabindex  start:0x800071B8 end:0x80007230
+	.text       start:0x800CBA40 end:0x800CBFA8
+
+RVLFaceLibrary/RFL_WiFi.c:
+	extab       start:0x800069E0 end:0x80006A20
+	extabindex  start:0x80007230 end:0x80007290
+	.text       start:0x800CBFB0 end:0x800CC7E4
+
 RVL_SDK/ai/ai.c:
 	.text       start:0x80123F88 end:0x80124500
 	.data       start:0x8027E6C0 end:0x8027E708
