@@ -1,7 +1,7 @@
 #ifndef RVL_SDK_GX_ENUM_H
 #define RVL_SDK_GX_ENUM_H
 
-#include <RVL_SDK/vi/vitypes.h>
+#include <RVL_SDK/types.h>
 
 #ifdef __cplusplus
 extern "C"
@@ -167,11 +167,14 @@ typedef enum _GXCompCnt
 // WARN: Multiple enumerators map to a single value. Choose carefully!
 typedef enum _GXCompType
 {
+    // Primitive types
     GX_U8 = 0,
     GX_S8 = 1,
     GX_U16 = 2,
     GX_S16 = 3,
     GX_F32 = 4,
+
+    // RGB types
     GX_RGB565 = 0,
     GX_RGB8 = 1,
     GX_RGBX8 = 2,
@@ -961,6 +964,14 @@ typedef enum _GXVtxFmt
     GX_VTXFMT7 = 7,
     GX_MAX_VTXFMT = 8,
 } GXVtxFmt;
+
+typedef enum
+{
+    GX_WARN_NONE = 0,
+    GX_WARN_SEVERE = 1,
+    GX_WARN_MEDIUM = 2,
+    GX_WARN_ALL = 3,
+} GXWarningLevel;
 
 typedef enum _GXXFFlushVal
 {
