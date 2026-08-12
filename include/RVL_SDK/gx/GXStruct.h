@@ -3,10 +3,14 @@
 
 #include <RVL_SDK/gx/GXEnum.h>
 
+#include <RVL_SDK/vi/vitypes.h>
+
 #ifdef __cplusplus
 extern "C"
 {
 #endif
+
+typedef void ( *GXBreakPtCallback )( void );
 
 typedef struct _GXColor
 {
@@ -23,6 +27,14 @@ typedef struct _GXColorS10
     s16 b;
     s16 a;
 } GXColorS10;
+
+typedef void ( *GXDrawDoneCallback )( void );
+typedef void ( *GXDrawSyncCallback )( u16 );
+
+typedef struct
+{
+    u8 pad[ 128 ];
+} GXFifoObj;
 
 typedef struct _GXFogAdjTable
 {
@@ -61,6 +73,8 @@ typedef struct _GXTexRegion
     u32 dummy[ 4 ];
 } GXTexRegion;
 
+typedef GXTexRegion *( *GXTexRegionCallback )( GXTexObj *, GXTexMapID );
+
 typedef struct _GXTlutObj
 {
     u32 dummy[ 3 ];
@@ -70,6 +84,10 @@ typedef struct _GXTlutRegion
 {
     u32 dummy[ 4 ];
 } GXTlutRegion;
+
+typedef GXTlutRegion *( *GXTlutRegionCallback )( u32 );
+
+typedef void ( *GXVerifyCallback )( GXWarningLevel, u32, char * );
 
 typedef struct _GXVtxAttrFmtList
 {
