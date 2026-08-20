@@ -3,6 +3,11 @@
 
 #include <RVL_SDK/gx/GXStruct.h>
 
+namespace nw4r
+{
+namespace ut
+{
+
 // NOTE: Color has to be 4-byte aligned due to implicit padding found in Everyone Sings
 struct Color : GXColor
 {
@@ -97,5 +102,8 @@ struct Color : GXColor
         return *reinterpret_cast< u32 * >( this );
     }
 } __attribute__( ( aligned( 4 ) ) );
+
+} // namespace ut
+} // namespace nw4r
 
 #endif
