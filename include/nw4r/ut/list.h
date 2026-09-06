@@ -30,6 +30,11 @@ void *List_GetNext( const List *list, const void *object );
 void *List_GetPrev( const List *list, const void *object );
 void *List_GetNth( const List *list, u16 n );
 
+static inline void *List_GetFirst( const List *list )
+{
+    return List_GetNext( list, NULL );
+}
+
 } // namespace ut
 } // namespace nw4r
 

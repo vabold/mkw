@@ -215,6 +215,13 @@ cflags_base = [
     f"-DVERSION_{config.version}",
 ]
 
+cflags_egg = [
+    *cflags_base,
+    "-use_lmw_stmw on",
+    "-func_align=4",
+    "-str pool,readonly,noreuse",
+]
+
 # Debug flags
 if args.debug:
     cflags_base.extend(["-sym dwarf-2", "-DDEBUG=1"])
@@ -801,7 +808,7 @@ config.libs = [
     {
         "lib": "EGG",
         "mw_version": config.linker_version,
-        "cflags": [*cflags_base, "-func_align=4"],
+        "cflags": cflags_egg,
         "progress_category": "egg",
         "objects": [
             Object(NonMatching, "egg/core/eggAllocator.cpp"),
@@ -853,7 +860,7 @@ config.libs = [
             Object(NonMatching, "egg/gfxe/eggGfxEngine.cpp"),
             Object(NonMatching, "egg/gfxe/eggGlobalDrawState.cpp"),
             Object(NonMatching, "egg/core/eggGraphicsFifo.cpp"),
-            Object(NonMatching, "egg/core/eggHeap.cpp"),
+            Object(Matching, "egg/core/eggHeap.cpp"),
             Object(NonMatching, "egg/gfxe/eggIScnProc.cpp"),
             Object(NonMatching, "egg/gfxe/eggLightManager.cpp"),
             Object(NonMatching, "egg/gfxe/eggLightObject.cpp"),

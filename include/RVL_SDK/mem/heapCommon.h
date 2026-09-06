@@ -47,6 +47,11 @@ void MEMiDumpHeapHead( MEMiHeapHead *heap );
 MEMiHeapHead *MEMFindContainHeap( const void *block );
 MEMiHeapHead *MEMFindParentHeap( MEMiHeapHead *heap );
 
+static inline void *MEMGetHeapEndAddress( MEMiHeapHead *heap )
+{
+    return heap->heapEnd;
+}
+
 static inline s32 MEMGetHeapTotalSize( MEMiHeapHead *heap )
 {
     return (u32)heap->heapEnd - (u32)heap;

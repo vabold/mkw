@@ -49,6 +49,10 @@ extern "C"
 
 // Any external functions can temporary live here until sorted into their correct header
 
+// cstring.h
+
+void *memset( void *s, int c, size_t n );
+
 // ctype.h
 
 typedef struct _loc_ctype_cmpt
