@@ -10,7 +10,8 @@ class Heap;
 
 class Disposer
 {
-public:
+    friend class Heap;
+protected:
     Disposer( void );
     virtual ~Disposer( void );
 
