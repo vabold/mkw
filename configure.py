@@ -806,6 +806,18 @@ config.libs = [
         ],
     },
     {
+        "lib": "RevoEX",
+        "mw_version": "GC/3.0a5.2",
+        "cflags": cflags_base,
+        "progress_category": "rex",
+        "objects": [
+            Object(NonMatching, "RevoEX/so/SOCommon.c"),
+            Object(NonMatching, "RevoEX/so/SOBasic.c"),
+            Object(NonMatching, "RevoEX/so/SOInformation.c"),
+            Object(NonMatching, "RevoEX/so/SOOption.c"),
+        ],
+    },
+    {
         "lib": "EGG",
         "mw_version": config.linker_version,
         "cflags": cflags_egg,
@@ -938,6 +950,7 @@ def link_order_callback(module_id: int, objects: List[str]) -> List[str]:
 # Adjust as desired for your project
 config.progress_categories = [
     ProgressCategory("sdk", "SDK"),
+    ProgressCategory("rex", "RevoEX"),
     ProgressCategory("rfl", "RFL"),
     ProgressCategory("nw4r", "nw4r"),
     ProgressCategory("egg", "EGG"),
