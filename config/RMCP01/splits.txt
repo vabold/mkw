@@ -2342,6 +2342,24 @@ RVL_SDK/wud/WUDHidHost.c:
 RVL_SDK/wud/debug_msg.c:
 	.text       start:0x801D09CC end:0x801D0A1C
 
+RevoEX/so/SOCommon.c:
+	.text       start:0x801EBEC0 end:0x801ECF20
+	.bss        start:0x80357220 end:0x80357238
+	.sdata      start:0x80385EE0 end:0x80385EE8
+	.sbss       start:0x80386D30 end:0x80386D40
+
+RevoEX/so/SOBasic.c:
+	.text       start:0x801ECF20 end:0x801EDE88
+	.bss        start:0x80357238 end:0x80357260
+	.sdata      start:0x80385EE8 end:0x80385EF0
+	.sbss       start:0x80386D40 end:0x80386D48
+
+RevoEX/so/SOInformation.c:
+	.text       start:0x801EDE88 end:0x801EE388
+
+RevoEX/so/SOOption.c:
+	.text       start:0x801EE388 end:0x801EE668
+
 egg/core/eggAllocator.cpp:
 	.text       start:0x8020F62C end:0x8020F6EC
 	.data       start:0x802A2668 end:0x802A2680
