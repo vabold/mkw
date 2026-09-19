@@ -1,4 +1,4 @@
-/// \file RevoEX/so/private/SOInet6.h
+/// \file RevoEX/private/SOInet6.h
 ///
 /// Sources:
 ///     [SDLE78] Dood's Big Adventure

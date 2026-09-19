@@ -183,7 +183,11 @@ typedef struct SOAddrInfo
     SOAddrInfo *next;
 } SOAddrInfo;
 
-// SOCommon.c
+/******************************************************************************
+ *
+ * SOCommon.c
+ *
+ ******************************************************************************/
 
 int SOInit( SOLibraryConfig *config ); // [RDCE78] DWARF
 int SOFinish( void );                  // [RDCE78] DWARF
@@ -193,7 +197,11 @@ int SOCleanup( void );                 // [RDCE78] DWARF
 int SOGetLastError( void );            // [RDCE78] DWARF
 // Not found: SOSwitchBufferAddrCheck
 
-// SOInformation.c
+/******************************************************************************
+ *
+ * SOInformation.c
+ *
+ ******************************************************************************/
 
 s32 SOGetHostID( void );                             // [RDCE78] DWARF
 SOResolver *SOGetHostByName( const char *hostName ); // [R3RE8P]
