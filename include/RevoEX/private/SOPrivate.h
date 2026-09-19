@@ -1,4 +1,4 @@
-/// \file RevoEX/so/private/SOPrivate.h
+/// \file RevoEX/private/SOPrivate.h
 ///
 /// Sources:
 ///     [SDLE78] Dood's Big Adventure
@@ -14,7 +14,7 @@
 
 #include <RevoEX/so.h>
 
-#include <RevoEX/so/private/SOInet6.h>
+#include <RevoEX/private/SOInet6.h>
 
 #ifdef __cplusplus
 extern "C"
