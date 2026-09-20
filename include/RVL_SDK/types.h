@@ -51,6 +51,7 @@ extern "C"
 
 // cstring.h
 
+void *memcpy( void *d, void *s, size_t n );
 void *memset( void *s, int c, size_t n );
 
 // ctype.h

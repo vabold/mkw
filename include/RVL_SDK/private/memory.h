@@ -18,11 +18,16 @@ extern "C"
 {
 #endif
 
-s32 iosCreateHeap( void *base, u32 size );
-s32 iosDestroyHeap( s32 hid );
-void *iosAlloc( s32 hid, s32 size );
-void *iosAllocAligned( s32 hid, s32 size, u32 align );
-s32 iosFree( s32 hid, void *ptr );
+enum
+{
+    IOS_HEAP_MAX = 8,
+};
+
+IOSHeapId iosCreateHeap( void *base, u32 size );
+IOSError iosDestroyHeap( IOSHeapId hid );
+void *iosAlloc( IOSHeapId hid, s32 size );
+void *iosAllocAligned( IOSHeapId hid, s32 size, u32 align );
+IOSError iosFree( IOSHeapId hid, void *ptr );
 
 #ifdef __cplusplus
 }

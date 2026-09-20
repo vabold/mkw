@@ -20,16 +20,24 @@ extern "C"
 {
 #endif
 
+enum
+{
+    IPCREG_PPCMSG = 0,
+    IPCREG_PPCCTRL = 1,
+    IPCREG_IOPMSG = 2,
+    IPCREG_IOPCTRL = 3,
+};
+
 /******************************************************************************
  *
  * ipcMain.c
  *
  ******************************************************************************/
 
-s32 IPCInit( void );
-s32 IPCReInit( void );
-u32 IPCReadReg( u32 reg );
-void IPCWriteReg( u32 reg, u32 value );
+void IPCInit( void );
+void IPCReInit( void );
+u32 IPCReadReg( u32 ipcReg );
+void IPCWriteReg( u32 ipcReg, u32 regVal );
 void *IPCGetBufferHi( void );
 void *IPCGetBufferLo( void );
 void IPCSetBufferHi( void *newHi );
@@ -41,8 +49,8 @@ void IPCSetBufferLo( void *newLo );
  *
  ******************************************************************************/
 
-s32 IPCCltInit( void );
-s32 IPCCltReInit( void );
+IOSError IPCCltInit( void );
+IOSError IPCCltReInit( void );
 
 /******************************************************************************
  *
@@ -52,7 +60,7 @@ s32 IPCCltReInit( void );
 
 u32 IPCGetNumPendingReqs( void );
 u32 IPCGetNumUnIssuedReqs( void );
-s32 IPCGetQueueStatus( u32 );
+IOSError IPCGetQueueStatus( u32 );
 
 #ifdef __cplusplus
 }

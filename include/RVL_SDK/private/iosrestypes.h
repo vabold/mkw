@@ -21,18 +21,6 @@ extern "C"
 {
 #endif
 
-// TODO: Enum or preprocessor defines?
-enum
-{
-    IOS_OPEN = 1,
-    IOS_CLOSE = 2,
-    IOS_READ = 3,
-    IOS_WRITE = 4,
-    IOS_SEEK = 5,
-    IOS_IOCTL = 6,
-    IOS_IOCTLV = 7,
-};
-
 // [SDLE78]/DtoL_Debug_Wii.elf DWARF (typedef name confirmed)
 typedef struct
 {
@@ -51,12 +39,13 @@ typedef struct
 // [IOSU] "IOS_WRITE  inLen:%08x inPtr:%08x"
 // [IOSU] "IOS_IOCTL  cmd:%08x inLen:%08x inPtr:%08x outLen:%08x outPtr:%08x"
 // [IOSU] "IOS_IOCTLV cmd:%08x readCount:%08x writeCount:%08x vector:%08x"
-// [IOSU] "p_b->rm_request.args.ioctl.inPtr == (void*)p_t"
+// [IOSU] "Failed at %s(%d): p_b->rm_request.handle == p_t->client_handle"
+// [IOSU] "Failed at %s(%d): p_b->rm_request.args.ioctl.inPtr == (void*)p_t"
 // [IOSU] "ISFS: %s(%d)Invalid offset %d, whence %d with file size %d"
 
 typedef struct
 {
-    char *path;
+    u8 *path;
     u32 flags;
 
     // IPC server-side only
@@ -112,8 +101,8 @@ typedef union
 typedef struct
 {
     u32 cmd;
-    s32 result;
-    s32 fd;
+    s32 status;
+    IOSFd handle;
     IOSIoRequestArgs args;
 } IOSIoRequest;
 
