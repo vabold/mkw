@@ -19,7 +19,6 @@ extern "C"
 #endif
 
 // [IOS9A]:segment_19(NCD.data):0x0 (0x13d6a000)
-// TODO: Enum or preprocessor defines?
 enum
 {
     IOS_ERROR_OK = 0,
