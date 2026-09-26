@@ -2,13 +2,11 @@
 #define RVL_SDK_GX_STRUCT_H
 
 #include <RVL_SDK/gx/GXEnum.h>
+#include <RVL_SDK/types.h>
 
 #include <RVL_SDK/vi/vitypes.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 typedef void ( *GXBreakPtCallback )( void );
 
@@ -103,8 +101,6 @@ typedef struct _GXVtxDescList
     GXAttrType type;
 } GXVtxDescList;
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_STRUCT_H

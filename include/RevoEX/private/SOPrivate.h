@@ -12,14 +12,12 @@
 #ifndef REVOEX_SOPRIVATE_H
 #define REVOEX_SOPRIVATE_H
 
+#include <RVL_SDK/types.h>
 #include <RevoEX/so.h>
 
 #include <RevoEX/private/SOInet6.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // [RDCE78]/DeadlyCreatures_Debug.elf DWARF
 typedef struct SOSysWork
@@ -50,8 +48,6 @@ int SOiWaitForDHCPEx( int timeOut ); // [RDCE78] DWARF
 
 int __SOCreateSocket( int pf, int type, int protocol ); // [RDCE78] DWARF
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_LIGHTING_H
 
 #include <RVL_SDK/gx/GXStruct.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXInitLightAttn( GXLightObj *lt_obj, f32 a0, f32 a1, f32 a2, f32 k0, f32 k1, f32 k2 );
 void GXInitLightAttnA( GXLightObj *lt_obj, f32 a0, f32 a1, f32 a2 );
@@ -37,8 +35,6 @@ void GXSetChanCtrl( GXChannelID chan,
         GXDiffuseFn diff_fn,
         GXAttnFn attn_fn );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_LIGHTING_H

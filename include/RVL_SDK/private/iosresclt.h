@@ -12,11 +12,9 @@
 #define RVL_SDK_PRIVATE_IOSRESCLT_H
 
 #include <RVL_SDK/private/iosrestypes.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // Note: iosresclt means IOS Resource Client
 
@@ -51,8 +49,6 @@ s32 IOS_IoctlvAsync( s32 fd,
 s32 IOS_Ioctlv( s32 fd, u32 cmd, u32 readCount, u32 writeCount, IOSIoVector *vector );
 s32 IOS_IoctlvReboot( s32 fd, u32 cmd, u32 readCount, u32 writeCount, IOSIoVector *vector );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

@@ -4,11 +4,9 @@
 #include <RVL_SDK/mem/list.h>
 
 #include <RVL_SDK/os/OSMutex.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 typedef enum MEMHeapType
 {
@@ -77,8 +75,6 @@ static inline MEMHeapType MEMGetHeapType( MEMiHeapHead *heap )
     }
 }
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

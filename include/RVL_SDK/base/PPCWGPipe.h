@@ -3,10 +3,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 typedef union uPPCWGPipe
 {
@@ -22,8 +19,6 @@ typedef union uPPCWGPipe
     f64 f64;
 } PPCWGPipe;
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_BASE_PPCWGPIPE_H

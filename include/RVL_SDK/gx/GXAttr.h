@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_ATTR_H
 
 #include <RVL_SDK/gx/GXStruct.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXSetVtxDesc( GXAttr attr, GXAttrType type );
 void GXSetVtxDescv( GXVtxDescList *attrPtr );
@@ -38,8 +36,6 @@ void GXSetTexCoordGen2( GXTexCoordID dst_coord,
         u32 pt_texmtx );
 void GXSetNumTexGens( u8 nTexGens );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_ATTR_H

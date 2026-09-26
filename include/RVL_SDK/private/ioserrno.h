@@ -13,10 +13,9 @@
 #ifndef RVL_SDK_PRIVATE_IOSERRNO_H
 #define RVL_SDK_PRIVATE_IOSERRNO_H
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+#include <RVL_SDK/types.h>
+
+EXTERN_C_BEGIN
 
 // [IOS9A]:segment_19(NCD.data):0x0 (0x13d6a000)
 // TODO: Enum or preprocessor defines?
@@ -48,8 +47,6 @@ enum
     IOS_ERROR_INVALID_SIZE = -23,
 };
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

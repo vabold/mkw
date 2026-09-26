@@ -43,9 +43,16 @@ typedef int BOOL;
 #define ASM asm
 
 #ifdef __cplusplus
-extern "C"
-{
+#define EXTERN_C_BEGIN \
+    extern "C" \
+    {
+#define EXTERN_C_END }
+#else
+#define EXTERN_C_BEGIN
+#define EXTERN_C_END
 #endif
+
+EXTERN_C_BEGIN
 
 // Any external functions can temporary live here until sorted into their correct header
 
@@ -142,8 +149,6 @@ inline float sqrtf( float x )
     return sqrt( x );
 }
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

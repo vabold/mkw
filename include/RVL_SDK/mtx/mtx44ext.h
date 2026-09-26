@@ -2,11 +2,9 @@
 #define RVL_SDK_MTX_MTX44_EXT_H
 
 #include <RVL_SDK/mtx/GeoTypes.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 /******************************************************************************
  *
@@ -77,7 +75,5 @@ void PSMTX44MultVecArraySR( CMtx44Ptr m, CVecPtr srcBase, VecPtr dstBase, u32 co
 #define MTX44MultVecSR PSMTX44MultVecSR
 #define MTX44MultVecArraySR PSMTX44MultVecArraySR
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 #endif

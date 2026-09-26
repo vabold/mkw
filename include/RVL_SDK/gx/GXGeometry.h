@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_GEOMETRY_H
 
 #include <RVL_SDK/gx/GXAttr.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXBegin( GXPrimitive type, GXVtxFmt vtxfmt, u16 nverts );
 void GXSetLineWidth( u8 width, GXTexOffset texOffsets );
@@ -31,8 +29,6 @@ GXSetTexCoordGen( GXTexCoordID dst_coord, GXTexGenType func, GXTexGenSrc src_par
     GXSetTexCoordGen2( dst_coord, func, src_param, mtx, GX_FALSE, GX_PTIDENTITY );
 }
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_GEOMETRY_H

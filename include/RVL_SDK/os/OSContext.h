@@ -12,10 +12,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 /// [SSDDRV]/SdRGameD.elf:.debug_info::0x00001ABC
 typedef struct OSContext
@@ -61,8 +58,6 @@ void OSDumpContext( OSContext *context );
 void __OSContextInit( void );
 void OSFillFPUContext( OSContext *context );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_OS_CONTEXT_H

@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_INTERNAL_H
 
 #include <RVL_SDK/gx/GXStruct.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // TODO: Cross-reference Big Brain Academy: Wii Degree to see which functions are weak
 // Functions like __GXReadMEMCounterU32 are likely header-defined
@@ -154,8 +152,6 @@ void __GXVerifyXF( void );
 void __GXVerifyState( u32 );
 void __GXVerifyVATImm( u32, u32, u32, u32 );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_INTERNAL_H

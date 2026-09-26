@@ -12,11 +12,9 @@
 #define RVL_SDK_PRIVATE_MEMORY_H
 
 #include <RVL_SDK/private/iostypes.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 s32 iosCreateHeap( void *base, u32 size );
 s32 iosDestroyHeap( s32 hid );
@@ -24,8 +22,6 @@ void *iosAlloc( s32 hid, s32 size );
 void *iosAllocAligned( s32 hid, s32 size, u32 align );
 s32 iosFree( s32 hid, void *ptr );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

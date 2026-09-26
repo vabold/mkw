@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_TEXTURE_H
 
 #include <RVL_SDK/gx/GXStruct.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // mipmap: Use GX_TRUE or GX_FALSE
 // max_lod: Use GX_TRUE or GX_FALSE
@@ -131,8 +129,6 @@ void GXSetTexCoordCylWrap( GXTexCoordID coord, GXBool s_enable, GXBool t_enable 
 // t_enable: Use GX_ENABLE or GX_DISABLE
 void GXSetTexCoordBias( GXTexCoordID coord, GXBool s_enable, GXBool t_enable );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_TEXTURE_H

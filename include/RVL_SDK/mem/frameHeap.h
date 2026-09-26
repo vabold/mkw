@@ -2,11 +2,9 @@
 #define RVL_SDK_MEM_FRAME_HEAP_H
 
 #include <RVL_SDK/mem/heapCommon.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void *MEMiGetFreeStartForFrmHeap( MEMiHeapHead *heap );
 void *MEMiGetFreeEndForFrmHeap( MEMiHeapHead *heap );
@@ -35,8 +33,6 @@ static inline u32 MEMGetAllocatableSizeForFrmHeap( MEMiHeapHead *heap )
     return MEMGetAllocatableSizeForFrmHeapEx( heap, 4 );
 }
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

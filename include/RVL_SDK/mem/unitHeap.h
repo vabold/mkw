@@ -2,11 +2,9 @@
 #define RVL_SDK_MEM_UNIT_HEAP_H
 
 #include <RVL_SDK/mem/heapCommon.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 typedef struct MEMiUnitHeapExt
 {
@@ -38,8 +36,6 @@ static inline u32 MEMGetMemBlockSizeForUnitHeap( MEMiHeapHead *heap )
     return ( (MEMiUnitHeapHead *)heap )->ext.memBlockSize;
 }
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

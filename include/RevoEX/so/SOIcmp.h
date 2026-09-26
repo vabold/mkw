@@ -13,10 +13,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // TODO: These are identical to POSIX and the rest can be inferred
 // See also: https://www.iana.org/protocols
@@ -45,8 +42,6 @@ enum
     SO_IPPROTO_ICMPV6 = 58,
 };
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

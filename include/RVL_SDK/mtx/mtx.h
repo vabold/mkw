@@ -2,11 +2,9 @@
 #define RVL_SDK_MTX_MTX_H
 
 #include <RVL_SDK/mtx/GeoTypes.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 /******************************************************************************
  *
@@ -238,8 +236,6 @@ void PSMTXROMultVecArray( CROMtxPtr m, CVecPtr srcBase, VecPtr dstBase, u32 coun
 #define MTXReorder PSMTXReorder
 #define MTXROMultVecArray PSMTXROMultVecArray
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

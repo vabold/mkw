@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_TEV_H
 
 #include <RVL_SDK/gx/GXStruct.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXSetTevOp( GXTevStageID id, GXTevMode mode );
 void GXSetTevColorIn( GXTevStageID stage,
@@ -50,8 +48,6 @@ void GXSetZTexture( GXZTexOp op, GXTexFmt fmt, u32 bias );
 void GXSetTevOrder( GXTevStageID stage, GXTexCoordID coord, GXTexMapID map, GXChannelID color );
 void GXSetNumTevStages( u8 nStages );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_TEV_H

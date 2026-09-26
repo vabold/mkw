@@ -3,10 +3,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 typedef struct
 {
@@ -63,8 +60,6 @@ typedef struct
 typedef MtxStack *MtxStackPtr;
 typedef const MtxStack *CMtxStackPtr;
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

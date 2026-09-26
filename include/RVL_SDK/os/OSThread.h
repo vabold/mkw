@@ -11,11 +11,9 @@
 #define RVL_SDK_OS_THREAD_H
 
 #include <RVL_SDK/os/OSContext.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 /// [GSDEAF]/smash.elf:.debug_info
 typedef s32 OSPriority;
@@ -114,8 +112,6 @@ void *OSGetThreadSpecific( s32 index );
 // Wii-specific, no DWARF
 void OSSleepTicks( s64 ticks );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_OS_THREAD_H

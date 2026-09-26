@@ -3,10 +3,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXDrawCylinder( u32 edges );
 void GXDrawTorus( f32 thickness, u32, u32 );
@@ -18,8 +15,6 @@ void GXDrawIcosahedron( void );
 void GXDrawSphere1( u8 );
 void GXGenNormalTable( u8, void * );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_DRAW_H

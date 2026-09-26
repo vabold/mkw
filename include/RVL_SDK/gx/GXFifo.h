@@ -2,13 +2,11 @@
 #define RVL_SDK_GX_FIFO_H
 
 #include <RVL_SDK/gx/GXStruct.h>
+#include <RVL_SDK/types.h>
 
 #include <RVL_SDK/os/OSThread.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXInitFifoBase( GXFifoObj *fifo, void *base, u32 size );
 void GXInitFifoPtrs( GXFifoObj *fifo, void *readPtr, void *writePtr );
@@ -39,8 +37,6 @@ u32 GXResetOverflowCount( void );
 void *GXRedirectWriteGatherPipe( void *ptr );
 void GXRestoreWriteGatherPipe( void );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_FIFO_H

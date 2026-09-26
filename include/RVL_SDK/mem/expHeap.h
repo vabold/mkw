@@ -2,11 +2,9 @@
 #define RVL_SDK_MEM_EXP_HEAP_H
 
 #include <RVL_SDK/mem/heapCommon.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 MEMiHeapHead *MEMCreateExpHeapEx( void *startAddress, u32 size, u16 opt );
 MEMiHeapHead *MEMDestroyExpHeap( MEMiHeapHead *heap );
@@ -44,8 +42,6 @@ static inline u32 MEMGetAllocatableSizeForExpHeap( MEMiHeapHead *heap )
     return MEMGetAllocatableSizeForExpHeapEx( heap, 4 );
 }
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif
