@@ -1,17 +1,14 @@
 #ifndef OS_H
 #define OS_H
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
 #include <RVL_SDK/types.h>
 
 #include <RVL_SDK/os/OSContext.h>
 #include <RVL_SDK/os/OSFastCast.h>
 #include <RVL_SDK/os/OSMutex.h>
 #include <RVL_SDK/os/OSThread.h>
+
+EXTERN_C_BEGIN
 
 // TODO: This is likely defined elsewhere
 __attribute__( ( weak ) ) void OSReport( const char *msg, ... );
@@ -26,8 +23,6 @@ __attribute__( ( weak ) ) void OSPanic( const char *file, int line, const char *
 #define OSAssert( exp_ ) OSAssertMessage( exp_, "Failed assertion " #exp_ )
 #define OSError( ... ) OSPanic( __FILE__, __LINE__, __VA_ARGS__ )
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

@@ -3,10 +3,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 static inline f32 __OSu16tof32( register u16 *in )
 {
@@ -74,8 +71,6 @@ static inline void OSf32tos16( f32 *in, vs16 *out )
     *out = __OSf32tos16( *in );
 }
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

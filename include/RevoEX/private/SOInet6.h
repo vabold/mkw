@@ -13,10 +13,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // Assumed from [IOS] "assert !SO_IN6_ARE_ADDR_EQUAL(&ip6->dst, &SOIn6AddrAny)"
 typedef struct SOIn6Addr
@@ -66,8 +63,6 @@ extern const SOIn6Addr SOIn6AddrAny;
 // TODO: SO_IN6_IS_ADDR_MC_ORGLOCAL
 // TODO: SO_IN6_IS_ADDR_MC_GLOBAL
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

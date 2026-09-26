@@ -3,10 +3,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 typedef struct MEMLink
 {
@@ -31,8 +28,6 @@ void *MEMGetNextListObject( const MEMList *list, void *object );
 void *MEMGetPrevListObject( const MEMList *list, void *object );
 void *MEMGetNthListObject( const MEMList *list, u16 index );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

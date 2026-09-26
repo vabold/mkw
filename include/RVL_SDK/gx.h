@@ -1,11 +1,6 @@
 #ifndef RVL_SDK_GX_H
 #define RVL_SDK_GX_H
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
 #include <RVL_SDK/gx/GXAttr.h>
 #include <RVL_SDK/gx/GXBump.h>
 #include <RVL_SDK/gx/GXDispList.h>
@@ -25,9 +20,5 @@ extern "C"
 #include <RVL_SDK/gx/GXTransform.h>
 #include <RVL_SDK/gx/GXVerify.h>
 #include <RVL_SDK/gx/GXVert.h>
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif // RVL_SDK_GX_H

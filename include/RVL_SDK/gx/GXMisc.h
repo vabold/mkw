@@ -4,11 +4,9 @@
 #define RVL_SDK_GX_MISC_H
 
 #include <RVL_SDK/gx/GXStruct.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXSetMisc( GXMiscToken token, u32 val );
 void GXFlush( void );
@@ -47,8 +45,6 @@ GXDrawDoneCallback GXSetDrawDoneCallback( GXDrawDoneCallback cb );
 u32 GXCompressZ16( u32 z24, GXZFmt16 zfmt );
 u32 GXDecompressZ16( u32 z16, GXZFmt16 zfmt );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_MISC_H

@@ -3,10 +3,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 typedef enum
 {
@@ -26,8 +23,6 @@ typedef enum
     VI_XFBMODE_DF = 1,
 } VIXFBMode;
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_VI_TYPES_H

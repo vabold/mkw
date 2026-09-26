@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_DISP_LIST_H
 
 #include <RVL_SDK/gx/GXVert.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXBeginDisplayList( void *list, u32 size );
 u32 GXEndDisplayList( void );
@@ -19,8 +17,6 @@ static inline void GXFastCallDisplayList( void *list, u32 nbytes )
     GXWGFifo.u32 = nbytes;
 }
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_DISP_LIST_H

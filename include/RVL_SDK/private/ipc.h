@@ -14,11 +14,9 @@
 
 #include <RVL_SDK/private/iosresclt.h>
 #include <RVL_SDK/private/iostypes.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 /******************************************************************************
  *
@@ -54,8 +52,6 @@ u32 IPCGetNumPendingReqs( void );
 u32 IPCGetNumUnIssuedReqs( void );
 s32 IPCGetQueueStatus( u32 );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

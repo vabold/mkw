@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_PERF_H
 
 #include <RVL_SDK/gx/GXEnum.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXSetGPMetric( GXPerf0 perf0, GXPerf1 perf1 );
 void GXReadGPMetric( u32 *cnt0, u32 *cnt1 );
@@ -38,8 +36,6 @@ void GXInitXfRasMetric( void );
 void GXReadXfRasMetric( u32 *xf_wait_in, u32 *xf_wait_out, u32 *ras_busy, u32 *clocks );
 u32 GXReadClksPerVtx( void );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_PERF_H

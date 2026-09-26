@@ -10,11 +10,9 @@
 #define RVL_SDK_OS_MUTEX_H
 
 #include <RVL_SDK/os/OSThread.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 /// [SSDDRV]/SdRGameD.elf:.debug_info::0x00001CB9
 typedef struct OSMutexLink
@@ -52,8 +50,6 @@ BOOL __OSCheckMutex( OSMutex *mutex );
 BOOL __OSCheckDeadLock( OSThread *thread );
 BOOL __OSCheckMutexes( OSThread *thread );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_OS_MUTEX_H

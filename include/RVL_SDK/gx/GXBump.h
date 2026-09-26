@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_BUMP_H
 
 #include <RVL_SDK/gx/GXEnum.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // add_prev: Use GX_TRUE or GX_FALSE
 // utc_lod: Use GX_TRUE or GX_FALSE
@@ -53,8 +51,6 @@ void GXSetTevIndBumpXYZ( GXTevStageID tev_stage,
         GXIndTexMtxID matrix_sel );
 void GXSetTevIndRepeat( GXTevStageID tev_stage );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_BUMP_H

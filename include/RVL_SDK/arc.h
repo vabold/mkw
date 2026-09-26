@@ -5,10 +5,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 typedef struct ARCHandle
 {
@@ -59,8 +56,6 @@ BOOL ARCOpenDir( ARCHandle *handle, const char *dirName, ARCDir *dir );
 BOOL ARCReadDir( ARCDir *dir, ARCDirEntry *dirent );
 BOOL ARCCloseDir( ARCDir *dir );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

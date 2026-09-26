@@ -13,17 +13,14 @@
 #ifndef REVOEX_SOOPTION_H
 #define REVOEX_SOOPTION_H
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+#include <RVL_SDK/types.h>
+
+EXTERN_C_BEGIN
 
 int SOGetSockOpt( int s, int level, int optname, void *optval, int *optlen ); // [RSBE01]
 int SOSetSockOpt( int s, int level, int optname, void *optval, int optlen );  // [R3RE8P]
 int SOGetInterfaceOpt( int level, int optname, void *optval, int *optlen );   // [RDCE78] DWARF
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

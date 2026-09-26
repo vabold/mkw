@@ -2,13 +2,11 @@
 #define RVL_SDK_GX_PIXEL_H
 
 #include <RVL_SDK/gx/GXStruct.h>
+#include <RVL_SDK/types.h>
 
 #include <RVL_SDK/mtx.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXSetFog( GXFogType type, f32 startz, f32 endz, f32 nearz, f32 farz, GXColor color );
 void GXSetFogColor( GXColor color );
@@ -44,8 +42,6 @@ void GXSetFieldMask( GXBool odd_mask, GXBool even_mask );
 // half_aspect_ratio: Use GX_TRUE or GX_FALSE
 void GXSetFieldMode( GXBool field_mode, GXBool half_aspect_ratio );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_PIXEL_H

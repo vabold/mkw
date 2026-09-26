@@ -12,15 +12,13 @@
 #ifndef REVOEX_SO_H
 #define REVOEX_SO_H
 
+#include <RVL_SDK/types.h>
 #include <RevoEX/so/SOIcmp.h>
 
 #include <RevoEX/so/SOBasic.h>
 #include <RevoEX/so/SOOption.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // TODO: Could these be in SOBasic.h?
 
@@ -211,8 +209,6 @@ int SOGetAddrInfo( const char *node,
         SOAddrInfo **res );                  // [R3RE8P]
 void SOFreeAddrInfo( SOAddrInfo *addrInfo ); // [R3RE8P]
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

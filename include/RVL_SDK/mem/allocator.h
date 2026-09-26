@@ -2,11 +2,9 @@
 #define RVL_SDK_MEM_ALLOCATOR_H
 
 #include <RVL_SDK/mem/heapCommon.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // TODO: This belongs elsewhere
 typedef int OSHeapHandle;
@@ -34,8 +32,6 @@ void MEMInitAllocatorForFrmHeap( MEMAllocator *pAllocator, MEMiHeapHead *pHeap, 
 void MEMInitAllocatorForUnitHeap( MEMAllocator *pAllocator, MEMiHeapHead *pHeap );
 void MEMInitAllocatorForOSHeap( MEMAllocator *pAllocator, OSHeapHandle heap );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

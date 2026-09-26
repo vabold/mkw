@@ -4,11 +4,9 @@
 #include <RVL_SDK/gx/GXEnum.h>
 
 #include <RVL_SDK/base/PPCWGPipe.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 volatile PPCWGPipe GXWGFifo : 0xcc008000;
 
@@ -288,8 +286,6 @@ static inline void GXMatrixIndex1u8( const u8 x )
     GXWGFifo.u8 = x;
 }
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_VERT_H

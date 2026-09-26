@@ -15,11 +15,9 @@
 #define RVL_SDK_PRIVATE_IOSRESTYPES_H
 
 #include <RVL_SDK/private/iostypes.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // TODO: Enum or preprocessor defines?
 enum
@@ -117,8 +115,6 @@ typedef struct
     IOSIoRequestArgs args;
 } IOSIoRequest;
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

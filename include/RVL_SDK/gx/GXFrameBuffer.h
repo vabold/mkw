@@ -2,11 +2,9 @@
 #define RVL_SDK_GX_FRAME_BUFFER_H
 
 #include <RVL_SDK/gx/GXStruct.h>
+#include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXAdjustForOverscan( GXRenderModeObj *rmin, GXRenderModeObj *rmout, u16 hor, u16 ver );
 void GXSetDispCopySrc( u16 left, u16 top, u16 wd, u16 ht );
@@ -29,8 +27,6 @@ void GXCopyTex( void *dest, GXBool clear );
 void GXClearBoundingBox( void );
 void GXReadBoundingBox( u16 *left, u16 *top, u16 *right, u16 *bottom );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_FRAME_BUFFER_H

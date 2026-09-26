@@ -15,10 +15,7 @@
 
 #include <RVL_SDK/types.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 // [RDCE78]/DeadlyCreatures_Debug.elf DWARF
 typedef struct SOInAddr
@@ -74,8 +71,6 @@ u16 SONtoHs( u16 netshort );                                            // [R3RE
 u32 SOHtoNl( u32 hostlong );                                            // [R3RE8P]
 u16 SOHtoNs( u16 hostshort );                                           // [RDCE78] DWARF
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif

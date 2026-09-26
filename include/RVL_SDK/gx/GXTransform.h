@@ -2,13 +2,11 @@
 #define RVL_SDK_GX_TRANSFORM_H
 
 #include <RVL_SDK/gx/GXEnum.h>
+#include <RVL_SDK/types.h>
 
 #include <RVL_SDK/mtx.h>
 
-#ifdef __cplusplus
-extern "C"
-{
-#endif
+EXTERN_C_BEGIN
 
 void GXProject( f32 x, f32 y, f32 z, MtxPtr mtx, f32 *pm, f32 *vp, f32 *sx, f32 *sy, f32 *sz );
 void GXSetProjection( Mtx44Ptr mtx, GXProjectionType type );
@@ -46,8 +44,6 @@ void GXGetScissor( u32 *left, u32 *top, u32 *wd, u32 *ht );
 void GXSetScissorBoxOffset( s32 x_off, s32 y_off );
 void GXSetClipMode( GXClipMode mode );
 
-#ifdef __cplusplus
-}
-#endif
+EXTERN_C_END
 
 #endif // RVL_SDK_GX_TRANSFORM_H
