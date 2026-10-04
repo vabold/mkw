@@ -1137,6 +1137,111 @@ RVLFaceLibrary/RFL_WiFi.c:
 	extabindex  start:0x80007230 end:0x80007290
 	.text       start:0x800CBFB0 end:0x800CC7E4
 
+RVLDWC/common/dwc_base64.c:
+	.text       start:0x800CC7E4 end:0x800CCB4C
+	.data       start:0x802756B8 end:0x80275700
+	.sdata      start:0x80384DF8 end:0x80384E00
+
+RVLDWC/common/dwc_error.c:
+	.text       start:0x800CCB4C end:0x800CCC80
+	.data       start:0x80275700 end:0x80275758
+	.sbss       start:0x803862A8 end:0x803862B0
+
+RVLDWC/common/dwc_init.c:
+	.text       start:0x800CCC80 end:0x800CCDB4
+	.data       start:0x80275758 end:0x802757D8
+	.sdata      start:0x80384E00 end:0x80384E08
+	.sbss       start:0x803862B0 end:0x803862B8
+
+RVLDWC/common/dwc_memfunc.c:
+	.text       start:0x800CCDB4 end:0x800CD060
+	.sbss       start:0x803862B8 end:0x803862C0
+
+RVLDWC/common/dwc_report.c:
+	.text       start:0x800CD060 end:0x800CD3B0
+	.data       start:0x802757D8 end:0x80275958
+	.sbss       start:0x803862C0 end:0x803862C8
+
+RVLDWC/ghttp/dwc_ghttp.c:
+	.text       start:0x800CD3B0 end:0x800CDC98
+	.data       start:0x80275958 end:0x80275A98
+	.sdata      start:0x80384E08 end:0x80384E10
+	.sbss       start:0x803862C8 end:0x803862D0
+
+RVLDWC/match/dwc_common.c:
+	.text       start:0x800CDC98 end:0x800CE044
+	.data       start:0x80275A98 end:0x80275AA8
+	.bss        start:0x802F1348 end:0x802F1360
+
+RVLDWC/match/dwc_friend.c:
+	.text       start:0x800CE044 end:0x800CFF58
+	.data       start:0x80275AA8 end:0x80276048
+	.sdata      start:0x80384E10 end:0x80384E48
+	.sbss       start:0x803862D0 end:0x803862E8
+
+RVLDWC/match/dwc_login.c:
+	.text       start:0x800CFF58 end:0x800D0D68
+	.data       start:0x80276048 end:0x802766F8
+	.sbss       start:0x803862E8 end:0x803862F0
+
+RVLDWC/match/dwc_main.c:
+	.text       start:0x800D0D68 end:0x800D4080
+	.data       start:0x802766F8 end:0x80277050
+	.bss        start:0x802F1360 end:0x802F1500
+	.sbss       start:0x803862F0 end:0x803862F8
+
+RVLDWC/match/dwc_match.c:
+	.text       start:0x800D4080 end:0x800E8380
+	.rodata     start:0x8024C6A0 end:0x8024C6B8
+	.data       start:0x80277050 end:0x802796E8
+	.bss        start:0x802F1500 end:0x802F1C38
+	.sdata      start:0x80384E48 end:0x80384F38
+	.sbss       start:0x803862F8 end:0x80386318
+
+RVLDWC/match/dwc_transport.c:
+	.text       start:0x800E8380 end:0x800E9414
+	.data       start:0x802796E8 end:0x80279AF0
+	.sdata      start:0x80384F38 end:0x80384F48
+	.sbss       start:0x80386318 end:0x80386320
+
+RVLDWC/nonport/dwc_nonport.c:
+	.text       start:0x800E9414 end:0x800E9F0C
+	.data       start:0x80279AF0 end:0x80279C00
+	.sdata      start:0x80384F48 end:0x80384F50
+	.sbss       start:0x80386320 end:0x80386330
+
+RVLDWC/nonport/dwci_np_math.c:
+	.text       start:0x800E9F0C end:0x800EA260
+
+RVLDWC/gdb/dwc_gdb.c:
+	.text       start:0x800EA260 end:0x800EB7E0
+	.data       start:0x80279C00 end:0x8027A3B0
+	.bss        start:0x802F1C38 end:0x802F1CB8
+	.sdata      start:0x80384F50 end:0x80384F58
+
+RVLDWC/cfriend/dwc_cfriend.c:
+	.text       start:0x800EB7E0 end:0x800EB830
+	.sbss       start:0x80386330 end:0x80386338
+
+RVLDWC/account/dwc_account.c:
+	.text       start:0x800EB830 end:0x800ECA8C
+	.data       start:0x8027A3B0 end:0x8027A3E8
+
+RVLDWC/auth/dwc_auth_interface.c:
+	.text       start:0x800ECA8C end:0x800EECEC
+	.data       start:0x8027A3E8 end:0x8027ABF0
+	.bss        start:0x802F1CB8 end:0x802F2138
+	.sdata      start:0x80384F58 end:0x80385088
+	.sbss       start:0x80386338 end:0x80386348
+
+RVLDWC/nas/dwc_naslogin.c:
+	.text       start:0x800EECEC end:0x800EECF0
+
+RVLDWC/prof/dwc_prof.c:
+	.text       start:0x800EECF0 end:0x800EF378
+	.data       start:0x8027ABF0 end:0x8027ACA0
+	.bss        start:0x802F2138 end:0x802F2168
+
 RVL_SDK/ai/ai.c:
 	.text       start:0x80123F88 end:0x80124500
 	.data       start:0x8027E6C0 end:0x8027E708
